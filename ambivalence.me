@@ -1,3 +1,7 @@
+\""
+\"" custom macros
+\""
+
 \"Title
 .de TT
 .(c
@@ -24,7 +28,18 @@
 .ps
 ..
 
+\""
+\"" Title page
+\""
 .tp
+.sp 10
+.ps +11
+.(c
+.ft P
+Some things are better left unsaid...
+.ft
+.)c
+.ps
 .ps 40
 .ft B
 .(z
@@ -43,12 +58,78 @@ The Stygian Cycle
 .br
 .br
 Lukáš Hozda
+.rp
+\(co 2018
 .sz -4
+.br
+.br
+.pp
+.vs .7i
+.ps -1
+Document generated on \*(td
 .)z
+.ps
 .ft
 .ps
 .bp
+.bp
 
+\""
+\"" config
+\""
+.nr fp 9 \" increase footnote point size to 9
+.fo ``- % -``
+
+\""
+\"" Text starts here
+\""
+.uh \s+6Acknowledgements\s-6
+.pp
+.vs +2
+\s+2
+These texts express many things.
+And they take inspiration from many things as well.
+Thoughts that have crossed my mind are put into a world that is reminiscent to that of Dark Souls.
+In fact, the series has greatly influenced me in ways of thinking, so I am not denying that the inspiration goes beyond the material.
+But I would lie if I were to say that the parts of Dark Souls that stuck in my head after playing all three games for such a long time was the only influencer.
+There are things that I learned from Metal Gear and Nier/Nier: Automata as well.
+However, references to the other series are slightly more subtle.
+.pp
+.vs +2
+\s+2
+A human mind is in great part a composite of the things we hear and are taught.
+Can we ever tell if something we come up is really something we came up with or just something old that has surfaced in that given moment?
+What if my great new idea is something I came up with much earlier, but it got lost in my subconcious memory?
+Mind is a magical and mystical place.
+We still don't know enough about it and I am not sure if we will ever know it completely.
+.pp
+.vs +2
+\s+2
+I would like to hereby thank the creators of the aforementioned series: Hidetaka Miyazaki, Hideo Kojima and Yoko Taro.
+Of course my loved ones, because they are the reason I exist as I am.
+Witus Maximus Meridius for providing constructive criticism in the early stages of the text, when it was just as an assignment for the english class taught by J. P., whom I would also like to thank.
+And last but not least, S. E. B., because she is breath of fresh air that I needed so desperately.
+A beauty on the inside and the outside.
+She is the quintessential cure to my depression, in which I have been drowning before meeting her.
+I think I like her.
+
+.uh \s+6Technology\s-6
+.pp
+.vs +2
+\s+2
+This document is written using troff.
+It is old and it may look slightly hostile to newcomers \- especially to those who haven't done programming before \- but it is a very powerful tool, that I find quite pleasant to use.
+This document uses the -me macro package written by Eric Allman, plus two macros of my own for headings and sub-headings.
+The beauty is that once you get a nice setup, it just works.
+Whenever I use troff, I feel a connection to the fathers of modern computers and to UNIX.
+.pp
+.vs +2
+\s+2
+You will find the sources in the repository of this document, which also contains two tools:
+the \fBascii_czech\fR program, which is responsible for translating czech characters (like "ěščřžýáéúó") to their ASCII aproximations, and
+the \fBwatcher\fR, which is a daemon that watches for changes to the .me a file and ensures an up-to-date pdf file, allowing for a nice realtime development environment.
+
+.bp
 .TT "Ambivalence"
 .ST "What a macabre land!"
 .2c
@@ -434,7 +515,7 @@ However, it wasn't until long after its creation that he joined the order.
 The equipment of hunters changed over time, until each of them settled on their favorite setup.
 For the ninth hunter, it was a great scythe imbued with the power of a bloodstarved beast.
 It let him slay monsters quickly and efficiently gut them to destroy the fragments of sin.
-The hunter legs weren't in a shape for long tiring battles, an affliction forever cemented in by the old curse.
+The hunter's legs weren't in a shape for long tiring battles, an affliction forever cemented in by the old curse.
 .pp
 For years, the hunter roamed the lands in solitude, slaying the occassional monster on his way.
 In some lands, he and his kind were revered for their combat prowess and beast-disposing abilities, while elsewhere he was shunned for the atrocities his brethren in arms committed years ago.
@@ -669,15 +750,353 @@ Brooding over her, he puts a hand on her shoulder.
 From the inside, the warriors, last remnants of humankind can be heard moving around, getting ready for an arduous battle.
 The knight looks the fair lady in her black eyes, his own eyes are clear, blue and tell the tale of an old man who lived a painful and lonely existence.
 The crescent moon shines upon them.
-Finally, the knight takes a deep breath and says: "You are not one of them. You don't have it. Begone, before it's too late."
+Finally, the knight takes a deep breath and says: "You are not one of them. You don't have it. Begone... before it's too late."
 .bp
 
 .TT "Blacksmith's Duty"
-.ST "And long may the sun shine..."
+.ST "Prithee, be careful..."
 
 .pp
-Great lord Eiddil had many children with many wives.
-All of his 
+Great lord Eiddil had many offsprings with many a goddess, much to the dismay of his one queen.
+The lawful ones became the sun gods, while the bastards had a spark of hereticism, they were the moon gods.
+Eiddil neglected the moon children, which is perhaps what caused them lose love for the lordship and favor humans.
+Both the sun and moon gods lived well in his golden city.
+But that does not encompass the entirety of Eiddil's philandering.
+Once, a child was born by way of a human woman.
+In his fear of embarassment, Eiddil rejected the woman and her son, even though the demigod had an affinity to the sun, something that would have been to his liking.
+.pp
+He had the woman locked away and the child put into a faraway orphanage.
+Growing up, the boy was well aware of his origins and secretly hoped that his father would one day return to him, but that was never meant to be.
+.pp
+Still young, the boy was thrown out of the orphanage and had to fend for himself.
+He decided to become a blacksmith.
+Once he found a mentor, it was easy.
+The young man inherited a tall, muscular build from his father.
+Easily towering over most men in the land, he inspired respect in his peers.
+Many recommended him to become a warrior, but he was too kind, couldn't hurt a fly.
+.pp
+Once his studies were finished, he assumed his duty as a blacksmith.
+The blacksmith worked for everyone.
+Poor or rich, living or accursed, man, woman, god, human, giant, he would smith everyone's weapons.
+All the equipment the blacksmith made was imbued with the power of the sun, giving it an unnatural durability and a power to resist the lulls of Abyss, making it a Dark Adherent favorite, who wielded his armory on their journeys to places corrupted by the damp mass.
+.pp
+When the first silver strands started to appear in the blacksmith's mane, he was already well renowned for his prowess.
+But people are in their nature envious creatures.
+Some wanted to have him for himself, while other sought to get rid of him.
+And so it was that one fateful day, the blacksmith was attacked and gravely injured.
+He died and came back as an undead.
+.pp
+In a way, those who wanted him gone got what they wanted.
+As a bearer of the curse, he was exiled from his homeland.
+The disheartened blacksmith spent many years traveling, smithing weaponry for fellow undead.
+.pp
+Smithing gave him purpose and prevented him from losing himself, he was well capable of outliving other undead by millenia.
+It was always an honor for him to land a hammer on a chunk of metal.
+On his ways through foreign land, he learned to smith every concievable weapon, even learning about the essence of the soul.
+His art became greatly admired once again and he received an invitation to the firekeepers' temple on the Obscured Mountain.
+.pp
+The smith gladly accepted the invitation and was welcomed by the firekeepers and the bearers of the curse who stayed there.
+He found himself among people who were liked him and had respect for him, so he opted to settle down.
+The temple was very old, but well maintained by the blind firekeepers and always kept warm by the greatest bonfire of them all.
+Every bearer could seek refuge there, if they wanted to.
+And for everyone, the blacksmith was there to smith their weapons.
+.pp
+But all nice things will eventually end.
+Years went by, times of light and times of dark, and the population of the temple slowly dwindled.
+One year, there was just a dozen inhabitants and only one firekeeper.
+The great bonfire was now no bigger than a common campfire.
+Arrival of the unkindled ash marked the end.
+He managed to collect the great souls one last time and, with their power, end the Primordial Flame for good.
+The world ushered into a new age of darkness and the firekeeper left with the firekeeper to lead.
+.pp
+The blacksmith took a look around himself.
+Everyone has left.
+The old curse was lifted.
+He was alone in an old temple.
+The fire was dead.
+The old smith went outside and ventured north, to the edge of a cliff.
+From the Obscured mountain, one could see far and wide.
+He looked to where the golden city once used to be.
+Ruins of the castle where Father Eiddil used to live once.
+Perhaps it was time for him to go as well...
+.bp
+
+.TT "Vagrant's Descent"
+.ST "Some things look much, much clearer in the dark..."
+
+.pp
+A deep dark hole.
+And he is falling through it.
+He has nothing, just his loose, long-worn garments.
+So deep, he can't see the top if he rolls over.
+He can't see the ground either, not even the walls, it must be wide.
+Why was he thrown down here?
+The vagrant is not sure.
+He has been a bearer for the curse for such a long time, maybe it was something he forgot.
+How long has he been falling?
+He can't tell either, but it feels like it has been hours at least.
+Maybe days.
+Darkness makes one lose track of time.
+.pp
+What is he going to do?
+There is nothing, he knows that all he can do is just fall and hope to reach the ground.
+He cares not if he survives the fall, he just wants it to be over.
+But there is nary a thing that could tell him when the end is coming.
+Just like a prisoner on a death row.
+.pp
+When one is subject to too much light, they don't see anything and their mind is dull.
+But in the darkness, mind is racing, thoughts one over another.
+The mind looks at darkness as an empty canvas, ready to be painted. \(dg
+.(f
+\(dg Wow, this is an actual scientific fact! Sort of, at least... Either way you start hallucinating when subject to too much darkness.
+.)f
+There is nothing we can do about it.
+And the vagrant starts seeing things.
+.pp
+Visions of walls, but when he tries to reach them, they disappear and his hand goes through, still in the darkness.
+His mind is still clinging to the thought that it can measure the hole and figure out when it's all going to end.
+He needs to delve deeper.
+Grim thoughts start crossing his mind.
+Is he still in this world?
+Is this perhaps a dream or maybe this is what comes after death?
+No, that's not it.
+The curse is still strong and he can still feel it burning in his chest.
+What has he done to deserve this?
+He can't remember.
+Not sure who he was, or what he lived for.
+.pp
+In the darkness, he starts seeing shapes.
+It's his home.
+He can see his siblings and his parents.
+Where did they end up?
+His parents are dead.
+He is glad they are.
+He wouldn't wish the curse of dying a thousand times and not really dying upon them.
+The siblings, though, they were too young, maybe some of them share his fate.
+They haven't spoken in years, not since he was killed and came back.
+The vagrant feels sad, but he can't do anything about it.
+Long ago, his homeland fell and crumbled and new empire is being built in its place.
+He is not sure if any of his siblings are even still alive.
+But at least now he knows who he was.
+.pp
+The hole doesn't end, but he is content with it.
+The vagrant knows that eventually, he will reach the bottom.
+It is either the end or the beginning.
+No one can tell yet, but all will be revealed.
+But he is no longer nervous about when it will be.
+Perhaps he doesn't have anything he would live for anymore...
+.bp
+.pp
+.(k
+Sadness fills his heart.
+Suddenly, he sees her in the darkness.
+The one he loved.
+A jolly, kind girl.
+She was always so nice to him.
+He struggled to tell her how much he loved her, but he couldn't.
+The words were in his mind, but they never reached the tongue.
+He was afraid he would hurt her, or that she wouldn't share his feelings.
+Now he will never know.
+He was so sad when she left...
+He never saw her again.
+The vagrant hopes she is still alive somewhere, but deep down, he fears.
+How would such a sweet, kind flower withstand the agony of the curse?
+.)k
+.pp
+There are things that we can affect and there are things we cannot.
+Which ones make us sadder?
+Sometimes we don't even know if we had the power to change the outcome, but when we do, it hurts a thousand times more.
+It is the pain of responsibility.
+And the regret lingers.
+.pp
+How many of those did the vagrant have?
+To become one, you surely need many.
+And he keeps falling.
+Whichever of his choices led to this outcome?
+He still doesn't know.
+But he starts to feel.
+It is getting warmer.
+He is glad, because he has been falling through the cold for so long.
+He can at least try to stretch his joints now.
+.pp
+The vagrant sees once again.
+This time, it is the day he left the family.
+He had an argument with his father.
+His memory is a bit foggy, but he knows why it was.
+It is because he lost his dad's ax.
+A new piece of equipment and it cost a weeks worth of pay.
+He knows he was angry, he yelled at him.
+There was no particular reason, it was just to answer the yells of his father.
+Oh, how he wishes he could take back the things he said.
+The anger has clouded his judgment. Maybe there is a hint of shame.
+But it can't be taken back.
+Things are gone, and they will never return.
+He now knows the adverse effects of clinging to material things.
+He wishes his father had known that as well.
+.pp
+The vagrant feels it getting warmer.
+He is quite comfortable now.
+Nary a thing in sight, but he doesn't mind that at all.
+He tries to whistle, only to see if there is an echo, but it never comes.
+No matter, there are more, more troubling things to worry about.
+The vagrant found certainty in his uncertain state.
+But not within himself.
+.pp
+In the distance, he sees himself, still young.
+Alone, he has left his family a long time ago.
+His parents aren't alive anymore.
+He remembers the spark of sadness that lit in him in that moment.
+But it was quickly gone, he was focusing on the road.
+The vagrant sees two wights approaching slowly through the foliage.
+He remembers now.
+They are getting closer.
+He wants to warn himself so much, but he can't.
+It has already happened, it is just a vision.
+One of the bringands throws a stone and leaves the foliage.
+The vagrant turns around, but it was a mistake.
+It's what they wanted.
+Another one catches him from behind and puts a knife to his throat.
+They want his money, but he can't give any, he has nothing.
+Not a smithereen.
+He tries to explain, but the robbers are jittery.
+Oh no, they don't want to listen.
+And he can feel the knife slashing is throat.
+.pp
+The brigands run away.
+He is holding is throat, not sure what to do.
+A few stumbles, but strength is leaving him too fast.
+The legs give up and he falls to the ground.
+His arms are too weak, too, he can't hold his throat.
+What is he going to do?
+He panics for a moment.
+But there is nothing to be done.
+You can't heal a slashed throat by yourself.
+.pp
+It's getting darker, and colder.
+But he has come to terms with his condition.
+In a few moments, he will be freed from this mortal coil.
+There is peace.
+Darkness will shortly settle and his eyes can't stay open anymore.
+He gives in to the sweet embrace of this harsh mistress.
+.pp
+But he is rejected.
+The vagrant sees nothing, feels nothing.
+Nothing but fire, burning inside him.
+Burning his flesh and bones.
+Flowing through his entire body.
+And he hears it.
+Resonating through the flame.
+A thousand screams.
+It is not sensible, just screams.
+Thousands of those who are lost working together to bring this poor vagrant back.
+A unison of dark voices.
+No one should be brought back alone.
+They start singing.
+A song of light and darkness.
+Of the Flame and the Dark.
+They are caught here, accursed, just like him.
+They can never leave, but he can.
+He can go to try and make a difference.
+To try and break the curse.
+He is not sure if he can, or if he even understands.
+But he feels it, the pain of thousands undead who have hollowed so much they can't move and their bones burn bright in a bonfire.
+They have only suffering left, but not he.
+The vagrant is still free from this pain, but not from the curse that causes it.
+Now it is darkness that burns bright in him.
+The essence of man.
+.pp
+The vagrant feels himself as but an idea.
+And the idea, is being encased in bones, once again.
+The flame chews and spits back, only eating a little every time.
+Strings of flesh are pulled onto the bones.
+The flesh thickens and skin spreads over the carcass to cover it.
+Just the bits now, his face, his hair and finally, his garments.
+.pp
+The vagrant is brought back, spat out by a bonfire.
+He is gasping, desperately trying to catch his breath.
+The memory is still fresh and the feeling is strong.
+He won't feel it again.
+And the voices won't be heard again.
+The vagrant will die a thousand deaths afflicted by the curse...
+.pp
+He snaps back to reality.
+It is quite hot now.
+Almost burning.
+The vagrant starts seeing dim, red light.
+The light grows stronger.
+And so does the heat.
+He is still wondering where is he falling to or what is the source of the light.
+Sweat would run down his face, if it wasn't for the upwards wind blowing it off his face.
+The light grows stronger.
+And now he sees around himself much better.
+He can see the walls, they are so far away.
+It's wood.
+He realizes now, he is falling down an archtree.
+One, that was buried long ago, a tree that survived the test of time.
+It may have been dead for a long time, but it will take so long before the tree moulders completely.
+.pp
+He remembers now.
+Oh yes, that's why he is falling down the tree.
+Desperate, he jumped down himself, down the trunk of a great, dead tree.
+It was a weak moment.
+A call of the void they call it.
+He didn't know what would await down there.
+But now, he sees it.
+Deep down, a field of flames.
+Blazes, here and there.
+There are cinders around, the flame must have used to burn much much brighter.
+Ah, it is all clear now.
+This old archtree, a remnant of the Age of Dragons, a world with immortal dragons and gray crags, is the host to the Primordial Flame, originator of disparity.
+.pp
+But the vagrant is not here to become cinders.
+He isn't going to be a sacrifice to the flame that caused so much pain.
+No, he now remembers the screams of those he saw within the flames of the bonfire.
+Their suffering and their hopes.
+He is desperate.
+Not just desperate, the feeling of desperation fills every inch of his body.
+And that's just enough to light a spark.
+.pp
+The vagrant is falling into a flaming kiln.
+The heat is so great that his cape is starting to catch fire and little flames dance on his garments.
+But the desperation makes a spark.
+An unholy forbidden marriage of the essence of a flame and the darkness of man.
+The forbidden black flame.
+Yes, he bursts into flames, those with tiny white roots and blazing black tips.
+Determined to fight fire with fire.
+.pp
+A faraway observer would see a field of fire slowly coming into contact with a majestic black corona.
+They wouldn't hear the noise of both fires.
+Such distant person perceive all of this in silence.
+A silent clash of the Flame and the Dark.
+.pp
+The vagrant is burning strong with black flame.
+Preparing for a landing into the field of fire.
+He isn't here to become cinders.
+Burning bright, two monsters, belike two eyes that gaze upon one another.
+The vagrant takes a dive.
+.pp
+An explosion.
+The yellow flames are quickly overpowered, suffocated by the forbidden black flame.
+Power runs through the body of the vagrant who stands amidst it all.
+But alas, he can't defeat the flame completely today.
+The Primordial Flame has roots deep and it still strong.
+But it is defeated and it does it's best to retreat.
+It's just a smouldering field know.
+And a strong, black flame in the middle.
+.pp
+The vagrant channels the power of the black flame, let's it flow through his cursed bones.
+With a mighty stomp, he hits the Primordial time for the last time and propels himself from the ground.
+Powered by the forbidden force, he quickly ascends through the stump.
+Rumbling can be heard deep underground, almost as if a volcano was about to erupt.
+And when the vagrant finally gets enough the ground, it certainly looks like it.
+An old wooden stump spitting out a mass of black flames.
+The vagrant flies high off the ground and slowly lands.
+He is now back up and he knows, who he is and what he lives for.
+.pp
+By the power of the forbidden flame, the undead vagrant becomes unkindled, unable to catch fire.
+He is unkindled ash and he will kill the flame once and for all.
+Risen from his dark and spacious grave to free mankind from the disparity.
+
 
 .bp
 .uh "\s+4Index\s-4"
