@@ -18,7 +18,7 @@ fn translate(c: char) {
 		'ó' => print!("\\o`o\\(aa`"),
 		'ú' => print!("\\o`u\\(aa`"),
 		'ý' => print!("\\o`y\\(aa`"),
-		'ů' => print!("\\zu\\u\\h`0.15`\\s-6o\\s+6\\d "), //wtf
+		'ů' => print!("\\zu\\u\\h`0.10m`\\s-9o\\s+9\\d "), //wtf
 		x   => print!("{}", x),
 	}
 }
