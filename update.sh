@@ -1,4 +1,4 @@
 #!/bin/bash
 echo updating...
-ansi_czech/target/release/ansi_czech ambivalence.me | pdfroff -me - > ambivalence.pdf
+ascii_czech/target/release/ascii_czech ambivalence.me | pdfroff -me - > ambivalence.pdf
 
