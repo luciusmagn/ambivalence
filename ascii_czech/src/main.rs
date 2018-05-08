@@ -5,27 +5,41 @@ use std::fs::File;
 
 fn translate(c: char) {
 	match c {
-		'ř' => print!("\\o`r\\(aa\\(ga`"),
-		'š' => print!("\\o`s\\(aa\\(ga`"),
-		'č' => print!("\\o`c\\(aa\\(ga`"),
-		'ě' => print!("\\o`e\\(aa\\(ga`"),
-		'ž' => print!("\\o`z\\(aa\\(ga`"),
-		'ň' => print!("\\o`n\\(aa\\(ga`"),
-		'ť' => print!("\\o`t\\(aa`"),
+		'ř' => print!("\\o`r\\[ah]`"),
+		'š' => print!("\\[vs]"),
+		'č' => print!("\\o`c\\[ah]`"),
+		'ě' => print!("\\o`e\\[ah]`"),
+		'ž' => print!("\\[vz]"),
+		'ň' => print!("\\o`n\\[ah]`"),
 		'á' => print!("\\o`a\\(aa`"),
 		'é' => print!("\\o`e\\(aa`"),
-		'í' => print!("\\o`i\\(aa`"),
+		'í' => print!("\\['i]"),
 		'ó' => print!("\\o`o\\(aa`"),
 		'ú' => print!("\\o`u\\(aa`"),
 		'ý' => print!("\\o`y\\(aa`"),
-		'ů' => print!("\\zu\\u\\h`0.10m`\\s-9o\\s+9\\d "), //wtf
+		'ů' => print!("u\\*o"),
+		'ť' => print!("\\o`t\\(aa`"),
+		'ď' => print!("\\o`d\\(aa`"),
+		'Š' => print!("\\[vS]"),
+		'Ž' => print!("\\[vZ]"),
+		'É' => print!("\\['E]"),
+		'Á' => print!("\\['A]"),
+		'Í' => print!("\\['I]"),
+		'Ý' => print!("\\['Y]"),
+		'Ú' => print!("\\['U]"),
+		'Ů' => print!("u\\*o"),
+		'Ň' => print!("\\zN\\v`-.2v`\\h`.2v`\\[ah]\\v`.2v`\\|"),
+		'Č' => print!("\\zC\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
+		'Ř' => print!("\\zR\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
+		'Ě' => print!("\\zE\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
+		'Ď' => print!("\\zD\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
+		'Ť' => print!("\\zT\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
 		x   => print!("{}", x),
 	}
 }
 
 fn main() {
 	for arg in args().skip(1) {
-		let mut tmp: [u8; 4] = [0; 4];
 		match arg.as_ref() {
 			"-" => stdin().chars().map(|x| x.unwrap()).for_each(|c| translate(c)),
 			x => if let Ok(f) = File::open(x) {
