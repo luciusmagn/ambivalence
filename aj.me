@@ -1,0 +1,208 @@
+.de BU
+.bu
+.ps +4
+\\$1
+.ps
+..
+
+.de BBU
+.bu
+.ps +2
+.ft B
+\\$1
+.ft
+\\$2
+.ps
+..
+
+.nr fp 9 \" increase footnote point size to 9
+.nr sp 14
+.nr pp 9
+.nr np 9
+.pvs 5p
+.ll 6.3i
+.fo ``- % -``
+
+.sh 1 "\s+2Vyjádření míry"
+.sh 2 "Some, any"
+.BU "\fBsome\fR v oznamovacích (kladných)"
+.BU "\fBsome\fR v otázkách, kdy něco nabízíme \fIDo you want some water?\fR"
+.BU "\fBsome\fR v záporných větách = někteří (vyčleňuje z celku)\fB
+.BU "\fBany\fR v otázkách = \fBnějaký"
+.BU "\fBany\fR v záporných větách = \fBžádný, ani jeden\fR"
+.BU "\fBany\fR s jednotným číslem = \fBkterýkoliv\fR"
+.BU "v jednotném čísle používáme k vyjádření neurčitosti neurčitý člen"
+
+.sh 3 "Složené tvary"
+.BBU SOMETHING něco
+.BBU ANYTHING "něco, cokoliv"
+.BBU NOTHING "nic"
+.BBU SOMEBODY někdo
+.BBU ANYBODY kdokoliv
+.BBU NOBODY nikdo
+.BBU SOMEONE někdo
+.BBU ANYONE kdokoliv
+.BBU "NO ONE" "ani jeden"
+.BBU SOMEWHERE někde
+.BBU ANYWHERE kdekoliv
+.BBU NOWHERE nikde
+
+.sh 2 "Much, many, a lot"
+.BU "\fBa lot (of)\fR = hodně, méně formální, \fBof\fR se dává jen, když následuje podstatné jméno"
+.BU "\fBmuch\fR = spousta, moc; používá se u nepočitatelných"
+.BU "\fBmany\fR = mnoho; používá se u počitatelných"
+.BU "\fIpoužití \fBmany\fI v oznamovací větě se považuje za velmi formální, \fBmuch\fI se v oznamovací větě mnohdy považuje za chybu\fR"
+
+.sh 2 "(A) little, (a) few"
+.BU "jak \fBfew\fR tak \fBlittle\fR se do češtiny přeloží jaké \fBmálo\fR"
+.BU "\fBfew\fR se používá u počitatelných podst. jm."
+.BU "\fBlittle\fR se používá u nepočitatelných"
+.BU "\fIneurčitý člen mění význam \(-> trochu, několik, pár"
+
+.sh 1 "\s+2Modální slovesa"
+.BU "označují zpusob hlavního významového slovesa"
+.BU "vyjadřují pivnnost, nutnost, možnost, příkaz, zákaz nebo schopnost"
+.BU "neskloňují se"
+
+.sh 2 "must + need to, have to"
+.BU "\fBmust\fR a \fBhave to\fR vyjadřují přikaz, povinnost"
+.BU "\fBmust\fR ji aktivně přikazuje, kdežto \fBhave to\fR ji jen konstatuje"
+.BU "\fBneed to\fR vyjadřuje potřebu"
+
+.sh 2 "mustn't"
+.BU "\fBnesmět\fR, používá se pro zákazy"
+.BU "nepoužívá se v minulém čase \(-> nahrazení slovesem \fBcouldn't\fR"
+
+.sh 2 "needn't"
+.BU "\fBnemuset\fR, vyjadřuje absenci povinnosti něco dělat"
+.BU "také se nepoužívá v minulém čase \(-> opis \fBnot have to\f[] nebo \fBnot need to\f[]"
+.bp
+.sh 1 "\s+2Future simple"
+.BU "jednoduché vyjádření budoucích dějů"
+.BU "modální slovesa \fBwill, shall\f[] nebo \fBto be going to [sloveso]\f[]"
+.sh 2 "Will - neplánovaná budoucnost"
+.BU "nemá žádné, nebo jen implicitní spojení se současností"
+.np
+rapidní rozhodnutí
+.np
+vyjadřování domněnek o budoucnosti
+.np
+vytváření nabídky, slibu
+.sh 2 "Shall"
+.BU "stejné případy jako \fBwill\f[]"
+.BU "archaické, nejvíce se používá v první osobě při nabízení"
+.sh 2 "Going to - plánovaná budoucnost"
+.BU "\fBto be going to + sloveso\f[] se používá pro budoucnost, která má přímé, explicitní spojení se současností"
+.np
+předem naplánované činnosti / události
+.np
+konkrétní fakta nažnačují, že se něco stane
+.np
+něco se stane velmi brzy, bezprostředně
+.sh 1 "\s+2Present simple"
+.BU "jednoduchý přítomný čas
+.BU "v třetí osobě jednotného číslo koncovka \fB-(e)s\f[]
+.BU "změkčení \fB-y\f[] na \fB-ie\f[], pokud mu předchází souhláska
+.BU "zápor pomocí záporky \fBnot
+.BU "pokud je přísudek jiné sloveso než \fBto be\f[] používá se v záporu pomocné slovesa \fBto do
+.sh 1 "\s+2Past simple"
+.BU "jednoduchá minulost"
+.BU "u pravidelných sloves se přidává připona \fB-ed\f[], u nepravidelných příčestí minulé
+.BU "zdvojení koncové neznělé souhlásky, např \fBspot \(-> spotted\f[]
+.BU "u záporu buď \fBto do \(-> did\f[] nebo \fBto be \(-> was / were\f[]
+.sh 1 "\s+2Present continuous"
+.BU "přítomný pruběhový čas
+.BU "děje, které probíhají právě teď, plány v blízké budoucnosti nebo přechodné záležitosti
+.BU "sloveso přibírá příponu \fB-ing\f[]
+.BU "pomocné sloveso \fBto be \(-> am / is / are\f[]
+.BU "v záporu záporka \fBnot\f[]
+.sh 1 "\s+2Present perfect"
+.BU "předpřítomný čas, také minulý čas nedokonavý
+.BU "modální sloveso \fBhave + příčestí předminulé (3. tvar slovesa)\f[]
+.BU "u pravidelných sloves přípona \fB-ed\f[]
+.BU "čtyři případy použití:"
+.np
+pokud mluvíme o celoživotních zážitcích nebo zkušenostech
+.np
+když není určena doba v minulosti
+.np
+při popisování dějů, které začaly v minulosti a ještě neskončily
+.np
+chceme-li zjistit, zda se daná situace stala nebo ne
+.sh 1 "\s+2Past perfect
+.BU "předminulý čas, také minulý čas dokonavý
+.BU "vyjadřuje něco, co bylo v minulosti dokonaného
+.BU "\fBhad + přičestí předminulé (3. tvar slovesa)
+.BU "relativně málo používaný \(-> vyprávění příběhu, \fBpřací věty
+.BU "v záporu lze zkrátit \fBhad not \(-> hadn't\f[] (u významového \fBto have\f[] to nejde)
+.sh 1 "\s+2Past continuous
+.BU "minulý čas pruběhový
+.BU "podobný přítomnému pruběhovému
+.BU "\fBwas / were + -ing\f[] tvar významového slovesa
+.BU "používá se, když nějaký děj probíhal v určitý okamžik v minulosti, nebo když mluvíme o dvou (a více) činnostech, které probíhaly současně
+.sh 1 "\s+2Reported speech
+.BU "nepřímá řeč, používá se podobně jako v češtině
+.BU "narozdíl od češtiny se však nepřímá řeč posune o jeden čas dozadu
+.BBU "Přítomný prostý \(->" "Minulý prostý"
+.BBU "Přítomný pruběhový \(->" "Minulý pruběhový"
+.BBU "Předpřítomný \(->" "Předminulý"
+.BBU "Předpřítomný pruběhový \(->" "Předminulý pruběhový"
+.BBU "Minulý prostý \(->" "Předminulý"
+.BBU "Minulý pruběhový \(->" "Předminulý pruběhový"
+.BBU "Předminulý \(->" "Nemění se (už nejde jít dál do minulosti)"
+.BBU "Budoucí prostý \(->" "WOULD"
+.BBU "GOING TO - plánovaná budoucnosti \(->" "WAS / WERE GOING TO"
+
+.sh 1 "\s+2Wish clauses - přací věty
+.BU "v angličtině přací věty používají spíš nerealný čas \(-> místo podmiňovacího zpusobu minulý nebo předminulý
+.BU "u slovesa \fBto be\f[] používáme pouze tvar \fBwere
+.BU "začínají buď vazbou \fBI wish\f[] nebo \fBIf only\f[]
+.BU "za 'I wish' je možná dát spojku \fBthat
+
+.sh 2 "Přací věty přítomné
+.BU "věty typu \fBKéž by..., Kdybych tak.. apod.
+.BU "vyjadřují, že je mi líto, že něco nějak je (nebo není)
+.BU "používá se \fBIf only/I wish + příčestí minulé
+
+.sh 2 "Přací věty minulé
+.BU "přejeme si kéž by se něco bývalo nestalo nebo kéž by se bývalo něco stalo jinak
+.BU "používáme \fBI wish / If only + předminulý čas
+
+.sh 2 "Přání, aby se něco změnilo
+.BU "neříkají, že mě něco mrzí, ale že \fBchci, aby se něco nestalo/nedělo
+.BU "používá se modální sloveso \fBwould
+
+.sh 2 "Přání do budoucna
+.BU "normální oznamovací věty se slovesem \fBhope = doufat, mít naději
+.BU "většinou následuje přítomný čas prostý, potažmo budoucí, pokud by z věty jinak nevyplývalo, že jde o budoucí děj
+.bp
+
+.sh 1 "\s+2Kondicionály - podmínkové věty
+.BU "čtyři druhy; určují, jaká je pravděpodobnost, že se podmínka vyplní a děj nastane
+.BU "pro uvození se používá slovo \fBif\f[], které má u každého typu kondicionálu jiný význam
+
+.sh 2 "Nultý kondicionál
+.BU "kondicionál jistoty
+.BU "používá se u podmínek, u kterých víme, že nastanou
+.BU "poučky, obecné pravdy, přírodní jevy.
+.BU "\fBif = když
+.BU "\fBpřítomný čas prostý  (VV) \(-> přítomný čas prostý (VH)
+
+.sh 2 "První kondicionál
+.BU "velká šance, že podmínka nastane, ale není stoprocentní
+.BU "vhodný pro každodenní činnosti, události atd.
+.BU "\fBif = jestli / pokud
+.BU "\fBpresent simple (VV) \(-> future simple (VH)
+
+.sh 2 "Druhý kondicionál
+.BU "malá, nebo i jen mizivá šance, že podmínka nastane
+.BU "hypotetické situace, nebo případy, kde záleží na velké náhodě
+.BU "sdělení typu \fBco by, kdyby
+.BU "\fBif = kdyby
+.BU "\fBpast simple (VV) \(-> would + infinitiv (VH)
+
+.sh 2 "Třetí kondicionál
+.BU "podmínka je nereálná, už víme, že se nesplnila
+.BU "řiká, co by bylo bývalo, kdyby byla bývala podmínka splněna
+.BU "\fBif = kdyby býval / byl
+.BU "\fBpředminulý čas (VV) \(-> předpřítomný (VH)
