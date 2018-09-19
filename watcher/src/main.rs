@@ -1,16 +1,12 @@
+use std::env::args;
 use std::fs::metadata;
 use std::process::{Command, exit, Stdio};
 
-fn main() {
+fn main() -> Result<(), ()> {
+    let name = args().skip(1).next().ok_or(())?;
     loop {
-    	let pdf_metadata = match metadata("ambivalence.pdf") {
-    		Ok(m) => m,
-    		Err(_) => { eprintln!("couldn't access .pdf metadata"); return }
-    	};
-    	let me_metadata = match metadata("ambivalence.me") {
-    		Ok(m) => m,
-    		Err(_) => { eprintln!("couldn't access .me metadata"); return }
-    	};
+    	let pdf_metadata = metadata((&name).to_string() + ".pdf").map_err(|_| eprintln!("couldn't access .pdf metadata"))?;
+    	let me_metadata = metadata((&name).to_string() + ".me").map_err(|_| eprintln!("couldn't access .me metadata"))?;
 
     	let pdf_date = pdf_metadata
     		.modified()
@@ -22,6 +18,7 @@ fn main() {
     	if pdf_date < me_date
     	{
     		if !Command::new("./update.sh")
+			.arg(&name)
     			.stdout(Stdio::inherit())
     			.output()
     			.expect("couldn't run script")

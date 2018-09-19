@@ -1,4 +1,3 @@
 #!/bin/bash
 echo updating...
-ascii_czech/target/release/ascii_czech ambivalence.me | pdfroff -me - > ambivalence.pdf
-
+ascii_czech/target/release/ascii_czech $1.me | pdfroff -me - > $1.pdf; fish --command "kill -s SIGHUP mupdf"

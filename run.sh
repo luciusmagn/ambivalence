@@ -5,4 +5,4 @@ cd ..
 cd watcher
 cargo build --release
 cd ..
-watcher/target/release/watcher
+watcher/target/release/watcher $@

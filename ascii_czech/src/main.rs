@@ -1,7 +1,7 @@
-#![feature(io)]
 use std::io::{Read, stdin};
 use std::env::args;
 use std::fs::File;
+use std::str;
 
 fn translate(c: char) {
 	match c {
@@ -27,6 +27,7 @@ fn translate(c: char) {
 		'Í' => print!("\\['I]"),
 		'Ý' => print!("\\['Y]"),
 		'Ú' => print!("\\['U]"),
+		'Ó' => print!("\\['O]"),
 		'Č' => print!("\\zC\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
 		'Ř' => print!("\\zR\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
 		'Ě' => print!("\\zE\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|"),
@@ -39,9 +40,9 @@ fn translate(c: char) {
 fn main() {
 	for arg in args().skip(1) {
 		match arg.as_ref() {
-			"-" => stdin().chars().map(|x| x.unwrap()).for_each(|c| translate(c)),
+			"-" => str::from_utf8(&stdin().bytes().map(|x| x.unwrap()).collect::<Vec<u8>>()).unwrap().chars().for_each(|c| translate(c)),
 			x => if let Ok(f) = File::open(x) {
-				f.chars().map(|x| x.unwrap()).for_each(|c| translate(c))
+				str::from_utf8(&f.bytes().map(|x| x.unwrap()).collect::<Vec<u8>>()).unwrap().chars().for_each(|c| translate(c))
 			}
 			else { eprintln!("failed to open file: {}", x) }
 		}
