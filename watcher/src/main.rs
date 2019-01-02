@@ -28,5 +28,8 @@ fn main() -> Result<(), ()> {
     			eprintln!("script errored")
     		}
     	}
+	else {
+		std::thread::sleep(std::time::Duration::from_millis(800))
+	}
     }
 }
