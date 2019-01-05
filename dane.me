@@ -1,0 +1,74 @@
+.nr fp 9 \" increase footnote point size to 9
+.nr sp 14
+.nr pp 12
+.nr np 9
+.pvs 5p
+.ll 6.3i
+.fo ``- % -``
+.nh
+\"Title
+.de TT
+.(c
+.uh
+.ps 17
+.ft B
+\\$1
+.ft
+.ps
+.)c
+.(x
+\\$1
+.)x
+..
+
+\"Sub-Title
+.de ST
+.ps 12
+.(c
+.ft I
+\\$1
+.ft
+.)c
+.ps
+..
+
+
+\"Level
+.de i1
+.ip "-"
+.ft B
+\\$1
+..
+
+\"Second level bullet point
+.de i2
+.ip "\t- \\$1"
+..
+
+\"Second level bullet point
+.de i3
+.ip "\t\t- \\$1"
+..
+
+.TT "Spravedlivé a rovné daně"
+.ST "Spravedlivá daň - co to je? Existuje v současném světě? Jak se liší, nebo neliší od rovné daně?"
+
+.pp
+Daně jsou koncept, který existuje od starověku.
+Máme záznamy z antického Řecka, Indie a Říma o tom, jak fungovaly tehdejší daňové systémy
+.bp
+.TT "Zdroje"
+.bu
+http://neviditelnypes.lidovky.cz/uvaha-vysvetleni-pojmu-spravedliva-dan-fcw-/p_spolecnost.aspx?c=A060609_112657_p_spolecnost_wag
+.bu
+https://www.svobodny-svet.cz/3201/co-je-rovna-a-progresivni-dan.html
+.bu
+https://cs.wikipedia.org/wiki/Da%C5%88ov%C3%A1_spravedlnost
+.bu
+https://www.euro.cz/byznys/je-progresivni-dan-spravedliva-821245
+.bu
+https://cs.wikipedia.org/wiki/Da%C5%88
+.bu
+https://www.penize.cz/dane
+.bu
+https://en.wikipedia.org/wiki/Progressive_tax
