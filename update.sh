@@ -1,3 +1,3 @@
 #!/bin/bash
 echo updating...
-ascii_czech/target/release/ascii_czech $1.me | pdfroff -me - > $1.pdf; fish --command "kill -s SIGHUP mupdf; exit"
+ascii_czech/target/release/ascii_czech $1.me | pic | pdfroff -dpaper=a3l -P-pa3 -P-l -me - > $1.pdf; fish --command "kill -s SIGHUP mupdf; exit"

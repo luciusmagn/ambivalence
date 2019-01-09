@@ -1,0 +1,63 @@
+.nr fp 9 \" increase footnote point size to 9
+.pvs 0p
+.nh
+\"Title
+.de TT
+.(c
+.uh
+.ps 17
+.ft B
+\\$1
+.ft
+.ps
+.)c
+.(x
+\\$1
+.)x
+..
+
+.fam A
+.ps 35
+.PS 15
+meritko = 180 # 1:X -> čím vyšší, tím menší obrázek
+
+# Parametry - nazev, obsah, sirka, pozice
+define square {
+	obsah = $2 # uloží druhý parametr do proměnné obsah
+	sirka = $3 # třetí parametr do proměnné sirka
+	vyska = obsah / sirka;
+
+	box width sirka/meritko height vyska/meritko $1 at $4;
+
+}
+
+down;
+#název státu, velikost barelu
+copy thru square until "END"
+"Severni_Amerika"												 1 1 (1,1)
+	"CA" 4958 90 (0.78,4.12)
+	"US" 15647 170 (1,3.71)
+	"MX" 2260 50 (0.87,3.326)
+"Jizni_Amerika"                          1 1 (1,1)
+	"BR" 3363 60 (1.2,2.9)
+	"VE" 2077 80 (1.09,3.13)
+"Evropa"															 1 1 (1,1)
+	"UK" 1070 25 (2.1,3.95)
+	"NO" 1979 30 (2.53,4.09)
+"Asie"																	 1 1 (1,1)
+	"RU" 11210 140 (3,4.09)
+	"CN" 4779 90 (3.1,3.72)
+	"KZ" 1880 40 (2.74,3.735)
+	"IN" 1003 30 (2.935,3.48)
+	"IR" 4695 70 (2.66,3.42)
+	"IQ" 4455 60 (2.3,3.4)
+	"SA" 12090 100 (2.41,2.86)
+	"KW" 2825 80 (2.91,3.1)
+	"QA" 1974 80 (2.91,2.67)
+	"AE" 3721 80 (2.91,2.87)
+"Afrika"                                 1 1 (1,1)
+	"AO" 1707 40 (1.93,3.4)
+	"NG" 2015 45 (1.915,3.16)
+	"DZ" 1641 40 (1.927,2.92)
+END
+.PE
