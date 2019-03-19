@@ -1,0 +1,370 @@
+.he ```lh`
+.nr fp 9 \" increase footnote point size to 9
+.nr sp 15
+.nr pp 12
+.nr np 9
+.nr pi 0
+.pvs 2p
+.ll 6.3i
+.fo ``- % -``
+.nh
+\"Title
+.de TT
+.(c
+.uh
+.ps 17
+.ft B
+\\$1
+.ft
+.ps
+.)c
+.(x
+\\$1
+.)x
+..
+
+.nr no 1
+
+.ds q ,\\h`-0.05v`,
+
+.EQ
+delim $$
+.EN
+
+.TT "Rozsahy IP adres segmentů"
+.pp
+\fBPostup:
+.np
+Seřazení segmentů podle počtu potřebných adres
+.np
+Zaokrouhlení nahoru na nejbližší mocninu dvou
+.np
+Výpočet $log sub 2$ ze zaokrouhlených čísel z předchozího kroku.
+.np
+Odečtením logaritmu od 32 se získá subnet maska v CIDR formátu
+.pp
+Adresy se přidělují od nuly, přičemž:
+.ip -
+U prvního (největšího) segmentu se nedělá nic
+.ip -
+U všech dalších segmentů se z leva otáčí $( n sub pred + m sub min )$tý nulový bit, kde $"\fBn\fR" sub pred$ je počet wildcard bitů předchozího segmentu a
+\fBm\fR je pokolikáté se segment se stejnou velikostí bezprostředně předtím opakoval $(1 ...n)$.
+Takové otočení bitu vynuluje všechny bity za ním otočené v předchozích krocích (protože by se jinak šeredilo s adresami).
+$m sub min$ je logaritmus dvou nejmenší mocniny přítomné v mocninovém součtu daného čísla:
+.EQ
+m \[mo] " Z" sub 0 sup +
+.EN
+.EQ
+m = sum from {i = 1} to k { 2 sup {m sub i} }; m sub 1 < m sub 2 < ... < m sub k
+.EN
+.EQ
+m sub min = m sub 1
+.EN
+.ip -
+Například pro (/20, /23, /23, /28, /30 v /16):
+.fam C
+.ip \fB/20\f[]
+=> 12 wildcard bitů
+.br
+mmmmmmmm.mmmmmmmm.0000\fB0000.00000000\fR -> M.M.0.0
+.br
+mmmmmmmm.mmmmmmmm.0000\fB1111.11111111\fR -> M.M.15.255
+.ip \fB/23\f[]
+=> 9 wildcard bitů
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR000\fB0.00000000\fR -> M.M.16.0
+.br
+                     ^ 13. bit (12b + 1b)
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR000\fB1.11111111\fR -> M.M.17.255
+.ip \fB/23\f[]
+=> 9 wildcard bitů
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR00\fB10.00000000\fR -> M.M.18.0
+.br
+                        ^ 10. bit (9b + 1b)
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR00\fB11.11111111\fR -> M.M.19.255
+.ip \fB/28\f[]
+=> 4 wildcard bity
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.0000\fB0000\fR -> M.M.20.0
+.br
+                       ^ 11. bit (9b + 2b, viz opakování)
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.0000\fB1111\fR -> M.M.20.15
+.ip \fB/30\f[]
+=> 2 wildcard bity
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB00\fR -> M.M.20.16
+.br
+                              ^ 11. bit (4b + 1b)
+.br
+mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB11\fR -> M.M.20.19
+.fam T
+.bp
+.pp
+O IP adrese se dá uvažovat jako o 32-bitovém číslu bez znaménka, rozdělení na oktety má vliv pouze na zápis.
+První oktet (zprava) se dá spočítat jako
+.EQ
+define o1 'o sub 1 = a " mod " 2 sup 8'
+o1
+.EN
+Kde $a$ je IP adresa jako 32-bitové číslo, podobně pro další oktety:
+.EQ
+define o2 'o sub 2 = {[a " mod " (2 sup 8 ) sup 2 ] - (a " mod " 2 sup 8 )} over {2 sup 8}'
+o2
+.EN
+.EQ
+define o3 'o sub 3 = {[a " mod " (2 sup 8 ) sup 3 ] - [a " mod " (2 sup 8 ) sup 2 ]} over {( 2 sup 8 ) sup 2}'
+o3
+.EN
+.EQ
+define o4 'o sub 4 = {a - [a " mod " (2 sup 8 ) sup 3 ]} over {( 2 sup 8 ) sup 3}'
+o4
+.EN
+Demonstrace:
+.EQ
+88.103.9.4 == 01011000.01100111.00001001.00000110 == 1483147524
+.EN
+.EQ
+o sub 1 = 1483147524 " mod " 2 sup 8 = 1483147526 " mod " 256 = 4
+.EN
+.EQ
+o sub 2 = {(1483147524 " mod " (2 sup 8 ) sup 2 )  - (1483147524 " mod " 2 sup 8 )} over {2 sup 8} = {2308 - 4} over {2 sup 8} = 2304 over 256 = 9
+.EN
+.EQ
+o sub 3 = {[1483147524 " mod " (2 sup 8 ) sup 3 ] - [1483147524 " mod " (2 sup 8 ) sup 2 ]} over {( 2 sup 8 ) sup 2} = {6752516 - 2304} over {65536} = 103
+.EN
+.EQ
+o sub 4 = {1483147524 - [1483147524 " mod " (2 sup 8 ) sup 3 ]} over {( 2 sup 8 ) sup 3} = {1483147524 - 6752516} over {16777216} = 88
+.EN
+IP adresu lze vyjádřit takto:
+.EQ
+a = k + (s sub p - k) + x
+.EN
+Kde:
+.EQ I
+k ............ vymaskované ^ bity
+.EN
+.EQ I
+s sub p ........... počátek ^ segmentu
+.EN
+.EQ I
+x ............ hodnota ^ v ^ rámci ^ segmentu, ^ x \[mo] ^ [ 0, 2 sup n )
+.EN
+Počátek a konec segmentu lze tedy vyjádřit takto:
+.EQ
+define sp1 's sub p sub 1 = k'
+sp1
+.EN
+.EQ
+define sk1 's sub k sub 1 = k + (2 sup n - 1)'
+sk1
+.EN
+.EQ
+define sp 's sub p = k + (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min}'
+sp
+.EN
+.EQ
+define sk 's sub k = k + (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min} + (2 sup n - 1)'
+sk
+.EN
+Kde $z$ jsou předem obrácené "pevné" bity z minulých segmentů. Odečtení $z - z " mod " 2 sup {n + m}$ značí vynulování z postupu.
+.bp
+.pp
+Ověření pro 192.168.0.0/16 s /24 a /24:
+.EQ
+"\fB 1. /24"
+.EN
+.EQ I
+k = 3232235520
+.EN
+.EQ I
+z = 0
+.EN
+.EQ I
+n = 32 - 24 = 8
+.EN
+.EQ I
+n sub pred = 0 "     (jedná se o první segment)"
+.EN
+.EQ I
+m = 0 "     (jedná se o první segment)" =>  m sub min = 0
+.EN
+.EQ
+"\fB 2. /24"
+.EN
+.EQ I
+k = 3232235520
+.EN
+.EQ I
+z = 0
+.EN
+.EQ I
+n = 32 - 24 = 8
+.EN
+.EQ I
+n sub pred = 8
+.EN
+.EQ I
+m = 1  =>  m sub min = 1
+.EN
+.np
+Počátek a konec prvního segmentu (/24):
+.EQ
+sp1 = 3232235520
+.EN
+.EQ
+sk1
+.EN
+.EQ
+s sub k sub 1 = 3232235520 + (2 sup 8 - 1) = 3232235520 + 255
+.EN
+.EQ
+s sub k sub 1 = 3232235775
+.EN
+.np
+Počet adres v segmentu:
+.EQ
+s sub r = s sub k - s sub p
+.EN
+.EQ
+s sub r = 3232235775 - 3232235520
+.EN
+.EQ
+s sub r = 255
+.EN
+.np
+Konverze konce segmentu do oktetového formátu (u počátku to není potřeba, protože se jedná o první segment, takže už víme že 192.168.0.0):
+.EQ
+s sub k = a
+.EN
+.EQ
+s sub k sub 1 = o1 = 3232235775 " mod " 256 = "\fB255"
+.EN
+.EQ
+s sub k sub 1 = o2 = { 255 - 255 } over 256 = 0 over 256 = "\fB0"
+.EN
+.EQ
+s sub k sub 2 = o3 = { 11010303 - 255 } over 65536 = 11010048 over 65536 = "\fB168"
+.EN
+.EQ
+s sub k sub 3 = o4 = { 3232235775 - (3232235775 " mod " 16777216) } over 16777216 = 3221225472 over 16777216 = "\fB192"
+.EN
+.np
+Počátek a konec druhého segmentu:
+.EQ
+sp = 3232235520 + (0 - 0) + 2 sup { 8-1+1 } = 3232235520 + 256 =
+.EN
+.EQ
+= 3232235776
+.EN
+.EQ
+sk = s sub p + (2 sup n - 1) = 3232235776 + 2 sup 8 - 1 =
+.EN
+.EQ
+= 3232235776 + 255 = 3232236031
+.EN
+.np
+Konverze do oktetového formátu:
+.EQ
+3232235776 == 192.168.1.0
+.EN
+.EQ
+3232236031 == 192.168.1.255
+.EN
+.pp
+Ověření Martinovy hypotézy:
+.np
+Pro dva segmenty, přičemž ten "první" je první:
+.EQ I
+z = 0
+.EN
+.EQ I
+n sub 1 = n
+.EN
+.EQ I
+m sub 2 = 1
+.EN
+.EQ I
+n sub 2 " .............. není potřebné, pokud je platí, že " n sub 1 > n sub 2
+.EN
+.EQ I
+n sub pred = n
+.EN
+Úkolem je ověřit, že:
+.EQ
+s sub p sub 2 == s sub k sub 1 + 1
+.EN
+Obecně:
+.EQ
+define v1_1 'k + 2 sup n sub 1 - 1'
+sk1 => s sub k sub 1 = v1_1
+.EN
+.EQ
+define v1_2 'k + (0 - 0) + 2 sup { n sub pred -1+m sub 2 }'
+sp => s sub p sub 2 = v1_2
+.EN
+.bp
+Úprava:
+.EQ
+v1_2 = v1_1 + 1
+.EN
+.EQ
+k + 2 sup { n sub pred -1+m sub 2 } = k + 2 sup n sub 1
+.EN
+.EQ
+2 sup { n sub pred -1+m sub 2 } = 2 sup n sub 1
+.EN
+.EQ
+2 sup { n - 1 + 1 } = 2 sup n
+.EN
+.EQ
+2 sup n = 2 sup n
+.EN
+.EQ
+"\f(BIL" = P
+.EN
+.np
+Pro dva segmenty, přičemž ten "první" není první:
+.EQ I
+z sub 1 = z
+.EN
+.EQ I
+z sub 2 = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min}
+.EN
+.EQ I
+n sub 1 = n
+.EN
+.EQ I
+n sub pred sub 2 = n
+.EN
+Obecně:
+.EQ
+sk
+.EN
+.EQ
+sp
+.EN
+$k$ můžeme vyloučit, protože je na obou stranách rovnice stejné:
+.EQ
+L = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min} + (2 sup n - 1) + 1
+.EN
+.EQ
+L = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min} + 2 sup n
+.EN
+.EQ
+R = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min}
+.EN
+Po "dosazení":
+.EQ
+L = (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) + 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup n sub 1
+.EN
+.EQ
+R = (z sub 2 - z sub 2 " mod " 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}) + 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}
+.EN
+$n sub pred sub 2$ nahradíme za $ n sub 1$:
+.EQ
+R = z sub 2 - z sub 2 " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
+.EN
