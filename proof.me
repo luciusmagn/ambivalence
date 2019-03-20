@@ -48,9 +48,9 @@ Adresy se přidělují od nuly, přičemž:
 U prvního (největšího) segmentu se nedělá nic
 .ip -
 U všech dalších segmentů se z leva otáčí $( n sub pred + m sub min )$tý nulový bit, kde $"\fBn\fR" sub pred$ je počet wildcard bitů předchozího segmentu a
-\fBm\fR je pokolikáté se segment se stejnou velikostí bezprostředně předtím opakoval $(1 ...n)$.
+\fBm\fR je pokolikáté se segment se stejnou velikostí bezprostředně předtím opakoval $(1...x)$.
 Takové otočení bitu vynuluje všechny bity za ním otočené v předchozích krocích (protože by se jinak šeredilo s adresami).
-$m sub min$ je logaritmus dvou nejmenší mocniny přítomné v mocninovém součtu daného čísla:
+$m sub min$ je binární logaritmus nejmenší mocniny dvou přítomné v mocninovém součtu daného čísla:
 .EQ
 m \[mo] " Z" sub 0 sup +
 .EN
@@ -66,41 +66,41 @@ Například pro (/20, /23, /23, /28, /30 v /16):
 .ip \fB/20\f[]
 => 12 wildcard bitů
 .br
-mmmmmmmm.mmmmmmmm.0000\fB0000.00000000\fR -> M.M.0.0
+aaaaaaaa.bbbbbbbb.0000\fB0000.00000000\fR -> M.M.0.0
 .br
-mmmmmmmm.mmmmmmmm.0000\fB1111.11111111\fR -> M.M.15.255
+aaaaaaaa.bbbbbbbb.0000\fB1111.11111111\fR -> M.M.15.255
 .ip \fB/23\f[]
 => 9 wildcard bitů
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR000\fB0.00000000\fR -> M.M.16.0
+aaaaaaaa.bbbbbbbb.000\fB1\fR000\fB0.00000000\fR -> M.M.16.0
 .br
                      ^ 13. bit (12b + 1b)
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR000\fB1.11111111\fR -> M.M.17.255
+aaaaaaaa.bbbbbbbb.000\fB1\fR000\fB1.11111111\fR -> M.M.17.255
 .ip \fB/23\f[]
 => 9 wildcard bitů
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR00\fB10.00000000\fR -> M.M.18.0
+aaaaaaaa.bbbbbbbb.000\fB1\fR00\fB10.00000000\fR -> M.M.18.0
 .br
                         ^ 10. bit (9b + 1b)
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR00\fB11.11111111\fR -> M.M.19.255
+aaaaaaaa.bbbbbbbb.000\fB1\fR00\fB11.11111111\fR -> M.M.19.255
 .ip \fB/28\f[]
 => 4 wildcard bity
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.0000\fB0000\fR -> M.M.20.0
+aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.0000\fB0000\fR -> M.M.20.0
 .br
                        ^ 11. bit (9b + 2b, viz opakování)
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.0000\fB1111\fR -> M.M.20.15
+aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.0000\fB1111\fR -> M.M.20.15
 .ip \fB/30\f[]
 => 2 wildcard bity
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB00\fR -> M.M.20.16
+aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB00\fR -> M.M.20.16
 .br
                               ^ 11. bit (4b + 1b)
 .br
-mmmmmmmm.mmmmmmmm.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB11\fR -> M.M.20.19
+aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB11\fR -> M.M.20.19
 .fam T
 .bp
 .pp
@@ -171,8 +171,10 @@ define sk 's sub k = k + (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 
 sk
 .EN
 Kde $z$ jsou předem obrácené "pevné" bity z minulých segmentů. Odečtení $z - z " mod " 2 sup {n + m}$ značí vynulování z postupu.
+U prvního segmentu je $z$ nula, proto je z rovnice vynecháno
 .bp
 .pp
+Od $n sub pred$ odečítáme jedna, protože první bit značí $2 sup 0$.
 Ověření pro 192.168.0.0/16 s /24 a /24:
 .EQ
 "\fB 1. /24"
@@ -359,7 +361,7 @@ R = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 +
 .EN
 Po "dosazení":
 .EQ
-L = (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) + 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup n sub 1
+L = z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup n sub 1
 .EN
 .EQ
 R = (z sub 2 - z sub 2 " mod " 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}) + 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}
@@ -367,4 +369,25 @@ R = (z sub 2 - z sub 2 " mod " 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}) +
 $n sub pred sub 2$ nahradíme za $ n sub 1$:
 .EQ
 R = z sub 2 - z sub 2 " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
+.EN
+Dále nahradíme $z sub 2$ za celý "zetkový" výraz z první rovnice:
+.EQ
+R = z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} +
+.EN
+.EQ
++ ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
+.EN
+.bp
+Některých členů se lze jednoduše zbavit:
+.EQ
+L = 2 sup n sub 1
+.EN
+.EQ
+R = 2 sup {n sub 1 - 1 + m sub min sub 2} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
+.EN
+.EQ
+R = 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2}
+.EN
+.EQ
+R = 2 sup {n sub 1 + m sub min sub 2} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2}
 .EN
