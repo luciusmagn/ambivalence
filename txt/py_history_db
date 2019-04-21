@@ -1,0 +1,94 @@
+None
+random()
+rand()
+Math.random()
+os.random()
+from os use random
+2 ** 1
+2 ** 2
+2 ** 3
+2 ** 4
+2 ** 5
+2 ** 6
+2 ** 7
+2 ** 8
+2 ** 9
+2 ** 10
+2 ** 11
+2 ** 12
+2 ** 13
+2 ** 14
+2 ** 15
+2 ** 16
+quit()
+import pyodbc;
+pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa');
+con = pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa');
+import pyodbc;
+con = pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa')
+con.execute("select * from ZACI")
+con.execute("select * from zaci")
+con.execute("select * from _zaci")
+con = pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa')
+cursor = con.cursor()
+cursor.execute("select * from _zaci")
+\q
+exit
+con = pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa')
+import pyodbc;
+con = pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa')
+cursor = con.cursor();
+cursor.execute('select * from bakalari_data.zaci');
+cursor.execute('use bakalari_data');
+cursor.execute('select * from zaci');
+rows = cursor.fetchall()
+print(rows)
+cursor.execute('describe zaci');
+cursor.execute('select * from bakalari_data.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE=\'BASE TABLE\'');
+rows = cursor.fetch_all();
+rows = cursor.fetchall();
+print(rows)
+print(map(lambda x: x[2], rows))
+print(list(map(lambda x: x[2], rows)))
+print(sorted(list(map(lambda x: x[2], rows))))
+print('\n'.join(sorted(list(map(lambda x: x[2], rows)))))
+f = open("tables", "w")
+f.write('\n'.join(sorted(list(map(lambda x: x[2], rows)))))
+f.flush()
+tables = sorted(list(map(lambda x: x[2], rows)))
+tables[0]
+info = map(lambda x: cursor.execute("exec sp_columns ?", x).fetch_all(), tables)
+print(info)
+info = list(info)
+info = map(lambda x: cursor.execute("exec sp_columns ?", x).fetchall(), tables)
+info = list(info)
+print(info)
+zaci = cursor.execute('exec sp_columns zaci')
+zaci = zaci.fetchall()
+print(zaci)
+rodice = cursor.execute('select * from rodice').fetchall()
+rodice = cursor.execute('select MA_EMAIL_, OT_EMAIL_ from zaci').fetchall()
+print(rodice)
+rodice = cursor.execute('select MA_MOBILL_, OT_MOBIL_ from zaci').fetchall()
+rodice = cursor.execute('select MA_MOBIL_, OT_MOBIL_ from zaci').fetchall()
+print(rodice)
+b = cursor.execute('select * from scxdef').fetchall()
+print(b)
+b = cursor.execute('select * from zaci_zzr').fetchall()
+
+b = cursor.execute('select * from zaci_zzd').fetchall()
+print(b)
+b = cursor.execute('exec sp_column zaci_zzd').fetchall()
+b = cursor.execute('exec sp_columns zaci_zzd').fetchall()
+print(b)
+print(cursor.execute('exec sp_columns zaci_zzr').fetchall())
+con = pyodbc.connect('DSN=MySQLServerDatabase;UID=sa;PWD=hesloprosa')
+%history
+readline
+import readline
+readline.get_current_history_length()
+readline.get_history_item()
+readline.get_history_item(15)
+readline.get_history_item(16)
+readline.get_history_item(80)
+

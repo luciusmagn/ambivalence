@@ -1,0 +1,5 @@
+[MySQLServerDatabase]
+Driver      = ODBC Driver 17 for SQL Server
+Description = My MS SQL Server
+Trace       = No
+Server      = 192.168.1.156

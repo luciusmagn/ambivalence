@@ -1,0 +1,30 @@
+- nejduležitější důvod, proč musí používat git je to, že náš produkt používá submoduly k organizaci částí projektu
+
+- git není jen pro vývojáře:
+	- http://anitacheng.com/git-for-non-developers
+	- https://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding/
+	- https://www.makeuseof.com/tag/just-coders-9-ways-use-github-creative-work/
+	- https://jarboo.com/resources/git-for-non-programmers/
+	- https://www.quora.com/How-could-non-developers-benefit-from-using-Git
+	- https://about.gitlab.com/2018/05/24/git-not-just-for-developers/#using-open-source-to-enable-collaboration
+
+- git umožňuje zaznamenávat všechny předchozí verze mého projektu a vracet se/nahlížet do nich
+- git branch umožňuje přechovávat více verzí projektu najednou a přepínat mezi nimi rychle a efektivně
+- git pull/push/merge umožňuje synchronizovat mojí práci se serverem a automaticky integrovat změny ostatních členů
+- git bisect mi umožní interaktivně lokalizovat kdy a čím jsem si rozbil svůj kód
+- git stash dočasně uschová změny co jsem právě udělal, když mě třeba napadne rychle testnout něco jiného
+- git diff mi řekne co přesně jsem změnil od poslední verze mého projektu, tak, abych měl přehled
+- git diff + git apply mi umožní vytvářet textové patche, tak, abych nemusel posílat celé soubory jen když chci poslat pár změn. Navíc aplikování patche nemá vliv na moje lokální změny
+	- nemusím zahazovat, co jsem již udělal
+- git merge mi umožňuje automaticky integrovat změny z jiné větve nebo ze server
+- git submodule umožňuje kombinovat více projektů (=repozitářů) a uchovávat jejich vlastní historii nezávisle na jeden druhém -> mnohem lepší hygiena projektů
+- git blame mi řekne kdo, co, kde, kdy udělal, tak, abych mohl rychle najít zodpovědnou osobu
+- git clean mi umožňuje 'resetovat' repozitář tak, abych se dostal do čistého stavu a mohl si ověřit, že novému uživateli to bude fungovat tak, jak čekám
+- díky souboru .gitignore lze ignorovat soubory, které jsou vygenerované nebo pro mě dočasné, díky čemu nezaneřádím projekt
+
+- bez gitu nejdou jednoduše zahrnout Markovy změny do projektu
+- bez gitu nevíme jasně, co kdo udělal -> git slouží jako důkaz práce
+- bez gitu a remote repozitáře se to může ztratit a nazdar bazar
+- bez gitu je spolupráce několika lidí na jednom projektu velmi složitá
+
+- tar.gz je zip s jinou příponou, kterej obsahu standardní archiv

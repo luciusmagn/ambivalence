@@ -1,0 +1,5 @@
+
+def get_student_email(student_id):
+    cursor = conn.cursor()
+    cursor.execute('use bakalari_data')
+    return cursor.execute("SELECT E_MAIL FROM zaci WHERE INTERN_KOD=(?);", [str(student_id)]).fetchone()[0]
