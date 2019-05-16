@@ -153,6 +153,7 @@ s sub p ........... počátek ^ segmentu
 .EQ I
 x ............ hodnota ^ v ^ rámci ^ segmentu, ^ x \[mo] ^ [ 0, 2 sup n )
 .EN
+Postupné otáčení bitů odpovídá přičítání $2 sup { n sub pred + 1 }$
 Počátek a konec segmentu lze tedy vyjádřit takto:
 .EQ
 define sp1 's sub p sub 1 = k'
@@ -163,16 +164,15 @@ define sk1 's sub k sub 1 = k + (2 sup n - 1)'
 sk1
 .EN
 .EQ
-define sp 's sub p = k + (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min}'
+define sp 's sub p = k + z + 2 sup { n sub pred + 1 }'
 sp
 .EN
 .EQ
-define sk 's sub k = k + (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min} + (2 sup n - 1)'
+define sk 's sub k = k + z + 2 sup { n sub pred + 1 } + (2 sup n - 1)'
 sk
 .EN
 Kde $z$ jsou předem obrácené "pevné" bity z minulých segmentů. Odečtení $z - z " mod " 2 sup {n + m}$ značí vynulování z postupu.
 U prvního segmentu je $z$ nula, proto je z rovnice vynecháno
-.bp
 .pp
 Od $n sub pred$ odečítáme jedna, protože první bit značí $2 sup 0$.
 Ověření pro 192.168.0.0/16 s /24 a /24:

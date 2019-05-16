@@ -1,0 +1,145 @@
+.he ```lh`
+.nr fp 9 \" increase footnote point size to 9
+.nr sp 15
+.nr pp 9
+.nr np 9
+.nr pi 9
+.nr ii 10
+.pvs 2p
+.ll 6.3i
+.fo ``- % -``
+.nh
+\"Title
+.de TT
+.(c
+.uh
+.ps 17
+.ft B
+\\$1
+.ft
+.ps
+.)c
+.(x
+\\$1
+.)x
+..
+.de IP
+.ip "\\fB\\$1\\fR"
+..
+.nr no 1
+.ds q ,\\h`-0.05v`,
+.EQ
+delim $$
+define * '^\[md]^'
+.EN
+.2c
+.IP "Coulombův zákon"
+Dva bodové elektrické náboje na sebe navzájem působí silou rovnou:
+.EQ
+F = k * { Q sub 1 * Q sub 2 } over { R sup 2 }
+.EN
+kde $k = 9 * 10 sup 9 {N * m sup 2 } over { C sup 2 }$
+.IP "\Permitivita"
+stačí nahradit $k$ za $k over \[*e]$ a vesele počítat dál lmao.
+.EQ
+F = k over \[*e] * { Q sub 1 * Q sub 2 } over { R sup 2 }
+.EN
+.IP "Intenzita"
+elektrického pole bodového náboje je určena vzorcem:
+.EQ
+E = k * Q over {R sup 2}
+.EN
+tedy: $F = Q * E$.
+Elektrické síly == existence elektrického pole v okolí náboje. Pole popisujeme pomocí elektrické intenzity.
+.IP "Magnetická síla"
+Síla působící na vodič v magnetickém poli:
+.EQ
+F sub m = B * I * l
+.EN
+kde $I$ je velikost proudu, $l$ délka vodiče a $B$ magnetická indukce.
+.IP "Indukce"
+udává intenzitu magnetického pole. Vektorová veličina. Vzorec:
+.EQ
+B = F over { I * l }
+.EN
+Jednotka $T = Tesla$, vyjádření:
+.EQ
+[T] = kg over { A * s sup 2 }
+.EN
+.ip "Příklady indukce"
+Silný perm. magnet = $10 sup -2$ až $10 sup -1 ^ T$
+.br
+Lab. elektromagnet = $10 ^ T$
+.br
+magnetické pole Země = $10 sup -5 ^ T$
+.IP "Magnetická síla pt.2"
+vodič kolmý na indukční čáry -> $F sub m = B * I * l$
+.br
+vodič vodorovný s indučkními č. -> $F sub m = 0$
+.br
+Při otáčení aplikujeme následující vzorec:
+$F sub m = B * I * l * sin \[*a]$
+.IP "Indukce dlouhého vodiče"
+Vzorec pro velikost indukce dlouhého vodiče:
+.EQ
+B = \[*m] over { 2 pi } * I over r
+.EN
+$\[*m] = permeabilita$.
+.IP "Permeabilita prostředí"
+Vliv prostředí na elektrické pole (zesiluje/zeslabuje).
+Vzorec:
+.EQ
+\[*m] = \[*m] sub 0 * \[*m] sub r
+.EN
+Přičemž vaakua: $\[*m] sub 0 = 4 pi * 10 sup -7 ^^N * A sup -2$
+.IP "Síla mezi dvěma dráty"
+.EQ
+F = \[*m] over { 2 pi } * { I sub 1 * I sub 2 } over d * l
+.EN
+.IP "Hledání místa s nulovou indukcí"
+mezi dvěma dráty (stejný směr proudu), od prvního vodiče:
+.EQ
+B sub 1 = B sub 2
+.EN
+.EQ
+r = { d * I sub 1 } over  { I sub 1 + I sub 2 }
+.EN
+.IP "Magnetický indukční tok"
+kvantitativní popis sumárního působení magnetického pole s daným rozložením
+.EQ
+\[*f] = B * S
+.EN
+viz magnetická síla pt.2, ale $cos \[*a]$
+.IP "Časová změna MIT ^"
+se dá využít pro výpočet indukovaného elektromotorického napětí:
+.EQ
+- \[*D]\[*f] over \[*D]t = U sub i
+.EN
+Pro cívku s N závity:
+.EQ
+-N \[*D]\[*f] over \[*D]t = U sub i
+.EN
+Pokud se závit točí konstantní úhlovou rychlostí:
+.EQ
+\[*f] = B * S * cos (\[*w]t)
+.EN
+Potom součin $B * S$ udává výšku kosinusovky.
+Následně:
+.EQ
+U sub i = B * S * \[*w] * sin  (\[*w]t)
+.EN
+Indukovaný proud má takový směr, aby jeho magnetické účinky působili proti změně, která ho vyvolala.
+.IP "Vlastní indukčnost"
+schopnost vytvářet magnetické pole:
+.EQ
+L = { U sub i * \[*D]t } over {  \[*D]I } => [H] = left [ { V * s } over A right ]
+.EN
+indučnost cívky:
+.EQ
+L =  \[*m] { N sup 2 * S } over l
+.EN
+kde $S$ je plocha závitů. Energie pole cívky:
+.EQ
+E sub m = 1 over 2 L * I sup 2
+.EN
+Cívka indukuje napětí, i když se mění jenom proud přes ní.
