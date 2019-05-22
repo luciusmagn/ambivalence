@@ -14,16 +14,14 @@
 
 %T What GVA considers gun violence... and why
 %D unknown
-%B General Methodology
 %I Gun Violence Archive
 %K violence
 %C From: https://www.gunviolencearchive.org/methodology
 
 %A Patrick J. Charles
-%B Encyclopaedia Britannica
+%I Encyclopaedia Britannica
 %T Gun control
 %D 09 Jan, 2017
-%I Encyclopaedia Britannica, inc.
 %K gun, control
 
 %A Alpers, Philip and Marcus Wilson
@@ -35,9 +33,8 @@
 
 %T Trends in Firearm Related Deaths: Number and Rates 
 %A Australian Institute of Criminology
-%B Australian Bureau of Statistics Underlying Cause of Death 1991-2001
+%I Australian Bureau of Statistics Underlying Cause of Death 1991-2001
 %D 1991-2001
-%I Internet
 %K australia
 
 %A Katherine A Vittes, Jon S Vernick, Daniel W Webster
@@ -77,8 +74,8 @@
 %K obrana
 %C From: https://gunlex.cz/zbrane-a-legislativa/myty-a-fakta/606-obrana-se-zbrani-otazky-a-odpovedi
 
-%B Fakta o zbraních, jak je zjistilo OSN
-%T Vraždy obecně
+%I Fakta o zbraních, jak je zjistilo OSN
+%J Vraždy obecně
 %A Tomáš Trávníček, Z. Blažek
 %D 22 May 2007
 %I Lex: Sdružení na ochranu práv majitelů zbraní
