@@ -14,9 +14,14 @@
 
 %T What GVA considers gun violence... and why
 %D unknown
-%I Gun Violence Archive
+%Q Gun Violence Archive
 %K violence
 %C From: https://www.gunviolencearchive.org/methodology
+
+%T What GVA considers gun violence... and why
+%B General Methodology
+%Q Gun Violence Archive
+%K violence short
 
 %A Patrick J. Charles
 %I Encyclopaedia Britannica
@@ -24,25 +29,49 @@
 %D 09 Jan, 2017
 %K gun, control
 
-%A Alpers, Philip and Marcus Wilson
+%A Charles
+%B Encyclopaedia Britannica
+%T Gun control
+%K gun, control short
+
+%A Alpers, Philip and Wilson
 %D 2018
-%T Guns in the United Nations: Firearm Regulation - Guiding Policy
+%B Guns in the United Nations: Firearm Regulation 
+%T Guiding Policy
 %I Sydney School of Public Health
 %C GunPolicy.org
 %K wiki, gun
 
-%T Trends in Firearm Related Deaths: Number and Rates 
+%A Alpers, Philip and Wilson
+%D 2018
+%B Guns in the United Nations: Firearm Regulation
+%T Guiding Policy
+%I SSPH
+%K wiki, gun short
+
+%T Trends in Firearm Related Deaths: Number and Rates
 %A Australian Institute of Criminology
-%I Australian Bureau of Statistics Underlying Cause of Death 1991-2001
+%B Australian Bureau of Statistics Underlying Cause of Death 1991-2001
 %D 1991-2001
 %K australia
+
+%T Trends in Firearm Related Deaths: Number and Rates
+%Q Australian Institute of Criminology
+%B Australian Bureau of Statistics Underlying Cause of Death 1991-2001
+%K australia short
 
 %A Katherine A Vittes, Jon S Vernick, Daniel W Webster
 %T Legal status and source of offenders' firearms in states with the least stringent criterie for gun ownership
 %D 23 Jun 2012
-%C Injury Prevention
+%B Injury Prevention
 %I BMJ Publishing Group Limited
 %K illegal
+
+%A Vittes, Vernick, Webster
+%T Legal status and source of offenders' firearms in states with the least stringent criterie for gun ownership
+%B Injury Prevention
+%I BMJ Publishing Group Limited
+%K illegal short
 
 %A Thomas C. Frohlich, John Harrington
 %T States with the most (and least) gun violence. See where your state stacks up.
@@ -55,17 +84,30 @@
 %D 2019
 %T Switzerland - Gun Facts, Figures and the Law
 %I Sydney School of Public Health
-%C GunPolicy.org
+%B GunPolicy.org
 %K swiss
 
+%A Alpers, Phip and  Wilson
+%T Switzerland - Gun Facts, Figures and the Law
+%B GunPolicy.org
+%I SSPH
+%K swiss short
+
 %T List of countries by intentional homicide rate
+%B Wikipedia, free Encyclopedia
 %C From: https://en.wikipedia.org/wiki/List_of_countries_by_intentional_homicide_rate
 %D 2019
 
 %T In the wake of a gun ban, Venezuela sees rising homicide rate
-%A David Kopel, Vincent Harinam et al.
+%A Kopel, Harinam et al.
+%J The Bill
 %D 19 April 2018
 %I From: https://thehill.com/opinion/campaign/383968-in-the-wake-of-a-gun-ban-venezuela-sees-rising-homicide-rate
+
+%T In the wake of a gun ban, Venezuela sees rising homicide rate
+%A Kopel, Harinam et al.
+%J The Bill
+%K short
 
 %T Obrana se zbraní: otázky a odpovědi
 %A David Karásek
