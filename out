@@ -1,519 +1,478 @@
-.he ```Lukáš Hozda, R7.A`
-.nr fp 9 \" increase footnote point size to 9
-.nr sp 14
-.nr pp 12
-.nr np 9
-.pvs 0p
-.ll 6.3i
-.fo ``- % -``
-.nh
-\"Title
-.de TT
-.(c
-.uh
-.ps 17
-.ft B
-\\$1
-.ft
-.ps
-.)c
-.(x
-\\$1
-.)x
-..
-
-\"Sub-Title
-.de ST
-.ps 12
-.(c
-.ft I
-\\$1
-.ft
-.)c
-.ps
-..
-
-.ds q ,\\h`-0.05v`,
-
-.TT "Motiv smrti a duše v mytologii Soulsborne ve srovnání"
-.TT "s tradičními mytologiemi"
-
-.pp
-\fI\*qJsem sice maličký, ale zemřu jako Kolosos"\fR:
-citát drobného, chromého a \*qohořelého"   krále Ludletha,
+,,Jsem sice maličký, ale zemřu jako Kolosos":
+citát drobného, chromého a ,,ohořelého"   krále Ludletha,
 který se jako jedinný postavil tváří v tvář svému osudu,
-když ostatní \fIPánové Spáleniště\fR zanechali svých povinností.
-Naznačuje podstatu světa mytologie \fISoulsborne\fR, kde svět materiální a duševní jsou provázány tak, jako nikde jinde.
-.pp
+když ostatní Pánové Spáleniště zanechali svých povinností.
+Naznačuje podstatu světa mytologie Soulsborne, kde svět materiální a duševní jsou provázány tak, jako nikde jinde.
+
 Toto univerzum, tvořené tituly
-\fIDemon Souls\fR (=démonické duše, zkratka DeS), \fIDark\ Souls I\(enIII\fR (=temné duše, zkratka DS1\(enDS3)
-a \fIBloodborne\fR (=přenášený krví, zkratka BB), se vyznačuje motivy temnoty, úpadku tělesného i duševního,
+Demon Souls (=démonické duše, zkratka DeS), Dark Souls I-III (=temné duše, zkratka DS1-DS3)
+a Bloodborne (=přenášený krví, zkratka BB), se vyznačuje motivy temnoty, úpadku tělesného i duševního,
 rozkladu, konfliktu lidí a bohů, ale za nejpodstatnější se dají považovat motivy smrti a duše,
-které jsou se všemi těmito \*qdepresivními" motivy spojeny.
-.pp
-Tento svět a jeho mytologie nemá svůj vlastní název, termín \fISoulsborne\fR vznikl jako kontaminace názvů
+které jsou se všemi těmito ,,depresivními" motivy spojeny.
+
+Tento svět a jeho mytologie nemá svůj vlastní název, termín Soulsborne vznikl jako kontaminace názvů
 jednotlivých titulů a není oficiálně uznaný autory, nicméně se jedná o nejpoužívanější pojmenování.
-.pp
-\fISoulsborne\fR se dá považovat za netradiční mytologii z mnoha důvodů.
+
+Soulsborne se dá považovat za netradiční mytologii z mnoha důvodů.
 Přestože se jedná o zcela japonské dílo, tak v něm nenajdeme skoro žádné japonské, ani obecně asijské, vlivy.
-Těch pár zmínek, které se v díle vyskytují jsou vysloveně označeny jako \fIcizí\fR a \fIvýchodní\fR.
+Těch pár zmínek, které se v díle vyskytují jsou vysloveně označeny jako cizí a východní.
 Vzhledem a provedením poměrně hladce zapadá do západní kultury,
 to je zesíleno také použitím květnatého a někdy archaického anglického jazyka,
-který dává dojem, že \fISoulsborne\fR musí pocházet ze západního prostředí.
-.pp
+který dává dojem, že Soulsborne musí pocházet ze západního prostředí.
+
 Zajímavostí je, že se západní prvky obsažené v díle dotýkají i České republiky,
-a to v podobě tří postav: \fIOstrava\fR, Hrdina (DeS); \fIHavel\fR, Skála (DS1,DS3) a \fIJosefka\fR (BB).
+a to v podobě tří postav: Ostrava, Hrdina (DeS); Havel, Skála (DS1,DS3) a Josefka (BB).
 Mnoho postav je obdařeno přídomkem, který vypovídá bud' o jejich charakteru/roli nebo o tom, jaká by jejich role ideálně měla být.
 Vliv českým prostředí také spočívá v inspiraci Židovským hřbitovem pro hlavní a nejpodstanější chrám mýtického světa,
-\fIFirelink Shrine\fR, a gotickou Prahou pro město Yharnam, kde se odehrává příběh \fIBloodborne\fR.
-.pp
+Firelink Shrine, a gotickou Prahou pro město Yharnam, kde se odehrává příběh Bloodborne.
+
 Dalším netradičním prvkem je způsob vyprávění, který je minimální, mnohdy vágní a na první pohled nejasný.
 Informace jsou jen zřídkakdy podávány v chronologickém pořadí a navíc bývají zatíženy perspektivou postavy, která tyto informace podává.
 Následkem toho je, že o určitým událostem mýtického světa máme několik výpovědí, které interpretují fakta zcela odlišným způsobem.
 Mnoho informací je také dostupných pouze z nepřímých zdrojů, jako jsou popisky předmětů a duší, nebo ve vizuální podobě
 z vyobrazeného prostředí. Například z popisku duše Obra Yhorma, o kterém se krátce zmíním později, se můžeme dozvědět pár střípků jeho příběhu:
 
-.ll -0.5i
-.ip
-.ft I
+
+
+
 Duše obra Yhorma.
 Jedna z pokřivených duší, prosáklá mocí.
-.br
-\&...
-.br
-Yhorm je potomek dávného dobyvatele, samotní podmanění lidé jej ale požádali, aby je vedl, sloužíc zároveň jako mocný meč a skálopevný štít.
-.ft R
-.ll +0.5i
 
-.pp
+...
+
+Yhorm je potomek dávného dobyvatele, samotní podmanění lidé jej ale požádali, aby je vedl, sloužíc zároveň jako mocný meč a skálopevný štít.
+
+
+
+
 Udělat si obrázek o příběhu světa Soulsborne je tedy náročná záležitost,
 která vyžaduje znalost detailů a schopnost nacházet a organizovat souvislosti.
-V komunitě fanoušků proto nacházíme členy, někdy nazývané \*qarcheologové",
-kteří tyto detaily studují a shromažd'\h`-0.15v`ují fakta ve formě stravitelné pro širokou veřejnost.
+V komunitě fanoušků proto nacházíme členy, někdy nazývané ,,archeologové",
+kteří tyto detaily studují a shromažd'h`-0.15v`ují fakta ve formě stravitelné pro širokou veřejnost.
 Tento způsob vyprávění také dává prostor vzniku teorií, které se snaží konkretizovat vágní místa v příběhu,
 nebo poskytují další perspektivu. Tento text se však o žádné teorie neopírá.
-.pp
+
 Než se budu věnovat pojetí motivu smrti (a následně duše) ve srovnání s tradiční mytologií,
 zmínil bych ještě některé znaky,
-kterými se \fISoulsborne\fR podobá tradičním mytologiím.
-.pp
+kterými se Soulsborne podobá tradičním mytologiím.
+
 Prvním z nich je kosmogonický mýtus.
 Ten je asi jako jedinný předložen celistvý, chronologicky a najednou.
-Slouží jako úvod do mythosu \fISoulsborne\fR.
-Svojí formou odpovídá typu \*qstvoření z chaosu", který známe například z řecké a biblické mytologie:
-.ll -0.5i
-.ip
-.ft I
-.br
-V dávných dobách byl svět beztvarý, zahalený hustou mlhou.
-.br
-Země šedých skalisek, velestromů a věčných draků.
-.br
-Ale poté se objevil Oheň a s ohněm přišla disparita.
-.br
-Teplo a chlad, život a smrt, a samozřejmě, světlo a temnota.
-.br
-A pak přišli z temnot, Oni\f(BI\(dg\f[], a našli v ohni mocné duše.
-.br
-Nito, První z mrtvých, Čarodějnice z Izalithu a její Dcery Chaosu,
-.br
-Gwyn, Pán světla, a jeho věrní rytíři.
-.br
-A Furtive Pygmy\f(BI\(dd\f[], jak lehce zapomenut.
-.ft R
-.ll +0.5i
-.(f
-\(dg \*qoni" jsou popisování jako prázdné, bezcílné bytosti bloudící světem
-.)f
-.(f
-\(dd slovo \fBfurtive\fR je poměrně težké přeložit. V češtině používáme slovo kradmý jako jednoslovný překlad,
-.)f
-.(f
-   více ale sedí opis \*qmající vedlejší úmysly". Slovo \fBpygmy\fR (viz Pygmej) se používá pro zástupce druhů
-.)f
-.(f
-   menší, než je typické.
-.)f
+Slouží jako úvod do mythosu Soulsborne.
+Svojí formou odpovídá typu ,,stvoření z chaosu", který známe například z řecké a biblické mytologie:
 
-.pp
+
+
+
+V dávných dobách byl svět beztvarý, zahalený hustou mlhou.
+
+Země šedých skalisek, velestromů a věčných draků.
+
+Ale poté se objevil Oheň a s ohněm přišla disparita.
+
+Teplo a chlad, život a smrt, a samozřejmě, světlo a temnota.
+
+A pak přišli z temnot, Oni|, a našli v ohni mocné duše.
+
+Nito, První z mrtvých, Čarodějnice z Izalithu a její Dcery Chaosu,
+
+Gwyn, Pán světla, a jeho věrní rytíři.
+
+A Furtive Pygmy||, jak lehce zapomenut.
+
+
+
+| ,,oni" jsou popisování jako prázdné, bezcílné bytosti bloudící světem
+
+
+|| slovo furtive je poměrně težké přeložit. V češtině používáme slovo kradmý jako jednoslovný překlad,
+
+
+   více ale sedí opis ,,mající vedlejší úmysly". Slovo pygmy (viz Pygmej) se používá pro zástupce druhů
+
+
+   menší, než je typické.
+
+
+
 Tyto prvotní bohy je možné přirovnat ke klíčovým božstvům tradičních mytologií.
 Nito je bůh smrti a zkázy, podobně jako například Hádes, Hel nebo Černoboh;
-Gwyn je otec\(emhlava pantheonu, podobně jako Zeus, Odin nebo do jisté míry Svarog;
-Furtive Pygmy je nižší bůh\(emstvořitel lidí, za jeho ekvivalent se dá považovat Prometheus, Enki nebo Khnum.
+Gwyn je otec--hlava pantheonu, podobně jako Zeus, Odin nebo do jisté míry Svarog;
+Furtive Pygmy je nižší bůh--stvořitel lidí, za jeho ekvivalent se dá považovat Prometheus, Enki nebo Khnum.
 Najít obdobu čarodějnici je o trochu náročnější, má však znaky, které ji spojují s Hérou a Lokim.
-.pp
+
 Tento skromný pantheon byl poté zodpovědný za uvedení světa do pohybu porážkou draků.
 Následně bylo vybudováno jedno velké království, Lordran, které prosperovalo po mnoho generací.
-Toto období je v rámci příběhu nazýváno jako \fIVěk ohně\fR nebo-li \fIVěk bohů\fR.
-V jeho centru stojí takzvaný \fIPrvotní plamen\fR (dříve zmiňovaný oheň), progenitor všech duší,
+Toto období je v rámci příběhu nazýváno jako Věk ohně nebo-li Věk bohů.
+V jeho centru stojí takzvaný Prvotní plamen (dříve zmiňovaný oheň), progenitor všech duší,
 živá síla, která má větší vliv na svět než jakákoliv jiná entita.
 Tento plamen je ale odsouzen jednoho dne zhasnout, stejně jako každý jiný plamen.
-.pp
+
 V této době prosperity také vzniklo lidské pokolení.
 Pygmy v ohni našel tu nejmenší a nejtmavší duši, kterou ostatní bohové snadno přehlédli.
-Kdežto ostatní si své duše střežili, on se o svoji duši dělil se zbytkem \*qprázdných bytostí" a tím vznikli lidé.
-Jelikož byla jeho duše označována jako \fITemná duše\fR, říká se, že člověk pochází z temna.
+Kdežto ostatní si své duše střežili, on se o svoji duši dělil se zbytkem ,,prázdných bytostí" a tím vznikli lidé.
+Jelikož byla jeho duše označována jako Temná duše, říká se, že člověk pochází z temna.
 Duše bohů byly velké a zářivé, proto bývají bozi označováni jako bytosti světla.
 I když se v tradičních mytologiích moc nesetkáváme s konceptem, že by člověk byl bytostí temnoty,
 je tento výrok možné poměrně jednoduše opodstatnit.
 Nemusíme se ani zabývat podstatou lidské nátury, stačí zaujmout evoluční perspektivu.
 Do tmavé jeskyně se schovala opice, opustil jí člověk.
-.pp
-Bohové v \fISoulsborne\fR se podobají bohům severské mytologie.
+
+Bohové v Soulsborne se podobají bohům severské mytologie.
 Nejen, že mají lidské pocity a rozmanité osobnosti,
 jsou také smrtelní, chybují a podléhají svým pocitům.
-To se poprvé projeví když \fIPrvotní plamen\fR začne slábnout a s ním zanikat svět bohů.
+To se poprvé projeví když Prvotní plamen začne slábnout a s ním zanikat svět bohů.
 Každý z dříve zmíněných božstev si přivede svojí zkázu (ne však nutně smrt) a zpravidla učiní svět ještě temnějším a nehostinějším místem.
-Nejpodstatnější je chyba Gwyna, který se podlehne strachu z předpovězeného příchodu \fIVěku člověka\fR.
-Proroctví říká, že nastane, když \fIPrvotní plamen\fR zhasne a na svět padne tma.
+Nejpodstatnější je chyba Gwyna, který se podlehne strachu z předpovězeného příchodu Věku člověka.
+Proroctví říká, že nastane, když Prvotní plamen zhasne a na svět padne tma.
 Setkáváme se zde s tropem klasickým především pro antickou mytologii.
 Tím, že se postava dozví nějaké proroctví o svém osudu a snahou uniknout mu jej neúmyslně zapřičíní.
 Příkladem jsou například postavy Oidipa a Láia,
 kteří svou snahou vyhnout se svému osudu způsobí, kromě splnění proroctví,
 ještě větší zkázu než byla původně předpovězena.
 Tento trop ovšem není univerzální pravdou v rámci tohoto světa, viz níže.
-.pp
+
 Aby Gwyn předešel konci jeho doby, vydá se k ohni a obětuje mu svojí duši jako palivo.
 Zároveň spojí lidstvo s plamenem, aby zajistil, že jeho věk přežije i po jeho smrti.
 Tím se stal člověk zatížen prokletím.
-Tento akt je v mytologii \fISoulsborne\fR označován jako \fIPrvotní hřích\fR.
+Tento akt je v mytologii Soulsborne označován jako Prvotní hřích.
 
-.ll -0.5i
-.ip
-.ft I
+
+
+
 Ale brzy plameny pohasnou a zůstane pouze Temno.
-.br
-I ted' zbývají jen uhlíky a člověk nevidí světlo, pouze bezbřehou noc.
-.br
-A mezi živými se objevují nositelé prokletého Temného znamení.
-.br
-Ano, vskutku. Temné znamení předznamenává Nemrtvé.
-.ft R
-.ll +0.5i
 
-.pp
-Důsledky \fIPrvotního hříchu\fR přímo souvisí s motivem smrti ve světě \fISoulsborne\fR.
-V\ mnoha tradičních mýtech se setkáváme s honbou za nesmrtelností,
+I ted' zbývají jen uhlíky a člověk nevidí světlo, pouze bezbřehou noc.
+
+A mezi živými se objevují nositelé prokletého Temného znamení.
+
+Ano, vskutku. Temné znamení předznamenává Nemrtvé.
+
+
+
+
+Důsledky Prvotního hříchu přímo souvisí s motivem smrti ve světě Soulsborne.
+V mnoha tradičních mýtech se setkáváme s honbou za nesmrtelností,
 nebo snahou uniknout smrti, resp. osudu.
 Bát se smrti je lidem přirozené, pud sebezáchovy patří mezi základní instinkty,
 které umožňuje živým organismům přežít a vyvíjet se.
 Přestože tento pud máme, lidé si uvědomují, že hnát se za nesmrtelností je poměrně zbytečné.
 Nesmrtelnost je někdy označena jako porušení přírodního řádu a zpravidla s sebou nese špatné následky.
-.pp
-\fISoulsborne\fR nám také ukazuje, že nesmrtelnost není východiskem.
+
+Soulsborne nám také ukazuje, že nesmrtelnost není východiskem.
 Když oheň pohasíná, objevuje se mezi lidmi prokletí.
 Toto prokletí upírá lidem jistotu smrti.
 Když prokletý člověk zemře tak jej oheň znovu oživí.
 Není to ovšem zadarmo, za každou smrt ztrácí nemrtvý část sebe sama - vzpomínky, podobu, část svojí lidskosti.
 Tu si nechá oheň jako daň a palivo.
-Nemrtvý je odsouzen se setkat se smrtí znovu a znovu. Čím dál více se ztrácí jeho nitro, ale nemá volby\(emsmrt je mu odepřena.
+Nemrtvý je odsouzen se setkat se smrtí znovu a znovu. Čím dál více se ztrácí jeho nitro, ale nemá volby--smrt je mu odepřena.
 Eventuálně prokletí ztrácejí rozum a nakonec, když tisíce smrtí zničily jak formu fyzickou, tak duševní, z nemrtvého zůstane pouze prach.
 Ale ani tehdy není mrtvý, i když zůstane z nemrtvého pouze prach, stále je naživu a cítí jen agónii.
 Ztratil vědomí o tom, kdo je, svojí duši i tělo, tedy nic jiného než agónie nezbývá.
-.pp
-Tomuto procesu se říká \fIhollowing\fR\(dg (=vyprázdňování) a v rámci příběhu figuruje jako zdroj největšího strachu postav.
-.(f
-\(dg \fIhollowed\fR znamená dutý, vykotlaný, tato slova asi nejvíce odpovídají českému významu, nemáme pro ně ale slovesa
-.)f
+
+Tomuto procesu se říká hollowing| (=vyprázdňování) a v rámci příběhu figuruje jako zdroj největšího strachu postav.
+
+| hollowed znamená dutý, vykotlaný, tato slova asi nejvíce odpovídají českému významu, nemáme pro ně ale slovesa
+
 Špatný duševní stav účinky prokletí zhoršuje, postavy propadající panice a pocitům beznaděje jsou ty první, které kletba dostihne.
 Někteří z těch, kteří si jsou vědomi své vlastní zkázy, proto ve svých posledních příčetných chvílích zahazují své zbraně a výstroj mimo svůj dosah,
 aby byli co nejmenší hrozbou pro své přátele, až přijdou o rozum.
 Frustraci z osudu předurčeného kletbou můžeme pozorovat například u bojovnice Lucatiel (DS2),
 která putuje světem za účelem najít lék, který by jí od kletby vysvobodil:
 
-.ll -0.5i
-.ip
-.ft I
-Ztráta mě děsí. Ztráta paměti, ztráta sebe sama.
-.br
-Kdyby mi řekli, že tím, že tě zabiji budu vysvobozena od tohoto prokletí...
-.br
-Tasila bych bez zaváhání.
-.br
-Nechci skončit, chci existovat.
-.br
-Obětovala bych pro to cokoliv, úplně cokoliv.
-.br
-Je mi to hanba, ale je to pravda.
-.br
-Občas se cítím posledlá... touto nepodstatnou věcí zvanou "já".
-.br
-Ale i tak, cítím se být nuceno ji zachovat.
-.br
-Je špatné, že se tak cítím? Jistě bys udělal to samé, v mých botách.
-.br
-\&...
-.br
-Možná jsme všichni prokletí...
-.br
-Od okamžiku, kdy se narodíme...
-.ft R
-.ll +0.5i
 
-.pp
-Dokud existuje \fIPrvotní plamen\fR, tak se kletbě nedá uniknout, je ovšem možné dočasně zastavit její účinky a obejít nesmrtelnost.
+
+
+Ztráta mě děsí. Ztráta paměti, ztráta sebe sama.
+
+Kdyby mi řekli, že tím, že tě zabiji budu vysvobozena od tohoto prokletí...
+
+Tasila bych bez zaváhání.
+
+Nechci skončit, chci existovat.
+
+Obětovala bych pro to cokoliv, úplně cokoliv.
+
+Je mi to hanba, ale je to pravda.
+
+Občas se cítím posledlá... touto nepodstatnou věcí zvanou "já".
+
+Ale i tak, cítím se být nuceno ji zachovat.
+
+Je špatné, že se tak cítím? Jistě bys udělal to samé, v mých botách.
+
+...
+
+Možná jsme všichni prokletí...
+
+Od okamžiku, kdy se narodíme...
+
+
+
+
+Dokud existuje Prvotní plamen, tak se kletbě nedá uniknout, je ovšem možné dočasně zastavit její účinky a obejít nesmrtelnost.
 První způsob je poněkud morbidní a pouze oddaluje nevyhnutelné ma velmi krátkou dobu.
 Oheň si s každou smrtí žádá oběť v podobě části duše, mnoho postav tento problém řeší tak, že konzumují duše druhých a tím si udržují
 lidskost, když zemřou a vrátí se znovu na svět.
 Možnost obětování cizí duši má za následek v časech, kdy je prokletí nejsilnější, kompletní rozpad společnosti.
 Zapříčinila také vznik různých kultů a skupin, které zabíjí živé i nemrtvé pro jejich duše organizovaným způsobem.
-.pp
-Druhý, poněkud méně morbidní způsob, který ovšem stále není absolutním řešením, je příchod \fIVyvoleného nemrtvého\fR.
-Podobně jako v severské mytologii, kde je cyklický čas a každý cyklus je ukončen \fIragnarokem\fR, funguje i svět \fISoulsborne\fR v cycklech.
-Každý cyklus začíná dobou prosperity, která setrvává, dokud je \fIPrvotní plamen\fR silný, jakmile začne slábnout,
+
+Druhý, poněkud méně morbidní způsob, který ovšem stále není absolutním řešením, je příchod Vyvoleného nemrtvého.
+Podobně jako v severské mytologii, kde je cyklický čas a každý cyklus je ukončen ragnarokem, funguje i svět Soulsborne v cycklech.
+Každý cyklus začíná dobou prosperity, která setrvává, dokud je Prvotní plamen silný, jakmile začne slábnout,
 svět začne upadat do chaosu a po zemi začnou chodit nemrtví.
 Jednoho dne povstane vyvolený nemrtvý, který porazí zbytky bohů a shromáždí jejich zářivé božské duše, které spojí s tou svojí.
-Vydá se do hlubin do kmene starého velestromu, kde hoří \fIPrvotního plamen\fR,
-porazí skořápku minulého vyvoleného a zopakuje Gwynův ritál, čímž \fIdaruje světu smrt\fR
-a stane se nových ochráncem plamene, nazývaný Pánem Spáleniště\(dg.
-.(f
-\(dg v orig. Lord of Cinders. Pán Spáleniště je za normálních podmínek pouze jeden a funguje jako nemyslící
-.)f
-.(f
-   avatar \fIPrvotního plamene\fR. Pouze když se plamen blíží svému konci, tak jsou minulí Pánové Spáleniště
-.)f
-.(f
+Vydá se do hlubin do kmene starého velestromu, kde hoří Prvotního plamen,
+porazí skořápku minulého vyvoleného a zopakuje Gwynův ritál, čímž daruje světu smrt
+a stane se nových ochráncem plamene, nazývaný Pánem Spáleniště|.
+
+| v orig. Lord of Cinders. Pán Spáleniště je za normálních podmínek pouze jeden a funguje jako nemyslící
+
+
+   avatar Prvotního plamene. Pouze když se plamen blíží svému konci, tak jsou minulí Pánové Spáleniště
+
+
    oživeni jako myslící bytosti za účelem vykonání rituálu, který prodlouží jeho existenci.
-.)f
+
 Nemrtví sice stále nestárnou, ale je jim navrácena možnost zemřít.
-.pp
+
 Plamen posléze rozdá zářivé duše novým bytostem, zrodí se noví bohové a z popela starých království vyrostou nová,
-z části založená na památce šampiona, který obnovil \fIPrvotní plamen\fR.
+z části založená na památce šampiona, který obnovil Prvotní plamen.
 Ta prosperují do doby, než plamen začne opět pohasínat a kletba nesmrtelnosti se znovu vrátí mezi lidské pokolení.
 Tento model světa se dá také považovat za obdobný tomu aztéckému, kde různí bohové postupně skákají do ohně,
 aby se stali sluncem a tím stvořili nový svět.
 Teprve pátý Quetzacoatl stvořil svět, ve kterém právě žijeme, ale i ten má v budoucnu skončit.
-.pp
-Jak jsem již na začátku předestřel, vnitřní svět postav \fISoulsborne\fR má velký vliv na ten materiální.
+
+Jak jsem již na začátku předestřel, vnitřní svět postav Soulsborne má velký vliv na ten materiální.
 Pokud jde člověk za svým cílem, má vůli a nevzdává se, kletba na něj nemá silný negativní efekt.
 Dokud si zachovává svůj účel, resp. smysl života, tak může vzdorovat.
-Například kovář André byl nemrtvý, který žil ve \fIVěku bohů\fR od prvního království až do toho posledního.
+Například kovář André byl nemrtvý, který žil ve Věku bohů od prvního království až do toho posledního.
 Jeho smyslem života bylo kovat zbraně a brnění pro hrdiny, kteří se vydávají do krutého světa zápasit s kletbou, osudem, nebo hledat pravdu.
 Kovářova mise nikdy neskončila, stále se objevovali noví a noví hrdinové,
 kteří potřebovali jeho služby a on se bezmezně věnoval svým kovářským povinnostem,
-proto přežil všechna království \fIPrvního plamene\fR bez jakékoliv viditelné újmy.
-.pp
+proto přežil všechna království Prvního plamene bez jakékoliv viditelné újmy.
+
 Smysl života některých postav byl konečný.
-Siegward, rytíř z Kataríny\(dg měl jako nemrtvý jediný cíl \- vydat se do Znesvěceného Kapitolu\(dd
+Siegward, rytíř z Kataríny| měl jako nemrtvý jediný cíl - vydat se do Znesvěceného Kapitolu||
 a vysvobodit svého starého přítele, krále Yhorma, z jeho mizérie.
-.(f
-\(dg v orig. Siegward, knight of Catarina
-.)f
-.(f
-\(dd v orig. Profane Capitol
-.)f
+
+| v orig. Siegward, knight of Catarina
+
+
+|| v orig. Profane Capitol
+
 Král Yhorm byl obr, který se snažil přesvědčit své odpůrce, že je spravedlivý a dobrý panovník,
 ne tyran jako jeho předci a za které byli obři často považováni.
 Po jeho dlouhé a úspěšně vládě začal plamen opět skomírat a tak se Yhorm rozhodl, že se obětuje, aby jej znovu posílil a ochránil své lidi před kletbou.
 Jeho dobrý skutek ale zapříčinil zkázu jeho poddaných, Yhorm nebyl člověk a neměl lidskou duši, proto nemohl zopakovat rituál.
-Z jeho pokusu vnikl \fIProkletý plamen\fR*,
-.(f
+Z jeho pokusu vnikl Prokletý plamen*,
+
 * v orig. Profane Flame
-.)f
+
 který spálil všechny jeho poddané na troud a z Yhorma zanechal jen trosku.
 Siegward eventuálně tuto trosku zabije a tím Yhorma vysvobodí z jeho mizérie.
-Splnil účel své \*qposmrtné" existence a umírá, vysvobozen od prokletí.
+Splnil účel své ,,posmrtné" existence a umírá, vysvobozen od prokletí.
 S podobnými osudy se setkáváme také u dalších postav.
-.pp
+
 V hledání smyslu života, účelu, který se stane centrem existence jedince, je ale jeden háček.
 Smysl života, který si postava najde, nesmí být založen na marném chtíči, a to nejen chtíči materiálním.
 Dozvídáme se znovu a znovu, že chtíč je zkáza všecho živého a nezpůsobuje nic jiného než rozpad a agónii.
 Zároveň existuje povědomí o tom, že chtíč je vlastnost životu vlastní.
-Mluví o něm například \fIStarobylý drak**\fR (DS2):
-.(f
+Mluví o něm například Starobylý drak** (DS2):
+
 **v orig. Ancient Dragon
-.)f
 
-.ll -0.5i
-.ip
-.ft I
+
+
+
+
 Další stojí před námi...
-.br
-Budiž.
-.br
-Neboť kletba život je kletbou chtíče
-.br
-A tak nahlížíte...
-.br
-Do mlhy, v naději dostat odpovědi.
-.ft R
-.ll +0.5i
 
-.pp
-Podobný sentiment vyjadřuje také \fISir Vilhelm\fR (DS3), ochránce Sestry Elfrídy.
+Budiž.
+
+Neboť kletba život je kletbou chtíče
+
+A tak nahlížíte...
+
+Do mlhy, v naději dostat odpovědi.
+
+
+
+
+Podobný sentiment vyjadřuje také Sir Vilhelm (DS3), ochránce Sestry Elfrídy.
 Podle něj si člověk chtíčem a zbytečnou honbou za tajemstvími, která se jej netýkají, přivodí jedině bolest a neštěstí:
 
-.ll -0.5i
-.ip
-.ft I
-Viděl jsem váš druh, znovu a znovu.
-.br
-Každý na útěku musí být chycen. Každé tajemství musí být odhaleno.
-.br
-Taková je ješitnost samozvaného hledače pravdy.
-.br
-Ale nakonec na to postrádáte žaludek.
-.br
-Na tu agónii, kterou si sami přivodíte...
-.ft R
-.ll +0.5i
 
-.pp
-Jediným pravým způsobem, jak zlomit starou kletbu, je udusit \fIPrvotní plamen\fR.
+
+
+Viděl jsem váš druh, znovu a znovu.
+
+Každý na útěku musí být chycen. Každé tajemství musí být odhaleno.
+
+Taková je ješitnost samozvaného hledače pravdy.
+
+Ale nakonec na to postrádáte žaludek.
+
+Na tu agónii, kterou si sami přivodíte...
+
+
+
+
+Jediným pravým způsobem, jak zlomit starou kletbu, je udusit Prvotní plamen.
 Tato možnost ovšem zůstává po velkou část příběhu skryta.
 Na rozdíl od lidí, bohové se neodpoutali od světla a závislosti na plameni,
 proto manipulují lidstvo k jeho uctívání a přiživování.
 Pokaždé, když je plamen znovu oživen, tak je však trochu slabší, než byl dříve.
 Samotnému světu je způsobována agónie a objevuje se hniloba, která přežívá.
 Zdá se, že světlo plamene člověka oslepuje a některé věci jsou mnohem jasnější ve tmě.
-.pp
+
 Z předcházejícího textu by již mělo být patrné, že z perspektivy člověka jsou role světla a temnoty oproti tradičním mytologiím poněkud převrácené.
 Asociace tmy a černé barvy s negativními koncepty je možné pozorovat například ve slovanské mytologii,
 kde Černoboh je explicitní personifikací všech špatných věcí.
-.pp
+
 Tato asociaci dost možná vychází ze strachu z neznáma.
 Ve tmě jsou naše pozorovací schopnosti silně omezené (naše vjemy záleží zejména na zraku),
 neznámo je nám tedy blíž než kdykoliv jindy,
 tudíž vzniká logická asociace temna a negativních konceptů.
 Ta je z části ovlivněna také kulturou místa (v některých kulturách je například se smrtí asociována také bílá barva),
-a vedomý autor s ní může pracovat jako s efektivním prostředkem manipulace \- vskutku,
-svět \fISoulsborne\fR může méně všímavé pozorovatele zmanipulovat k důvěře v \*qpropagandu bohů"
+a vedomý autor s ní může pracovat jako s efektivním prostředkem manipulace - vskutku,
+svět Soulsborne může méně všímavé pozorovatele zmanipulovat k důvěře v ,,propagandu bohů"
 a pravdivější perspektiva může být odhalena až po hlubším studiu.
-.pp
+
 S konceptem smrti se neoddělitelně pojí také koncept posmrtného života, resp. posmrtného světa.
 Ten se figuruje ve většině velkých mytologií, např. v podobě Nebe a Pekla v biblické; podsvětí v antické;
 Valhally, Folkvangru a Helu v severské.
-.pp
-Mytologie \fISoulsborne\fR se posmrtným životem ovšem moc nezabývá.
+
+Mytologie Soulsborne se posmrtným životem ovšem moc nezabývá.
 Neexistuje žádný posmrtný svět, kam by se odebraly duše zemřelých, a po tragicky dlouhých životech nemrtvých jejich existence končí,
 pokud se jim vůbec podaří smrti dosáhnout.
 Mnoho postav vnímá smrt jako dosažení svobody od existence, popř. její završení, nemá proto smysl se jakýmkoliv životem po smrti zaobírat.
 Z předešlého textu je již možná zřejmé, že duše v tomto univerzu je poněkud materiální a zůstává na pozemském světě i po smrti, její konkrétní
 podobě se ale budu věnovat až později.
-.pp
+
 To ovšem neznamená, že by, podobně jako v jiných mytologiích, neexistovaly alternativní světy.
-V \fISoulsborne\fR se s nimi setkáváme zejména v podobě snů (popř. nočních můr) a vzpomínek.
+V Soulsborne se s nimi setkáváme zejména v podobě snů (popř. nočních můr) a vzpomínek.
 Sny mocných bytostí fungují jako alternativní dimenze, které mají na své obyvatele stejný efekt jako reálný svět.
 Vzpomínky reprezentují cyklické dimenze, člověk sice může sám pro sebe ovlivnit jejich běh,
 ale když se do nich znovu vrátí, budou se dít od začátku tak, jak tomu doopravdy bylo.
-.pp
+
 V sérii Dark Souls se také setkáváme se světy v obrazech.
 Jsou to dimenze, které odpovídají tomu, co je na obraze namalováno, plátno obrazu slouží jako portál.
 Tyto obrazy byly namalované krví napouštěnou mocnými dušemi a slouží jako útočiště pro vyvrhely a utlačované.
 Podobně jako plátno, na kterém jsou namalované, však také podléhají zkáze, hnijí a plesniví, proto je potřeba eventuálně namalovat obraz nový.
-.pp
-Na konci všech věků postava známá pouze jako \*qMalířka" (DS3) maluje obraz s krví celé \fITemné duše\fR, nashromážděné po smrti všech lidí.
-Časoprostor je kvůli působení \fIPrvního plamene\fR porušen a pokroucen, ale tento moment značí konec vesmíru \fISoulsborne\fR.
+
+Na konci všech věků postava známá pouze jako ,,Malířka" (DS3) maluje obraz s krví celé Temné duše, nashromážděné po smrti všech lidí.
+Časoprostor je kvůli působení Prvního plamene porušen a pokroucen, ale tento moment značí konec vesmíru Soulsborne.
 Až malířka svůj obraz dokončí, má se stát novým světem,
-jejími slovy: \fIchladným, temným, a velmi přívětivým místem, který bude sloužit jako dobrý domov\fR\(dg.
-.(f
-\(dg \fI...I will assuredly finish the painting. Of a cold, dark, and very gentle place. One day, it will make\fR
-.)f
-.(f
-   \fIa goodly home.\fR
-.)f
-.pp
+jejími slovy: chladným, temným, a velmi přívětivým místem, který bude sloužit jako dobrý domov|.
+
+| ...I will assuredly finish the painting. Of a cold, dark, and very gentle place. One day, it will make
+
+
+   a goodly home.
+
+
 S konceptem, že jeden vesmír bude/byl následován dalším, se setkáváme i v mnoha tradičních mytologiích.
 Je to velmi typické pro kosmogonické mýty indiánských civilizací - např. Máiové, Hopiové, Navajo a Zuniové.
 První vesmír často bývá nepodařený, ten následující již má být lepší nebo slouží jako předstupeň k dalším, vyšším světům.
-.pp
+
 S motivem smrti i posmrtného života se významně pojí motiv duše.
-Ta má v mytologii \fISoulsborne\fR konkrétní, fyzickou formu.
+Ta má v mytologii Soulsborne konkrétní, fyzickou formu.
 Ve své základní podobě se jedná o jakýsi bílý plamen, který každá bytost uchovává ve svém nitru.
 Čím mocnější je bytost, od které duše pochází, tím větší a pokřivenější je tento plamen.
 Slabé bytosti mají duši skomírající, docela maličkou, kdežto velcí hrdinové mají velké, impozantní duše.
-.pp
+
 Duše lidí jsou bílé, s naznakem černé, kdežto duše bohů jsou zpravidla žluté, zářivější a mnohem větší než ty lidské.
 Život a osobnost bytosti má vliv na podobu duše. Magické duše mají modrou barvu, duše bytostí praktikujících temnou magii tmavě modré,
 duše potomků čarodějnice oranžové až rudé,
 a duše těch, kteří propadli temnotě, černé.
-.pp
+
 Duše není nositelem osobnosti a vědomí bytosti, ke které patří, ale spíš jejím otiskem, který vypovídá něco o jejím životě.
 Když duše vznikla, byla to jakási tabula rasa, zkušenosti a život bytosti, ke které se váže jí dává velikost a podobu.
 Není neoddělitelná, může existovat tělo bez duše, stejně jako duše bez těla (zpravidla když původní vlastník duše zemře).
 Mocné duše mohou být přeměneny na předměty, které reprezentují svojí bytosti, například meč, který v sobě skrývá sílu větru vytvořený z duše
-Krále Bouře.\(dd
-.(f
-\(dd v orig. King of the Storm
-.)f
-.pp
+Krále Bouře.||
+
+|| v orig. King of the Storm
+
+
 Duše a tělo sice nejsou nutně neoddělitelné, ale přesto mají na sebe významný vliv.
 Zdravé tělo je indikátorem zdravé duše a naopak.
 Nemrtví, kteří prodělali mnoho smrtí začínají ztrácet svou podobu.
 Sesychají, ztrácejí vlasy, jejich kůže tmavne a objevují se na ní vrásky.
 Oči tmavnou a ztrácí jiskru.
-Když je nemrtvý již dostatečně \*qprázdný" je z něj troska jak duševně, tak fyzicky.
-.pp
+Když je nemrtvý již dostatečně ,,prázdný" je z něj troska jak duševně, tak fyzicky.
+
 Tyto účinky duše na tělesnou schránku se projevují také opačně.
 Těla bytostí (i lidí) s mocnými dušemi dosahují impozantních velikostí.
 Jejich vzhled sice může být z různých důvodů pokřivený, fyzická síla jim ale nechybí.
 Když duše takové bytosti ztratí svojí sílu, nebo bytost svoji duši úplně ztratí, potom bytost okamžitě zeslábne.
-Toto například můžeme pozorovat u nemrtvého \fIŠampiona Gundyra\fR**, který byl dlouho neporazitelný,
-.(f
+Toto například můžeme pozorovat u nemrtvého Šampiona Gundyra**, který byl dlouho neporazitelný,
+
 ** v orig. Champion Gundyr, Iudex Gundyr
-.)f
+
 ale přišel pozdě ke splnění svých povinností.
 Jednoho dne byl poražen a přišel o svojí duši.
-Ujal se nové role a stal se mnohem slabším \fISoudcem Gundyrem\fR,
-který posuzoval, zda-li je daný nemrtvý připraven na strastiplnou pouť k \fIPrvotnímu plameni\fR.
-.pp
-Duše funguje v rámci světa \fISoulsborne\fR také jako komodita.
+Ujal se nové role a stal se mnohem slabším Soudcem Gundyrem,
+který posuzoval, zda-li je daný nemrtvý připraven na strastiplnou pouť k Prvotnímu plameni.
+
+Duše funguje v rámci světa Soulsborne také jako komodita.
 Gwyn a Čarodějnice z Izalithu zapůjčili část svojí zářivé duše malému počtu nejvěrnějších spojenců,
-část duše \fINita, Prvního z Mrtvých\fR* byla ukradena, když spal, a Furtive Pygmy se svojí duší hospodařil již od samého počátku.
+část duše Nita, Prvního z Mrtvých* byla ukradena, když spal, a Furtive Pygmy se svojí duší hospodařil již od samého počátku.
 V těžkých časech jsou duše také využívány jako univerzální měna.
-.(f
+
 * v orig. Nito, First of the Dead
-.)f
-.pp
+
+
 S konceptem využívání duše jako platidla se setkáváme v mnoha tradičních mytologiích.
 Velmi známým příkladem je nepochybně upsání duše Ďáblu v křesťanské mytologii.
-V \fISoulsborne\fR je však obchodování s dušemi rozvinuto do mnohem větších rozměrů.
+V Soulsborne je však obchodování s dušemi rozvinuto do mnohem větších rozměrů.
 Za duše si lze pořídit zbraně, výbavu, jídlo, nebo lze duše objetovat za získání vědomostí, přístup k magii nebo posílení fyzické formy.
-.pp
-Vzhledem k nátuře duše se ke konci \fIVěku bohů\fR objevují tací, kteří se snaží udusit \fIPrvotní plamen\fR a osvobodit se od duší od něj pocházejících.
+
+Vzhledem k nátuře duše se ke konci Věku bohů objevují tací, kteří se snaží udusit Prvotní plamen a osvobodit se od duší od něj pocházejících.
 Duše jsou pro ně zástupci parazitů až symbiontů.
 Zakrývají opravdovou podobu a omezují skutečný potenciál člověka.
-Tento sentiment vyjadřuje například Aldia, učenec \fIPrvního hříchu\fR\(dg (DS2):
+Tento sentiment vyjadřuje například Aldia, učenec Prvního hříchu| (DS2):
 
-.(f
-\(dg v orig. Aldia, Scholar of the First Sin
-.)f
-.ll -0.5i
-.ip
-.ft I
+
+| v orig. Aldia, Scholar of the First Sin
+
+
+
+
 Jednoho dne Pán Světla zahnal Temno, a vše co pocházelo z lidstva.
-.br
-A človek na sebe vzal pomíjivou podobu.
-.br
-To jsou kořeny našeho světa.
-.br
-Lidé jsou rekvizitami na jevišti života, a bez ohledu na to jak je nežná, jak znamenitá
-.br
-Lež zůstává lží!
-.ft R
-.ll +0.5i
 
-.pp
+A človek na sebe vzal pomíjivou podobu.
+
+To jsou kořeny našeho světa.
+
+Lidé jsou rekvizitami na jevišti života, a bez ohledu na to jak je nežná, jak znamenitá
+
+Lež zůstává lží!
+
+
+
+
 S tímto pohledem se v tradičních mytologiích moc nesetkáváme.
 I když se pojetí duše různých civilizací samozřejmě lišilo, většina jí považovala za neoddělitelnou a základní část člověka.
-.pp
+
 Z jistého pohledu se dá říct, že duše jsou živé bytosti, které spolu zápasí a pouze se přesouvají mezi hostitely.
-Pokaždé, když \fIVyvolený nemrtvý\fR navrátí duše ohni, přesunou se k novým bytostem.
+Pokaždé, když Vyvolený nemrtvý navrátí duše ohni, přesunou se k novým bytostem.
 Začíná zápas mezi zářivými dušemi bohů a temnou duší člověka.
-Na začátku byla \fITemná duše\fR sama a v nevýhodě jako ta nejmenší a nejslabší.
+Na začátku byla Temná duše sama a v nevýhodě jako ta nejmenší a nejslabší.
 Pygmy jí ale rozdělil mezi prázdné bytosti v naději, že fragmenty se zesílí a jednoho dne spojí opět dohromady, silnější než všechny ostatní duše.
 Jeho způsob byl kradmý, nepřímý, jak jeho jméno naznačuje.
-.pp
-Temné duši se na konci \fIVěku ohně\fR podařilo oheň udusit a absorbovat ostatní duše.
-Tím začal \fIVěk temna\fR nebo také \fIVěk lidí\fR.
+
+Temné duši se na konci Věku ohně podařilo oheň udusit a absorbovat ostatní duše.
+Tím začal Věk temna nebo také Věk lidí.
 Na rozdíl od například biblické mytologie není popisován odpor božstvu jako negativní.
 Je jednoznačně označen jako těžký a zdlouhavý úkol, který ovšem vede k jisté svobodě a realizaci opravdové podoby člověka.
-.pp
-Mytologie \fISoulsborne\fR se liší od tradičních mytologiích i v jiných ohledech než motivy a koncepty zde popsané.
-Jako důležité bych zmínil téma lidské snahy stát se nadčasovým drakem, motiv \fINicoty\fR a pošetilosti,
+
+Mytologie Soulsborne se liší od tradičních mytologiích i v jiných ohledech než motivy a koncepty zde popsané.
+Jako důležité bych zmínil téma lidské snahy stát se nadčasovým drakem, motiv Nicoty a pošetilosti,
 motiv dědictví, téma deprese a psychického tlaku, oddanosti účelu,
 nebo osobě, symboliku zvonu jako znamení změny/konce světa, měsíce, snu a mnohá další.
-.pp
+
 Toto odlišné pojetí můžeme najít v autorské mytologii z několika důvodů.
 Pro člověka, který žije mytologií, mýty tvoří svět a ne naopak.
 Svět, který mýty vytvoří musí ve všech viditelných aspektech odpovídat perspektivě člověka, který jej pozoruje.
@@ -522,209 +481,189 @@ Nejsme pokaždé oživeni za cenu části sebe sama.
 Když jsme slabí, nesesycháme a když jsme silní, nenarůstáme do nadživotní velikosti, alespoň ne fyzicky.
 Když se díváme na autorské mytologie, tak si uvědomujeme, že jsou autorské a jisté koncepty, které jsou sice v rámci fikčního světa zcela konkrétní,
 mají pro nás abstraktní, metaforický význam.
-.pp
+
 Autorské mytologie také nejsou zatíženy kolektivním podvědomím člověka,
 nevycházejí z potřeby vysvětlit přírodní jevy a nemusí se do nich promítat primitivní pudy.
 Původ tradiční mytologie je v jisté nevědomosti, ty autorské vycházejí z podvědomí, ať už o předchozích mytologiích, fungování světa,
 nebo nátury člověka.
-.pp
-Mytologie \fISoulsborne\fR staví mnoho konceptů tradičních mytologiích na hlavu.
+
+Mytologie Soulsborne staví mnoho konceptů tradičních mytologiích na hlavu.
 Ukazuje temný svět, kde smrt není konec, duše není abstraktní, bohové nejsou ani věční,
 ani důvěryhodní a plamen představuje pro člověka zlo a temnota jeho podstatu.
 Přesto ovšem nese několik důležitých poselství:
-\fIVyvolený nemrtvý\fR je prokletý jako každý jiný, co ho dělá vyvoleným je jen to, že se nevzdá ani tváří v tvář bezpočtu smrtí,
+Vyvolený nemrtvý je prokletý jako každý jiný, co ho dělá vyvoleným je jen to, že se nevzdá ani tváří v tvář bezpočtu smrtí,
 a každý, kdo setrvá dokáže porážet bohy.
 Některé věci jsou sice krásné, ale pomíjivé, a my je musíme nechat zmizet,
-tak jako měl \fIVěk ohně\fR zaniknout sám od sebe, místo toho, aby způsoboval agónii světa.
+tak jako měl Věk ohně zaniknout sám od sebe, místo toho, aby způsoboval agónii světa.
 Že člověk má vzít svůj osud do vlastních rukou nenechat se manipulovat konspirátory.
 Smysl života člověku není předurčen, každý si musí najít ten svůj vlastní, a pokud smysl ztratí, shnije a rozpadne se.
 A v neposlední řadě, že svět není černobílý, jak řekl Mučedník Logarius (BB):
 
-.ll -0.5i
-.ip
-.ft I
+
+
+
 Dobré skutky nejsou vždy moudré a špatné skutky nejsou vždy pošetilé, ale bez ohledu na to, vždy se musíme snažit být dobří.
-.ft R
-.ll +0.5i
 
-.pp
-Univerzum \fISoulsborne\fR je plné moudrých citátů a příběhů oplývajících hlubokým smyslem.
-Tato mytologie však není ješitná a nesnaží se vnutit svoje názory jako absolutní pravdu\
-\(emfakt, že nic není perfektní bez poskvrny je také součástí poselství\(em jak řekl dobrotivý slepý obr Gough (DS1):
 
-.ll -0.5i
-.ip
-.ft I
+
+
+Univerzum Soulsborne je plné moudrých citátů a příběhů oplývajících hlubokým smyslem.
+Tato mytologie však není ješitná a nesnaží se vnutit svoje názory jako absolutní pravdu
+--fakt, že nic není perfektní bez poskvrny je také součástí poselství-- jak řekl dobrotivý slepý obr Gough (DS1):
+
+
+
+
 Sbohem, člověče. Žij svůj život, jak uznáš za vhodné.
-.ft R
-.ll +0.5i
 
-.bp
-.TT "Zmíněné texty a dialogy v originále"
 
-\fISoulsborne\fR nemá oficiální překlad do češtiny, ze slovanských jazyků byla série přeložena pouze do polštiny a ruštiny.
+
+
+
+
+Soulsborne nemá oficiální překlad do češtiny, ze slovanských jazyků byla série přeložena pouze do polštiny a ruštiny.
 Všechny texty použité v předešlém textu jsou tedy mým vlastním, neoficiálním překladem. Tento překlad může jen těžko dosáhnout
 kvality původního textu, který využívá velmi květnatý jazyk s archaickými prvky a důrazem na fonetickou stránku slov.
 Zde jsou výňatky v originálním znění:
 
-\fBPopisek duše obra Yhorma\fR
-.ll -0.5i
-.ip
-.ft I
+Popisek duše obra Yhorma
+
+
+
 Soul of Yhorm the Giant.
-.br
+
 One of the twisted souls, steeped in strength.
-.br
-\&...
-.br
+
+...
+
 Yhorm is the descendant of an ancient conqueror,
 but was asked by the very people once subjugated to lead them,
 serving as both a weighty blade and a stone-hard shield.
-.ft R
-.ll +0.5i
 
-.nr pi 0
-.pp
-\fBZačátek úvodního vyprávění (kosmogonický mýtus)\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+
+Začátek úvodního vyprávění (kosmogonický mýtus)
+
+
+
 In the Age of Ancients the world was unformed, shrouded by fog.
-.br
+
 A land of gray crags, Archtrees and Everlasting Dragons.
-.br
+
 But then there was Fire and with fire came disparity.
-.br
+
 Heat and cold, life and death, and of course, light and dark.
-.br
+
 Then from the dark, They came, and found the Souls of Lords within the flame.
-.br
+
 Nito, the First of the Dead, The Witch of Izalith and her Daughters of Chaos,
-.br
+
 Gwyn, the Lord of Sunlight, and his faithful knights.
-.br
+
 And the Furtive Pygmy, so easily forgotten.
-.ft R
-.ll +0.5i
 
-.pp
-\fBÚvodní vyprávění (výňatek o prokletí nemrtvných)\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+Úvodní vyprávění (výňatek o prokletí nemrtvných)
+
+
+
 But soon the flames will fade and only Dark will remain.
-.br
+
 Even now there are only embers, and man sees not light, but only endless nights.
-.br
+
 And amongst the living are seen, carriers of the accursed Darksign.
-.br
+
 Yes, indeed. The Darksign brands the Undead.
-.ft R
-.ll +0.5i
 
-.pp
-\fBDialog Lucatiel z Mirrah\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+Dialog Lucatiel z Mirrah
+
+
+
 Loss frightens me no end. Loss of memory, loss of self.
-.br
-If I were told that by killing you, I would be freed of this curse…
-.br
-Then I would draw my sword without hesitation.
-.br
-I don't want to die, I want to exist.
-.br
-I would sacrifice anything, anything at all for this.
-.br
-It shames me, but it is the truth.
-.ft R
-.ll +0.5i
 
-.pp
-\fBDialog Starobylého Draka\fR
-.ll -0.5i
-.ip
-.ft I
+If I were told that by killing you, I would be freed of this curse…
+
+Then I would draw my sword without hesitation.
+
+I don't want to die, I want to exist.
+
+I would sacrifice anything, anything at all for this.
+
+It shames me, but it is the truth.
+
+
+
+
+Dialog Starobylého Draka
+
+
+
 Yet another stands before us…
-.br
+
 Then so be it.
 For the curse of life, is the curse of want.
-.br
+
 And so, you peer…
-.br
+
 Into the fog, in hope of answers.
-.ft R
-.ll +0.5i
 
-.pp
-\fBDialog Sira Vilhelma\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+Dialog Sira Vilhelma
+
+
+
 I've seen your kind, time and time again.
-.br
+
 Every fleeing man must be caught. Every secret must be unearthed.
-.br
+
 Such is the conceit of the self-proclaimed seeker of truth.
-.br
+
 But in the end, you lack the stomach.
-.br
+
 For the agony you'll bring upon yourself...
-.ft R
-.ll +0.5i
 
-.pp
-\fBDialog Aldii, učence Prvního hříchu\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+Dialog Aldii, učence Prvního hříchu
+
+
+
 Once, the Lord of Light banished Dark, and all that stemmed from humanity.
-.br
+
 And men assumed a fleeting form.
-.br
+
 These are the roots of our world.
-.br
+
 Men are props on the stage of life, and no matter how tender, how exquisite...
-.br
+
 A lie will remain a lie!
-.ft R
-.ll +0.5i
 
-.pp
-\fBCitát Mučedníka Logária\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+Citát Mučedníka Logária
+
+
+
 Acts of goodness are not always wise, and acts of evil are not always foolish,
-.br
+
 but regardless, we shall always strive to be good.
-.ft R
-.ll +0.5i
 
-.pp
-\fBRozloučení obra Gougha\fR
-.ll -0.5i
-.ip
-.ft I
+
+
+
+Rozloučení obra Gougha
+
+
+
 Farewell, human. Lead thy life as thou seest fit.
-.ft R
-.ll +0.5i
-
-.bp
-
-.de ref*biblio-start-hook
-.  $p Prameny
-.  lp
-..
-
-.R1
-bibliography refer
-.R2
-.de ref*biblio-start-hook
-.  $p Literatura
-.  lp
-..
-.R1
-bibliography dark_souls_literatura
-.R2

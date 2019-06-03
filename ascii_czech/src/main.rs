@@ -40,9 +40,9 @@ fn translate(c: char) {
 fn main() {
 	for arg in args().skip(1) {
 		match arg.as_ref() {
-			"-" => str::from_utf8(&stdin().bytes().map(|x| x.unwrap()).collect::<Vec<u8>>()).unwrap().chars().for_each(|c| translate(c)),
+			"-" => String::from_utf8_lossy(&stdin().bytes().map(|x| x.unwrap()).collect::<Vec<u8>>()).chars().for_each(|c| translate(c)),
 			x => if let Ok(f) = File::open(x) {
-				str::from_utf8(&f.bytes().map(|x| x.unwrap()).collect::<Vec<u8>>()).unwrap().chars().for_each(|c| translate(c))
+				String::from_utf8_lossy(&f.bytes().map(|x| x.unwrap()).collect::<Vec<u8>>()).chars().for_each(|c| translate(c))
 			}
 			else { eprintln!("failed to open file: {}", x) }
 		}
