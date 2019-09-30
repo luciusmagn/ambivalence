@@ -1,0 +1,21 @@
+## Začátek románu?
+
+"Dnes je první den, těšíš se?"
+"Ne, proč bych měl?"
+"Je to nová příležitost, uvidíme, jak se nám bude dařit tentokrát."
+"Nevím, nebude to zase to samé jako posledně?"
+"Nemyslím si, dnes mi to připadá jiné než kdykoliv předtím. Jiný začátek zpravidla znamená jiný průběh."
+"Ale i tak je spousta vzorců, které se neustále opakují, ne? Nenudí tě to už?"
+"Vždycky se něco zopakuje, ve své podstatě až zas tak originální nejsme, Nicméně, jde o kombinaci. A ta správná může vést k novým objevům."
+"Uvidíme. Kde začnem?"
+"Vzal bych to trochu z jiného konce než minule, chci získat novou perspektivu."
+"Jak to myslíš?"
+"To pochopíš, až na to dojde."
+"Jasné, tak tedy můžem?"
+"Řek bych, že ano"
+"Kde se setkáme?"
+"Tam jako obvykle, i když nám to možná chvilku potrvá, než se sejdem."
+"Pro mě je to docela štreka, ale to nevadí, já mám dobružství rád."
+"Fajn, tak tedy zdar a nashle"
+"Taky hodně štěstí přeju."
+Byla zima, padal sníh.

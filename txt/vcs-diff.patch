@@ -1,0 +1,42 @@
+diff --git a/verzovaci-systemy.md b/verzovaci-systemy.md.old
+index 6b2c35b..7dd38bf 100644
+--- a/verzovaci-systemy.md
++++ b/verzovaci-systemy.md.old
+@@ -2,26 +2,24 @@
+ 
+ Verzovací systémy slouží k organizaci sdílené práce na souborech. Tyto systémy se označují jako VCS *(Version Control System)*.
+ 
+-Před nástupem VCS se soubory sdílely různými způsoby, např. přenášením na fyzických médiích, či po síti. Nebylo ovšem spolehlivě zjistitelné, která verze souboru je aktuální/správná.
++Před nástupem VCS se soubory sdílely různýmy způsoby, např. přenášením na fyzických médiích, či po síti. Nebylo ovšem spolehlivě zjistitelné, která verze souboru je aktuální/správná.
+ 
+-Pokud se na úpravách jednoho souboru, například programu, chtělo podílet nekolik uživatelů, mohli mít všichni v jednu chvíli přístup k souboru na serveru. Ovšem pokud jeden soubor upravovali dva uživatelé naráz, změny uživatele, který soubor uložil zapsal jako poslední, přepsaly veškeré změny předchozího uživatele.
++Pokud se na úpravách jednoho souboru, například programu, chtělo podílet nekolik uživatelů, mohli mít všichni v jednu chvíli přístup k souboru na serveru. Ovšem pokud soubor upúravavovali dva uživatelé ve stejnou chvíli, změny posledního uživatele, který zapsal změny, přepsaly všechny uložené změny předchozího uživatele.
+ 
+ ## Centralizované systémy
+ 
+ Tyto systémy se vyznačují tím, že soubory jsou umístěny na jednom zařízení - serveru. K serveru se uživatelé připojují a pracují na něm vzdáleně.
+ 
+-### Zamykání souboru
++### Zamkání souboru
+ 
+-Pokud jeden uživatel otevře soubor pro editaci, ostatním uživatelům je umožněno soubor pouze číst. Tento systém zapříčiní vzniku konfliktu při slučování různých verzí.
++Pokud jeden uživatel otevře soubor pro editaci, ostatním užiavtelům je umožněno soubor pouze číst. Tento systém zapříčiní vzniku konfilktu při slučování různých verzí.
+ 
+-Nevýhodou je, že zápis může v jednu chvíli provádět pouze jeden uživatel. To nemusí být v produkci účinné.
++Nevýhodou je, že zápis může v jednu chvíli provádět pouze jeden uživatel. To memusí být v produkci účinné.
+ 
+ ## Distribuované systémy
+ 
+ U distribuovaných systémů jsou zdrojové soubory uloženy na zařízeních všech uživatelů, kteří se soubory pracují. Změny se poté synchronizují do společného repozitáře na serveru. Samotné úpravy souborů se provádějí na lokálním zařízení uživatele.
+ 
+-Distribuované systémy zpravidla nepotřebují zamykat soubory - umí automaticky slučovat většinu změn.
+-
+ ### CVS
+ 
+ *Concurrent Version System*, ve zkratce *CVS*, je jedním z prvních rozšířených distribuovaných systémů. Byl vyvíjen jako součástu projektu *GNU* a dodnes se v někteých projektech používá. Je to ovšem již archaický systém bez dalšího zásadního vývoje.
+@@ -34,4 +32,4 @@ Subversion, nebo-li *SVN*, je systém, který měl za cíl nahradit *CVS*.
+ 
+ ### Git
+ 
+-Verzovací systém, který byl napsán Linusem Torvaldsem, autorem kernelu *Linux*.
++verzovacíchutrem systému *Git* je Linus Torvalds, autor kernelu *Linux*.

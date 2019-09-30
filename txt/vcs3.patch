@@ -1,0 +1,35 @@
+--- verzovaci-systemy.md.old	2019-09-25 09:01:11.590278111 +0200
++++ verzovaci-systemy.md	2019-09-25 09:01:16.060278103 +0200
+@@ -10,18 +10,12 @@
+ 
+ Tyto systémy se vyznačují tím, že soubory jsou umístěny na jednom zařízení - serveru. K serveru se uživatelé připojují a pracují na něm vzdáleně.
+ 
+-### Zamykání souboru
++#### Zamykání souboru
+ 
+ Pokud jeden uživatel otevře soubor pro editaci, ostatním uživatelům je umožněno soubor pouze číst. Tento systém zapříčiní vzniku konfliktu při slučování různých verzí.
+ 
+ Nevýhodou je, že zápis může v jednu chvíli provádět pouze jeden uživatel. To nemusí být v produkci účinné.
+ 
+-## Distribuované systémy
+-
+-U distribuovaných systémů jsou zdrojové soubory uloženy na zařízeních všech uživatelů, kteří se soubory pracují. Změny se poté synchronizují do společného repozitáře na serveru. Samotné úpravy souborů se provádějí na lokálním zařízení uživatele.
+-
+-Distribuované systémy zpravidla nepotřebují zamykat soubory - umí automaticky slučovat většinu změn.
+-
+ ### CVS
+ 
+ *Concurrent Version System*, ve zkratce *CVS*, je jedním z prvních rozšířených centralizovaných systémů. Byl vyvíjen jako součástu projektu *GNU* a dodnes se v některých projektech používá. Je to ovšem již archaický systém bez dalšího zásadního vývoje.
+@@ -30,6 +24,12 @@
+ 
+ Subversion, nebo-li *SVN*, je systém, který měl za cíl nahradit *CVS* a opravit jeho nedostatky. Oproti CVS umí lépe řešit konflikty a manipulace se soubory, uchovávat v repozitářích i jiná data kromě textových souborů a větvit repozitář.
+ 
++## Distribuované systémy
++
++U distribuovaných systémů jsou zdrojové soubory uloženy na zařízeních všech uživatelů, kteří se soubory pracují. Změny se poté synchronizují do společného repozitáře na serveru. Samotné úpravy souborů se provádějí na lokálním zařízení uživatele.
++
++Distribuované systémy zpravidla nepotřebují zamykat soubory - umí automaticky slučovat většinu změn.
++
+ ### Mercurial
+ 
+ Mercurial, často zmiňovaný zkratkou `hg` je distribuovaný verzovací systém. Vznikl přibližně ve stejné době jako git, liší se jednak tím, že je monolitický (git je spousta malých programů dle Unixové filozofie, Mercurial je jedna binárka) a orientací na přátelskost použití.

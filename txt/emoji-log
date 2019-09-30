@@ -1,0 +1,471 @@
+pm ERR! 404
+npm ERR! 404  'create-emoji@latest' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-09-11T09_47_20_544Z-debug.log
+Instalace [ 'create-emoji@latest' ] selhala s kódem 1
+root in ~ took 2s # npm init facebook-chat-api
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/create-facebook-chat-api - Not found
+npm ERR! 404
+npm ERR! 404  'create-facebook-chat-api@latest' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-09-11T09_47_43_138Z-debug.log
+Instalace [ 'create-facebook-chat-api@latest' ] selhala s kódem 1
+root in ~ took 2s # npm install facebook-chat-api
+npm WARN saveError ENOENT: no such file or directory, open '/root/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/root/package.json'
+npm WARN root No description
+npm WARN root No repository field.
+npm WARN root No README data
+npm WARN root No license field.
+
++ facebook-chat-api@1.6.1
+added 91 packages from 73 contributors and audited 127 packages in 23.403s
+found 0 vulnerabilities
+
+root in ~ took 23s # ls
+ambivalence/  dwm/    GPUCache/  lol            music@         old_scrot/         pdf@         public.key  reremote/  shapeme/        txt@  2019-09-09-223726_467x1094_scrot.png  2019-09-10-125149_791x880_scrot.png
+desktop/      emoji/  img/       magnusi.tech/  node_modules/  package-lock.json  private.key  remedias/   rwm/       trackpoint.sh*  1     2019-09-10-123353_530x228_scrot.png   2019-09-10-144012_938x591_scrot.png
+root in ~ # rm -rf node_modules/ package-lock.json package-lock.json
+root in ~ # cd emoji/
+root in ~/emoji # rm -rf node_modules/ package-lock.json package-lock.json
+root in ~/emoji # npm install facebook-chat-api
+npm WARN saveError ENOENT: no such file or directory, open '/root/emoji/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/root/emoji/package.json'
+npm WARN emoji No description
+npm WARN emoji No repository field.
+npm WARN emoji No README data
+npm WARN emoji No license field.
+
++ facebook-chat-api@1.6.1
+added 91 packages from 73 contributors and audited 127 packages in 2.593s
+found 0 vulnerabilities
+
+root in ~/emoji took 2s # ls
+node_modules/  package-lock.json
+root in ~/emoji # node
+Welcome to Node.js v12.10.0.
+Type ".help" for more information.
+> const login = require("facebook-chat-api");
+undefined
+> var api; login({email: "luk.hozda@gmail.com", password: "5qdejxit"}, (err, a) => { if(err) return console.error(err); api = api; }
+... ;
+Thrown:
+var api; login({email: "luk.hozda@gmail.com", password: "5qdejxit"}, (err, a) => { if(err) return console.error(err); api = api; }
+                                                                                                                                 ^
+
+SyntaxError: missing ) after argument list
+> var api; login({email: "luk.hozda@gmail.com", password: "5qdejxit"}, (err, a) => { if(err) return console.error(err); api = api; });
+undefined
+> info login Logging in...
+info login Logged in
+info login Request to reconnect
+info login Request to pull 1
+info login Request to pull 2
+info login Request to thread_sync
+info login Done logging in.
+
+> var list; api.getThreadList(10, null, [], (err, l) => { list = l; });
+Thrown:
+TypeError: Cannot read property 'getThreadList' of undefined
+> var api; login({email: "luk.hozda@gmail.com", password: "5qdejxit"}, (err, a) => { if(err) return console.error(err); api = a; });
+undefined
+> info login Logging in...
+info login Logged in
+info login Request to reconnect
+info login Request to pull 1
+info login Request to pull 2
+info login Request to thread_sync
+info login Done logging in.
+
+> var list; api.getThreadList(10, null, [], (err, l) => { list = l; });
+undefined
+> console.log(list)
+[
+  {
+    threadID: '1984202924926726',
+    name: "celibátn'tn'tn't",
+    unreadCount: 0,
+    messageCount: 12613,
+    imageSrc: 'https://scontent-prg1-1.xx.fbcdn.net/v/t1.15752-9/67670497_456166748497311_1942820360332247040_n.png?_nc_cat=106&_nc_oc=AQmvIsiN69jG8zjM1Aofvzhnke8LWPctlcAQzLj5nC9GmomsIOG6AS23I0IAFV63SiQ&_nc_ht=scontent-prg1-1.xx&oh=22e86db105b5d7c2ef28ce5b5f30c470&oe=5E0A7D60',
+    emoji: '👀',
+    color: 'FFC300',
+    nicknames: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    muteUntil: null,
+    participants: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    adminIDs: [ '100000465788191', '100014039566730', '100021633636362' ],
+    folder: 'INBOX',
+    isGroup: true,
+    customizationEnabled: true,
+    participantAddMode: 'ADD',
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568194925694',
+    snippet: 'Béďa posílá fotku.',
+    snippetAttachments: null,
+    snippetSender: '100014956452578',
+    lastMessageTimestamp: '1568194925694',
+    lastReadTimestamp: '1568194925694',
+    cannotReplyReason: null,
+    participantIDs: [
+      '100000465788191', '100001385043546',
+      '100002063656655', '100002520744167',
+      '100003359790035', '100004695644424',
+      '100004712220893', '100005055942245',
+      '100008390112816', '100009901153254',
+      '100009977648515', '100010289677932',
+      '100010608221886', '100013858967904',
+      '100014039566730', '100014367677087',
+      '100014547938522', '100014956452578',
+      '100015288880947', '100015806772855',
+      '100016689301324', '100021633636362',
+      '100021948941018', '100023936388855',
+      '100031078473513'
+    ],
+    threadType: 2
+  },
+  {
+    threadID: '1713381948739449',
+    name: 'Svaz Česko-Sovětských Socialistických Republik',
+    unreadCount: 0,
+    messageCount: 1171,
+    imageSrc: null,
+    emoji: '🇷🇺',
+    color: 'F01D6A',
+    nicknames: [ [Object], [Object], [Object] ],
+    muteUntil: null,
+    participants: [ [Object], [Object], [Object] ],
+    adminIDs: [ '100001026211669', '100002335735033', '100004695644424' ],
+    folder: 'INBOX',
+    isGroup: true,
+    customizationEnabled: true,
+    participantAddMode: 'ADD',
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568192706805',
+    snippet: 'Chjó lol',
+    snippetAttachments: null,
+    snippetSender: '100004695644424',
+    lastMessageTimestamp: '1568192706805',
+    lastReadTimestamp: '1568192706805',
+    cannotReplyReason: null,
+    participantIDs: [ '100001026211669', '100002335735033', '100004695644424' ],
+    threadType: 2
+  },
+  {
+    threadID: '100018086858003',
+    name: 'Alma Fialová',
+    unreadCount: 0,
+    messageCount: 434,
+    imageSrc: null,
+    emoji: null,
+    color: '67B868',
+    nicknames: [ [Object], [Object] ],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568189872857',
+    snippet: 'Jj 😂😂',
+    snippetAttachments: null,
+    snippetSender: '100004695644424',
+    lastMessageTimestamp: '1568189872857',
+    lastReadTimestamp: '1568189872857',
+    cannotReplyReason: null,
+    participantIDs: [ '100018086858003', '100004695644424' ],
+    threadType: 1
+  },
+  {
+    threadID: '100012131406713',
+    name: 'Terka Benešová',
+    unreadCount: 0,
+    messageCount: 3932,
+    imageSrc: null,
+    emoji: '🍌',
+    color: 'FFC300',
+    nicknames: [],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: 'message_thread:295080407573004',
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568182812629',
+    snippet: 'Btw Gregorová se nezdá 😂 Přijela do školy na motorce, a pak běžela jak Usain Bolt aby nás stihla, než zavřem dveře 😂😂😂',
+    snippetAttachments: null,
+    snippetSender: '100004695644424',
+    lastMessageTimestamp: '1568182812629',
+    lastReadTimestamp: '1568182812629',
+    cannotReplyReason: null,
+    participantIDs: [ '100012131406713', '100004695644424' ],
+    threadType: 1
+  },
+  {
+    threadID: '1564372384',
+    name: 'Katerina Radmilovic',
+    unreadCount: 0,
+    messageCount: 3,
+    imageSrc: null,
+    emoji: null,
+    color: null,
+    nicknames: [],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568121747171',
+    snippet: 'Děkujeme moc :) Taky pozdravuj😉',
+    snippetAttachments: null,
+    snippetSender: '1564372384',
+    lastMessageTimestamp: '1568121747171',
+    lastReadTimestamp: '1568121747171',
+    cannotReplyReason: null,
+    participantIDs: [ '1564372384', '100004695644424' ],
+    threadType: 1
+  },
+  {
+    threadID: '100001385043546',
+    name: 'Nella Filípková',
+    unreadCount: 0,
+    messageCount: 26,
+    imageSrc: null,
+    emoji: null,
+    color: null,
+    nicknames: [],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568115628540',
+    snippet: 'Díky moc Lukáši! 🌻',
+    snippetAttachments: null,
+    snippetSender: '100001385043546',
+    lastMessageTimestamp: '1568115628540',
+    lastReadTimestamp: '1568115628540',
+    cannotReplyReason: null,
+    participantIDs: [ '100001385043546', '100004695644424' ],
+    threadType: 1
+  },
+  {
+    threadID: '100010567950537',
+    name: 'David Schwam',
+    unreadCount: 0,
+    messageCount: 4592,
+    imageSrc: null,
+    emoji: '👌',
+    color: 'F01D6A',
+    nicknames: [ [Object], [Object] ],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568112113173',
+    snippet: 'jasný',
+    snippetAttachments: null,
+    snippetSender: '100004695644424',
+    lastMessageTimestamp: '1568112113173',
+    lastReadTimestamp: '1568112113173',
+    cannotReplyReason: null,
+    participantIDs: [ '100010567950537', '100004695644424' ],
+    threadType: 1
+  },
+  {
+    threadID: '100001263139640',
+    name: 'Anet Havlová',
+    unreadCount: 1,
+    messageCount: 18,
+    imageSrc: null,
+    emoji: null,
+    color: null,
+    nicknames: [],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: 'message_thread:1443896235662467',
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568108074367',
+    snippet: 'Tak super 😂 Venca s Tomášem se k nám určitě rádi přidají 😂😂 jo tak to chci vidět jak si na tomhle pochutnáš 😂😂',
+    snippetAttachments: null,
+    snippetSender: '100001263139640',
+    lastMessageTimestamp: '1568108074367',
+    lastReadTimestamp: '1568066553702',
+    cannotReplyReason: null,
+    participantIDs: [ '100001263139640', '100004695644424' ],
+    threadType: 1
+  },
+  {
+    threadID: '1727242893974884',
+    name: 'Pilučův suicide skvot',
+    unreadCount: 0,
+    messageCount: 1103,
+    imageSrc: 'https://scontent-prg1-1.xx.fbcdn.net/v/t1.15752-9/62260989_654221985001884_4381166422047326208_n.jpg?_nc_cat=109&_nc_oc=AQnsZj3allhRhMN7RUT90yif8i4TpqfrYKGivMmrxQ6TNh4-HCC7cSy-eC21MGimAHc&_nc_ht=scontent-prg1-1.xx&oh=2ad6f73949cef2f7660492df6ea15d3c&oe=5DF68DF7',
+    emoji: null,
+    color: null,
+    nicknames: [ [Object], [Object] ],
+    muteUntil: null,
+    participants: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    adminIDs: [
+      '100000045884489', '100000284887203',
+      '100000465788191', '100000611311747',
+      '100002330130281', '100002384668513',
+      '100002520744167', '100002645900400',
+      '100003221015487', '100003349218967',
+      '100004695644424', '100004712220893',
+      '100005055942245', '100007998223440',
+      '100010290700602', '100010608221886',
+      '100012773201245', '100013858967904'
+    ],
+    folder: 'INBOX',
+    isGroup: true,
+    customizationEnabled: true,
+    participantAddMode: 'ADD',
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568099425229',
+    snippet: 'Sofie posílá fotku.',
+    snippetAttachments: null,
+    snippetSender: '100005055942245',
+    lastMessageTimestamp: '1568099425229',
+    lastReadTimestamp: '1568099425229',
+    cannotReplyReason: null,
+    participantIDs: [
+      '100000045884489', '100000284887203',
+      '100000465788191', '100000611311747',
+      '100002330130281', '100002384668513',
+      '100002520744167', '100002645900400',
+      '100003221015487', '100003349218967',
+      '100004695644424', '100004712220893',
+      '100005055942245', '100007998223440',
+      '100009977648515', '100010290700602',
+      '100010608221886', '100012773201245',
+      '100013858967904', '100031078473513'
+    ],
+    threadType: 2
+  },
+  {
+    threadID: '100004765290527',
+    name: 'Čiki Boj',
+    unreadCount: 0,
+    messageCount: 2120,
+    imageSrc: null,
+    emoji: null,
+    color: null,
+    nicknames: [],
+    muteUntil: null,
+    participants: [ [Object], [Object] ],
+    adminIDs: [],
+    folder: 'INBOX',
+    isGroup: false,
+    customizationEnabled: true,
+    participantAddMode: null,
+    montageThread: null,
+    reactionsMuteMode: 'REACTIONS_NOT_MUTED',
+    mentionsMuteMode: 'MENTIONS_NOT_MUTED',
+    isArchived: false,
+    isSubscribed: true,
+    timestamp: '1568042090613',
+    snippet: 'Čiki: 󰀀',
+    snippetAttachments: null,
+    snippetSender: '100004765290527',
+    lastMessageTimestamp: '1568042090613',
+    lastReadTimestamp: '1568042090613',
+    cannotReplyReason: null,
+    participantIDs: [ '100004765290527', '100004695644424' ],
+    threadType: 1
+  }
+]
+undefined
+> api.changeThreadEmoji("🤖", "100018086858003", (_) => {});
+undefined
+>
+

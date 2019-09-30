@@ -1,0 +1,37 @@
+Pár instrukcí/informací k počítači:
+- změněné přihlašovací údaje: root:1234
+- window manager: DWM
+- otevření terminálu: Shift+Alt+Enter nebo kliknutí kolečkem na hodiny
+- zavření okna: Shift+Alt+C
+- přepínání virtuálních ploch: Alt+1..6
+- více instrukcí v conky na ploše
+- na správu souborů terminál - nemám file manager
+- kopírování do/z terminálu s Ctrl+Shift+C, Ctrl+Shift+V/Middle Click
+- jak terminál, tak editor mají defaultně relativně malé písmo, ale podporují Ctrl+/-
+- pozor, mám českou QWERTZ -> setxkbmap pro změnu
+- v terminálu jsou dostupné editory nano, vim a amp
+
+Ke kódu:
+- cargo run --release spustí projekt
+- parametry na příkazovou řádku ve formátu cargo run --release -- [parametry]
+- seznam použitých knihoven:
+  - Rust má minimální standardní knihovnu, takže se používají posvěcené knihovny 3. stran
+  1. serde + serde_json:  parsování/serializování JSONu
+  2. chrono:              čas
+  3. rand:                náhodná čísla
+  4. yansi:               vypisování do terminálu
+  5. promptly:            čtení z terminálu
+  6. rayon:               paralelní iterátory
+  7. itertools:           rozšířené iterátory
+  8. rocket věci:         HTTP
+  9. lazy_static:         makro pro lazy globální proměnné (protože Rust nemá life before main())
+- electronový frontend je ve složce electron
+- frontend prakticky nefunguje, potopila mě rekompilace Electronu a Core-JS a střevní problémy :D
+- backend běží na localhost:8000, electronové okno na Alt+6 a v prohlížeči
+
+V případě, že se počítač zasekne:
+- restartovat
+- přihlásit do TTY
+- xinit
+- Sublime Text 3 by se měl spustit sám na třetí ploše (Alt+3)
+- kód se nachází v ~/soutez_prg

@@ -1,0 +1,56 @@
+rand is no longer needed
+remove unused dependencies
+dead code elimination
+last batch of idiomatic fixes
+simplify and improve git_diff
+remove anomie submodule
+reformatting
+remove unused extern crates
+rejwt update
+minor doc
+fixes
+rename
+no longer rename relog
+macro
+convert to Rust 2018
+in preparation to update to Rust 2018
+dependency update
+automatically fix lints
+we need to include macros in testing environments
+minor fix
+clippy lints
+update dependencies
+minor fix
+encode permissions into auth tokens -> deserialization is now also authorization
+another update
+update dependencies and minor formatting
+further cleanup
+no more ipc-rs in main repos
+minor
+minor fix
+finalize migration to ipc-channel
+ipc pt.3 final type conversions
+ipc pt.2 Json<Option<Uuid>> -> Option<InputUuid>
+ipc_channel preparation work
+minor fixes and boilerplate to allow for switch to ipc_channel
+minor warning fix
+minor dep version updates, fix some warning
+\ type information is now encoded in Response type, which is now a struct wrapping ResponseVariants, minor bugs fixed
+minor
+
+
+- přesun od ipc-rs k mozillovskému ipc-channel
+- konverze na vlastní typy pro vstup
+- informace o faktickém typu, který endpoint vrací jsou nyní zakódované do Response
+- informace o primárním oprávnění potřebném pro určitou akci jsou nyní zakódovány u AuthTokenu
+- v případech, kdy je to možné, dochází k autentifikaci už při parsování AuthTokenu
+- pomocí několika maker zredukován kód o ~13%
+- makra jsou nyní izolována ve vlastní knihovně z důvodu usnadnění hierarchie projektu
+- celý projekt přemigrován na Rust 2018 z Rustu 2015
+- smazán ukázkový program u rejwt, protože není potřeba
+- zredukovány, pročištěny a aktualizovány závislosti
+- smazán mrtvý kód
+- celý projekt zformátován a nastaveny formátovací pravidla
+- vyřešena všechna varování a linty
+- smazán submodul Anomie (nefunguje a je dávno nekompatibilní)
+- další drobné opravy/úpravy

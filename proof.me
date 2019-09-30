@@ -90,7 +90,7 @@ aaaaaaaa.bbbbbbbb.000\fB1\fR00\fB11.11111111\fR -> M.M.19.255
 .br
 aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.0000\fB0000\fR -> M.M.20.0
 .br
-                       ^ 11. bit (9b + 2b, viz opakování)
+                       ^ 11. bit (9b + 2b)
 .br
 aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.0000\fB1111\fR -> M.M.20.15
 .ip \fB/30\f[]
@@ -98,11 +98,25 @@ aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.0000\fB1111\fR -> M.M.20.15
 .br
 aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB00\fR -> M.M.20.16
 .br
-                              ^ 11. bit (4b + 1b)
+                              ^ 5. bit (4b + 1b)
 .br
 aaaaaaaa.bbbbbbbb.000\fB1\fR0\fB10\fR0.000\fB1\fR00\fB11\fR -> M.M.20.19
 .fam T
 .bp
+.pp
+Takové otáčení bitů je ekvivalentní přičítání jedničky k pevným bitům v adrese, například:
+.EQ
+0000 -> 0001 ^^^^ (0 + 1 = 1)
+.EN
+.EQ
+0001 -> 0010 ^^^^ (1 + 1 = 2)
+.EN
+.EQ
+0010 -> 0011 ^^^^ (2 + 1 = 3)
+.EN
+.EQ
+0011 -> 0100 ^^^^ (3 + 1 = 4)
+.EN
 .pp
 O IP adrese se dá uvažovat jako o 32-bitovém číslu bez znaménka, rozdělení na oktety má vliv pouze na zápis.
 První oktet (zprava) se dá spočítat jako
@@ -123,7 +137,7 @@ o3
 define o4 'o sub 4 = {a - [a " mod " (2 sup 8 ) sup 3 ]} over {( 2 sup 8 ) sup 3}'
 o4
 .EN
-Demonstrace:
+Například:
 .EQ
 88.103.9.4 == 01011000.01100111.00001001.00000110 == 1483147524
 .EN
@@ -139,22 +153,22 @@ o sub 3 = {[1483147524 " mod " (2 sup 8 ) sup 3 ] - [1483147524 " mod " (2 sup 8
 .EQ
 o sub 4 = {1483147524 - [1483147524 " mod " (2 sup 8 ) sup 3 ]} over {( 2 sup 8 ) sup 3} = {1483147524 - 6752516} over {16777216} = 88
 .EN
-IP adresu lze vyjádřit takto:
+Dalo by se říci, že IP adresa je vlastně čtyřciferné číslo v 256-kové soustavě.
+.pp
+IP adresu lze obecně vyjádřit takto:
 .EQ
-a = k + (s sub p - k) + x
+a = s sub p + x
 .EN
 Kde:
-.EQ I
-k ............ vymaskované ^ bity
-.EN
 .EQ I
 s sub p ........... počátek ^ segmentu
 .EN
 .EQ I
 x ............ hodnota ^ v ^ rámci ^ segmentu, ^ x \[mo] ^ [ 0, 2 sup n )
 .EN
-Postupné otáčení bitů odpovídá přičítání $2 sup { n sub pred + 1 }$
-Počátek a konec segmentu lze tedy vyjádřit takto:
+Postupné otáčení bitů odpovídá přičítání $2 sup { n sub pred + 1 }$ (stále se jedná o \[Bq]přičítání jedničky\[lq], ale posunuté o $n sub pred$ bitů).
+.pp
+Počátek a konec segmentu lze vyjádřit takto:
 .EQ
 define sp1 's sub p sub 1 = k'
 sp1
@@ -164,20 +178,20 @@ define sk1 's sub k sub 1 = k + (2 sup n - 1)'
 sk1
 .EN
 .EQ
-define sp 's sub p = k + z + 2 sup { n sub pred + 1 }'
+define sp 's sub p = k + z + 2 sup { n sub pred }'
 sp
 .EN
 .EQ
-define sk 's sub k = k + z + 2 sup { n sub pred + 1 } + (2 sup n - 1)'
+define sk 's sub k = k + z + 2 sup { n sub pred } + (2 sup n - 1)'
 sk
 .EN
-Kde $z$ jsou předem obrácené "pevné" bity z minulých segmentů. Odečtení $z - z " mod " 2 sup {n + m}$ značí vynulování z postupu.
+Kde $z$ jsou předem obrácené \[Bq]pevné\[lq] bity z minulých segmentů. Odečtení $z - z " mod " 2 sup {n + m}$ značí vynulování z postupu.
 U prvního segmentu je $z$ nula, proto je z rovnice vynecháno
 .pp
 Od $n sub pred$ odečítáme jedna, protože první bit značí $2 sup 0$.
 Ověření pro 192.168.0.0/16 s /24 a /24:
 .EQ
-"\fB 1. /24"
+"\fB 1. /24\fR"
 .EN
 .EQ I
 k = 3232235520
@@ -189,13 +203,10 @@ z = 0
 n = 32 - 24 = 8
 .EN
 .EQ I
-n sub pred = 0 "     (jedná se o první segment)"
-.EN
-.EQ I
-m = 0 "     (jedná se o první segment)" =>  m sub min = 0
+n sub pred = nedefinováno "     (jedná se o první segment)"
 .EN
 .EQ
-"\fB 2. /24"
+"\fB 2. /24\fR"
 .EN
 .EQ I
 k = 3232235520
@@ -208,9 +219,6 @@ n = 32 - 24 = 8
 .EN
 .EQ I
 n sub pred = 8
-.EN
-.EQ I
-m = 1  =>  m sub min = 1
 .EN
 .np
 Počátek a konec prvního segmentu (/24):
@@ -243,21 +251,21 @@ Konverze konce segmentu do oktetového formátu (u počátku to není potřeba, 
 s sub k = a
 .EN
 .EQ
-s sub k sub 1 = o1 = 3232235775 " mod " 256 = "\fB255"
+s sub k sub 1 = o1 = 3232235775 " mod " 256 = "\fB255\fR"
 .EN
 .EQ
-s sub k sub 1 = o2 = { 255 - 255 } over 256 = 0 over 256 = "\fB0"
+s sub k sub 1 = o2 = { 255 - 255 } over 256 = 0 over 256 = "\fB0\fR"
 .EN
 .EQ
-s sub k sub 2 = o3 = { 11010303 - 255 } over 65536 = 11010048 over 65536 = "\fB168"
+s sub k sub 2 = o3 = { 11010303 - 255 } over 65536 = 11010048 over 65536 = "\fB168\fR"
 .EN
 .EQ
-s sub k sub 3 = o4 = { 3232235775 - (3232235775 " mod " 16777216) } over 16777216 = 3221225472 over 16777216 = "\fB192"
+s sub k sub 3 = o4 = { 3232235775 - (3232235775 " mod " 16777216) } over 16777216 = 3221225472 over 16777216 = "\fB192\fR"
 .EN
 .np
 Počátek a konec druhého segmentu:
 .EQ
-sp = 3232235520 + (0 - 0) + 2 sup { 8-1+1 } = 3232235520 + 256 =
+sp = 3232235520 + 0 + 2 sup { 8 } = 3232235520 + 256 =
 .EN
 .EQ
 = 3232235776
@@ -271,10 +279,10 @@ sk = s sub p + (2 sup n - 1) = 3232235776 + 2 sup 8 - 1 =
 .np
 Konverze do oktetového formátu:
 .EQ
-3232235776 == 192.168.1.0
+3232235776 -> 192.168.1.0
 .EN
 .EQ
-3232236031 == 192.168.1.255
+3232236031 -> 192.168.1.255
 .EN
 .pp
 Ověření Martinovy hypotézy:
@@ -287,9 +295,6 @@ z = 0
 n sub 1 = n
 .EN
 .EQ I
-m sub 2 = 1
-.EN
-.EQ I
 n sub 2 " .............. není potřebné, pokud je platí, že " n sub 1 > n sub 2
 .EN
 .EQ I
@@ -297,7 +302,7 @@ n sub pred = n
 .EN
 Úkolem je ověřit, že:
 .EQ
-s sub p sub 2 == s sub k sub 1 + 1
+s sub p sub 2 = s sub k sub 1 + 1
 .EN
 Obecně:
 .EQ
@@ -305,27 +310,23 @@ define v1_1 'k + 2 sup n sub 1 - 1'
 sk1 => s sub k sub 1 = v1_1
 .EN
 .EQ
-define v1_2 'k + (0 - 0) + 2 sup { n sub pred -1+m sub 2 }'
-sp => s sub p sub 2 = v1_2
+define v1_2 'k + 2 sup { n sub 1 }'
+sp => s sub p sub 2 = k + 0 + 2 sup { n sub pred } = v1_2
 .EN
-.bp
 Úprava:
 .EQ
 v1_2 = v1_1 + 1
 .EN
 .EQ
-k + 2 sup { n sub pred -1+m sub 2 } = k + 2 sup n sub 1
+k + 2 sup { n sub 1 } = k + 2 sup n sub 1
 .EN
 .EQ
-2 sup { n sub pred -1+m sub 2 } = 2 sup n sub 1
+2 sup { n sub 1 } = 2 sup n sub 1
 .EN
 .EQ
-2 sup { n - 1 + 1 } = 2 sup n
+0 = 0
 .EN
 .EQ
-2 sup n = 2 sup n
-.EN
-.EQm = sum from {i = 1} to k { 2 sup {m sub i} }; m sub 1 < m sub 2 < ... < m sub km = sum from {i = 1} to k { 2 sup {m sub i} }; m sub 1 < m sub 2 < ... < m sub km = sum from {i = 1} to k { 2 sup {m sub i} }; m sub 1 < m sub 2 < ... < m sub km = sum from {i = 1} to k { 2 sup {m sub i} }; m sub 1 < m sub 2 < ... < m sub k
 "\f(BIL" = P
 .EN
 .np
@@ -334,7 +335,7 @@ Pro dva segmenty, přičemž ten "první" není první:
 z sub 1 = z
 .EN
 .EQ I
-z sub 2 = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min}
+z sub 2 = z  + 2 sup {n sub pred sub 1}
 .EN
 .EQ I
 n sub 1 = n
@@ -342,61 +343,28 @@ n sub 1 = n
 .EQ I
 n sub pred sub 2 = n
 .EN
-Obecně:
+To znamená:
 .EQ
-sk
+sp -> s sub p sub 2 = k + z + 2 sup {n sub pred sub 1} + 2 sup { n sub 1 }
 .EN
 .EQ
-sp
+sk -> s sub k sub 1 = k + z + 2 sup {n sub pred sub 1} + (2 sup { n sub 1 } - 1)
 .EN
-$k$ můžeme vyloučit, protože je na obou stranách rovnice stejné:
+Ověření:
 .EQ
-L = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min} + (2 sup n - 1) + 1
-.EN
-.EQ
-L = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min} + 2 sup n
+s sub p sub 2 = s sub k sub 1 + 1
 .EN
 .EQ
-R = (z - z " mod " 2 sup {n sub pred - 1 + m sub min}) + 2 sup {n sub pred - 1 + m sub min}
-.EN
-Po "dosazení":
-.EQ
-L = z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup n sub 1
+k + z + 2 sup {n sub pred sub 1} + 2 sup { n sub 1 } = k + z + 2 sup {n sub pred sub 1} + (2 sup { n sub 1 } - 1) + 1
 .EN
 .EQ
-R = (z sub 2 - z sub 2 " mod " 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}) + 2 sup {n sub pred sub 2 - 1 + m sub min sub 2}
-.EN
-$n sub pred sub 2$ nahradíme za $ n sub 1$:
-.EQ
-R = z sub 2 - z sub 2 " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
-.EN
-Dále nahradíme $z sub 2$ za celý "zetkový" výraz z první rovnice:
-.EQ
-R = z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} +
+2 sup { n sub 1 } = (2 sup { n sub 1 } - 1) + 1
 .EN
 .EQ
-+ ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
-.EN
-.bp
-Některých členů se lze jednoduše zbavit:
-.EQ
-L = 2 sup n sub 1
+2 sup { n sub 1 } = 2 sup { n sub 1 }
 .EN
 .EQ
-R = 2 sup {n sub 1 - 1 + m sub min sub 2} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2}
+"\f(BIL" = P
 .EN
-.EQ
-R = 2 sup {n sub 1 - 1 + m sub min sub 2} + 2 sup {n sub 1 - 1 + m sub min sub 2} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2}
-.EN
-.EQ
-R = 2 sup {n sub 1 + m sub min sub 2} - (z sub 1 - z sub 1 " mod " 2 sup {n sub pred sub 1 - 1 + m sub min sub 1} + ^ 2 sup {n sub pred sub 1 - 1 + m sub min sub 1}) " mod " 2 sup {n sub 1 - 1 + m sub min sub 2}
-.EN
-.EQ
-n = sum from {i = 0} to { \[lf] log sub r n \[rf] } n sub i " \[pc] " r sup i
-.EN
-.EQ
-571 = sum from {i = 0} to { \[lf] log sub 10 571 \[rf] } n sub i " \[pc] " 10 sup i = sum from {i = 0} to { 2 } n sub i " \[pc] " 10 sup i = 1 " \[pc] " 10 sup 0 + 7+++ " \[pc] " 10 sup 1 + 5 " \[pc] " 10 sup 2
-.EN
-.EQ
-77 sub 2 = ?
-.EN
+.pp
+To znamená, že Marinova hypotéza platí, pokud zachováme správný postup viz. strana 1.

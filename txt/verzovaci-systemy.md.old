@@ -1,0 +1,39 @@
+# Verzovací systémy
+
+Verzovací systémy slouží k organizaci sdílené práce na souborech. Tyto systémy se označují jako VCS *(Version Control System)*.
+
+Před nástupem VCS se soubory sdílely různými způsoby, např. přenášením na fyzických médiích, či po síti. Nebylo ovšem spolehlivě zjistitelné, která verze souboru je aktuální/správná.
+
+Pokud se na úpravách jednoho souboru, například programu, chtělo podílet nekolik uživatelů, mohli mít všichni v jednu chvíli přístup k souboru na serveru. Ovšem pokud jeden soubor upravovali dva uživatelé naráz, změny uživatele, který soubor uložil zapsal jako poslední, přepsaly veškeré změny předchozího uživatele.
+
+## Centralizované systémy
+
+Tyto systémy se vyznačují tím, že soubory jsou umístěny na jednom zařízení - serveru. K serveru se uživatelé připojují a pracují na něm vzdáleně.
+
+### Zamykání souboru
+
+Pokud jeden uživatel otevře soubor pro editaci, ostatním uživatelům je umožněno soubor pouze číst. Tento systém zapříčiní vzniku konfliktu při slučování různých verzí.
+
+Nevýhodou je, že zápis může v jednu chvíli provádět pouze jeden uživatel. To nemusí být v produkci účinné.
+
+## Distribuované systémy
+
+U distribuovaných systémů jsou zdrojové soubory uloženy na zařízeních všech uživatelů, kteří se soubory pracují. Změny se poté synchronizují do společného repozitáře na serveru. Samotné úpravy souborů se provádějí na lokálním zařízení uživatele.
+
+Distribuované systémy zpravidla nepotřebují zamykat soubory - umí automaticky slučovat většinu změn.
+
+### CVS
+
+*Concurrent Version System*, ve zkratce *CVS*, je jedním z prvních rozšířených centralizovaných systémů. Byl vyvíjen jako součástu projektu *GNU* a dodnes se v některých projektech používá. Je to ovšem již archaický systém bez dalšího zásadního vývoje.
+
+### Subversion
+
+Subversion, nebo-li *SVN*, je systém, který měl za cíl nahradit *CVS* a opravit jeho nedostatky. Oproti CVS umí lépe řešit konflikty a manipulace se soubory, uchovávat v repozitářích i jiná data kromě textových souborů a větvit repozitář.
+
+### Mercurial
+
+Mercurial, často zmiňovaný zkratkou `hg` je distribuovaný verzovací systém. Vznikl přibližně ve stejné době jako git, liší se jednak tím, že je monolitický (git je spousta malých programů dle Unixové filozofie, Mercurial je jedna binárka) a orientací na přátelskost použití.
+
+### Git
+
+V současnosti nejrozšířenější verzovací systém. který byl napsán Linusem Torvaldsem, autorem kernelu *Linux*. Právě pro vývoj Linuxu byl git napsán. Podobně jako Mercurial se jedná o distribuované VCS. Umí velmi dobře procházet a manipulovat s historií repozitáře, je velmi flexibilní a poměrně jednodušše rozšiřitelný přes shellové skripty.

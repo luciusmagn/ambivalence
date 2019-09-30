@@ -1,0 +1,22 @@
+--- verzovaci-systemy.md.old	2019-09-24 23:07:18.990940706 +0200
++++ verzovaci-systemy.md	2019-09-24 23:29:26.490955610 +0200
+@@ -24,14 +24,16 @@
+ 
+ ### CVS
+ 
+-*Concurrent Version System*, ve zkratce *CVS*, je jedním z prvních rozšířených distribuovaných systémů. Byl vyvíjen jako součástu projektu *GNU* a dodnes se v někteých projektech používá. Je to ovšem již archaický systém bez dalšího zásadního vývoje.
++*Concurrent Version System*, ve zkratce *CVS*, je jedním z prvních rozšířených centralizovaných systémů. Byl vyvíjen jako součástu projektu *GNU* a dodnes se v některých projektech používá. Je to ovšem již archaický systém bez dalšího zásadního vývoje.
+ 
+ ### Subversion
+ 
+-Subversion, nebo-li *SVN*, je systém, který měl za cíl nahradit *CVS* a opravit jeho nedostatky.
++Subversion, nebo-li *SVN*, je systém, který měl za cíl nahradit *CVS* a opravit jeho nedostatky. Oproti CVS umí lépe řešit konflikty a manipulace se soubory, uchovávat v repozitářích i jiná data kromě textových souborů a větvit repozitář.
+ 
+ ### Mercurial
+ 
++Mercurial, často zmiňovaný zkratkou `hg` je distribuovaný verzovací systém. Vznikl přibližně ve stejné době jako git, liší se jednak tím, že je monolitický (git je spousta malých programů dle Unixové filozofie, Mercurial je jedna binárka) a orientací na přátelskost použití.
++
+ ### Git
+ 
+-Verzovací systém, který byl napsán Linusem Torvaldsem, autorem kernelu *Linux*.
++V současnosti nejrozšířenější verzovací systém. který byl napsán Linusem Torvaldsem, autorem kernelu *Linux*. Právě pro vývoj Linuxu byl git napsán. Podobně jako Mercurial se jedná o distribuované VCS. Umí velmi dobře procházet a manipulovat s historií repozitáře, je velmi flexibilní a poměrně jednodušše rozšiřitelný přes shellové skripty.
