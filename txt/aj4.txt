@@ -1,0 +1,13 @@
+invite
+invitation
+whole
+election
+hurricane
+wait (for)
+I will be working for three more hours
+to look into
+case (případ)
+investigate
+reseaarch
+*** this is a *scratch* buffer which won't be automatically saved ***
+*** use it for notes or open a file buffer with the :edit command ***

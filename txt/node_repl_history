@@ -1,0 +1,14 @@
+api.changeThreadEmoji('🇬🇧', '2573198296073859');
+api.getThreadList(3, null, [], (_, l) => console.log(l));
+login({email: "luk.hozda@gmail.com", password: "dC4duGpHNv5qdejxit"}, (err, a) => { api = a; });
+const login = require("facebook-chat-api");
+login({email: "luk.hozda@gmail.com", password: "dC4duGpHNv5qdejxit"}, (err, a) => { api = a; });
+let api;
+api.getThreadList(3, null, [], (_, l)
+api.getThreadList(3, null, [])
+api.getThreadList(3, null)
+api.getThreadList(3)
+login({email: "luk.hozda@gmail.com", password: "dC4duGpHNv5qdejxit"}, (err, a) => { api = a; });
+login({email: "luk.hozda@gmail.com", password: "dC4duGpHNv5qdejxit"}), (err, a) => { api = a });
+let api;
+const login = require("facebook-chat-api");

@@ -1,0 +1,78 @@
+POST /task
+{
+	title - string|required
+	content - string|required
+	after_completed - string_enum|required
+	asignee_id - userId|optional
+	reviewer_id - userId|optional
+	creator_id - userId|required
+	category - categoryId|optional
+	priority - string_enum/StateId|required
+	due_at - timestamp|optional
+}
+
+GET /task/(taskid)
+{
+	id
+	title
+	content
+	after_completed
+	asignee_id
+	reviewer_id
+	creator_id
+	category
+	priority
+	due_at
+	updated_at: timestamp
+	created_at: timestamp
+	state: string_enum/StateId
+	article: articleId
+}
+
+(asi se zatim resit nemusi)
+GET /task/(taskid)/history 
+[
+	[date,action]
+	[date,action]
+]
+
+(asi se zatim resit nemusi)
+GET /task/(taskid)/discussion
+{
+
+}
+
+GET /task
+GET /task?created_by
+GET /task?state
+GET /task?asignee
+{
+	title
+	content
+	category
+	due_date
+	created_by
+	priority
+	state
+	asignee
+	is_proposed (creator role < redactor)
+}
+
+(asi se zatim resit nemusi)
+GET /stats/task/creation
+GET /stats/task/creation?user
+GET /stats/task/creation?asignee
+{
+	[date,number]
+}
+
+(asi se zatim resit nemusi)
+GET /stats/task/duration
+GET /stats/task/duration?user
+GET /stats/task/duration?state
+{
+	[date,number]
+}
+
+(asi se zatim resit nemusi)
+GET /stats/completed
