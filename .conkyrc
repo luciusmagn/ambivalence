@@ -1,0 +1,133 @@
+conky.config = {
+-- conky configuration
+
+-- The list of variables has been removed from this file in favour
+-- of keeping the documentation more maintainable.
+-- Check http://conky.sf.net for an up-to-date-list.
+
+-- For ideas about how to modify conky, please see:
+-- http://crunchbanglinux.org/forums/topic/59/my-conky-config/
+
+-- For help with conky, please see:
+-- http://crunchbanglinux.org/forums/topic/2047/conky-help/
+
+--#############################################
+-- Settings
+--#############################################
+	background = true,
+	use_xft = true,
+	font = 'ProFontWindowsCzech:size=9',
+	xftalpha = 1,
+	update_interval = 1.1,
+	total_run_times = 0,
+	own_window = true,
+	own_window_transparent = false,
+--#############################################
+-- Compositing tips:
+-- Conky can play strangely when used with
+-- different compositors. I have found the
+-- following to work well, but your mileage
+-- may vary. Comment/uncomment to suit.
+--#############################################
+--# no compositor
+	own_window_type = 'override',
+	own_window_argb_visual = false,
+
+--# xcompmgr
+--own_window_type override
+--own_window_argb_visual yes
+
+--# cairo-compmgr
+--own_window_type desktop
+--own_window_argb_visual yes
+--#############################################
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	double_buffer = true,
+	minimum_width = 200, minimum_height = 200,
+	maximum_width = 280,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
+	default_color = '#656667',
+	default_shade_color = '#000000',
+	default_outline_color = '#828282',
+	alignment = 'top_left',
+	gap_x = 40,
+	gap_y = 40,
+	no_buffers = true,
+	uppercase = false,
+	cpu_avg_samples = 2,
+	override_utf8_locale = true,--for temp output with an A
+
+--#############################################
+--  Output
+--#############################################
+};
+
+conky.text = [[
+${font ProFontWindowsCzech:size=52}${alignc}${time %H:%M:%S}${alignc}${font ProFontWindowsCzech:size=9}
+
+I N F O
+${hr}
+Host:$alignr$nodename
+Uptime:$alignr$uptime
+
+CPU1:${alignr}${cpubar cpu1 8,60}
+CPU2:${alignr}${cpubar cpu2 8,60}
+Temp:${alignr}${execi 10 sensors | grep ^temp1 | tail -n 1 |awk '{print $2}'}
+RAM: $memperc% ${alignr}${membar 8,60}
+
+Disk usage:$alignr${fs_bar 8,60}
+Battery: ${alignr}${battery_bar 8,60}
+${if_up wlan0}
+802.11 quality:$alignr${wireless_link_bar 8,60 wlan0}
+802.11 bitrate:$alignr${wireless_bitrate wlan0}
+${endif}${if_up tun0} VPN is active. ${endif}
+Z K R A T K Y
+${hr}
+Alt+p$alignr Spustit program
+Alt+{1..6}$alignr Přepnout tag
+Alt+t$alignr Tiling mód
+Alt+f$alignr Floating mód
+Alt+o$alignr Monocle mód
+Alt+u$alignr Floating Monocle mód
+Alt+(j|k)$alignr Přepnout aktivní okno
+Alt+(h|l$alignr Rozšířit/zůžit master
+Alt+(F1|F2)$alignr módy jasu displeje
+Alt+(d|i)$alignr   Přidat/odebrat okno do masteru
+Shift+Alt+c$alignr Zavřít program
+Shift+Alt+q$alignr Vypnout DWM
+Shift+Alt+Enter$alignr Terminál
+
+S  A L T + P:
+${hr}
+scrot$alignr Screenshot
+scrot --select$alignr Screenshot výřezu
+mupdf <cesta>$alignr Otevře PDF
+firefox$alignr ...
+termite$alignr Terminál
+transmission-gtk$alignr Torrent
+subl3$alignr Sublime Text 3 editor
+ffplay <cesta>$alignr Přehrávač
+feh <cesta>$alignr Prohlížení obrázků
+redshift -x$alignr Resetuje červený posun
+redshift -oO <číslo>$alignr Zoranžoví obrazovku
+shutdown now$alignr Vypne počítač
+reboot$alignr Restart
+slock$alignr Zamkne obrazovku
+$alignr(pro odemk. heslo+Enter)
+
+M Y Š
+${hr}
+-- LClick: klik levým tlačítkem
+-- RClick: klik pravým tlačítkem
+-- MClick: klik kolečkem (nebo ekvivelentem)
+
+Alt+LClick+Posun$alignr Posune/Vytrhne okno
+Alt+RClick+Posun$alignr Změní velikost okna
+Alt+MClick$alignr Vrátí okno zpět do mřížky
+LClick na tag$alignr Zobrazit i okna z tagu
+Alt+LClick na tag$alignr Přesun okna do tagu
+NClick na hodiny$alignr Terminál
+]];
