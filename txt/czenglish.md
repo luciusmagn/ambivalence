@@ -553,3 +553,20 @@ Nejčastěji se mluví o několika fázích obrození.
 - v podstatě oficiální dopis
 - adresa adresáta/instituce, datum, formální text, oslovení, podpis,
   adresa odesilatele
+  
+- vojna a mír: tolstoy
+- zločin a trest
+- oliver twist, piqwick
+- otec goriot
+- haroldowa poušť
+- revizor: gogol
+- zabiják: zolla
+- egypťan sinohet
+- kladivo na čarodějnice: kaplický
+
+- neruda - žil u dvou slunců
+	- májovec
+
+- zvláštní typ realistické povídky zachycující psychologii jedné postavy - arabeska
+
+- hřbitovní kvítí - neruda
