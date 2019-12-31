@@ -17,12 +17,14 @@ fn main() -> Result<(), ()> {
 
     	if pdf_date < me_date
     	{
-    		if !Command::new("./update.sh")
+    		if !Command::new("./fs/bin/update.sh")
 			.arg(&name)
     			.stdout(Stdio::inherit())
-    			.output()
+    			.stderr(Stdio::inherit())
+    			.spawn()
     			.expect("couldn't run script")
-    			.status
+    			.wait()
+    			.expect("failed to wait")
     			.success()
     		{
     			eprintln!("script errored")

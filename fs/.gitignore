@@ -1,3 +1,7 @@
 man
 bin/yacc
 bin/watcher
+ucb
+share
+ucblib
+pub
