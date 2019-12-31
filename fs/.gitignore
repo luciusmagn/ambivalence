@@ -1,2 +1,3 @@
 man
 bin/yacc
+bin/watcher
