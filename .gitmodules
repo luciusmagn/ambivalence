@@ -1,9 +1,3 @@
-[submodule "heirloom-doctools"]
-	path = src-git/h-doctools
-	url = https://github.com/n-t-roff/heirloom-doctools
-[submodule "src-git/h-devtools"]
-	path = src-git/h-devtools
-	url = https://gitlab.com/giomasce/heirloom-devtools
 [submodule "src-git/h-doctools"]
 	path = src-git/h-doctools
 	url = https://github.com/n-t-roff/heirloom-doctools
