@@ -1,8 +1,6 @@
 #!/bin/bash
-cd ascii_czech
-cargo build --release
-cd ..
-cd watcher
-cargo build --release
-cd ..
-watcher/target/release/watcher $(basename $@ .me)
+if [[ -v $TMAC ]]; then
+	fs/bin/watcher $(basename $@ $TMAC)
+else
+	fs/bin/watcher $(basename $@ .me)
+fi

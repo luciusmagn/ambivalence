@@ -20,7 +20,12 @@ fs/bin/watcher: watcher/src/**.rs
 	cd watcher; cargo build --release
 	mv watcher/target/release/watcher fs/bin/watcher
 
+ifndef tmac
 %.pdf: %.me fs/bin/watcher fs/bin/yacc fs/bin/troff
+else
+export TMAC := ${tmac}
+%.pdf: %.${tmac} fs/bin/watcher fs/bin/yacc fs/bin/troff
+endif
 ifdef run
 		fs/bin/run.sh $<
 else

@@ -7,16 +7,17 @@ echo updating...
 
 export PATH=./fs/bin:./fs/ucb/:$PATH
 
-echo $1
-echo $PWD
+if ! [[ -v $TMAC ]]; then
+	export TMAC=me
+fi
 
 #	| refer -p "refer_dbs/ai" -p "refer_dbs/refer" -p "refer_dbs/dark_souls_literatura" \
-cat $(basename -- "$1" .me).me \
+cat $(basename -- "$1" .$TMAC).$TMAC \
 	| pic \
 	| eqn \
-	| troff -dpaper=a4 -me - \
+	| troff -dpaper=a4 "-$TMAC" - \
 	| dpost \
-	| ps2pdf - > $(basename -- "$1" .me).pdf
+	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
 
 sh -c "kill -s HUP $(pidof mupdf); exit 2>&1 > /dev/null"
 
