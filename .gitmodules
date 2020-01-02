@@ -1,6 +1,8 @@
 [submodule "src-git/h-doctools"]
 	path = src-git/h-doctools
 	url = https://github.com/n-t-roff/heirloom-doctools
+	ignore = dirty
 [submodule "src-git/wendy"]
 	path = src-git/wendy
 	url = git://git.2f30.org/wendy.git
+	ignore = dirty
