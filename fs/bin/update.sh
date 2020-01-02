@@ -19,5 +19,13 @@ cat $(basename -- "$1" .$TMAC).$TMAC \
 	| dpost \
 	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
 
-sh -c "kill -s HUP $(pidof mupdf); exit 2>&1 > /dev/null"
+
+pids=$(pidof mupdf)
+
+if [ -n $pids ]; then
+	echo $pids
+	kill -s HUP $pids
+else
+	echo "mupdf is not running"
+fi
 
