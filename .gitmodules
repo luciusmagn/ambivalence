@@ -9,3 +9,4 @@
 [submodule "src-git/utroff-refer"]
 	path = src-git/utroff-refer
 	url = https://github.com/pjfichet/refer
+	ignore = dirty

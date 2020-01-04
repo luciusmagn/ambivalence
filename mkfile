@@ -1,4 +1,4 @@
-PATH = fs/bin:fs/ucb/:fs/ucblib/reftools/:$PATH
+PATH = fs/bin:fs/share/refer/:fs/ucb/:fs/ucblib/reftools/:$PATH
 <|echo -n "TROFF_PATH = $(realpath fs)"
 
 tmac=me
@@ -6,17 +6,33 @@ tmac=me
 TMAC=$tmac
 TARGET_BASE=`basename $doc .pdf`
 
-`test -n "$run" -o -n "$phony" && echo "$TARGET_BASE.pdf:V" || echo "$TARGET_BASE"`: $TARGET_BASE.$tmac fs/bin/wendy fs/bin/yacc fs/ucb/troff fs/bin/refer
+`test -n "$run" -o -n "$phony" && echo "$TARGET_BASE.pdf:V" || echo "$TARGET_BASE"`: $TARGET_BASE.$tmac \
+  fs/bin/wendy \
+  fs/bin/yacc \
+  fs/ucb/troff \
+  fs/bin/refer \
+  fs/bin/ascii_czech \
+  fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic
 	[[ -n "$run" ]] && wendy -m 8 -f $TARGET_BASE.$tmac -e update.sh $TARGET_BASE || update.sh $TARGET_BASE
 
 fs/ucblib/doctools/tmac/om.tmac: fs/ucb/troff
 	cp src-git/mom-2.4-4/om.tmac fs/ucblib/doctools/tmac/
+
+fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic: fs/ucb/troff
+	cp src-git/hyph_cs_CZ.dic fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic
+
+fs/bin/ascii_czech: fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic `find src-git/ascii_czech/ -iname '*.rs'`
+	cd src-git/ascii_czech/
+	cargo build --release
+	cp target/release/ascii_czech $TROFF_PATH/bin/
 
 fs/bin/refer: `find src-git/utroff-refer/ -iname '*.c' -o -iname '*.h'` fs/ucb/troff
 	echo "Building utroff refer"
 	cd src-git/utroff-refer
 	make -j4 PREFIX=$TROFF_PATH
 	make install PREFIX=$TROFF_PATH
+	cd $TROFF_PATH
+	cp -r ucblib/reftools/papers share/refer/
 
 fs/bin/wendy: `find src-git/wendy/ -iname '*.c' -o -iname '*.h'`
 	echo "Building wendy"
