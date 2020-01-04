@@ -6,11 +6,17 @@ tmac=me
 TMAC=$tmac
 TARGET_BASE=`basename $doc .pdf`
 
-`test -n "$run" -o -n "$phony" && echo "$TARGET_BASE.pdf:V" || echo "$TARGET_BASE"`: $TARGET_BASE.$tmac fs/bin/wendy fs/bin/yacc fs/ucb/troff
+`test -n "$run" -o -n "$phony" && echo "$TARGET_BASE.pdf:V" || echo "$TARGET_BASE"`: $TARGET_BASE.$tmac fs/bin/wendy fs/bin/yacc fs/ucb/troff fs/bin/refer
 	[[ -n "$run" ]] && wendy -m 8 -f $TARGET_BASE.$tmac -e update.sh $TARGET_BASE || update.sh $TARGET_BASE
 
 fs/ucblib/doctools/tmac/om.tmac: fs/ucb/troff
 	cp src-git/mom-2.4-4/om.tmac fs/ucblib/doctools/tmac/
+
+fs/bin/refer: `find src-git/utroff-refer/ -iname '*.c' -o -iname '*.h'` fs/ucb/troff
+	echo "Building utroff refer"
+	cd src-git/utroff-refer
+	make -j4 PREFIX=$TROFF_PATH
+	make install PREFIX=$TROFF_PATH
 
 fs/bin/wendy: `find src-git/wendy/ -iname '*.c' -o -iname '*.h'`
 	echo "Building wendy"
@@ -34,8 +40,3 @@ fs/bin/yacc: `find src-git/byacc -iname '*.c' -o -iname '*.h'`
 	make -j4
 	make install
 
-
-# rip lol
-`[[ -n "$run" ]] && echo ".PHONY: $TARGET_BASE.pdf" || true`
-
-.DEFAULT_GOAL: $target

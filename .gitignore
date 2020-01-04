@@ -7,3 +7,4 @@ src-git/byacc/makefile
 *.ia
 *.ib
 *.ic
+*.i

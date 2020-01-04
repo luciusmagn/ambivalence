@@ -6,3 +6,6 @@
 	path = src-git/wendy
 	url = git://git.2f30.org/wendy.git
 	ignore = dirty
+[submodule "src-git/utroff-refer"]
+	path = src-git/utroff-refer
+	url = https://github.com/pjfichet/refer
