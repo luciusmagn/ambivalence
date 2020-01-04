@@ -1,0 +1,73 @@
+Mom is in the contrib directory of the official groff cvs, which
+means that building groff from sources automatically installs mom
+and her documentation.  Official releases of groff therefore also
+include the version of mom current at the time of the groff release.
+
+The contrib directory will be kept up-to-date, however it may not
+be desireable to checkout or update from the groff repository just
+to test/use a new release of mom.  Consequently, I'll be keeping a
+separate (updated) mom gzipped tarball posted on mom's web page
+(http://www.schaffter.ca/mom/mom-01.html).
+
+If you're reading this, you've obtained your copy of mom from her web
+page, and should follow these simple installation procedures.
+
+If you have superuser priviledges:
+---------------------------------
+
+Copy or move the file om.tmac to a legal groff macro (tmac) directory.
+On a Debian box, a good choice is
+
+    /usr/share/groff/site-tmac
+
+although other in GNU/Linux distros, another tmac directory may be
+more appropriate.  If you're not sure, do
+
+    locate tmac
+
+to find an appropriate directory.
+
+If you already have a version of mom on your system that came with
+groff, you may wish to keep your old version of om.tmac.  In that case,
+I suggest renaming your original om.tmac to om.tmac.orig, and making
+om.tmac a symlink to the newer version.  Should you wish to revert
+to the original, remove the symlink and rename om.tmac.orig back to
+om.tmac.
+
+If you want mom available to everyone on your system, make sure both
+user and group are root, and the file permissions are set to 444
+or 644.
+
+Alternatively:
+-------------
+
+An easy alternative is simply to put the new version of om.tmac in
+your home directory.  Provided that you don't have a
+GROFF_TMAC_PATH variable that reads other directories ahead of your
+home directory, this alternative should be sufficient.
+
+Otherwise, copy or move the file om.tmac to the directory of your
+choice and add
+
+    export GROFF_TMAC_PATH="<full path to directory>"
+
+to your .bashrc or .profile.  If you want mom available immediately, do
+
+    source ~/.bashrc
+          or
+    source ~/.profile
+
+or log out of your current shell and log back in again.
+
+If you already have a version of mom on your system that came with
+groff, you'll have to disable your old version of om.tmac.  The easiest
+way is to rename your original om.tmac to om.tmac.orig.  Should you wish
+to revert to the original, rename om.tmac.orig back to om.tmac and move
+the newer om.tmac off the groff tmac path.
+
+The documentation
+-----------------
+
+The html manual (in the directory /momdoc) can go anywhere you like,
+although if you want others to read it, make sure it's world readable
+and in a directory everyone can access.

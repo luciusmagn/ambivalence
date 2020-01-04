@@ -9,6 +9,9 @@ TARGET_BASE=`basename $doc .pdf`
 `test -n "$run" -o -n "$phony" && echo "$TARGET_BASE.pdf:V" || echo "$TARGET_BASE"`: $TARGET_BASE.$tmac fs/bin/wendy fs/bin/yacc fs/ucb/troff
 	[[ -n "$run" ]] && wendy -m 8 -f $TARGET_BASE.$tmac -e update.sh $TARGET_BASE || update.sh $TARGET_BASE
 
+fs/ucblib/doctools/tmac/om.tmac: fs/ucb/troff
+	cp src-git/mom-2.4-4/om.tmac fs/ucblib/doctools/tmac/
+
 fs/bin/wendy: `find src-git/wendy/ -iname '*.c' -o -iname '*.h'`
 	echo "Building wendy"
 	cd src-git/wendy/
