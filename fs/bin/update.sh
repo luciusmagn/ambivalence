@@ -7,7 +7,7 @@ echo updating...
 
 export PATH=./fs/bin:./fs/ucb/:$PATH
 
-if ! [[ -v $TMAC ]]; then
+if [[ -z "$TMAC" ]]; then
 	export TMAC=me
 fi
 
@@ -22,7 +22,7 @@ cat $(basename -- "$1" .$TMAC).$TMAC \
 
 pids=$(pidof mupdf)
 
-if [ -n $pids ]; then
+if [ "$pids" != "" ]; then
 	echo $pids
 	kill -s HUP $pids
 else
