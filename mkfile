@@ -12,11 +12,12 @@ TARGET_BASE=`basename $doc .pdf`
   fs/ucb/troff \
   fs/bin/refer \
   fs/bin/ascii_czech \
-  fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic
+  fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic \
+  fs/ucblib/doctools/tmac/om
 	[[ -n "$run" ]] && wendy -m 8 -f $TARGET_BASE.$tmac -e update.sh $TARGET_BASE || update.sh $TARGET_BASE
 
-fs/ucblib/doctools/tmac/om.tmac: fs/ucb/troff
-	cp src-git/mom-2.4-4/om.tmac fs/ucblib/doctools/tmac/
+fs/ucblib/doctools/tmac/om: fs/ucb/troff
+	cp src-git/mom-2.4-4/om.tmac fs/ucblib/doctools/tmac/om
 
 fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic: fs/ucb/troff
 	cp src-git/hyph_cs_CZ.dic fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic
