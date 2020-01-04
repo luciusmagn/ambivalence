@@ -1,4 +1,4 @@
-PATH = fs/bin:fs/ucb/:$PATH
+PATH = fs/bin:fs/ucb/:fs/ucblib/reftools/:$PATH
 <|echo -n "TROFF_PATH = $(realpath fs)"
 
 tmac=me

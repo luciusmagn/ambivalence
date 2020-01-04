@@ -1,9 +1,10 @@
 #!/bin/bash
 echo updating...
 
-#indxbib refer_dbs/refer
-#indxbib refer_dbs/dark_souls_literatura
-#indxbib refer_dbs/ai
+# this is how you add a new reference database
+mkey refer_dbs/refer                 | inv refer_dbs/refer
+mkey refer_dbs/dark_souls_literatura | inv refer_dbs/dark_souls_literatura
+mkey refer_dbs/ai                    | inv refer_dbs/ai
 
 export PATH=./fs/bin:./fs/ucb/:$PATH
 
@@ -11,10 +12,10 @@ if [[ -z "$TMAC" ]]; then
 	export TMAC=me
 fi
 
-#	| refer -p "refer_dbs/ai" -p "refer_dbs/refer" -p "refer_dbs/dark_souls_literatura" \
 cat $(basename -- "$1" .$TMAC).$TMAC \
 	| pic \
 	| eqn \
+	| refer -p "refer_dbs/ai" -p "refer_dbs/refer" -p "refer_dbs/dark_souls_literatura" \
 	| troff -dpaper=a4 "-$TMAC" - \
 	| dpost \
 	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf

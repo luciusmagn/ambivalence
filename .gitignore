@@ -4,3 +4,6 @@ nohup.out
 src-git/byacc/config.log
 src-git/byacc/config.status
 src-git/byacc/makefile
+*.ia
+*.ib
+*.ic
