@@ -14,7 +14,16 @@ TARGET_BASE=`basename $doc .pdf`
   fs/bin/ascii_czech \
   fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic \
   fs/ucblib/doctools/tmac/om
-	[[ -n "$run" ]] && wendy -m 8 -f $TARGET_BASE.$tmac -e update.sh $TARGET_BASE || update.sh $TARGET_BASE
+	[[ -n "$run" ]] \
+	&& wendy -m 264 \
+		-f $TARGET_BASE.$tmac \
+		-f tmac \
+		-f fs/bin/update.sh \
+		-f refer_dbs/refer \
+		-f refer_dbs/ai \
+		-f refer_dbs/dark_souls_literatura \
+		-e update.sh $TARGET_BASE \
+	|| update.sh $TARGET_BASE
 
 fs/ucblib/doctools/tmac/om: fs/ucb/troff
 	cp src-git/mom-2.4-4/om.tmac fs/ucblib/doctools/tmac/om
