@@ -1,6 +1,3 @@
-extern crate rreplace;
-
-use std::collections::HashMap;
 use std::io::{Read, stdin};
 use std::env::args;
 use std::fs::File;
@@ -40,39 +37,37 @@ fn translate(c: char) {
 	}
 }
 
-fn untranslate(c: &str) {
-	println!("{}", rreplace::run(c, &{
-		let mut h = HashMap::new();
-		h.insert("\\o`r\\[ah]`", "ř");
-		h.insert("\\[vs]", "š");
-		h.insert("\\o`c\\[ah]`", "č");
-		h.insert("\\o`e\\[ah]`", "ě");
-		h.insert("\\[vz]", "ž");
-		h.insert("\\o`n\\[ah]`", "ň");
-		h.insert("\\o`a\\(aa`", "á");
-		h.insert("\\o`e\\(aa`", "é");
-		h.insert("\\['i]", "í");
-		h.insert("\\o`o\\(aa`", "ó");
-		h.insert("\\o`u\\(aa`", "ú");
-		h.insert("\\o`y\\(aa`", "ý");
-		h.insert("\\zu\\v`-.1v`\\h`.05v`\\[de]\\v`.1v`", "ů");
-		h.insert("\\zd\\(aa", "ď");
-		h.insert("\\zt\\(aa", "ť");
-		h.insert("\\[vS]", "Š");
-		h.insert("\\[vZ]", "Ž");
-		h.insert("\\['E]", "É");
-		h.insert("\\['A]", "Á");
-		h.insert("\\['I]", "Í");
-		h.insert("\\['Y]", "Ý");
-		h.insert("\\['U]", "Ú");
-		h.insert("\\['O]", "Ó");
-		h.insert("\\zC\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Č");
-		h.insert("\\zŘ\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ř");
-		h.insert("\\zE\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ě");
-		h.insert("\\zD\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ď");
-		h.insert("\\zT\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ť");
-		h
-	}));
+fn untranslate(line: &str) {
+	println!("{}", line
+		.replace("\\o`r\\[ah]`", "ř")
+		.replace("\\[vs]", "š")
+		.replace("\\o`c\\[ah]`", "č")
+		.replace("\\o`e\\[ah]`", "ě")
+		.replace("\\[vz]", "ž")
+		.replace("\\o`n\\[ah]`", "ň")
+		.replace("\\o`a\\(aa`", "á")
+		.replace("\\o`e\\(aa`", "é")
+		.replace("\\['i]", "í")
+		.replace("\\o`o\\(aa`", "ó")
+		.replace("\\o`u\\(aa`", "ú")
+		.replace("\\o`y\\(aa`", "ý")
+		.replace("\\zu\\v`-.1v`\\h`.05v`\\[de]\\v`.1v`", "ů")
+		.replace("\\zd\\(aa", "ď")
+		.replace("\\zt\\(aa", "ť")
+		.replace("\\[vS]", "Š")
+		.replace("\\[vZ]", "Ž")
+		.replace("\\['E]", "É")
+		.replace("\\['A]", "Á")
+		.replace("\\['I]", "Í")
+		.replace("\\['Y]", "Ý")
+		.replace("\\['U]", "Ú")
+		.replace("\\['O]", "Ó")
+		.replace("\\zC\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Č")
+		.replace("\\zŘ\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ř")
+		.replace("\\zE\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ě")
+		.replace("\\zD\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ď")
+		.replace("\\zT\\v`-.2v`\\h`.15v`\\[ah]\\v`.2v`\\|", "Ť")
+	);
 }
 
 fn main() {

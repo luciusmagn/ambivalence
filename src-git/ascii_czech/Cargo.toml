@@ -4,4 +4,3 @@ version = "0.1.0"
 authors = ["Lukáš Hozda <luk.hozda@gmail.com>"]
 
 [dependencies]
-rreplace = "0.1"
