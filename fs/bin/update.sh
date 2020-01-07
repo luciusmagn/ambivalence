@@ -27,7 +27,7 @@ cat $(basename -- "$1" .$TMAC).$TMAC \
 	| /usr/bin/refer -p "refer_dbs/refer" -p "refer_dbs/ai" -p "refer_dbs/dark_souls_literatura" \
 	| ascii_czech unfuck - \
 	| if [[ "$DEBUG" = "true" ]]; then tee /dev/stderr; else cat - ; fi \
-	| troff -mg -dpaper=a4 "-$TMAC" - \
+	| troff -dpaper=a4 "-$TMAC" - \
 	| dpost \
 	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
 
