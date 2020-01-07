@@ -1,0 +1,61 @@
+\""
+\""   M A G N U S I  T R O F F  C O L L E C T I O N
+\""   =============================================
+\""   - contains settings for producing -me docs
+\""   - make new .so statement+file if you need
+\""     other settings than defaults
+\""   - new defaults can be added here
+\""
+\""   SRC: github.com/luciusmagn/ambivalence
+
+
+\"" P A P E R ""\
+
+.mediasize a4   \" paper size
+
+\"" F O N T ""\
+
+.nr pp 12       \" paragraph font size
+.nr $R 1.5      \" line-spacing ratio
+.sz 12          \" default font size
+
+\"" L A Y O U T ""\
+
+.ll 6.3i        \" line length
+.po 1i          \" left offset of line
+                \" FYI: in inches, page width is  ~8.3inch
+
+\"" O T H E R ""\
+
+.nh             \" disable hyphenation
+.he ````        \" default header
+.fo ``- % -``   \" default footer
+
+.de $0          \" macro affecting headings
+.ft B           \" sets font face to bold
+..
+
+.de $1          \" level 1 heading
+.ps +10
+..
+
+.de $2          \" level 2 heading
+.ps +8
+..
+
+.de $3          \" level 3 heading
+.ps +6
+..
+
+.de $4          \" level 4 heading
+.ps +4
+..
+
+.de $5          \" level 5 heading
+.ps +2
+..
+
+.de $6          \" level 6 heading
+.ps +1
+..
+

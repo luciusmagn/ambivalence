@@ -1,2 +1,10 @@
 gs_*
 nohup.out
+*.o
+src-git/byacc/config.log
+src-git/byacc/config.status
+src-git/byacc/makefile
+*.ia
+*.ib
+*.ic
+*.i
