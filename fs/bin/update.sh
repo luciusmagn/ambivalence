@@ -1,6 +1,6 @@
 #!/bin/bash
 echo updating...
-
+echo started
 # this is how you add a new reference database
 #mkey refer_dbs/refer                 | inv refer_dbs/refer
 #mkey refer_dbs/dark_souls_literatura | inv refer_dbs/dark_souls_literatura
@@ -40,4 +40,4 @@ if [ "$pids" != "" ]; then
 else
 	echo "mupdf is not running"
 fi
-
+echo end
