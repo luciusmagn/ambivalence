@@ -31,6 +31,10 @@ cat $(basename -- "$1" .$TMAC).$TMAC \
 	| dpost \
 	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
 
+#	| tee /dev/fd/2 \
+#	or
+#	| tee /dev/stderr \
+# ^ debug pipeline element, insert at random places to inspect stream
 
 pids=$(pidof mupdf)
 
