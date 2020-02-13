@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 echo updating...
 
 # this is how you add a new reference database
