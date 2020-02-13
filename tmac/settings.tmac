@@ -32,7 +32,7 @@
 .he ````        \" default header
 .fo ``- % -``   \" default footer
 
-.de $0          \" macro affecting headings
+.de $0          \" macro affecting all level headings
 .ft B           \" sets font face to bold
 ..
 
@@ -60,3 +60,9 @@
 .ps +1
 ..
 
+.de $p          \" Section heading
+.ps 20
+.ft B
+.in 0
+\\$1
+..
