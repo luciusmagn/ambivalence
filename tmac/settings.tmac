@@ -16,9 +16,20 @@
 \"" F O N T ""\
 
 .nr pp 12       \" paragraph font size
+.nr fp 10       \" footnote font size
+.nr RP 10       \" reference font size
 .sz 12          \" default font size
 
 \"" L A Y O U T ""\
+
+
+\"            -->| .in |<--
+\"               |<-----------.ll------------>|
+\"          +-----+----+-----------------------+----+
+\"          |     :    :                       :    |
+\"          +-----+----+-----------------------+----+
+\"       -->| .po |<--
+\"          |<--------paper width---------------->|
 
 .ll 6.3i        \" line length
 .po 1i          \" left offset of line
@@ -30,7 +41,7 @@
 .he ````        \" default header
 .fo ``- % -``   \" default footer
 
-.de $0          \" macro affecting headings
+.de $0          \" macro affecting all level headings
 .ft B           \" sets font face to bold
 ..
 
@@ -58,3 +69,14 @@
 .ps +1
 ..
 
+.de $p          \" Section heading
+.ps 20
+.ft B
+.in 0
+\\$1
+..
+
+.de IP
+.ip \\$1
+.ps \\n(RP
+..

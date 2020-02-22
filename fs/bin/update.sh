@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 echo updating...
 echo started
 # this is how you add a new reference database
@@ -31,6 +31,10 @@ cat $(basename -- "$1" .$TMAC).$TMAC \
 	| dpost \
 	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
 
+#	| tee /dev/fd/2 \
+#	or
+#	| tee /dev/stderr \
+# ^ debug pipeline element, insert at random places to inspect stream
 
 pids=$(pidof mupdf)
 

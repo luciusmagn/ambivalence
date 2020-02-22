@@ -14,6 +14,7 @@ TARGET_BASE=`basename $doc .pdf`
   fs/bin/ascii_czech \
   fs/ucblib/doctools/hyphen/hyph_cs_CZ.dic \
   fs/ucblib/doctools/tmac/om
+	echo $tmac $TARGET_BASE
 	[[ -n "$run" ]] \
 	&& wendy -m 264 \
 		-f $TARGET_BASE.$tmac \
