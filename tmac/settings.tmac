@@ -73,7 +73,28 @@
 .ps 20
 .ft B
 .in 0
-\\$1
+.if (\\n(si>0)&(\\n(.$>2) \
+.	nr $i \\$3*\\n(si
+.in \\n($iu
+.ie !"\\$1\\$2"" \
+\{\
+.	sp \\n(ssu
+.	ne \\n(.Lv+\\n(.Vu+\\n(psu+(\\n(spu*\\n($ru*\\n(.Lu)
+.	ie \\n(.$>2 \
+.		ti -(\\n(siu-\\n(sou)
+.	el \
+.		ti +\\n(sou
+.	@F \\n(sf
+.	sz \\n(sp
+.	if \\$3>0 \
+.		$\\$3
+.	if \w"\\$2">0 \\$2.
+.	if \w"\\$1">0 \\$1\f1\ \  \"
+.\}
+.el \
+.	sp \\n(psu
+.@F \\n(pf
+.sz \\n(pp
 ..
 
 .de IP
