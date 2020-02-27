@@ -1,0 +1,126 @@
+\" numbered sub-macros
+
+\"
+\" H E L P E R    M A C R O S
+\"
+
+\" abandon all hope, ye who enter here ↓
+\" TODO: segregate .ip indent from .lol indent
+\"       maybe rename lol
+.de lol
+.if (\\n(ii>0)&(\\n(ii<1n) \
+.	nr ii \\n(iin
+.nr _0 \\n(ii
+.if \\n(.$>1 \
+.	nr _0 \\$2n
+.@p \\n(_0u
+.if \\w"\\$1" \
+.	ti -\\n(_0u
+.	ie \\w"\\$1">=\\n(_0 \
+\{\
+\&\\$1
+.		br
+.	\}
+.	el \&\\$1\h'|\\n(_0u'\c
+.\}
+.rr _0
+..
+
+.de RST                 \" reset line layout
+.	br                  \" cause a line break
+.	po 1in              \" set page offset to 1 inch
+.	ti 0in              \" reset temporary indent
+.	in 0in              \" reset indentation
+..
+
+\"
+\" R E Q U I R E D   M O D I F I C A T I O N S
+\" - we are abusing page offset now, so we need
+\"   paragraph macros to reset it
+\"
+
+.am pp                  \" append to pee-pee
+.po 1in                 \" reset page offset to 1 inch
+..
+
+.am lp                  \" append to left-justified paragraph
+.po 1in                 \" reset page offset to 1 inch
+..
+
+\"
+\" S U B P O I N T   N U M E R I C A L
+\" todo: - figure out alphabetical
+\"       - maybe change indent to
+\"                 relative units
+\" info:
+\"   - go from .np to .np4 to utilize all 4 levels
+\"   - to add another level, copy .np4,
+\"     increment level number, increase indent
+\"     and add counter resets to previous levels
+\"
+
+.de np                  \" top-level numbered paragraph
+.	br                  \" cause a line break
+.	nr $p +1            \" incremenet $p by one (the number of this paragraph)
+.	nr $p2 0            \" | reset underlying paragraph levels
+.	nr $p3 0            \" |
+.	nr $p4 0            \" |
+.	po 1in              \" set page offset to 1 inch
+.	ti 0in              \" reset temporary indent
+.	in 0in              \" reset indentation
+.	lol (\\n($p)        \" print and offset numbered paragraph
+..
+
+.de np2                 \" second level numbered paragraph
+.	br                  \" cause a line break
+.	po 1.25in           \" set page offset to 1.25 inch
+.	nr $p2 +1           \" increment $p2 by one (the number of this paragraph)
+.	nr $p3 0            \" | reset underlying paragraph levels
+.	nr $p4 0            \" |
+.	lol \\n[$p2].       \" print and offset numbered paragraph
+..
+
+.de np3                 \" third level numbered paragraph
+.	br                  \" cause a line break
+.	nr $p3 +1           \" increment $p3 by one (the number of this paragraph)
+.	nr $p4 0            \" reset underlying paragraph levels
+.	po 1.5in            \" set page offset to 1.5 inch
+.	lol \\n[$p3])       \" print and offset numbered paragraph
+..
+
+.de np4                 \" fourth level numbered paragraph
+.	br                  \" cause a line break
+.	nr $p4 +1           \" increment $p4 by one (the number of this paragraph)
+.	po 1.75in           \" set page offset to 1.75 inch
+.	lol [\\n[$p4]]      \" print and offset numbered paragraph
+..
+
+\"
+\" S U B P O I N T S   B U L L E T S
+\"
+
+.de bu                  \" top-level bullet paragraph
+.	br                  \" cause a line break
+.	po 1in              \" set page offset to 1 inch
+.	ti 0in              \" reset temporary indent
+.	in 0in              \" reset indentation
+.	lol \\[bu]          \" print and offset bullet paragraph
+..
+
+.de bu2                 \" second level bullet paragraph
+.	br                  \" cause a line break
+.	po 1.25in           \" set page offset to 1.25 inch
+.	lol \\[lz]       \" print and offset bullet paragraph
+..
+
+.de bu3                 \" third level bullet paragraph
+.	br                  \" cause a line break
+.	po 1.5in            \" set page offset to 1.5 inch
+.	lol \\[sq]          \" print and offset bullet paragraph
+..
+
+.de bu4                 \" fourth level bullet paragraph
+.	br                  \" cause a line break
+.	po 1.75in           \" set page offset to 1.75 inch
+.	lol \\fB>\\fR       \" print and offset bullet paragraph
+..
