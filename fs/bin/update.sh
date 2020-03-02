@@ -23,6 +23,7 @@ fi
 cat $(basename -- "$1" .$TMAC).$TMAC \
 	| pic \
 	| eqn \
+	| grap \
 	| ascii_czech fuck - \
 	| /usr/bin/refer -p "refer_dbs/refer" -p "refer_dbs/ai" -p "refer_dbs/dark_souls_literatura" \
 	| ascii_czech unfuck - \
