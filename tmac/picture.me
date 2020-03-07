@@ -1,0 +1,32 @@
+\""
+\""   M A G N U S I  T R O F F  C O L L E C T I O N
+\""   =============================================
+\""   - contains settings for producing -me pics
+\""   - make new .so statement+file if you need
+\""     other settings than defaults
+\""   - new defaults can be added here
+\""
+\""   SRC: github.com/luciusmagn/ambivalence
+
+
+\"" M A C R O ""\
+
+\"" Arguments:
+\"" ==========
+\"" $1 - left offset
+\"" $2 - margin-top
+\"" $3 - height
+\"" $n - BP arguments
+.de pic
+.	ds $P1 \\$1
+.	ds $P2 \\$2
+.	ds $P3 \\$3
+.	in \\*[$P1]
+.	sp \\*[$P2]
+.	shift 3
+.	BP \\$@
+.	sp \\*[$P3]
+.	in 0
+.	br
+.	pp
+..
