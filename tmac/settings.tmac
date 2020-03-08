@@ -18,6 +18,7 @@
 .nr pp 12       \" paragraph font size
 .nr fp 10       \" footnote font size
 .nr RP 10       \" reference font size
+.nr sp 20       \" base heading size
 .sz 12          \" default font size
 
 \"" L A Y O U T ""\
@@ -25,15 +26,15 @@
 
 \"             -->| .in |<--
 \"                |<-----------.ll------------>|
-\"          +-----+----+-----------------------+----+
-\"          |     :    :                       :    |
-\"          +-----+----+-----------------------+----+
+\"          +-----+-----+-----------------------+----+
+\"          |     :     :                       :    |
+\"          +-----+-----+-----------------------+----+
 \"       -->| .po |<--
-\"          |<--------paper width---------------->|
+\"          |<-----------paper width---------------->|
 
 .ll 6.3i        \" line length
 .po 1i          \" left offset of line
-                \" FYI: in inches, page width is  ~8.3inch
+                \" FYI: in inches, A4 page width is ~8.3inch
 
 \"" O T H E R ""\
 
@@ -46,27 +47,26 @@
 ..
 
 .de $1          \" level 1 heading
-.ps +10
 ..
 
 .de $2          \" level 2 heading
-.ps +8
+.ps -2
 ..
 
 .de $3          \" level 3 heading
-.ps +6
+.ps -4
 ..
 
 .de $4          \" level 4 heading
-.ps +4
+.ps -6
 ..
 
 .de $5          \" level 5 heading
-.ps +2
+.ps -8
 ..
 
 .de $6          \" level 6 heading
-.ps +1
+.ps -9
 ..
 
 .de $p          \" Section heading

@@ -21,6 +21,8 @@ if [[ -z "$TMAC" ]]; then
 	export TMAC=me
 fi
 
+convert_images.sh
+
 fd . refer_dbs/ -x sh -c "cat {} | ascii_czech fuck - > .refer_dbs/{/}"
 
 cat $(basename -- "$1" .$TMAC).$TMAC \

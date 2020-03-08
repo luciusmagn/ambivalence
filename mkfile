@@ -17,11 +17,6 @@ TARGET_BASE=`basename $doc .pdf`
 	echo $tmac $TARGET_BASE
 	[[ -n "$run" ]] \
 	&& wendy -m 264 \
-		-f img/src \
-		-e convert_images.sh \
-	|| convert_images.sh &
-	[[ -n "$run" ]] \
-	&& wendy -m 264 \
 		-f $TARGET_BASE.$tmac \
 		-f neslysici.me \
 		-f tmac \
