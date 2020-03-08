@@ -7,4 +7,7 @@ src-git/byacc/makefile
 *.ia
 *.ib
 *.ic
+*.ig
 *.i
+.refer_dbs
+token
