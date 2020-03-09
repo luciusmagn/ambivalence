@@ -1,0 +1,42 @@
+-- vim: ts=4 sw=4 noet ai cindent syntax=lua
+
+conky.config = {
+	alignment = 'top_left',
+	background = true,
+	border_width = 0,
+	cpu_avg_samples = 2,
+	default_color = 'white',
+	default_outline_color = 'white',
+	default_shade_color = 'white',
+	draw_borders = false,
+	draw_graph_borders = true,
+	draw_outline = false,
+	draw_shades = false,
+	use_xft = true,
+	font = 'DejaVu Sans Mono:size=10',
+	gap_x = 340,
+	gap_y = 20,
+	minimum_height = 5,
+	minimum_width = 260,
+	net_avg_samples = 2,
+	no_buffers = true,
+	out_to_console = false,
+	out_to_stderr = false,
+	extra_newline = false,
+	own_window = true,
+	own_window_class = 'Conky',
+	own_window_type = 'override',
+	stippled_borders = 0,
+	update_interval = 999999999,
+	uppercase = false,
+	use_spacer = 'none',
+	show_graph_scale = false,
+	show_graph_range = false
+}
+
+conky.text = [[
+${color darkgrey}
+T O D O
+$hr
+${exec cat ~/.todo}
+]]
