@@ -18,4 +18,4 @@ unset LANGUAGE
 GROFF_NO_SGR=stupid
 export GROFF_NO_SGR
 
-/bin/sh -c "/usr/bin/tbl ${ROOT}.${TYPE} | /usr/bin/groff -P -o0 -I${ROOT}_ -Thtml -${MACS}"
+/bin/sh -c "/sbin/tbl ${ROOT}.${TYPE} | /sbin/groff -P -o0 -I${ROOT}_ -Thtml -${MACS}"

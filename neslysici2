@@ -1,0 +1,3672 @@
+.so tmac/cz.tmac
+.so tmac/subpoints.me
+.so tmac/settings.tmac
+.so tmac/refer.me
+\" titulní stránka
+.tp
+.(c
+Gymnázium Jana Keplera
+.)c
+.sp 11
+.(c
+.sz +7
+.b "Maturitní práce z Humanitních studií"
+.sz
+.)c
+.sp 7
+.sz 10
+.(c
+.sz +10
+\" název v čj
+.b "Kdo je tady Neslyšící?"
+.sz
+.)c
+.sp 1
+.(c
+.sz +6
+\" název v aj 
+.b "Who is Deaf?"
+.sz
+.)c
+.sp 7
+.(c
+\" autor
+Vít Matějíček
+.)c
+.sp 3
+.(c
+\" datum
+Březen 2020
+.)c
+.sp 7
+.b "Vedoucí práce:"
+Mgr. Jan Kolář
+.br
+.b "Oponent:"
+Mgr. Barbora Semerádová
+
+.++ AB
+.+c "Anotace"
+.ls 2
+.pp
+Svébytnost neslyšící menšiny po stránce jazykové dnes
+už v Evropě zpochybňuje málokdo.
+Přesto si však málokdo uvědomuje svébytnost kultury Neslyšících
+a jejich samostatnou kulturní identitu,
+která je na stejné úrovni jako u jiných menšin.
+I proto si tato práce klade za cíl rozebrat neslyšící komunitu
+jakožto kulturní celek,
+jenž jde za hranice prostého vymezení určeného jazykem.
+Jakým způsobem spolu koexistují různé kulturní identity
+v životě neslyšících?
+Často zmiňovaným případem takového,
+v tomto případě rozporuplného,
+vztahu mohou být neslyšící rodiče odmítající kochleární implantát
+pro své děti.
+Smyslem práce však nemá být rozřešení sporu
+o \[Bq]kochleární implantát\[lq], 
+ale spíše úvaha o postavení české kulturní menšiny Neslyšících
+ve vlastní zemi a její kontakty,
+spřízněnost a identifikace se s neslyšícími v jiných zemích.
+Nakolik jsme součástí kulturního prostředí
+přehlížené menšiny Neslyšících?
+Co o takovém prostředí můžeme říci?
+Co o něm řeknou sami Neslyšící a jak vnímají sami sebe?
+Při hledání odpovědí na tyto otázky se práce opírá
+nejen o autority v oboru (např. Josef Fulka),
+ale i o vlastní výzkum založený na těsném kontaktu
+se světem neslyšících.
+.+c "Úvod"
+.sh 1 "Proč"
+.pp
+Obhajoba smyslu práce, nástřel celku - dodělám nakonec
+
+.sh 1 "Kdo je to neslyšící?"
+.pp
+Jak definovat, kdo je a kdo není neslyšící?
+Existují různá kritéria, například podle povahy a míry postižení
+nebo podle používaných komunikačních prostředků,
+nicméně těžko lze jednoznačně definovat
+univerzální měřítko kulturních aspektů.
+Zákon považuje za neslyšící osoby s prelingvální
+i postlingvální ztrátou sluchu
+zněmožňující plnohodnotné porozumění mluvené řeči sluchem.
+.[
+terminologie
+.]
+Pro účely práva je to nejspíš dobrá
+nebo alespoň dostačující definice,
+avšak nezahrnuje jiné nuance než \[Bq]zdravotní\[lq].
+O něco jemnější distinkci nabízí vymezení
+na základě primárního komunikačního prostředku
+- neslyšící je člověk,
+jehož hlavním způsobem dorozumívání je znakový jazyk (ZJ).
+.[
+Terminologie
+.]
+Oboje ale postihuje jen objektivní stránku věci.
+Právě tak totiž může fungovat kulturní definice
+- Neslyšícím*
+.(f
+.IP *
+Slovo \[Bq]neslyšící\[lq] s malým \[Bq]n\[lq]
+obvykle označuje osobu s prelingvální ztrátou sluchu
+(pro postlingvální ztrátu se používá pojem \[Bq]ohluchlý\[lq]),
+\[Bq]Neslyšící\[lq] s velkým \[Bq]n\[lq]
+kulturní příslušnost k menšině Neslyšících
+.)f
+je ten, kdo se cítí být Neslyšící,
+kdo se identifikuje s komunitou Neslyšících,
+ačkoliv sám nemusí splňovat všechna kritéria uvedená výše,
+jelikož Neslyšící jsou rovněž vyhraněná kulturní menšina.
+.pp
+Zároveň s tím však ne každý, kdo neslyší,
+musí být nezbytně součástí společenství Neslyšících.
+V historii byla hluchota spojována s mentálními poruchami
+a neslyšící žili v ústavech,
+často bez kontaktu s ostatními neslyšícími.
+.[
+home
+.]
+.[
+ladd
+.]
+To je jeden z důvodů, proč vznik kultury Neslyšících trval tak
+dlouho;
+nutným předpokladem totiž nebyla pouhá koncentrace neslyšících
+(podmínky podobné Paříži osmnáctého století
+nastaly již dříve např. v Konstantinopoli, Káhiře či Pekingu),
+ale i přístup většinové společnosti ve smyslu rušení izolace.
+Ačkoliv v Evropě se zavírání neslyšících do ústavů už příliš neděje,
+v některých částech světa*
+.(f
+.IP *
+Například v Indonésii nebo Nikaraguy
+.)f
+je to pořád běžná praxe.
+Člověk v praktické izolaci se tak těžko vůbec dozví
+o kultuře neslyšících,
+natož aby se s ní mohl identifikovat nebo se do ní aktivně zapojit.
+Nejen systémová omezení, ale i velké vzdálenosti mezi neslyšícími
+vedou k nepřijetí kultury Neslyšících z důvodu izolace.
+Právě tak se ale mohou 
+.i "rozhodnout"
+nezapojit se do komunity z různých pohnutek,
+například kvůli preferenci mluvené řeči.
+To bývá často situace postlingválně neslyšících - 
+.i "ohluchlých"
+- lidí se ztrátou sluchu, ale schopností mluvit.
+Na rozdíl od prelingválně neslyšících,
+pro které je mateřským jazykem znakový jazyk,
+je pro ohluchlé mateřským jazykem jazyk mluvený,
+což má i kulturní dopady.
+.pp
+Zatímco pro prelingválně neslyšící je hluchota výchozím stavem
+(a sociální život je tomu přizpůsoben orientací
+na komunitu ostatních neslyšících)
+a potřeba naučit se mluvený jazyk většiny překážkou,
+ohluchlí ztratili předtím využívanou schopnost
+a hluchota je tak pro ně handicap,
+změna stavu, překážka znesnadňující dosavadní
+(na slyšící orientovaný) život.
+.pp
+Pro ohluchlé tak bude o mnoho běžnější snaha o překonání handicapu
+a pokračování vazeb na \[Bq]svět slyšících\[lq],
+což se projevuje například větším zájmem o kompenzační pomůcky
+a metody komunikace využívající mluvený jazyk jako mluvení,
+odezírání nebo znakovaná podoba mluveného jazyka.*
+.(f
+.IP *
+Český znakový jazyk je přirozený jazyk a kromě rozšíření
+na území Česka nemá s češtinou
+příliš společného, zatímco znakovaná čeština je čeština
+s celou svojí strukturou převedená do manuální modality
+.)f
+
+.sh 1 "Paradigmata hluchoty"
+.pp
+Právě tak jako lékař či právník a samotný Neslyšící
+budou mít odlišné pohledy na to,
+kdo je a kdo není Neslyšící či neslyšící,
+podstatné rozdíly budou i ve vnímání hluchoty.
+Medicínská definice neslyšícího se opírá
+o takzvané deficitní paradigma,
+které chápe neslyšení jako nedostatek, překážku
+- něco, co je potřeba \[Bq]opravit\[lq].
+Přestože je ideál \[Bq]dokonalého\[lq] člověka nedosažitelný
+a i \[Bq]cílová\[lq] norma je jen lhostejností vůči
+individuálním odchylkám,
+společnost vynakládá nemalé úsilí na \[Bq]nápravu\[lq]
+pár konkrétních.
+V minulosti závisel deficitní přístup především
+na schopnostech neslyšícího odezírat a ovládat svůj hlas.
+Zato dnešní doba má možností podstatně více,
+například kochleární implantát,
+který sice není vhodný pro každého,
+ale především v dětském věku může handicap výrazně snížit
+a usnadnit tak integraci do většinové společnosti.**
+.(f
+.IP **
+Pokrok v technologiích umožňuje výrazné zmenšení handicapu,
+ať už umělým sluchovým orgánem (kochleární implantát;
+nepomáhá při všech situacích a nemá stoprocentní spolehlivost
+ani při správné medicínské indikaci),
+nebo pomůckami jako převod textu na řeč/řeči na text v mobilu
+či zobrazování informací na čelní sklo auta.
+.)f
+Mezi slyšícími je deficitní paradigma nejrozšířenější
+a při srovnání slyšícího a neslyšícího je těžké ho nevidět.
+.pp
+Zato paradigma jinakostní je dominantní mezi Neslyšícími
+a do jisté míry se dá říct,
+že je jedním z výchozích momentů ustavení společenství Neslyšících.
+Spočívá v tom, že hluchota se bere jen jako prostá,
+hodnocením nezatížená odlišnost
+- Neslyšící tak nejsou \[Bq]postižení\[lq], ale jazyková
+či kulturní menšina.
+.pp
+Toto paradigma, pro slyšící většinou značně neintuitivní,
+se však dá snadno vysvětlit třeba
+pomocí povídky \[Bq]Země slepců\[lq].
+.[
+wells
+.]
+V ní se dostane cestovatel do údolí lidí, kteří nevidí.
+Co víc, nevidí již tak dlouho, že se z jejich jazyka vytratil
+koncept zraku.
+Horolezec Nuñez si myslí, že bude mít mezi slepci výhodu,
+jenže místní se na svoji situaci adaptovali,
+nechápou horolezcovy řeči o \[Bq]pátém smyslu\[lq]
+a občas je mu zrak dokonce trochu na obtíž.
+Ačkoliv závěr povídky rozhodně interpretaci ve prospěch
+slepců nenahrává, dobře ilustruje vnímání postižení.
+Kdo zkušenost sluchu nemá, težko bude vnímat jeho absenci
+jako znevýhodnění, už proto, že neví, o co přichází.
+Kromě toho je tu ještě rovina sociální.
+V minulosti byli neslyšící degradováni a jejich handicap byl
+používán proti nim i mimo racionální kontext,
+.[
+fulka
+.]
+stejně tak jako nebyl uznáván znakový jazyk (někde stále není).
+Až revoluční Francouzská ústava z roku 1791 přiznává neslyšícím
+lidská práva!
+.[
+deklarace
+.]
+.[
+ustava
+.]
+.pp
+Z těchto důvodů dává vnímání hluchoty Neslyšícími o něco větší smysl
+- nemají srovnání a ani historická zkušenost není jinému 
+chápání příliš nakloněna, navíc přemýšlet o sobě jako
+o \[Bq]tom vadném\[lq] psychice také zrovna nepřidává.
+Koneckonců i chápání hluchoty jako prosté jinakosti
+je způsob, jak se vypořádat s psychologicky obtížnou
+situací a s percepcí sebe sama.
+
+.sh 1 "Stručné dějiny Neslyšících"
+.sh 2 "Prehistorie"
+.pp
+Kde se vzalo společenství Neslyšících?
+Co víme o neslyšících z doby předcházející ustavení společenství
+a předobrazu jejich kultury?
+Podobně jako u moderních států a kulturních identit,
+konstitutivním impulsem se zdá být jazyk,
+který je o mnoho starší než samotná idea společenství
+s kořeny v osmnáctém a devatenáctém století.
+První záznamy o používání znakového jazyka
+nejsou - překvapivě - o Neslyšících,
+neboť nejstarší doložené znakové systémy
+vyvinuli mniši v klášterech (jak v Evropě, tak v Asii)
+přibližně v desátém století kvůli slibu mlčení.
+.[
+monastic
+.]
+.pp
+První znakové systémy Neslyšících pro změnu nelze přesně datovat,
+jelikož vznikaly v Americe mezi indiánskými kmeny,
+které neznaly písmo a španělští misionáři se tak museli
+spolehnout na orální historii.
+Indiánské znakové jazyky pravděpodobně vznikly v izolovaných místech,
+kde se rozšířily geny způsobující hluchotu.
+Koncentrace neslyšících v daném společenství narostla natolik,
+že nebylo možno neslyšící vyloučit ze společenství
+(jakýmkoli způsobem včetně zabití) nebo komunikaci
+s nimi nechat jen na rodině. V některých dostatečně izolovaných
+populacích se dokonce podíl neslyšících blížil ke třetině,
+což tvoří nezanedbatelnou část společnosti.
+Díky tomu došlo k samovolné integraci světů slyšících a neslyšících,
+kdy většinová kultura přijala neslyšící mezi sebe
+a dokonce se sama přizpůsobila jejich potřebám
+- podstatná část kmene se naučila znakovat.
+Dokonce se to posunulo ještě dál - podmínky se změnily
+a minimálně z části usedlých a izolovaných kmenů se stali kočovníci,
+kteří se setkávali s kmeny z naprosto jiných jazykových skupin.
+Ačkoliv přesný mechanismus vzniku jazyka není dodnes objasněn,
+znakové jazyky jsou více ikonické,
+čímž se v danou chvíli staly vzájemně srozumitelnějšími
+než jazyky mluvené;
+.[
+pisl
+.]
+kmeny při vzájemném setkávání začaly používat
+integrovaný aspekt komunity neslyšících (znakovou komunikaci)
+.i "pro komunikaci slyšících".
+Mezi částí indiánů z oblasti
+.i "Great Plains"
+byla znaková komunikace
+.i "lingua franca".
+V místních společenstvích měli neslyšící často znakový jazyk
+na vyšší úrovni, zatímco slyšící používali
+pidgin různých znakových substrátů například pro obchod
+nebo diplomacii.
+Obdobný proces proběhl o něco později také v Evropě.
+V oblasti
+.i "Kentish Weald"
+v Anglii došlo kvůli relativní izolaci a vyšší koncentraci
+dědičné hluchoty ke vzniku Starokentského znakového jazyka
+používaného i slyšícími.
+.[
+oksl
+.]
+Z oblasti Kentu pak lidé migrovali do Ameriky,
+často konkrétně na ostrov Martha's Vineyard,
+kde se podíl neslyšících oproti Kentu ještě zvýšil.
+Zásadní změnou je ale to,
+že Martha's Vineyard v relativní izolaci vydržel
+ještě značnou dobu po osídlení
+.[
+mvsl
+.]
+a znakový jazyk ostrova přežil dost dlouho na to,
+aby mohl být prozkoumán a popsán.
+.[
+fulka
+.]
+.pp
+Avšak ani indiánské znakové jazyky,
+ani situace v Kentu a na Martha's Vineyard nevedly
+ke vzniku kultury Neslyšících,
+ani k jejich samostatnému společenství.
+Nevznikla žádná identita Neslyšících,
+která by je významně odlišovala od většinové společnosti
+- primárně proto, že díky izolovanosti a vysokému podílu neslyšících
+vůči slyšícím společnost "neměla na výběr" a neslyšící integrovala.
+Manuální komunikace nebyla
+.i "exkluzivním"
+znakem neslyšících,
+základem specifické identity i primárním identifikačním znakem proto,
+že nenáležela výhradně Neslyšícím.
+V Evropě nastal ještě jiný model vzájemného soužití slyšících
+a neslyšících, který k vytvoření specifické kulturní identity vedl.
+Pro pochopení zrodu společenství je však třeba zabývat
+se mechanismem vzniku jazyka.
+
+.sh 2 "Vznik jazyka jako konstitutivního prvku komunity"
+.pp
+Když se narodí neslyšící,
+má rodina na výběr několik možností komunikace.
+Může neslyšícího ignorovat a nechat ho po komunikační stránce
+\[Bq]sobě napospas\[lq] (což se bohužel stále občas děje).
+Může se pokoušet o komunikaci v normálním mluveném jazyce
+a spoléhat na to, že se neslyšící přizpůsobí
+a bude odezírat a snažit se mluvit.
+To se ne vždy povede, odezírání je relativně obtížné
+a ne vše se vůbec dá odečíst, což vede k nedorozuměním apod...
+Navíc kontrolovat svůj hlas bez zpětné vazby je natolik náročné,
+že k samotné srozumitelnosti se nedopracuje každý,
+kdo se o to pokouší.
+Jinakost v mluveném projevu může snadno vést
+k sociálnímu vyloučení i mezi slyšícími (především v dětském věku).
+Právě tak je problematické zařazení i mezi ostatní neslyšící,
+kteří kvůli nekomfortu "orální metody"
+preferují jiné způsoby komunikace.
+I přes to je dodnes běžné, že se rodina znakovat nenaučí
+a na neslyšícího pouze mluví.
+Poslední variantou je komunikace pomocí znaků.
+Dříve, než se ustálily znakové jazyky,
+si musela každá rodina vytvořit svůj vlastní znakový systém,
+takzvaný \[Bq]home sign\[lq].
+Pro takové systémy je typická malá slovní zásoba
+orientovaná na každodenní záležitosti
+a žádná nebo velmi primitivní gramatika.
+Jak populace rostla a koncentrovala se do větších obcí a měst,
+neslyšící se setkávali stále častěji.
+Pro vzájemnou komunikaci,
+kdy každý z nich využíval vlastní home sign,
+se vyvinul pidgin, rovněž prakticky negramatický amalgamát
+různých jazykových systémů.
+V určitou chvíli začalo být užitečné další generaci neslyšících
+učit pidgin jako mateřský jazyk,
+čímž vznikla kreolština.
+Od tohoto bodu už má manuální jazykový systém nejen rodilé mluvčí,
+ale i skupinu uživatelů používající stejný jazyk a udržující kontakt.
+Potom stačí už jen málo k rozvoji plnohodnotného jazyka
+i představy společenství definovaného užíváním společného jazyka.
+
+.sh 2 "Kultura a společenství"
+.sh 3 "Prvopočátky"
+.pp
+Tato situace nastala či byla zaznamenána až v Paříži
+osmnáctého století.
+Zda komunita Neslyšících existovala již dříve
+a do hledáčku intelektuálů se dostala až vlivem osvícenství
+nebo zda jí pomohly vytvořit osvícenské instituce
+a lepší životní podmínky, není podstatné.
+Zcela zásadní naopak je, že společenství či kulturní identita
+Neslyšících se začala formovat v době turbulentních
+společenských změn.
+Dynastické politické vztahy a náboženský interpretační rámec
+.[
+anderson
+.]
+byly nahrazeny sekulární,
+ale přesto interpretační roli plnící představou
+\[Bq]lidu\[lq] a nakonec národa.
+
+.sh 3 "Francie, Abbé de l'Épée"
+.pp
+Duchovním otcem kulturní identity Neslyšících je nesporně
+Abbé Charles-Michel de l'Épée.
+Při své práci katolického kněze postřehl na ulici dvě neslyšící ženy,
+jak si znakovaly.
+To ho údajně inspirovalo k tomu, aby se věnoval
+vzdělávání neslyšících.
+Znakový jazyk neslyšících z té doby sice považoval za primitivní,
+nicméně v roce 1759 vymyslel \[Bq]Signes Méthodiques\[lq],
+systém dnes známý jako stará znakovaná francouzština,
+.[
+signes
+.]
+a rok nato založil první veřejnou*
+.(f
+.IP *
+Neslyšící děti především ze šlechtických rodin byly vychovávány
+soukromě nebo ve velmi exkluzivních ústavech,
+avšak záběr těchto institucí i jejich vliv na kulturu
+byly naprosto minimální.
+.)f
+školu pro neslyšící.
+I přes svoje odmítání přirozeného znakového jazyka
+si jej Neslyšící postavili na piedestal
+a stal jejich \[Bq]Otcem\[lq],
+a to převážně díky jeho roli při formování kultury Neslyšících.
+Jako první veřejná osobnost legitimizoval významonosnou
+vlastnost znaků praxí**
+.(f
+.IP **
+Po teoretické stránce byl první sv. Augustin
+a další až po Épéem Denis Diderot
+.)f
+, což umožnilo přístup ke vzdělání všem neslyšícím
+(zatím jen v Paříži),
+bez ohledu na majetek a schopnost odezírat a mluvit.
+Byl také bojovníkem za práva neslyšících - přiznání lidských práv
+neslyšícím v Deklaraci práv člověka a občana proběhlo
+sice po jeho smrti, ale na jeho popud.
+.[
+fulka
+.]
+Kromě toho se jeho \[Bq]Národní institut pro hluchoněmé\[lq]
+stal místem intenzivního setkávání celé komunity.
+Společně se vzděláním, 
+které v něm neslyšící získali,
+se vyvinula celá komunita.
+Ačkoliv výuka probíhala ve staré znakované francouzštině,
+těsný kontakt neslyšících vedl jednak k posunu
+od starofrancouzského znakového jazyka
+k modernímu francouzskému znakovému jazyku (FZJ),
+který je dodnes základem největší jazykové rodiny znakových jazyků,
+a rovněž ke zformování prvního společenství Neslyšících
+na základě společného jazyka a společného centra v Épéeho ústavu.
+Dá se říci, že díky Épéemu se alespoň z části neslyšících
+stali Neslyšící jako svébytná společenská skupina.
+
+.sh 3 "Velká Británie"
+.pp
+Ve stejnou dobu jako Épéeho škola vznikla ve Velké Británii
+\[Bq]Braidwoodova akademie pro hluché a slabomyslné\[lq].
+.[
+dnb
+.]
+.[
+feltham
+.]
+Od pařížské instituce se lišila v několika ohledech
+- nebyla zaměřená pouze na neslyšící,
+byla soukromá a přijímala pouze děti z bohatých rodin,*
+.(f
+.IP *
+Díky tomu byli žáci Braidwoodovy akademie pozdější
+významné osobnosti jako malíř Charles Shirreff,
+astronom John Goodricke, guvernér Barbadosu Francis Mackenzie,
+Jane Poole, nevidomá a neslyšící, jejíž závěť byla první soudně
+uznanou závětí znakovanou tlumočníkovi, či malíř Thomas Arrowsmith.
+.)f
+byla metodicky nejednotná a kategoricky odmítala spolupráci
+s ostatními institucemi např. ve Francii nebo v USA.
+Používala se
+\[Bq]metoda totální komunikace\[lq], tj. simultánní komunikace
+všemi dostupnými prostředky od řeči přes ZJ a znakované jazyky až
+po nejazyková gesta a znakové \[Bq]hláskování\[lq],
+ale problematická byla především znaková složka.
+Zatímco učitelé v Paříži ovládali jak ZJ,
+tak znakovanou francouzštinu
+a učili výhradně ve znakované francouzštině,
+u Braidwoodova stylu komunikace není distinkce snadná.
+Ve výsledku však došlo ke stejnému procesu jako ve Francii
+- mezi neslyšícími se umělé metody neujaly a vznikl přirozený
+znakový jazyk specifický pro prostředí neslyšících s vazbou na školu.
+Právě tak se kolem Braidwoodovy akademie vytvořilo
+britské společenství Neslyšících, byť o něco později.
+
+.sh 3 "USA, Gallaudetové"
+.pp
+V USA začalo vzdělávání neslyšících až na začátku 19. století
+striktně oralistickou Cobbsovou školou, která však zanikla
+již v roce 1816.
+Zásadní zlom v historii Neslyšících představuje až
+Thomas Hopkins Gallaudet, jenž v roce 1814 začal učit
+neslyšící sousedovu dceru.
+.[
+hopkins
+.]
+Na jeho popud se poté vydal do Británie studovat metodiku
+vzdělávání neslyšících,
+ale Braidwoodovou akademií byl odmítnut.
+Vydal se tedy do Francie, kde se setkal s nástupcem de l'Épéeho
+CZ
+Abbé Sicardem a dvěma francouzskými Neslyšícími,
+kteří ho naučili francouzský znakový jazyk.
+Společně s jedním z nich,
+Laurentem Clercem,
+se pak vrátil do USA a založil Americkou školu pro neslyšící,
+nejstarší dodnes fungující školu pro neslyšící v USA.
+Oproti jiným institucím se lišila především manuální metodou
+- výukou ve znakovém jazyce.
+Avšak i v USA si komunita začala žít vlastním životem
+a mluvit vlastním jazykem.
+Americký znakový jazyk sice staví zejména na FZJ,
+ale také na indiánských znakových jazycích,
+ZJ ostrova Martha's Vineyard,
+a i gramatikou a znakosledem se od FZJ značně liší.
+Edward Miner Gallaudet, nejmladší syn Thomase Gallaudeta,
+nahradil svého otce ve vedení školy a ještě založil Gallaudetovu
+univerzitu, která je dodnes funkční
+a vyučuje také ve znakovém jazyce.
+.[
+edmiga
+.]
+
+.sh 3 "Milánská konference"
+.pp
+Ačkoliv univerzita pro neslyšící byla významným milníkem v historii
+Neslyšících, Edward Gallaudet se do ní zapsal ještě jednou,
+důležitější věcí.
+Jak ve Francii, tak v USA došlo ke konfliktu mezi striktně orálními
+institucemi a mezi těmi, které akceptovaly manuální způsob komunikace
+(i když třeba ne výhradně manuální). Ve Francii tento spor
+reprezentoval Jacob Rogrigues Pereira
+(později Pereirovská společnost)
+za oralisty a Épéeho nástupci za protistranu,
+v USA Alexander Graham Bell a E.M. Gallaudet.
+Rozepře kulminovala takzvanou
+.i "Milánskou konferencí",
+oficiálně Druhým mezinárodním kongresem o vzdělávání neslyšících.
+Konference měla určit, jestli je lepší orální nebo některá
+z manuálních či kombinovaných metod výuky.
+.[
+siced
+.]
+.[
+fulka
+.]
+.pp
+Problematické bylo ovšem to,
+že celá konference byla organizována Pereirovskou společností,
+která pečlivě vybírala hosty k dosažení svých cílů.
+Závěrem tudíž nebylo nic jiného
+než zákaz výuky ve znakových jazycích.
+Gallaudetova historická role spočívá v
+.i "odmítnutí"
+rezolucí Milánské konference,
+.[
+siced
+.]
+.[
+edmiga
+.]
+díky čemuž v USA přežil znakový jazyk na školách.
+Zatímco ve zbytku světa znakový jazyk stagnoval nebo se vyvíjel
+jen pomalu a bez akademického zázemí (ve vzdělávání byl vesměs
+cíleně potlačován),
+v Americe se společenství Neslyšících mohlo vyvíjet
+nebývalou rychlostí.
+Kromě akademické sféry,
+ve které je Gallaudetova univerzita dodnes nejvýznamnější institucí,
+se okolo ní začala utvářet silná kultura Neslyšících,
+.[
+kultura
+.]
+především v oblastech umění a sportu.
+Už od doby E.M. Gallaudeta se vyvíjí divadlo Neslyšících
+(oficiální založení Národního Divadla Neslyšících sice nastalo
+až v roce 1967,
+nicméně i tak je nejstarší registrovanou
+divadelní společností v USA),
+poezie, další performativní podoby umění
+a od dvacátého století také film.
+.[
+literatura
+.]
+.pp
+Kromě samotného konfliktu metod stojí za zmínku také některé
+z použitých argumentů.
+V Evropě se vzděláváním neslyšících zabývala převážně církev,
+pro kterou byl důležitý
+.i "teologický argument proti znakovým jazykům".
+.(q
+.sz 12
+[...] V jakou spásu může doufat někdo, kdo nemůže slyšet slovo Boží?
+.[
+fulka
+.]
+Jak se přesvědčit o\ vztahu k\ nemateriálnu obecně
+a ke\ stejně nemateriální duši,
+když se někdo vyjadřuje jen pomocí materiálního,
+nedokonalého a ne\ dostatečně abstraktního jazyka?
+Není právě tělesnost znakování teologickým problémem,
+když komunikace sama o\ sobě je imitací a již z\ podstaty
+nemůže být oddělena od\ vášní a podobných zcestných záležitostí?
+.[
+mind
+.]
+Ještě na\ konci devatenáctého století převážil názor,
+že právě tělesnost, rozněcování vášní a absence odstupu
+skrze abstrakci vede k\ reaktivaci hříchů
+při\ zpovědi ve\ znakovém jazyce.
+.[
+brill
+.]
+.br
+.(c
+(Vít Matějíček, Divočina znakového jazyka, 2019)
+.)c
+.)q
+.pp
+Avšak ne všichni vznášeli teologické či filosofické argumenty.
+A.G. Bell, který se konference nezúčastnil,
+prosazoval oralismus ne kvůli nějaké nedostatečnosti
+znakového jazyka,
+ale kvůli snazší integraci neslyšících do společnosti.
+
+.sh 3 "Pozdější vývoj"
+.pp
+Období po Milánské konferenci je pro Neslyšící \[Bq]dobou temna\[lq].
+Většina institucí nakonec přešla na oralismus a jazyk Neslyšících,
+který je zároveň pilířem kultury a takřka jediným médiem
+\[Bq]textuálního\[lq] aspektu kultury,
+byl v lepším případě ignorován, v horším aktivně potlačován.
+Hlavní výjimku tvořily instituce založené Gallaudety
+nebo ty, které na ně byly napojené.
+Především díky nim je kultura Neslyšících nejrozvinutější
+právě v USA.
+Dalším rozdílem je, že v Evropě bylo vzdělávání neslyšících
+lidsky i finančně závislé na církvích,
+z nichž minimálně katolická se k závěrům Milánské konference
+přihlásila a ve \[Bq]svých\[lq] institucích je prosadila.
+.pp
+V západním světě se kultura Neslyšících rozvíjela
+mimo oficiální struktury vesměs
+až do šedesátých let dvacátého století.*
+.(f
+.IP *
+Na různých místech trvala změna legislativy různě dlouho;
+společenské změny a posun ve vnímání Neslyšících
+v šedesátých letech se v každodenní realitě projevily často
+až v letech sedmdesátých.
+.)f
+Podobně jako při první vlně rozvoje lidských práv
+a redefinici \[Bq]člověka\[lq] jako takového
+a jeho role ve společnosti (osvícenství 18. století),
+k dalšímu významnému posunu došlo v rámci nového boje za lidská práva
+v šedesátých letech.
+Ačkoliv tématika Neslyšících zdaleka nebyla v popředí
+společenského zájmu, alespoň v zemích jako Francie, Velká Británie
+nebo i Rakousko nastalo uvolnění restriktivních zákonů
+i sekularizace vzdělávání neslyšících.
+Díky tomu se kultura Neslyšících mohla znovu rozvíjet.
+Značně přispěl i zájem akademiků,
+iniciovaný Williamem Stokoem,
+dodnes nejvlivnějším lingvistou znakových jazyků.**
+.(f
+.IP **
+Někteří jiní se minuli s dobou a zůstali víceméně opomenuti,
+například Garrick Mallery (1831-1894).
+.)f
+.pp
+Avšak vedlejším efektem renesance kultury Neslyšících právě
+v šedesátých letech byla také změna pojetí vlastní kultury
+Neslyšícími.
+Zatímco vznik kulturní identity je spojen s osvícenskou sekularizací
+společenské existence a vznikem identit a společenských entit
+jako je národ,
+s novým paradigmatem společnosti i člověka,
+ve kterém poprvé měli místo i Neslyšící,
+šedesátá léta s sebou přinesla výrazně problematičtější
+narativ emancipace,
+.i "boje"
+za lidská práva/svéprávnost/svoji vlastní kulturu a identitu.
+Přijetí takového narativu má stejné příčiny
+jako u ostatních menšin,
+z jejichž identity se v té době stalo politikum.
+U Neslyšících obzvlášť je útlak ze strany většinové společnosti
+těžko zpochybnitelný - pod ostrou kritiku se dostaly téměř všechny
+veřejné instituce jako školy, vězení a
+ústavy pro duševně nemocné i jinak postižené
+- a vynucování oralismu přes odpor komunity Neslyšících
+i tresty za používání znakového jazyka k takové kritice vybízely.
+Nicméně léta potlačování jazyka a na něm závislé kultury
+znemožnila pokračování projekce kultury Neslyšících
+do všeobjímajícího osvícenského pojetí člověka
+a nahradila je konfliktem.
+Snaha vymezit se,
+\[Bq]vykolíkovat\[lq] si svoje území na poli kultury
+a zpracovat vztah kultury Neslyšících s většinovou společností
+se v takovém pojetí historie stala nezbytností.
+Podobně jako u ostatních skupin,
+jejichž emancipace proběhla v šedesátých letech,
+ani u Neslyšících se leitmotiv boje proti útlaku dodnes nezměnil.
+.pp
+V komunistickém bloku byl oralismus vynucován méně důsledně
+než na západě; neznamená to ale,
+že by měl znakový jazyk lepší pozici.
+Výuka, pokud vůbec byla,
+se soustředila na schopnost komunikace v mluveném jazyce,
+minimálně v psaní.
+Znakový jazyk byl taktéž zakázán ve vzdělávácích institucích
+i v televizi - místo něj byly prosazovány znakované podoby
+mluveného jazyka (\[Bq]manually coded languages\[lq]).
+V postkomunistických zemích se problematika Neslyšících znovuotevírá
+až teď a komunita tak byla a vesměs stále je odkázána
+především sama na sebe bez zásahů státu,
+alespoň co se týká kultury.
+
+.sh 3 "Neslyšící v Česku"
+.pp
+\fBDODĚLAT\fR
+dodělám nakonec po praktické části
+
+.sh 2 "Historiografie a mytologie Neslyšících"
+.pp
+Každá dostatečně rozvinutá kulturní identita v sobě zahrnuje
+také interpretaci sebe sama a \[Bq]ospravedlnění\[lq]
+své vlastní existence.
+Výjimkou nejsou ani Neslyšící;
+historická fakta jsou reinterpretována v souladu
+s \[Bq]ideologií\[lq],
+systémem uvažování o společné identitě,
+jejím vztahu k ostatním identitám
+i roli jednotlivce v jejím rámci.
+Taková reflexe nezbytně podléhá pozdějšímu společenskému vývoji
+a vždy bude subjektivní;
+jakékoliv zhodnocení identity v sobě musí zahrnovat
+zhodnocení jednotlivce,
+tím víc, pokud jde o identitu jednotlivcem přijímanou.
+U Neslyšících je navíc důležitý způsob předávání historie
+- kultura Neslyšících je silně orientována na znakový jazyk,
+jehož zápis či psaná literatura jsou velmi problematické;
+dodnes není literatura Neslyšících autorů psaná v
+\[Bq]mluveném\[lq] jazyce (AJ, ČJ) komunitou Neslyšících
+plně přijímána a nemá stejný společenský status
+jako rukama (chtělo by se říci ústně, ale do kontextu Neslyšících
+se slovo příliš nehodí) předávaná \[Bq]literatura\[lq]
+znakových jazyků.
+Také kvůli zákazu znakování ve školách,
+který na některých místech platil přes sto let
+a dodnes není univerzálně zrušen,
+má
+.i "nepsaná literatura",
+jejíž postupy jsou srovnatelné s ústní tradicí vyprávění
+a předávání historie,
+zcela výsadní postavení výdobytku kultury Neslyšících
+útlaku navzdory.
+.pp
+Srovnávání s jinými historiografickými systémy není
+v případě Neslyšících banální záležitost;
+jak kvůli vnějším, tak i kvůli vnitřním podobnostem se nabízí
+komparace především s konstrukcí identity národa, národnosti
+nebo etnické skupiny.
+Společným jmenovatelem zmíněných úrovní či podob identity
+je 
+\fIpředstava\fR společenství na základě víry ve společný původ,
+společný jazyk, společnou historii a společnou kulturu.
+V případě Neslyšících nefunguje představa společenství
+na základě původu - valná většina Neslyšících jsou
+děti slyšících rodičů.
+Rovněž společná historie je diskutabilní;
+ačkoliv se například k odkazu de l'Épéeho hlásí
+Neslyšící po celém světě,
+konkrétní vývoj a z něj plynoucí problémy budou například
+mezi USA, ČR a Indonésií dost nesrovnatelné.
+I tak se ale zdá (a konkrétní mechanismy to podle mého názoru
+potvrzují), že alespoň v něčem bude způsob tvoření identity
+a referování o vlastní historii u Neslyšících podobný
+jako u etnických či národních identit.
+.pp
+I když je myšlenka národa nebo jiné politicko-sociální entity
+relativně novou záležitostí,
+obvykle v sobě zahrnuje představu vlastní historicity
+- společenství daných vlastností tady bylo když ne odjakživa,
+pak určitě alespoň skoro odjakživa.
+.[
+anderson
+.]
+U některých takových entit je tato představa o dávném původu
+podložená historií a byť by třeba samotná myšlenka národa
+byla nová, stejně může snadno navázat na kulturní dědictví
+předchozích politicko-sociálních entit (Řecko, Itálie).
+Naopak někdy je historický původ relativně nepodložený,
+nicméně \[Bq]nová\[lq] identita by se ve srovnání s
+\[Bq]pradávnými\[lq] mohla jevit jako méněcenná.
+Proto není neobvyklým jevem,
+že v situacích chybějících důkazů o původu
+jsou tyto důkazy falšovány (Rukopisy Královédvorský a Zelenohorský,
+irské Ossianovy písně).
+V případě Neslyšících však nejsou písemnosti tolik relevantní,
+ale přesto existuje mýtus o vlastním velmi dávném původu.
+.pp
+Historiografie Neslyšících v jistém aspektu
+.i "překonala"
+všechny podobné představy o národních identitách
+zasazením základu svého původu do pravěku,
+dokonce do období před vznikem
+.i "řeči".
+Co spojuje Neslyšící po světě a zároveňje odlišuje od ostatních?
+Těžko to bude představa společného původu jako
+u identit založených na etnicitě.
+Proto je jak samotná příslušnost ke kultuře Neslyšících,
+tak i konstrukce identity
+(jejíž nedílnou součástí je právě historiografie)
+do velké míry založená na užívání společného jazyka
+- znakového jazyka.
+Neslyšící se sotva můžou chlubit prastarou literaturou
+(literatura Neslyšících je dodnes převážně
+\[Bq]orální\[lq] nebo spíš nepsaná - prakticky jediný
+smysluplný způsob záznamu znakového jazyka je video),
+a i důkazy o existenci ZJ jsou až z písemností mluvených jazyků.
+Avšak Neslyšícím se v jejich pojetí historie podařilo
+otočit argument proti jazykové podstatě znakového jazyka
+zasazením jeho původu do doby před vznikem
+plnohodnotných mluvených jazyků.
+Jakým procesem se utvářela lidská schopnost účinně komunikovat,
+nevíme a nemůžeme nijak zvlášť přesně dokázat.
+Nicméně u jiných živočišných druhů s pokročilými systémy
+komunikace lze pozorovat různé způsoby předávání informací
+- kromě více či méně konkrétních zvuků či složitějšího společenského
+chování mimo rámec jazyka také komunikaci ve manuální modalitě,
+například gesta.
+Pro sebepojetí Neslyšících je podstatné to,
+že schopnost sdílet informace rukama je minimálně tak stará
+jako schopnost dělat to samé hlasem
+(jedna studie dokonce tvrdí, že základy gestikulace lze nalézt
+už u ryb
+.[
+ryby
+.]
+).
+Ačkoliv se takový způsob komunikace neujal jako dominantní,
+nedá se vyloučit,
+že se na utváření jazyka podílel,
+mimo jiné proto,
+že artikulace vyžadovala staletí vývoje,
+zatímco gestikulace je pro primáty snazší
+díky vyvinuté motorice.
+Takové teze pravděpodobně stojí na vratkých základech,
+ale při utváření identity a pojetí vlastní historie
+je možná \[Bq]neprůkazná\[lq] teorie lepší než průkazný falsifikát
+stylu Rukopisů, už jen proto, že nikoho nekompromituje.
+.pp
+Přes důležité místo, které mýtus*
+.(f
+.IP *
+Mýtem se zde nemyslí falsum, ale interpretační struktura
+.)f
+o původu v historiografii Neslyšících zaujímá,
+jádro a základ identity leží v mýtech o osobě abbé l'Épéeho.
+Čím si tuto pozici zaloužil?
+Vždyť nebyl ani první \[Bq]učitel\[lq]** Neslyšících
+.(f
+.IP **
+Zatím nebyli zmíněni například Pedro Ponce de Léon
+nebo Samuel Heinicke, zakladatel první (orální) školy pro neslyšící
+.)f
+, ani nebyl zastáncem znakového jazyka.
+Zdánlivě proti tomu jdou kontrafaktuální historky o tom,
+jak Épée \[Bq]sám\[lq] vymyslel znakový jazyk
+\[Bq]pro neslyšící\[lq],
+což ho staví na téměř božskou úroveň.
+Proč se mohl stát \[Bq]Prométheem\[lq] Neslyšících,
+dárcem slova a v přeneseném významu lidství,
+tím, kdo dal Neslyšícím velké \[Bq]N\[lq],
+ačkoliv první výdobytek místní komunity Neslyšících neuznával?
+Především proto,
+že byl u zrodu komunity.
+Jeho další existence v rámci kultury podléhá další reinterpretaci,
+avšak jeho role na samotném počátku je nezpochybnitelná.
+Jeho Institut umožnil organizované setkávání Neslyšících v do té
+doby nemyslitelném rozsahu.
+Zavedením akademické debaty
+o optimálním způsobu vzdělávání Neslyšících
+legitimizoval přinejmenším manuální modalitu komunikace
+když ne konkrétně znakový jazyk - i to byl pokrok.
+Kromě toho málokdo nahrává emancipačnímu narativu tolik
+jako l'Épée a Gallaudetové.
+Centrální je v tomto narativu střet dvou paradigmat hluchoty
+- oralismus jako metoda má rozhodně blíže k vidění Neslyšících
+jako \[Bq]defektních\[lq],
+zatímco manualismus legitimizuje jinakost.
+I když l'Épée zneuznal první výdobytek komunity,
+pořád položil základy psychologicky významně přijatelnější
+představy toho,
+že být jiný neznamená být horší,
+což je leitmotivem kultury Neslyšících dodnes.
+Opozice vůči manualistům a stav \[Bq]sám proti všem\[lq]
+také přispívají k heroickému vnímaní jeho i Gallaudetů.
+.pp
+Dalším důležitým obdobím je až přímo emancipace kultury Neslyšících.
+Klíčovou figurou byl v tomto ohledu lingvista William Stokoe.
+Ačkoliv nebyl první,
+kdo se vážně zabýval lingvistikou znakových jazyků,
+jeho práce rezonovala společností zabývající se lidskými právy
+a menšinami jiných menšin.
+Kvůli jeho místně omezenějším vlivu i relativní blízkosti v čase
+však nenabyl mytického rozměru \[Bq]otců zakladatelů\[lq].
+Jeho role při renesanci akademického zájmu
+o problematiku Neslyšících je sice nezpochybnitelná,
+nicméně mimo USA se mu dostává menší pozornosti
+než například Neslyšícím celebritám.
+.pp
+Z nich je světově známá prakticky jen herečka Marlee Beth Matlin,
+doposud jediná Neslyšící,
+která obdržela Oscara za nejlepší ženský herecký výkon v hlavní roli.
+Dá se ale očekávat,
+že vnímání celebrit Neslyšícími se bude v nejbližších letech
+rychle proměňovat.
+Hlavní příčinou jsou internetové streamovací platformy
+a změna v jazykových schopnostech Neslyšících.
+Angličtina je \fIlinguou francou\fI západního světa,
+proto je jí věnována pozornost i při vzdělávání Neslyšících.
+Zároveň je velmi praktická,
+v některých případech možná dokonce praktičtější nebo snazší
+než mluvený jazyk mateřské země.
+Společně s tím se také profiluje Americký znakový jazyk
+nebo z něj odvozený umělý \[Bq]mezinárodní znakový systém\[lq]
+jako \fIlingua franca\fR Neslyšících.
+Tím jak naprosto nebývale rostou jazykové kompetence Neslyšících
+(v předchozích generacích bylo problematické
+zvládnutí jakéhokoliv jazyka
+- znakový byl potlačován
+a výuka mluveného se nesetkala vždy s úspěchem,
+do jisté míry i kvůli větší celkové izolovanosti Neslyšících),
+zvyšuje se dopad masmédií.
+Otitulkované pořady Netflixu a podobných platforem
+jsou dnes srozumitelné i v angličtině,
+navíc hranicemi nesvázaný potenciál umožňuje snazší zacílení
+na menšinu přítomnou ve všech zemích, byť v každé jednotlivé zemi 
+marginalní.
+Proto vznikají i pořady přímo pro Neslyšící;
+buď využívají znakový jazyk, nebo alespoň tematizují hluchotu.
+Toto rozšíření impaktu médií a umění má možnost stvořit mezinárodní
+celebrity specifické pro komunitu Neslyšících.
+
+.+c "Teorie kultury"
+.sh 1 "Proč se zabývat teorií kultury?"
+.pp
+Bez znalosti problematiky Neslyšících by se mohlo zdát,
+že teorie kultury a identity pro ně nebude nijak důležitá.
+Veškerá práce,
+dorozumění i \[Bq]hladkost\[lq] soužití ve výsledku závisí
+na činnosti sociálních pracovníků, případně úředníků
+nebo jiných lidech z úzkého okruhu slyšících,
+kteří jsou s Neslyšícími v každodenním kontaktu.
+K čemu tedy teorie?
+.pp
+Problém je v tom,
+že dobrá vůle bez pochopení,
+nebo alespoň snahy o pochopení, nestačí.
+Právě tak by se mohlo zdát,
+že pro interakci mezi kulturami není potřeba bohemistů,
+amerikanistů, hebraistů, sinologů apod.,
+stačí obchodníci a politici...
+Jenže tomu tak není.
+Pro efektivní komunikaci,
+a tím pádem i pro vzájemně přijatelné soužití,
+je nezbytné zabývat se nejen čistě objektivní a materiální formou
+komunikace,
+ale také věnovat pozornost rozdílům ve vnímání světa
+a v jeho interpretaci.
+Zároveň má efektivní komunikace podstatně víc složek než jen verbální
+jazykovou - její součástí je i kultura,
+systém přiřazování významů.
+Ignorancí kulturních rozdílů pak dochází k nedorozuměním
+a vznikají konflikty.
+.pp
+I dobře míněná snaha se může setkat
+s odporem jedné nebo druhé strany,
+což vede k vzájemné zahořklosti a nefunkčnosti soužití.
+Příkladem může být pokus o integraci Neslyšících
+do většinové společnosti důsledným vyžadováním oralismu;
+tento pokus selhal jak z objektivních důvodů (efektivita
+a náročnost), tak i z kulturních.
+Vnímání hluchoty čistě deficitním paradigmatem způsobuje,
+že slyšící usilují o kompenzaci postižení a integraci,
+\[Bq]normalizaci\[lq] Neslyšících do kulturních standardů většiny.
+Oproti tomu Neslyšící \[Bq]bojují\[lq] za to,
+aby byli uznáni kulturní menšinou,
+za vyvázání z regulací a norem většiny a legitimizaci
+vnitřních norem kultury Neslyšících;
+snahy o integraci tak chápou jako vynucování konformity a útlak.
+Zároveň je soužití a vzájemné pochopení nezbytné
+- existence mimo systém, mimo státní struktury,
+není možná ani přijatelná pro ani jednu stranu.
+Pro úspěšný dialog je proto třeba zabývat se pojmy
+jako kultura a identita z pozic věd,
+které zkoumají dialog nebo zkoumají dialogem;
+příkladem může být antropologie, lingvistika,
+psychologie či literární věda.
+
+.sh 1 "Co to znamená interpretovat kulturu?"
+.pp
+Tato otázka výchozím bodem celých vědeckých odvětví
+a vědních disciplín. 
+Avšak názor na tuto otázku se diametrálně liší
+nejen mezi různými vědami, ale takřka člověk od člověka.
+Zároveň se problematice Neslyšících věnuje jen málokdo;
+z těchto lidí se větina zabývá spíše vzděláváním, komunikací
+nebo integrací Neslyšících,
+zatímco jiné společenskovědní pohledy jako antropologický
+či sociologický chybí.
+Proto je značně náročné najít takový úhel pohledu,
+který by umožnil smysluplnou analýzu kultury Neslyšících.
+.pp
+Problematická je i aplikace perspektiv z jiných prostředí.
+Teoretikové kultury se vesměs zabývají jedním prostředím
+nebo aspektem kultury, který neumožňuje snadnou
+\[Bq]transplantaci\[lq] jejich závěrů do jiné situace.
+O nějakou obecnou teorii kultury mimo velice konkrétní specifika
+se zdaleka nepokouší tolik autorů,
+kolik by se dalo očekávat;
+naopak, typickým jevem je snaha o redukci významů kultury
+či kulturní identity do jedné úrovně,
+jednoho aspektu a jednoho prostředí.
+Příkladem budiž postkoloniální teorie kultury
+propagovaná např. Stuartem Hallem nebo Edwardem Saídem.
+Staví na filosofii Michela Foucaulta ve více ohledech
+- navazuje na analýzy mocenských vztahů v \fIDohlížet a trestat\fR,
+zabývá se rolí jazyka a textu ve společnosti
+a například v Saídově Orientalismu využívá i Foucaultova konceptu
+\[Bq]archeologie myšlení\[lq].
+Nevýhodou ale je značné zaměření
+na mocenské aspekty kultury a identity
+a na koloniální či postkoloniální prostředí.
+Zatímco právě v postkoloniálním prostředí je role kultury
+a interpretace společenských vazeb klíčová při utváření společenských
+vztahů a mocenských struktur,
+existují i prostředí,
+ve kterých není vztah kultury
+a hierarchizace či dominance relevantní.
+V takové situaci může mít postkoloniální teorie
+stále \[Bq]co říct\[lq],
+ale těžko z ní bude nosný zastřešující koncept.
+Právě tak se někteří teoretikové jako Will Kymlicka
+nebo Charles Taylor zabývají převážně
+politickými implikacemi kultury,
+aniž by jejich teorie postihovaly jiné aspekty,
+jako je například mechanismus vzniku kultury
+nebo koneckonců i příčiny Kymlickou zmiňovaného sociálního vyloučení.
+Jednotný interpretační rámec postihující podstatu kultury Neslyšících
+a možná i postihující podstatu kultury jako takové
+je proto takřka nemožné nalézt.
+.pp
+Cílem této práce však narozdíl od výše uvedených autorů
+není přinést nový koncept,
+nový úhel pohledu na interpretaci kultury nebo novou teorii kultury.
+Proto si myslím, že je ospravedlnitelné
+pokusit se o popis kultury a kulturní identity Neslyšících
+z více různých pohledů.
+To neznamená,
+že by neměl existovat v rámci možností jednotný referenční rámec
+či pojmový aparát, neboť bez konkrétního referenčního rámce
+a alespoň pokusu o definice pojmů se nedá \[Bq]dělat věda\[lq].
+Proto považuji za smysluplné nejprve nastavit
+referenční rámce v teorii pro jednotlivé aspekty kultury
+a poté se pokusit o interpretaci konkrétní kultury Neslyšících
+vevnitř těchto rámců,
+především proto,
+že se mi nepodařilo najít smysluplný teoretický základ,
+který by umožňoval koherentní uchopení problematiky
+kulturní identity Neslyšících.
+.pp
+A jak se tedy má dělat věda o kultuře?
+Ze všech pohledů a z pozic všech etablovaných
+společenských věd naráz se kultura zkoumat nedá.
+Z toho důvodu je třeba se ptát,
+jaký způsob zkoumání je zároveň smysluplný
+a v možnostech zkoumajících.
+.(q
+.sz 12
+\[Bq]Domnívaje se, společně s Maxem Weberem,
+že člověk je zvíře zavěšené do pavučiny významů,
+kterou si samo upředlo,
+považuji kulturu za tyto pavučiny
+a její analýzu tudíž nikoliv
+za experimentální vědu pátrající po zákonu,
+nýbrž za vědu interpretativní,
+pátrající po významu.\[lq]
+.[
+geertz
+.]
+.br
+.(c
+(Clifford Geertz, Interpretace kultur, 1973)
+.)c
+.)q
+Podstatou interpretativní vědy je tak rozlišování
+významného od nevýznamného,
+ať už je primárním objektem zájmu kultura či literatura.
+.[
+geertz
+.]
+Na interpretativním zkoumání kultury je oproti
+\[Bq]čistě empirické analýze jejích projevů
+bez přiřazování významu\[lq]
+problematické to, že samu kulturu lze chápat
+jako interpretaci empirie,
+společností definovaný systém přiřazování významů,
+kondenzát historie,
+abstrahování z chování.
+.[
+kluckhohn
+.]
+Kulturní antropologie potom bude přidáváním dalších vrstev
+významů a abstrakce,
+.i "interpretací interpretace"
+místo interpretace dat;
+oproti empirickým vědám bude nesmírně zatížená
+vrstvením významových rovin a interpretačních struktur,
+potenciálně ad absurdum.
+V případě antropologie se zdá,
+že hon za poznáním slupky cibule neodkrývá,
+ale naopak přidává
+- a to vše ve snaze porozumět tomu, co je uprostřed.
+Antropologie už z principu nemůže mít pouze tři vrstvy
+(zdroj/empirické poznatky/zkušenost
++ kultura/interpretační struktury objektu zkoumání
++ interpretace antropologa),
+neboť i samotná interpretativní věda bude zatížená
+interpretačními strukturami kultury \[Bq]myslitele\[lq]
+i myslitele samotného,
+stejně jako nesčetným množstvím nedorozumění a nepochopení
+plynoucích z rozdílů mezi těmito strukturami.
+.pp
+Ačkoliv by se mohlo zdát,
+že celá kulturní antropologie je redukovatelná
+na pseudointelektuální marasmus vrstvících se omylů
+a jiných záležitostí znemožňujících vidět předmět zájmu
+\[Bq]správně\[lq],
+nabízí se otázka,
+jestli existuje nebo může existovat lepší způsob.
+Samozřejmě se dají rovněž
+.i "ad absurdum"
+popisovat vnější projevy,
+samozřejmě lze stále přidávat detaily do záznamu o chování
+příslušníků kultury,
+technicky vzato se jakákoliv zkušenost dá zpřesňovat donekonečna.
+Avšak je toto smysluplné?
+Například povídka Jorge Luise Borgese
+.i "Funes el memorioso"
+ukazuje, že nikoli.
+Podle Webera a Geertze je to právě abstrakce a interpretace,
+co nám umožňuje existovat v \[Bq]neznámém\[lq] světě
+zdaleka přesahujícím naše chápání,
+je to právě intepretace, co dělá člověka člověkem.
+Proto dává smysl, že věda o člověku,
+ač zatížená deformací lidským faktorem
+a schismatem člověka jako objektu i subjektu zkoumání,
+bude postavená na přiřazování významu spíše než
+na \[Bq]lidství zbavené\[lq] faktografii.
+Navíc, jak tvrdí Clifford Geertz,
+.[
+geertz
+.]
+sebelepší etnografický popis bude stejně interpretací
+a ne sběrem dat, jak by se mohlo zdát
+- proč se tedy k nutnosti interpretace nepřiznat?
+.pp
+Kromě noetické podstaty bádání je třeba ještě zohlednit možnosti
+badatele: zprostředkování osobní zkušenosti je vždy zkreslené
+a nedostatečné, důkladný etnografický průzkum umožňující
+alespoň iluzi objektivity je mimo záběr této práce a možnosti autora.
+Pokud přistoupíme na příměr antropologie k literární kritice,
+.[
+geertz
+.]
+zůstane antropologie spíše subjektivní než objektivní záležitostí
+a jako takovou je nutno ji chápat.
+Jakýkoliv pokus o interpretaci kultury Neslyšících v antropologickém
+smyslu tudíž bude především mojí interpretací kultury Neslyšících
+a neklade si nárok na objektivitu.
+Snaží se však rozebrat jednotlivé aspekty kultury v teorii
+a poté jednotlivými \[Bq]poznatky\[lq] z obecné teorie
+vysvětlit empirické jevy spjaté s prostředím Neslyšících.
+
+.sh 1 "Kdo potřebuje kulturu?"
+.sh 2 "Co je to kultura?"
+.pp
+\fBKultura je:\fR
+.ls 1
+.(q
+.sz 12
+souhrn duchovních a materiálních hodnot 
+vytvořených a vytvářených lidstvem v celé jeho historii
+.)q
+.(c
+(ASCS)
+.)c
+
+.(q
+.sz 12
+soubor hodnot vytvořených tělesnou i duševní činností lidí
+a utvářejících lidskou společnost; civilizace
+.)q
+.(c
+(SSČ)
+.)c
+
+.(q
+.sz 12
+soubor výsledků veškeré tělesné a duševní činnosti
+utvářející lidskou společnost
+.)q
+.(c
+(SSJČ)
+.)c
+
+.(q
+.sz 12
+.np
+celkový způsob života lidí;
+.np
+společenské dědictví, které jednotlivec získává od své skupiny;
+.np
+způsob myšlení, cítění a víry;
+.np
+abstrahování z chování;
+.np
+.i "antropologova teorie o skutečném způsobu chování skupiny lidí"
+.np
+zásobárna společných znalostí;
+.np
+soubor ustálených orientačních reakcí na opakující se problémy;
+.np
+naučené chování
+.np
+mechanismus normativní regulace chování
+.np
+soubor postupů přizpůsobování se vnějšímu prostředí
+a ostatním lidem;
+.np
+kondenzát historie;
+.)q
+.(c
+(Clyde Kluckhohn, \fIMirror for Man\fR, 1949)
+.)c
+.ls 2
+
+.(q
+.sz 12
+\[Bq]Domnívaje se,
+[...] že člověk je zvíře zavěšené do pavučiny významů,
+kterou si samo upředlo,
+považuji kulturu za tyto pavučiny [...].\[lq]
+.)q
+.(c
+(Clifford Geertz, \fIInterpretace kultur\fR, 1973)
+.)c
+.ls 2
+.pp
+Co mají tyto definice společného?
+Ukazují kulturu jako interpretační rámec podmíněný společností,
+jako především mentální výdobytky společnosti.
+Co jsou duchovní hodnoty když ne interpretace?
+Co je to abstrahování z chování když ne interpretace?
+Na tyto otázky je zjevná odpověď
+- kultura se na základě těchto definic opravdu zdá být
+především interpretační strukturou.
+Čím se ale liší od ostatních interpretačních struktur
+jako je třeba náboženství nebo přímo kategorie z literární vědy?
+A proč si v běžném životě většinou ani neuvědomujeme,
+že činnostmi jako chození do divadla či setkávání se s přáteli
+provádíme interpretaci,
+abstrahujeme,
+třídíme zkušenosti na významné a nevýznamné,
+to vše na základě společenských vzorců
+- dědictví společnosti,
+\[Bq]kondenzátu historie\[lq]?
+Jednoduchá odpověď na složitou otázku
+by mohla být taková,
+že kultura je vším,
+co určuje náš život ve společnosti.
+Jestliže je interpretování nedílnou součástí lidství
+a jestliže je kultura společenskou či veřejnou interpretací,
+.[
+geertz
+.]
+pak kultura musí být podstatou naší
+existence v rámci společenství,
+i pokud si to v danou chvíli neuvědomujeme.
+Už to,
+že jdeme a interagujeme nebo neinteragujeme s jinými lidmi,
+je svým způsobem participace na kultuře.
+
+.sh 2 "K čemu je kultura?"
+.pp
+Pokud je tedy kultura interpretační rovina ne na úrovni jednotlivce,
+ale na úrovni společenství, proč vůbec vzniká?
+Proč nestačí vnitřní, individuální roviny interpretace světa
+jako je například náboženství?
+Nejsou snad \[Bq]svobodnější\[lq],
+méně omezující a méně normativní než systém definovaný ostatními?
+.pp
+Proto je potřeba se ptát, co přináší kultura jednotlivci.
+Celková funkce kultury v rámci společnosti je patrná především
+z Kluckhohnových definic,
+avšak její zdroj,
+její odlišení třeba právě od náboženství,
+její funkce v životě jednoho člověka,
+už tak evidentní není.
+
+.sh 3 "Sdílení zkušeností"
+.pp
+Pokud si představíme člověka,
+který se nikdy nesetkal s jinými lidmi
+(jakkoliv nereálná taková situace je),
+pak musíme přiznat,
+že pro něj nebude kultura relevantní,
+zatímco na přítomnost náboženství nebo interpretace sebe sama
+to nemusí mít vliv.
+Nicméně i tyto další interpretační struktury
+pravděpodobně nebudou tak pokročilé jako v rozvinutých společnostech
+- budou nezbytně omezeny množstvím zkušeností
+jednoho jediného člověka.
+Oproti tomu člověk žijící ve společnosti,
+byť bude biologicky \[Bq]nastaven\[lq] pro život
+v rámci možností stejně
+a bude tedy mít stejnou potřebu kategorizovat,
+abstrahovat a interpretovat
+(a příčiny jeho činností tedy budou v povaze podobné),
+bude mít při vytváření svého myšlenkového světa
+k dispozici zkušenosti předchozích a současných příslušníků
+svého společenství.
+Dá se proto předpokládat,
+že i když tyto zkušenosti nikdy nebudou úplné,
+i jejich redukovaný, normalizovaný a zkreslený obraz
+stále umožní člověku žijícímu ve společnosti
+lépe se ve světě orientovat
+a být ve svých činnostech (především myšlenkových)
+podstatně úspěšnější než imaginární solitér.
+.pp
+Zatímco náboženské chápání světa nemusí nezbytně
+určovat konkrétní vzorce chování
+(například podoba rituálů se často liší i při stejném
+ideovém základu a funkci),
+kultura,
+ačkoliv může z náboženství vycházet a často s ním bývá spojená,
+je především o vzorcích chování.
+V podstatě je jen velmi málo individuální,
+neboť se předává nápodobou a jazykem;
+oboje je v maximální míře závislé na společnosti.
+Její úspěch spočívá v její užitečnosti
+- velké kulturní entity mají nějaký výchozí vzorec
+pro řešení nebo i přecházení většiny běžných problémů
+- ale i v přizpůsobivosti.
+Většina složek kultury není pevně definovaná
+(vědomě ještě menší část),
+její dynamičnost se opírá o velmi pružné hranice toho,
+co je považováno za \[Bq]kulturní chování\[lq]
+(tj. chování v rámci společenských norem)
+a co je mimo aktuální normy 
+(základ \fIzměny\fR konvencí).
+Podobný proces se stále odehrává v rámci jazyka:
+různé výklady jevů v rámci jazyka i nedokonalost nápodoby
+ustavičně vytvářejí deviace a pomáhají adaptovat jazyk na prostředí,
+nicméně v jazyce jako v kultuře zůstávají tyto \[Bq]drobné\[lq]
+deviace vesměs nepovšimnuty právě díky absenci
+konkrétní definice norem.
+Kultura tak bude extrémně závislá na jazyce,
+protože vzniká podobným způsobem
+(nápodobou, interakcí a snahou předat svoje zkušenosti),
+mění se podobným způsobem a navrch je rovněž šířená jazykem.
+Používaný systém předávání informací také definuje okruh lidí
+s častou a \[Bq]úspěšnější\[lq] či \[Bq]produktivnější\[lq]
+interakcí.*
+.(f
+.IP *
+Vzorce chování se sice mohou šířit pouhou nápodobou
+bez detailního pochopení,
+ale stejně budeme mít tendenci stýkat se více s lidmi,
+kterým rozumíme - předávání zkušeností pomocí jazyka je neskonale
+efektivnější.
+.)f
+.pp
+Srovnáním kultury a jazyka se znovu dostáváme ke Geertzovu
+příměru antropologie k literární vědě
+- oba obory se zabývají nejen podobnými formami,
+ale i podobnými mechanismy.
+Oproti religionistice či psychologii je antropologie založená
+nejen na analýze přiřazování významů,
+ale i na zkoumání jejich šíření a předávání.
+
+.sh 3 "Naplňování psychologických potřeb"
+.pp
+Avšak kultura není jen pasivním jevem,
+prostou sumou sociálních vazeb a způsobů předávání zkušeností.
+Právě tak je konstruktivním prvkem v životě jednotlivce
+i v \[Bq]životě\[lq] společenství.
+Kromě tvorby interpretačního rámce,
+který jednotlivci pomáhá v orientaci,
+také umožňuje naplnění základních psychologických potřeb.
+Srovnáme-li interpretativní antropologii
+s religionistikou, psychologií, lingvistikou a literární vědou,
+vypadá to, že kultura je nejvyšší vrstvou,
+spojením procesů a mechanismů popisovaných těmito vědami.
+Jako náboženství v Eliadově pojetí vychází z potřeby
+abstrahovat a kategorizovat;
+realizací v mezilidských vztazích staví na psychologii,
+ve které navíc figuruje především jako superego.
+V neosobní a přesto jednotlivcem určené* podstatě
+i ve výkladu \[Bq]textu\[lq] nebo \[Bq]sdělení\[lq]
+se podobá lingvistické či literární analýze jazyka
+a jako všechny zmíněné vědy má
+jako základní prvky archetyp a symbol.
+.(f
+.IP *
+Přestože má každý člověk na nejnižší úrovni čistě osobní
+\[Bq]verzi\[lq] či \[Bq]variantu\[lq] jazyka i kultury,
+pomocí které ovlivňuje směřování jazyka/kultury jako celku,
+jazyk/kultura jako jev nebo spíše \fInástroj\fR je už
+z funkce \fIsdílení\fR nadosobní.
+.)f
+.pp
+Co člověk potřebuje k dobrému životu?
+Tuto otázku si lidé pokládají odjakživa.
+Z pohledu kultury je nejzajímavější pohled psychologický.
+Lidskou motivací nebo, jinými slovy, prioritami,
+\[Bq]cíli\[lq] života se zabýval mimo jiné Abraham Maslow,
+autor známé \[Bq]pyramidy potřeb\[lq].
+Zatímco první dva stupně (fyziologické potřeby a bezpečí)
+si je člověk aspoň teoreticky schopen zajistit sám,
+k realizaci dalších úrovní už potřebuje společnost.
+Jestliže kultura jsou mezilidské vztahy a jejich interpretační rámec,
+potom uspokojení potřeb z vyšších stupňů Maslowovy pyramidy
+bude taktéž kulturou;
+zároveň funkcí kultury z psychologikého hlediska
+bude naplnění těchto potřeb.
+Jakým způsobem to kultura dělá?
+Nabízí jednotlivci buď konkrétní vzorec chování,
+nebo způsob, jakým si vykládat chování někoho jiného.
+.pp
+Jako příklad si můžeme vzít třetí úroveň pyramidy
+- potřebu sounáležitosti a lásky.
+Jaké vzorce dává většina západních kultur muži,
+kdy se chce navázat vztah se ženou?
+Může ji třeba pozvat na rande nebo přinést květinu.
+Z pohledu antropologie je zajímavější druhý způsob,
+protože jeho praktická hodnota je téměř nulová.
+Samotná květina plní pouze drobnou estetickou funkci,
+a přesto je \[Bq]sdělení\[lq] přenášené pomocí ní zcela zásadní.
+Kultura zde nabízí jak řešení častého problému (Kluckhohn),
+tak i způsob, jak interpretovat chování ostatních
+a jak dešifrovat symboly.
+Celkovým účelem je naplnění elementární psychologické potřeby.
+
+.sh 3 "Usnadnění existence v rámci společenství"
+.pp
+Co jiného může naplnit nedostatek sounáležitosti než sociální vazby?
+Musí existovat společenství, při jehož fungování
+- jehož existencí - se realizuje kultura.
+Společenství nebo jeho kultura na nejvyšší úrovni zajišťují
+uspokojení celé Maslowovy hierarchie potřeb.
+K tomu samozřejmě může využívat takřka neomezeného počtu podsekcí,
+kategorií nižší úrovně
+- především seberealizace, ačkoliv stojí u Maslowa nejvýše,
+se snáze uskutečňuje v rámci subkultur
+nebo ještě menších sociálních skupin.
+Podobně jako v jazyce - čím konkrétnější a významnější sdělení,
+tím menšímu počtu lidí bude dostupné.
+.pp
+Aby společenství mohlo zajišťovat lidské potřeby,
+musí fungovat \[Bq]hladce\[lq],
+čili s co nejmenším možným množstvím konfliktů.
+Tam, kde je konflikt nevyhnutelný nebo dokonce žádoucí,
+musí ale mít hranice a nesmí být destruktivní.
+Vezmeme-li definici kultury jako normativní regulaci chování
+a jako soubor ustálených reakcí na opakující se problémy,
+pak nejen způsob vykládání chování ostatních,
+ale i vzorce našeho vlastního chování budou integrální součástí
+kultury.
+Kultura tak obvykle určuje normu základních mezilidských vztahů,
+jako hierarchii v rámci společenství nebo vztah rodičů a dětí,
+typicky ve snaze eliminovat konflikt
+nebo alespoň jeho destruktivitu pro společenství.
+V tomto ohledu se znovu silně prolíná jak s psychologií,
+tak s náboženstvím
+- s koloběhem života neodmyslitelně spojená otázka vlastního původu
+a \[Bq]dědictví\[lq] rodičů v nás
+je centrálním bodem jak mnoha antropologických zkoumání,
+tak i Freudovské psychologie a náboženství.*
+.(f
+.IP *
+Podle Freuda dokonce náboženství \fIvzniká\fR jako primitivní
+vzorec pro uchopení problematiky otcovské figury a vztahu k otci;
+ačkoliv je to často silným motivem,
+přikláním se k argumentu Mircey Eliadeho,
+že náboženství vychází z potřeby interpretace (především času).
+.)f
+Zatímco náboženství a psychologie,
+i když se mohou realizovat i ve veřejné rovině,
+zůstávájí spíše osobní a niternou záležitostí,
+kultura se při zacházení s tímto problémem uskutečňuje
+\fIminimálně\fR ve veřejné rovině.
+Zatímco náboženské nebo \[Bq]psychologické\[lq]
+struktury dávají věcem význam pro jednotlivce,
+kultura ze své komunikativní podstaty spíše
+dává klíč k porozumění chování ostatních a symbolů v tom obsažených.
+.pp
+Avšak provázanost kultury a psychologie nekončí
+u pojetí kultury jako nástroje.
+Sounáležitost jako pojem se těžko definuje,
+přijetí zrovna tak.
+Co to znamená \[Bq]být přijat\[lq],
+\[Bq]být součástí\[lq] kultury či společenství?
+Možná je snazší určit,
+za jakých podmínek \[Bq]vzniká\[lq] nepřijetí.
+Při představě uniformity je otázka přijetí a nepřijetí irrelevantní
+- kdyby se všichni chovali stejně,
+vznikající vzorce interakce (=kultura) by se utvářely
+podle toho a byly by stoprocentně inkluzivní.
+Lidé ale uniformní nejsou;
+každý si nese jak jiné genetické vlohy,
+tak i jiné zkušenosti.
+Příčinou nepřijetí je jinakost.
+Proč musí jinakost znamenat exkluzi?
+Nemusí.
+Pokud je deviace dostatečně malá,
+projde bez povšimnutí a může vést ke změně kultury,
+podobně jako v jazyce.
+Jinakost vede k vyloučení tehdy,
+když neumožňuje uplatnění obvyklých vzorců obvyklým způsobem.
+Klasické kulturní vzorce tak často narazí na jazykovou,
+potažmo sémantickou či semiotickou bariéru;
+kultura je svým způsobem také předávání informací
+a k vyloučení dochází při nemožnosti sdílet informace
+požadovaným způsobem.
+Jestli se jedná o čistě jazykovou bariéru,
+náboženskou bariéru, historickou bariéru
+(odlišnost sdílených zkušeností vede k neporozumění),
+překážku danou postižením (nemožnost participace na rituálech,
+fyzická bariéra v porozumění - neslyšící,
+odlišnost interpretace daných vzorců - poruchy autistického spektra),
+či vědomé odmítnutí dané kultury kvůli odlišnosti
+osobních hodnot,
+je ve výsledku jedno;
+vyloučení úzce souvisí s neaplikovatelností vzorců
+udávajících charakter lidské existence.
+Jestliže je člověk podle Webera zvíře v pavučině významů,
+pak bude tato pavučina spletená ze vzorců a archetypů.
+Věci spadající mimo dané vzorce pak budou \[Bq]vyloučeny\[lq]
+minimálně v našem chápání
+a s největší pravděpodobností i v našem jednání;
+jiný než archetypální/vzorcovitý způsob uchopení reality nemáme
+a pouta jednoho vzorce jsme schopni opustit až tehdy,
+když aplikujeme vzorec vyšší úrovně.
+Sounáležitost nebo přijetí se pak bude rovnat konformitou
+se zažitými vzorci,
+ať už jsou tyto vzorce konkrétní rituály, soubor hodnot
+nebo přímo vzorce použití jazyka.
+Jinými slovy,
+\fIpotřeba sounáležitosti znamená potřebu kultury\fR.
+Ačkoliv je vyloučení nepříznivý jev pro vyloučené
+(jejich potřeba sounáležitosti nemůže být naplněna v rámci
+vylučující kultury; nebrání to však formaci jiné formy kultury),
+je to jev přirozený a z lidské podstaty nevyhnutelný,
+protože člověk nemůže plnohodnotně žít ani jako atomární jednotka
+(sounáležitost!),
+ani se však z podstaty svého vědomí a své paměti nemůže zbavit
+vnímání pomocí abstrakce, interpretace a z toho plynoucích vzorců.
+.pp
+Na základě jinakosti tedy vznikají hranice kultury.
+Kultura i společenství mají mnoho různých úrovní,
+které se mohou dost radikálně lišit;
+každý máme svůj okruh známých,
+se kterými budeme sdílet značné množství zkušeností a také jazyk,
+věci pro vzájemné pochopení nejzásadnější;
+v rámci subkultur se budou realizovat abstraktnější a méně osobní
+roviny - \[Bq]symbolická\[lq] komunikace bude méně konkrétní
+a dostupná většímu okruhu lidí;
+na nejvyšší úrovni se potkáváme se všemi lidmi
+ne tak v specifické podobě vzorců,
+ale v jejich funkci,
+která je určená lidským druhem.
+.pp
+Významnou funkcí určitého typu vzorců je předcházení nedorozumění.
+Nepochopení je frustrující,
+nedostatek pochopení vede ke klinickým psychologickým problémům,
+a tak se mu snažíme vyhnout \[Bq]za každou cenu\[lq].
+To je podstata nejen exkluze,
+ale i vzniku symbolické komunikace s účelem vyjádření příslušnosti
+ke skupině a vzniku skupinových identit.
+Především v situacích,
+kdy je nutné soužití zásadně odlišných skupin
+(do jisté míry dokonce soužití mužů a žen),
+dochází k demarkaci hranic
+- vymezení jedné skupiny v kontrastu s druhou
+- a často také k \[Bq]deklarování\[lq] příslušnosti
+k dané skupině,
+ať už jazykem, oblečením či rituály;
+vše je veřejné, symbolické a v podstatě archetypální.
+To, co obvykle vnímáme jako \[Bq]kulturu\[lq],
+čili rituály, oblečení, umění nebo jazyk,
+je tak jen špičkou ledovce různých interpretačních struktur
+a je jen vnějším projevem,
+nikoliv \[Bq]významem\[lq],
+abstrakce z individualit.
+
+.sh 2 "Kdo potřebuje identitu?"
+.pp
+Právě tyto znaky, snadno \fIidentifikovatelné\fR manifestace kultury,
+bývají často její nejproblematičtější částí a zdrojem konfliktů
+ne v rámci jedné kultury,
+ale na hranicích kultur;
+nezáleží ani tolik na tom,
+jestli se jedná o kontakt dvou odlišných ideových systémů,
+nebo \[Bq]jen\[lq] o definici jednoho jediného vzhledem ke
+\[Bq]kulturní prázdnotě\[lq] a sociálnímu vyloučení.
+Proto jsou hlavním předmětem zájmu mnoha moderních badatelů
+a teoretiků kultury;
+koneckonců i název této části mé práce je převzat z eseje
+Stuarta Halla \[Bq]\fIWho needs Identity?\fR\[lq].
+.pp
+Pokud je ale právě identita a identifikace nejproblematičtějším
+aspektem kultury,
+jaký je smysl její existence?
+Leží snad význam kultury jako takové v jejích vnějších projevech?
+Myšlenkový směr opírající se především o dílo Michela Foucaulta
+relativně přesvědčivě tvrdí, že ne.
+.(q
+Foucault usiloval ne o \[Bq]uznání\[lq] (\fIrecognition\fR),
+ale o \[Bq]odmítnutí\[lq] identity.
+.[
+refusal
+.]
+.)q
+Zdaleka ne všichni poststrukturalisté jdou tak daleko,
+aby odmítali koncept identity.
+Místo toho ale zdůrazňují \[Bq]umělost\[lq],
+arbitrárnost a esencializaci identity
+a propagují aktivní destabilizaci a fluiditu kolektivních identit.
+.[
+hayward
+.]
+Kulturní identita se vskutku zdá být zdrojem problémů
+i v případě Neslyšících.
+Při odmítání snah většinové společnosti o jejich integraci
+často zaznívá například tento argument:
+\[Bq]Já jsem Neslyšící a jsem na to hrdý!\[lq]
+U metodiky vzdělávání by ještě mohlo jít především o akademickou
+debatu.
+Podstatně problematičtější je ale takovéhle zdůvodnění při odmítnutí
+kochleárního implantátu pro děti.
+Ten sice zdaleka nemá stoprocentní úspěšnost,
+nicméně je to rozhodnutí,
+které většinovou nebo lékařskou optikou nedává smysl
+a svým způsobem dítě významně omezuje
+a příčí se tedy tradiční představě svobody.
+.pp
+Poststrukturalistické či foucaultovské řešení problému identity
+bude její destabilizace,
+v jádru pochopitelný argument,
+že identita nenese žádný význam sama o sobě,
+je to arbitrární myšlenkový konstrukt,
+a nezavdává tak nejmenší důvod
+k tak radikálnímu omezení osobní svobody.
+Pokud jsou identity na vnější straně vyčleňující
+a na vnitřní normalizující,
+pak dává smysl se jich zbavit.
+Přes to všechno však někteří uznávají,
+že lidé kulturu a identity potřebují.
+Jak tedy žít \[Bq]žitelný\[lq] (livable)
+či \[Bq]srozumitelný\[lq] (intelligible) život?
+\fIKdo potřebuje identitu?\fR
+.pp
+Už případ Neslyšících ukazuje,
+že tak jednoduchý recept na problematiku identity (zrušit nebo
+alespoň destabilizovat a zrelativizovat, dekonstruovat identitu)
+nebude stačit.
+Snaha potlačit nonkonformní aspekty identity Neslyšících
+(vlastní jazyk, znakovaná literatura, znakovaná divadla atd.)
+realizována byla,
+v celé Evropě od Milánské konference do šedesátých let
+a v sovětském bloku až do let devadesátých.
+O příčinách neúspěchu tohoto přístupu lze debatovat,
+každopádně ze strany Neslyšících se rozhodně s pochopením nesetkal;
+může sloužit jako argument pro hlubší antropologické zkoumání
+významů a dialogu.
+Klíčové aspekty foucaultovského náhledu na identitu však selhaly
+rovněž v oblasti nacionalismu,
+který je pravděpodobně nejmarkantnějším patologickým jevem
+v kultuře.
+Na rozdíl od Neslyšících zde
+probíhala intenzivní destabilizace zevnitř;
+přílišné lpění na národní identitě je odsuzováno
+intelektuální vrstvou minimálně od Druhé světové války;
+dokonce i ideologické systémy,
+které by měly být v opozici vůči nacionalismu (např. marxismus),
+se v politické realitě vyprofilovaly národnostně.
+.[
+anderson
+.]
+Rozpor lze vysvětlit chybnou interpretací.
+.pp
+Jak tedy definovat proces vzniku identit?
+.(q
+.sz 12
+In common sense language,
+identification is constructed on the back
+of a recognition of some common origin
+or shared characteristics with another person or group,
+or with an ideal,
+and with the natural closure of solidarity
+and allegiance established on this foundation.
+In contrast with the 'naturalism' of this definition,
+the discursive approach sees identification as a construction,
+a process never completed - always 'in process'.
+.)q
+.(c
+(Stuart Hall, \fIWho Needs 'Identity?'\fR, 1996)
+.)c
+.ls 2
+
+O argumentu,
+že identifikace je založená na představě sdílené vlastnosti,
+netřeba diskutovat,
+to je součástí definice.
+Podle moderního přístupu jsou i dlouho špatně uchopitelné
+kulturně-politické entity jako národ především představami;
+jakékoliv společenství se záběrem větším než je každodenní kontakt
+existuje hlavně jako představa či koncept spíše než jako objektivně
+měřitelný jev.
+.[
+anderson
+.]
+.(q
+.sz 12
+Identification is, then, a process of articulation,
+a suturing, an over-determination not a subsumption.
+There is always 'too much' or 'too little'
+- an over-determination or a lack,
+but never a proper fit, a totality.
+Like all signifying practices, it is subject to the 'play',
+of \fIdifférance\fR.
+[...]
+And since as a process it operates across difference,
+it entails discursive work,
+the binding and marking of symbolic boundaries,
+the production of 'frontier-effects'.
+It requires what is left outside, its constitutive outside,
+to consolidate the process. 
+.)q
+.(c
+(Stuart Hall, \fIWho Needs 'Identity'?\fR, 1996)
+.)c
+.ls 2
+
+.pp
+Pojem
+.i "différance"
+je klíčový jak pro argument o exkluzi,
+tak pro vnitřní omezování.
+Jádrem problému se zdá být teze,
+že jinakost je čistě zdrojem problémů,
+pokud je potřeba zavádět superstruktury,
+abstrakci z individualit jako kultura a její vnější složka
+identita,
+jelikož limituje projevy individuality a konceptuálně je svazuje.
+Zároveň s tím škodí těm,
+kdo do takové abstrakce nezapadají;
+podle Williama Connollyho
+.[
+connolly
+.]
+nebo Judith Butler*
+.(f
+.IP *
+Nemá smysl zmiňovat konkrétní dílo,
+teze se objevuje prakticky ve všech
+.)f
+dokonce existují
+takové individuality,
+které vždy budou mimo myslitelné identity, mimo myslitelné abstrakce.
+.(q
+.sz 12
+Yet it may be the case,
+he [Connolly] underscores,
+that they do not fit naturally and perfectly into any actual or,
+for that matter, any conceivable identity-category.
+If so, then every identity, every form of subjectivity
+- not excluding that of the modern, autonomous self
+- creates "others" whose exclusion
+and/or whose normalization it legitimizes.
+.)q
+.(c
+(Clarissa Rile Hayward & Ron Watson,
+\fILiberalism and Identity\fR, 2010)
+.)c
+.ls 2
+
+V tuto chvíli přichází do hry
+.i "différance".
+Ani poststrukturalisté nerozporují Geertzovu tezi o podobnosti
+kultury a textu, literatury, jazyka.
+Pokud je tedy význam slov určen jak jejich vzájemnou odlišností,
+tak jejich kontextem,
+který navíc nikdy není definitivní,
+jak se potom dorozumíme?
+Je vůbec nějak možno sdělit či sdílet nějaký význam?
+Vždyť podle Derridy nemůže být neměnný,
+je neustále \[Bq]odkládán\[lq],
+navíc už přístí sdělení může naprosto otočit smysl předchozího.
+A přesto komunikujeme a většinou i máme pocit, že něco sdělujeme.
+Individualita jazyka a subjektivita libovolného významu
+zapřičiňuje stejnou dvojakost kultury;
+žádná \[Bq]abstrakce z individualit\[lq] nebude a z principu
+nemůže stoprocentně definovat všechny své prvky,
+nebude \[Bq]perfektně sedět\[lq].
+.[
+hall
+.]
+Právě tak jako kultura nikdy nebude totální definicí jedince,
+jazykem samotným nelze dosáhnout totálního porozumění;
+\[Bq]čitelnost\[lq] obojího je ukotvena ve společné zkušenosti
+a v jejím předávání.
+Jakákoliv komunikace je v konečném důsledku pouhý odhad toho,
+co si myslí druhý, naše osobní interpretace.
+Pokud ukážu na strom a řeknu \[Bq]strom\[lq],
+dá se rozumně předpokládat souvislost mezi sdělením a zkušeností;
+za hranice předpokladu nebo odhadu už ale jít nemůžeme.
+Čím častější a hlubší bude úroveň komunikace,
+tím menší budou konflikty a nedorozumění,
+protože komunikace je formou šíření společné zkušenosti.
+Kultura je svým způsobem také komunikace
+- pramení ze společné zkušenosti a tu reprodukuje.
+Máme tedy odvrhnout jazyk,
+protože nestačí ke sdělení všech konceptů?
+Protože význam slov bude vždy do jisté míry subjektivní?
+Proč bychom měli takto nakládat s kulturou?
+.pp
+Otázka toho,
+zda lze myslet něco, co nelze určit pomocí jazyka,
+nechť zůstane filosofům.
+Pro teorii kultury je relevantní otázka,
+zda lze existovat mimo myslitelné identity,
+nebo, jinými slovy,
+jestli vůbec může existovat něco jako \[Bq]nemyslitelné\[lq]
+identity.
+Budeme-li se držet podobnosti s jazykem,
+co nám umožňuje odhadovat význam slov?
+Jejich odlišnost od ostatních slov.
+Slovo má dvě definice
+- věcnou a významovou - jejichž funkcí je vymezit dané slovo,
+určit jeho hranice vzhledem k ostatním.
+Právě taková je i kultura
+- pro uvědomění si společné zkušenosti/vlastnosti/jakéhokoliv znaku
+je nutný kontrast, jeho odlišnost od ostatních.
+Identity jsou vždy exkluzivní,
+ale tato výlučnost není negativní vlastností,
+naopak, je to příčinou vzniku identity.
+Potom je logické,
+že pro každou definovatelnou vlastnost může existovat
+nebo být zkonstruován pojem,
+z každé individuality identita.
+Konstrukce identity z artikulovaných individualit
+je dost běžným jevem,
+ať už jde o Butlerovou zmiňovanou LGBT komunitu
+(o jejíž zformulované identitě se lze přesvědčit například
+v průbehu Pride festivalů)
+nebo například o \[Bq]pankáče\[lq].
+Demonstrace nesouhlasu s obecně přijímanou normou,
+ač zpočátku ryze individuální,
+se rychle stala základem nové skupinové identity.
+Ve větším měřítku proběhl stejný proces u Neslyšících
+- nemožnost dobře se integrovat do většinové kultury
+vedla k formaci nové identity.
+.pp
+Pokud odmítneme identitu kvůli jejímu omezování individuality,
+pak odmítáme individualitu v zájmu individuality.
+Naše povědomí o vlastním já je založeno na kontrastu s ostatními,
+na našem uvědomění si odlišností mezi naším \[Bq]já\[lq]
+a něčím jiným.
+Imaginární člověk v prázdnotě by si těžko uvědomoval svoji existenci,
+když by ji neměl s čím srovnat.
+Když srovnáním definujeme naše já a naše vlastnosti,
+pak je jen logické,
+že budeme srovnávat i vlastnosti ostatních
+a na základě podobností a odlišností se budeme nějak vztahovat
+k věcem a lidem kolem nás;
+vztahem k ostatním lidem je kultura,
+produktem srovnávání jsou identity.
+Stejným procesem,
+jakým definujeme sebe,
+definujeme i společenství ve smyslu
+představy o společných vlastnostech.
+Abychom tedy mohli vnímat ostatní bytosti jako lidi,
+musíme přijmout identitu jako vyjádření těchto společných vlastností.
+Bez identity bychom totiž nemohli abstrahovat,
+nemohli bychom se nijak orientovat ve světě,
+který přesahuje naši paměť.
+Identifikační znaky jako oblečení nebo i konkrétní vzorce chování
+(tanec z příkladu v \fILiberalism and Identity\fR)
+slouží především k rychlé orientaci,
+přiřazení k odhadovaným vlastnostem.
+Předsudky, nedorozumění, ale i vnitřní normalizace kultury
+jsou tak nutné zlo, daň za náš způsob chápání světa.
+.pp
+Pro lepší ilustraci si zkusme
+představit svět bez kolektivních identit.
+Kolektivní identita se tvoří na základě představy
+o společných vlastnostech.
+Představu o tom, co by mohly být společné vlastnosti,
+získáme srovnáním vlastností a přiřazením významů některým z nich.
+Nejsme-li takové operace schopni,
+těžko si budeme uvědomovat vlastní existenci;
+z filosofického pohledu budeme prakticky stroje.
+Absence schopnosti tvořit identitu je tedy slepá ulička.
+Pokud máme možnost abstrahovat a uvědomit si tak společné vlastnosti
+a přesto odmítáme kolektivní identity,
+pak je musíme odmítat vědomě, což není dobré ze dvou důvodů.
+První je,
+že vědomé odmítání identity je kulturou a 
+\[Bq]nesvobodou\[lq] samo o sobě.
+Kulturou proto,
+že jde o vzorec chování a zároveň společensky předávané řešení
+opakujícího se problému (kondenzát historie, normativní regulaci
+chování...).
+Uznáme-li přijetí myšlenky odmítání identit celým lidstvem,
+pak to nelze nazvat identitou,
+nicméně i tak to podléhá stejným poststrukturalisty kritizovaným
+jevům omezování osobní svobody.
+Jestliže se najde jedinec,
+který bude chtít jednat na základě
+své představy o společných vlastnostech
+a nebude důsledně ignorovat rozdíly mezi lidmi
+v zájmu identity odmítající ideologie,
+pak bude odlišný, odmítání identity se stane samo identitou
+a navrch kontradikcí.
+Pokud v sobě takový odlišný jedinec svoji odlišnost potlačí,
+pak je představa odmítání identity stejně omezující,
+stejně regulativní,
+jako svět plný identit.
+Druhý argument proti potlačování identity se vrací k Maslowovi.
+Nemáme-li kapacitu vnímat vše v jednotlivostech,
+vnímat \fIkaždý\fR detail,
+pak nemůžeme abstrahovat z chování ostatních lidí,
+protože bychom tvořili identity.
+I když na mysl mohou přijít nejprve negativní vlastnosti,
+jejichž abstrakcí se tvoří mimo jiné předsudky,
+abstrakcí z pozitivních vlastností se tvoří naše identity,
+naše společenství.
+Když si uvědomujeme nám sympatické vlastnosti přátel
+a jednáme podle toho,
+tvoříme identitu;
+nejednat znamená popřít naší potřebu sounáležitosti,
+která je naplňována kontaktem s nám blízkými lidmi,
+což určujeme na základě identit.
+.pp
+Jak naložit s fluiditou?
+Klíčovou vlastností způsobů komunikace bude srozumitelnost.
+Má smysl snažit se o definice slov?
+Má smysl snažit se o definice identit?
+Myslím, že ano.
+Jestliže se pokoušíme vyhnout nedorozumění,
+pak se budeme vyhýbat mnohoznačným pojmům;
+ne nadarmo používá akademický funkční styl množství
+technických termínů s co nepřesněji definovanými významy.
+Právě tak vedou k nedorozuměním nejasné identity.
+Nejde jen o kontakt mezi identitami či kulturami,
+identitní nejistota má závažné dopady i na psychologii jednotlivce.
+Neschopnost porozumět sám sobě,
+efektivně srovnat sebe s ostatními,
+vede k problémům
+jak v oblasti socializace
+(problém se začleněním - třetí úroveň Maslowovy pyramidy),
+sebevědomí (self esteem; čtvrtá úroveň)
+i seberealizace (pátá úroveň).
+Řešením se tedy nezdá být ani odmítnutí,
+ani destabilizace identit;
+naopak,
+v moderní společnosti chybí legitimizovaná vůle tvořit nové identity.
+Právě tak je možno měnit stávající identity změnou významu,
+tak, jako se mění význam slov;
+taková změna ale musí být buď konsensuální
+napříč \[Bq]uživateli\[lq],
+nebo dostatečně malá na to, aby zůstala nepovšimnuta.
+Neznamená to,
+že nemá smysl věnovat se subjektifikaci,
+foucaultovský pohled má kapacitu pomoct při naší snaze porozumět
+problémům kultury a identity,
+avšak myslím,
+že teze o odmítání a destabilizaci identity jsou neslučitelné
+s její funkcí.
+
+.sh 2 "Liberalismus, identita a Neslyšící"
+.pp
+Jak tedy naložit s problematikou kulturní identity?
+Jeden \[Bq]recept\[lq] na řešení všech obtíží nejspíš neexistuje.
+Otázka uznání (recognition) pravděpodobně ani nemůže mít
+jednoznačnou odpověď,
+už proto,
+že stát,
+ačkoliv je při vytváření kulturních vazeb zcela zásadní,
+je produktem kultur v něm obsažených
+a těžko k nim může zaujmout neutrální postoj.
+Podobně jako kultura nemůže přesně sedět na každou individualitu
+a existence jednotlivce ve společenství tak bude věčným vyvažováním
+osobní svobody a potřeby někam patřit,
+státní zásah bude právě tak vždy omezujícím kompromisem;
+jisté úrovni násilí nelze zabránit.
+Pokud je v zájmu jednotlivce být součástí společenství,
+dává smysl upřednostňování potřeb jednotlivce na úkor společenství
+nebo obráceně?
+Není snad podstatou společenství to,
+že svým členům přináší užitek
+a ti jsou pak ochotni se na něm podílet,
+i za cenu omezení osobních svobod?
+.pp
+V případě Neslyšících neexistuje jedno,
+\[Bq]nejliberálnější\[lq] řešení.
+Pokud v současné situaci dochází k nedorozumění,
+pak je třeba snažit se nedorozuměním předcházet,
+pochopit i druhou stranu,
+k čemuž nám pomáhá zkoumání kultury.
+Podstatné je,
+že necitlivost vůči kultuře a vnímání sebe sama komunitou Neslyšících
+je svým způsobem také omezování svobody.
+Cesty ze slepé uličky kulturní nesvobody
+pravděpodobně nebudou spočívat ani tolik v povaze státních zásahů
+jako ve vzdělávání podporujícím kritické myšlení
+a v dialogu kultur.
+Podle mého názoru mají daleko větší šanci cokoliv změnit
+osvětové projekty a akce zprostředkovávající setkávání
+\[Bq]odlišných světů\[lq],
+než akademická debata o uznání či neuznání
+kulturních identit,
+nebo státní posvěcení oralismu či manualismu.
+.pp
+Nezávisle na konkrétním \[Bq]řešení\[lq] je ale nezbytné znát
+příčiny věcí.
+Pokud lidé nějak jednají,
+pravděpodobně k tomu mají dobrý důvod;
+chceme-li toto jednání změnit,
+je nanejvýš nutné tento důvod zohlednit,
+když se nechceme dopouštět násilí.
+Nefunguje-li vzájemné soužití z důvodu kulturních rozdílů,
+pak prvním krokem by měla být snaha porozumět jinakosti
+místo její regulace a normalizace.
+
+
+.+c "Vlastní průzkum"
+.pp
+něconěconěco
+.pp
+.np
+\fBJádro společenství - jazyk\fR
+.np2
+definice na základě omezeného kontaktu,
+podmíněné vyloučení z většiny
+.np2
+horizontální charakter, rodina
+.np
+konstrukce identity
+.np2
+\fBjazyk je základ\fR
+.np2
+\fBparadigma hluchoty\fR
+.np2
+andersonův print capitalism a net v identitě
+.np
+tmely a rituály
+.np
+symboly a exprese identity
+.np
+replikace identity, média
+.np
+\fBhranice identity, exkluze\fR
+.np
+nacionalismus, problémy identity
+.np2
+kochleární implantát
+.np
+role identity v životě jednotlivce
+.np
+srovnání identit
+
+
+.sh 1 "Výchozí teze"
+.pp
+Jak popsat kulturu Neslyšících?
+Předložit vyčerpávající interpretaci není v silách jednoho člověka,
+tím méně v mých.
+Rovněž nemám náležitý antropologický
+nebo jiný společenskovědní fundament;
+svoji interpretaci tak musím omezit na několik tezí,
+které se pokusím vysvětlit a objasnit jejich vzájemnou spojitost
+i jejich význam z hlediska soužití Neslyšících,
+slyšících i ostatních.
+.np
+Kulturní okruh Neslyšících je omezen uživateli znakového jazyka,
+a to jak z materiálních, tak z nemateriálních důvodů.
+.np
+Znakový jazyk je určující pro všechny ostatní kulturní projevy
+Neslyšících.
+.np
+Kultura Neslyšících vznikla vyloučením z většinové společnosti;
+toto vyloučení probíhalo ve většině zemí podobně,
+proto jsou různé místní komunity Neslyšících podobné,
+přestože se formovaly nezávisle.
+.np
+Kulturní bariéry jsou podstatně silnější mezi Neslyšícími a slyšícími
+v jednom státě než mezi Neslyšícími v různých státech.
+.np
+Ve vnímání sebe sama je rozhodující pojetí hluchoty,
+právě odlišnost paradigmat je častým zdrojem problémů
+ve vztahu slyšících a Neslyšících.
+.np
+Většina Neslyšících se rodí slyšícím rodičům,
+kultura Neslyšících je tak relativně \[Bq]horizontální\[lq]
+- většina Neslyšících jsou Neslyšící \[Bq]první generace\[lq]
+a lineární vývoj kultury v čase je tak méně podstatný než
+mechanismy vzniku a šíření kultury.
+.np
+Kulturní identita Neslyšících prochází podobným vývojem jako
+národní identity.
+.np2
+Klíčovým prostředkem je \[Bq]vizuální tisk\[lq] a internet.
+.np
+Kultura Neslyšících v Česku zatím nemá prakticky žádnou vnitřní
+hierarchii ani široce uznávané,
+\[Bq]oficiální\[lq] kanály;
+nefunguje jako jednolitá politická entita.
+.np2
+Rituály potvrzující a udržující kulturu Neslyšících se
+dosud nevyvinuly, protože zatím nejsou potřeba.
+.np2
+Soudržnost komunity vzniká přirozeně a odvíjí se od mechanismů
+vzniku kultury Neslyšících.
+.np2
+Dosavadní symboly kulturní identity Neslyšících jako např. vlajka
+se neuchytily a s rostoucí autonomií komunity Neslyšících
+jsou nahrazovány přirozenějšími a srozumitelnějšími
+.np
+V poslední době se kultura Neslyšících v Česku
+vyvíjí nebývalou rychlostí
+- již není omezována tlakem ze strany většinové společnosti
+a nová technologie umožňuje
+dosud nepředstavitelnou úroveň komunikace.
+.np
+Definice kultury Neslyšících a jejich sebereflexe se pozvolna
+mění od kontrastu s většinovou společností k \[Bq]pozitivně\[lq]
+konstruované identitě;
+společně s tím se z exkludované skupiny stává exkludující.
+
+.sh 1 "Pilíř společenství - znakový jazyk"
+.pp
+Co je definujícím znakem kultury a společenství Neslyšících?
+Teoretizovat se dá prakticky o všem,
+avšak bez patřičných podkladů zůstane hypotéza jen hypotézou.
+Absolutní pravdy, \[Bq]teorie všeho\[lq] nebo vlastně čehokoliv
+podobného se nejspíš nelze dobrat,
+tím méně v interpretativních vědách,
+ale i přes to je dobré alespoň udržovat zdání kontaktu s realitou,
+která může být právě tak jedna jako jedna z mnoha.
+Provedu-li svoji osobní abstrakci,
+zdá se mi,
+že kultura Neslyšících je bytostně spjatá se znakovým jazykem.
+Už jen tím, že okruh,
+v němž mohou být kulturní projevy srozumitelné,
+je určen převážně jazykem skoro v jakémkoliv případě;
+jazyk i symbolická podstata nejazykových projevů
+se z pohledu \[Bq]čitelnosti\[lq] vesměs překrývají.
+Pokud je jedním z důvodů existence kultury potřeba sounáležitosti
+a základem společenství představa společné vlastnosti,
+pak je jen logické,
+že takovou vlastností může být společný způsob komunikace.
+Sounáležitost hledáme tam, kde myslíme, že nám bude porozuměno.
+
+.sh 2 "Vyloučení, negativní definice"
+.pp
+Člověk by si mohl říct,
+že k vytvoření kultury Neslyšících není důvod,
+že znakový jazyk nemá důvod,
+že důsledná výuka orální metodou má potenciál zbořit hranice kultury
+Neslyšících.
+Není tomu tak;
+hluchota je příliš velkým handicapem v komunikaci pomocí řeči
+a vede k vyloučení,
+.[
+vylouceni
+.]
+i když neslyšící nemá k dispozici znakování (Zdroj Ivona).
+Kultura Neslyšících je tak negativně*
+.(f
+.IP *
+Na základě vyloučení z jiné nebo na základě kontrastu s jinou
+.)f
+utvořenou kulturou nejen z pohledu teoretických rozdílů,
+ale i z nepopiratelně materiálního pohledu.
+
+.sh 2 "Deaf Gain"
+.pp
+Byť se Neslyšící \[Bq]dali dohromady\[lq]
+z důvodu exkluze z většinové společnosti,
+znakový jazyk je i dobrým pozitivním znakem,
+společnou vlastností,
+která přesahuje hranice materiální srozumitelnosti.
+Mezi znakujícími není handicap handicapem.
+Kromě čistě věcné stránky hladší komunikace
+tak má dva spíše psychologické benefity:
+umožňuje jiné vnímání hluchoty než pouze jako handicap
+a navíc je nástrojem k nalezení či vytvoření kolektivu
+lidí s podobnými zkušenostmi a podobným náhledem na sdílený problém.
+Při použití znakového jazyka odpadá
+jak vědomí vlastního handicapu,
+protože při manuální komunikaci na sluchu nezáleží,
+tak i pocit vyloučení z konverzace a společnosti,
+který je běžný i mezi nedoslýchavými.
+.[
+nalady
+.]
+Naopak: znakový jazyk perfektně ladí s jinakostním paradigmatem,
+jelikož na něj lze nahlížet jako na prostou odlišnost,
+která má oproti normě v podobě mluveného jazyka
+výhody i nevýhody.
+\[Bq]Deaf gain\[lq] znakového jazyka zdaleka není jen výmyslem,
+psychologickým nástrojem mitigace handicapu;
+znakový jazyk se sice těžko dá označit za \[Bq]lepší\[lq],
+ale některé jeho přednosti jsou empiricky potvrzené.
+Například díky možnosti využití prostoru je efektivnější
+v popisu místností, dopravních situací nebo podobných problémů,
+kdy je v mluvených jazycích potřeba hodně slov na relativně snadno
+znázornitelnou situaci.
+Zároveň kvůli neustále práci s prostorem mají uživatelé ZJ
+lepší orientační smysl
+a kvůli využití mimiky jako elementární součásti komunikace
+(v ČZJ plní roli jak emočního zabarvení,
+tak i intonace v řeči nebo interpunkce v textu)
+jsou také lepší ve čtení neverbální komunikace.
+Zároveň je znakový jazyk snáze využitelný v situacích,
+kdy je mluvená řeč nesrozumitelná,
+jako například v hlučných prostředích.
+Kombinace těchto faktorů umožňuje vidět komunikaci Neslyšících
+pomocí ČZJ i jinak,
+než jako pouhou kompenzaci handicapu.
+
+.sh 2 "Tvorba společenství pomocí jazyka, pozitivní definice"
+.pp
+I slyšící si často vytváří citové pouto ke svému jazyku.
+Jazyk nám pomáhá utvářet si naší identitu;
+v něm definujeme naše zkušenosti a abstrakce z nich,
+pomocí něj je sdílíme s ostatními
+a dokonce pomocí něj i můžeme demonstrovat příslušnost
+k užším kulturním skupinám - naše promluva reflektuje naše okolí
+často silněji, než bychom si mohli přát.
+Jazyk je vskutku základem identity napříč celým lidstvem,
+u Neslyšících tím spíše,
+že celé vnímání sebe sama i vnímání dominantní kolektivní identity
+se točí okolo něj.
+Když Stuart Hall tvrdí, že tvorba identity vyžaduje
+\[Bq]konstitutivní vnějšek\[lq],
+lze to vnímat i obráceně:
+funkcí identity je usnadnit hledání sounáležitosti pomocí
+manifestace nějakého \fIspolečného\fR znaku
+- vytváří odlišnost (ať už negativně či pozitivně),
+když je vytvoření odlišnosti užitečné
+- pak je samozřejmé,
+že identita bude stát a padat na nějakém definujícím znaku
+(ten může být základem inkluze i exkluze).
+Tímto definujícím znakem a zároveň i nejviditelnější manifestací
+identity je u Neslyšících znakový jazyk.
+Ačkoliv u mnoha Neslyšících není mateřským jazykem,
+je nejpřirozenější metodou komunikace
+a zároveň značně usnadňuje hledání dalších lidí
+s podobnými zkušenostmi.
+Ostatní Neslyšící
+(kteří jsou v \[Bq]davu\[lq] rozeznatelní především právě díky
+užívání znakového jazyka)
+se pravděpodobně setkali a setkávají s podobnými problémy.
+Jak na základě potřeby sounáležitosti,
+tak podle definice kultury jako souboru ustálených reakcí
+na opakující se problémy
+pak dává ustavení kultury Neslyšících okolo ZJ největší smysl.
+Klíčem ke kultuře Neslyšících je proto spíše ZJ,
+částečně jako důsledek neslyšení,
+než hluchota sama o sobě.
+Na rozdíl od samotného handicapu je ZJ konstitutivním prvkem
+kolektivu nejen proto,
+že umožňuje materiální porozumění skrze stejný prostředek komunikace,
+ale i proto,
+že umožňuje porozumění na základě společných zkušeností.
+Benedict Anderson tvrdí,
+že \[Bq]národ\[lq] vzniká jako představa nějakého společenství
+ve smyslu soudržnosti či bratrství z důvodu společné vlastnosti;
+v případě národa je to typicky představa společného původu
+nebo podobné historické zkušenosti (kultura jako kondenzát historie).
+V případě Neslyšících společný původ
+základem identifikace být nemůže,
+dokonce i společná historická zkušenost typická pro jiné komunity
+je značně omezená proto,
+že Neslyšící nemají výhodu místní blízkosti od narození a komunitu,
+kde by jejich psychologická potřeba funkčního kolektivu
+mohla dojít naplnění, si musí aktivně hledat.
+Společný znak takové komunity tudíž nebude automatický,
+s největší pravděpodobností nebude souviset ani s etnickým pozadím,
+ani s místem narození,
+opírá se především o společnou zkušenost;
+například s handicapem,
+vyloučením z většinové společnosti
+i s pojetím sebe sama.
+Znakový jazyk jako takový je nejen prostředkem,
+který výměnu informací umožňuje nejsnazší cestou,
+ale také výdobytkem komunity (viz Stručné dějiny Neslyšících)
+- symbolem úspěchu
+- a symbolem a poznávacím znakem společenstí.
+Znakový jazyk je symbolem příslušnosti ke společenství i proto,
+že jeho užíváním člověk stvrzuje přijetí komunity;
+neslyšící, kteří nepoužívají ZJ,
+komunitu buď nenašli (zůstali v izolaci),
+nebo odmítli ve prospěch integrace do společnosti slyšících.
+Jelikož taková integrace není možná u všech neslyšících,
+ať už z důvodu odmítnutí slyšícími
+nebo samovolné exkluze na základě problémů s komunikací,
+vznikla s pomocí sebezáchovných mechanismů psychiky
+komunita Neslyšících založená na tom,
+že hluchota není jen negativem a neslyšící nejsou méněcennými lidmi;
+jejím výsadním znakem, symbolem její existence,
+materiálním předpokladem její existence (efektivní komunikace)
+a zároveň poznávacím znamením je znakový jazyk.
+Neužívání ZJ tedy inherentně znamená nepříslušnost.
+
+.sh 2 "Slyšící a znakový jazyk"
+.pp
+Otázka, jestli \fIužívání\fR ZJ znamená \fIpříslušnost\fR,
+už tak jednoduchá není.
+Pro příblížení se odpovědi je zásadní uvědomit si,
+kdo má vůbec možnost ZJ používat.
+Už tím,
+že ZJ vznikl \[Bq]slyšícím navzdory\[lq],
+je podmíněna kontrola ZJ komunitou Neslyšících.
+Kdokoliv, kdo ovládá ZJ,
+musel nezbytně do styku s Neslyšícími přijít.
+Ještě před pár lety tato podmínka platila takřka stoprocentně.
+.pp
+Kdo ze slyšících má motivaci se ZJ učit?
+Především rodina někoho sluchově postiženého,
+v druhém sledu lidé se zájmem o pomáhání sluchově postiženým,
+až v posledním jazykoví nadšenci.
+První dvě skupiny lidí už součástí komunity nějakým způsobem budou.
+Nemusí být nezbytně vnímáni jako plnohodnotní členové,
+nicméně už na základě frekvence kontaktu a i motivace k němu
+pořád budou Neslyšícícm blíž,
+než zbytek populace;
+nějaký základ pro inkluzi tedy je.
+Obzvlášť děti Neslyšících jsou však naprosto plnohodnotnými členy:
+na rozdíl od leckterých Neslyšících jsou rodilými mluvčími ZJ
+a v komunitě se pohybují od narození.
+Mezi Neslyšícími, z nichž většina se narodila slyšícím rodičům
+a součástí společenství se stali \[Bq]v první generaci\[lq],
+je to docela zásadní rozdíl.
+Slyšící děti Neslyšících rodičů možná sice prožívají jiná traumata
+(a argument o společné zkušenosti tak bude o něco slabší),
+ale spojení se společenstvím je silnější v tom,
+že ani k jazyku,
+ani k jiným projevům kultury a komunity si nemusí hledat cestu sami.
+.pp
+Dalším bodem v otázce inkluze slyšících je samotná dostupnost ZJ.
+Znakový jazyk donedávna neměl žádný plně funkční
+a široce dostupný způsob zápisu.
+Ovládnutí ZJ tím pádem vyžadovalo kontakt s uživateli ZJ.
+Až dnes, v době videa v mobilu,
+je alespoň teoreticky možná varianta základní znalosti ZJ
+bez kontaktu s Neslyšícími,
+nicméně žádný jazyk nelze dobře zvládnout bez kontaktu
+s rodilými mluvčími (nebo v případě Neslyšících
+s každodenními mluvčími).
+.pp
+Zároveň je užívání ZJ slyšícími vstřícným krokem.
+Slyšící vždy mají možnost znakový jazyk nepoužívat,
+prostým tlakem většiny vynutit jinou formu komunikace.
+Rozhodnutí respektovat Neslyšící jak přijetím
+Neslyšícími preferovaného způsobu komunikace,
+tak i legitimizací výdobytku jejich společenství
+se tedy dá vnímat jen pozitivně a směrem k větší inkluzi
+oproti většině,
+která je vůči Neslyšícím indiferentní.
+.pp
+Posledním zásadním bodem je vnímání hluchoty.
+Jestliže má ZJ natolik výsadná postavení v rámci kultury Neslyšících
+i z důvodu \[Bq]souznění\[lq] s jinakostním paradigmatem,
+které je samo o sobě jedním
+ze základních elementů společenství Neslyšících,
+pak zásadní rozdíl v náhledu na podstatu existence Neslyšících
+bude nepřekonatelnou překážkou v přijetí slyšících mezi Neslyšící.
+Příkladem inkluze může být (Šimon) - je sice sluchově postižený,
+ale díky kochleárnímu implantátu v zásadě slyšící - umí mluvit,
+většina problémů Neslyšících se ho netýká,
+ale přesto je plnohodnotnou součástí kolektivu,
+jelikož znakuje na nejvyšší možné úrovni
+a zároveň sdílí základní náhled na \[Bq]postižení\[lq].
+.pp
+Dosud nerozebranou otázkou slyšících lidí v kultuře Neslyšících
+jsou slyšící děti Neslyšících rodičů.
+Na naich je zajímavá především jejich jazyková
+i identitární dvojznačnost:
+zároveň mluví i znakují.
+V prostředí Neslyšících vyrostli,
+znakový jazyk je jedním z jejich mateřských jazyků
+(jsou typicky bilingvní - čeština a ČZJ)
+- a z pohledu vazby na prostředí Neslyšících jsou na tom
+lépe než leckteří Neslyšící.
+Rovněž často sdílejí pozici Neslyšících ve vztahu k postižení.
+I přes to všechno se běžně necítí být plnou součástí ani
+komunity Neslyšících,
+s nimiž je rozděluje odlišná zkušenost
+(exkluze kvůli vlastnímu handicapu x exkluze kvůli handicapu rodičů,
+nestandardnímu pohledu na hluchotu, znakovému jazyku
+u slyšícího člověka),
+ani většinové společnosti,
+se kterou se rozcházejí v jazyce používaném doma,
+paradigmatu postižení i některými kulturními vzorci Neslyšících.
+.[
+redlich
+.]
+Slyšící děti Neslyšících rodičů mají také tendenci prezentovat se
+jako kulturní menšina nebo alespoň jako subkultura.
+Nicméně v jejich případěje situace diametrálně odlišná
+než u Neslyšících
+- CODAs (Children Of Deaf Adults) zároveň \fIjsou\fR
+součástí obou světů
+a zároveň \fInejsou\fR nebo se přinejmenším
+necítí být plnohodnotnou součástí ani světa Neslyšících,
+ani slyšících.
+Kromě \[Bq]nezapadání\[lq] mají často ještě jiná traumata,
+například tlumočení pro rodiče již od dětství.
+.[
+krikra
+.]
+
+.sh 2 "Výlučné znaky vylučují"
+.sh 3 "Hranice Neslyšících"
+.pp
+Zatímco ke vzniku kultury Neslyšících vedla negativní definice
+vyloučením z většinové společnosti a nejsnazší vzájemnou komunikací
+a porozuměním mezi Neslyšícími,
+změnou ve vnímání své vlastní kultury povýšením znakového jazyka
+z nezbytnosti na silný pozitivní a konstruktivní prvek
+se pozice otočila.
+Kde dříve byla exkluze z širší a pozitivně definované skupiny
+(\[Bq]mluvících\[lq]),
+tam nyní může vylučovat naopak skupina Neslyšících
+(\[Bq]znakujících\[lq]).
+Jestliže zásadním kritériem je užívání ZJ,
+pak se \[Bq]mimo\[lq] dostanou nejen slyšící,
+ale rovněž všichni neslyšící,
+kteří preferují jiný způsob komunikace.
+To je potenciální zdroj konfliktů,
+protože většina slyšících nevnímá neslyšící ani sluchově postižené
+jako heterogenní skupinu
+a existují i lidé,
+kteří se s Neslyšícími identifikují,
+ale komunita Neslyšících je nepřijímá právě proto,
+že se cítí být definována užíváním ZJ.
+Příkladem mohou být například protesty proti jmenování Jane Fernandes
+prezidentkou Gallaudetovy univerzity v roce 2006.
+.[
+ufg
+.]
+
+.sh 3 "Unity for Gallaudet"
+.pp
+Jane Fernandes byla vzdělávána orální metodou,
+.[
+ferwiki
+.]
+jejíž cílem je co nejsnazší soužití s většinovou společností,
+v ideálním případě plné zapojení neslyšícího mezi slyšící.
+V důsledku toho se učila americký znakový jazyk až dospělá
+.[
+ferguilford
+.]
+a jako cizí jazyk
+a nedosáhla takové plynulosti jako mají rodilí mluvčí
+nebo neslyšící vzdělávaní v ZJ od dětství.
+Paradoxní je to,
+že její zapojení do komunity Neslyšících byla její vědomou volbou,
+zatímco výše zmiňovaní (plynnější) uživatelé ZJ se dostali
+mezi Neslyšící na základě rozhodnutí jejich rodiny;
+její aktivní snaha o to,
+aby byla zahrnuta mezi Neslyšící,
+by se tak podle obvyklých kritérií měla setkat s pozitivním ohlasem.
+To,
+že se tak nestalo,
+se ale dá vysvětlit pomocí zmiňované vazby Neslyšících a ZJ.
+Po jmenování dosavadní proděkanky prezidentkou
+se zvedla vlna protestů:
+mezi prvními důvody protestující zmiňovali
+problematický vztah se studentstvem,
+.[
+wapo
+.]
+nedostatečné ovládání ZJ,
+.[
+wikiwix
+.]
+špatné manažerské schopnosti
+i otázku rasy.
+.[
+galuni
+.]
+.pp
+Pro kulturní problémy je zcela zásadní porozumění.
+A právě porozumění a především reprezentace takového porozumění
+je možnou příčinou eventuálnímu odvolání Jane Fernandes.
+Bereme-li jako jednu z definic kultury
+\[Bq]reakce na opakující se problémy\[lq],
+pak je jen logické,
+že podmínkou přijetí do tohoto aspektu kultury bude sdílení
+oněch problémů nebo přinejmenším jejich pochopení.
+Fernandes se potýkala s jinými obtížemi než většina studentstva,
+koneckonců i její program zahrnoval inkluzi orálně vzdělávaných
+neslyšících a větší diverzitu módů komunikace.
+Mezi odmala znakujícími Neslyšícími,
+kteří se setkávají spíše s ostrakizací ZJ
+.[
+bene
+.]
+a v duchu výdobytku komunity jsou na ZJ naopak hrdí,
+to vyvolalo negativní odezvu:
+jak může někdo,
+kdo sám \[Bq]pořádně neznakuje\[lq],
+dobře reprezentovat \fIznakující společenství\fR,
+obzvlášť když ani nemá \fIstejnou\fR zkušenost se ZJ a se slyšícími,
+a navíc ještě soudržnost Neslyšících
+destabilizovat inkluzí
+\fIdalších lidí s odlišnými zkušenostmi a odlišnými problémy\fR?
+Čistě materiální otázka jazykového porozumění jen přidává váhu
+argumentu o tom,
+že Jane Fernandes nebude zosobněním celé komunity Neslyšících,
+ani kdyby nebyly zohledněny ostatní příčiny protestů
+(profesní schopnosti a rasová diverzita).
+.pp
+Dalším zajímavým bodem těchto prostestů bylo vyjádření
+odcházejícího prezidenta Irvinga K. Jordana,
+který Fernandes navrhl a během protestů podporoval.
+.[
+ikjwapo
+.]
+Jeho pozice je ve všech ohledech jiná
+než pozice protestujících studentů,
+a to i přes to,
+že jeho samotného do funkce vynesly studentské protesty
+\[Bq]Deaf President Now\[lq].
+.[
+dpn
+.]
+Sám není typickým Neslyšícím v tom,
+že je ohluchlý - jeho zkušenost tak bude diametrálně odlišná
+od prelingválně neslyšících.
+.[
+joac
+.]
+Zároveň zažil první boj za emancipaci
+v šedesátých a sedmdesátých letech,
+ve kterém šlo spíše o samotné právo na existenci
+menšiny sluchově postižených
+než o její hranice a kulturní problémy
+(které nejsou přímo existenční).
+Proto dává smysl jeho podpora inkluze alespoň v rámci
+širší skupiny sluchově postižených,
+jednak proto,
+že má pochopení pro boj vyloučené menšiny
+díky vlastní angažovanosti v emancipaci neslyšících/Neslyšících
+(detailnější diferenciace se nedá dostatečně přesně časově určit),
+ale i proto,
+že je sám reprezentantem jiné skupiny než protestující.
+Kromě toho Fernandes dosadil do pozice proděkanky
+bez správného procesního jednání se správní radou univerzity
+a pak se zasloužil o její jmenování prezidentkou;
+jeho postoj vůči ní je tak naprosto konzistentní
+ze všech úhlů pohledu.
+Zároveň to byl on kdo zdůrazňoval kulturní aspekt protestů,
+to, že jádrem problému je pojetí toho kdo je a kdo není neslyšící
+či Neslyšící;
+.[
+fox
+.]
+zpochybnil nárok komunity Neslyšících na univerzitu
+ve prospěch inkluzivní univerzity pro sluchově postižené
+.[
+ikjwapo
+.]
+a takřka obvinil Neslyšící z nacionalismu.
+Byť byly otázky kultury nesporně součástí kontroverze,
+odpovědí ze strany protestujících bylo to,
+že jde především o nepřijatelnost Fernandes jako osoby
+než jako reprezentantky \[Bq]ne dost Neslyšících\[lq]
+a hlavním důvodem jsou její manažerské schopnosti
+a špatný vztah se studentstvem.
+.[
+wapo
+.]
+
+.sh 2 "Důsledky"
+.pp
+Proč je potřeba se zabývat vztahem komunity Neslyšících k ZJ?
+Navíc v Česku ani neexistuje instituce podobného významu
+jako Gallaudetova univerzita,
+a masové protesty Neslyšících tu také nehrozí.
+Přesto však má i Česká republika svůj pytel problémů,
+které s problematikou jazyka a jeho role v kultuře Neslyšících
+bytostně souvisí.
+
+.sh 3 "Rodinné zázemí"
+.pp
+První část z nich se týká rodiny a dědičnosti hluchoty.
+Většina Neslyšících se totiž rodí slyšícím rodičům
+(z respondentů 70,6%,* v USA až 95%;
+.[
+dedusa
+.]
+rozdíl ve výsledcích se dá vysvětlit kombinací
+větší míry dědičnosti i záběrem dotazníku
+- šířil se snáze mezi do komunity Neslyšících velmi integrovanými
+lidmi)
+a ti tak mají zásadní roli při integraci svých dětí
+mezi slyšící nebo Neslyšící.
+.(f
+.IP *
+Viz Otázka č. 22 z přiloženého dotazníku
+.)f
+Někteří si možná ani neuvědomují,
+jak moc na jejich rozhodnutích závisí psychické pohodlí jejich dětí.
+.pp
+Bohužel ani to,
+že se rodina neslyšících naučí znakový jazyk,
+stále není samozřejmostí.
+.[
+ipusa
+.]
+Příčiny mohou být různé,
+ať už vědomé nebo z nedostatku zájmu,
+například to,
+že znakování je velmi viditelná věc a vede k vyloučení
+z \[Bq]normálních (slyšících) lidí\[lq],
+to, že učit se znakovat znamená připustit, že je dítě neslyšící,
+víra v medicínské řešení problému (např. kochleární implantát)
+nebo třeba i nedostatek času nebo finančních prostředků na učení ZJ.
+.[
+berke
+.]
+Nezávisle na důvodech pro takové rozhodnutí,
+neznakování se projeví v mnoha ohledech,
+ať už jde o celkové psychické pohodlí dítěte
+a sklon k psychickým poruchám,
+.[
+greenstress
+.]
+prospěch ve škole,
+socializace s vrstevníky
+nebo charakter kulturních vazeb.
+.[
+vylouceni
+.]
+.pp
+Ačkoliv je cílem orální metody lepší integrace mezi slyšící,
+spoléhání se na odezírání v každodenní komunikaci
+nebo redukování kontaktu na absolutní minimum
+(často ještě znásobené internátní školou)
+logicky ústí ve stres a často i odcizení s rodinou,
+jež neznakuje.
+Především pro malé neslyšící děti je absence ZJ problematická,
+jelikož neumějí psát (Ivona si s některými členy rodiny píše,
+ale celkově s nimi tolik nekomunikuje).
+Diskomfort v domácím prostředí a nedostatek těsného kontaktu,
+který umožňuje jen dobrá metoda komunikace,
+si pak Neslyšící mohou \[Bq]vynahrazovat\[lq] komunitou,
+ve které mají navíc lepší možnost tyto své zážitky sdílet
+a kde jejich handicap není považován za handicap.
+.pp
+Potřeba sounáležitosti je relativně silná
+a nedostatečnost jedné úrovně sociálních vazeb
+bývá často kompenzována intenzivnější vazbou na jinou
+sociální skupinu.
+Takové skupiny,
+které se při svém utváření opírají o nějakou myšlenku nebo představu
+- andersonovské \fIimagined communities\fR
+.[
+anderson
+.]
+jako například národy,
+některé subkultury nebo i společenství Neslyšících
+- mají výhodu abstraktnosti:
+většina příslušníků se navzájem nezná,
+představa o tom, kdo je a kdo není \[Bq]členem\[lq]
+je relativně vágní
+a pocit sounáležitosti se nemusí opírat o každodenní kontakt
+(viz fandění při Olympijských hrách),
+jsou proto celkem přirozeným prostředkem
+naplnění potřeby sounáležitosti.
+Velkou vnitřní soudržnost komunity Neslyšících
+a do jisté míry i odcizení některých Neslyšících od slyšících
+tak lze vysvětlit nejen nepohodlím v kontaktu \[Bq]se světem\[lq],
+ale i neuspokojivým domácím zázemím.
+
+.sh 3 "Školní prostředí"
+.pp
+Nejen doma,
+ale i ve škole (jejíž výběr je taktéž závislý na rodičích)
+nastává paradoxní situace,
+kdy zamýšlená integrace a inkluze vede k přesnému opaku
+- vyloučení - a to dvojímu: jak z většinové společnosti slyšících,
+tak z komunity Neslyšících.
+I pokud se běžná škola snaží vyjít neslyšícím vstříc
+z hlediska využití kompenzačních pomůcek nebo metod výuky
+nebo jiných záležitostí vztahu dítě-škola,
+výhodu komfortního kolektivu škola zajistit nemůže.
+Oproti tomu školy pro sluchově postižené,
+nezávisle na hlavní metodě komunikace,
+už mají přednost toho,
+že dítě není jediné \[Bq]s postižením\[lq];
+snáze si tak hledá referenční skupiny,
+má lepší příležitost navazovat vztahy s lidmi s podobnou zkušeností
+a méně často zažívá pocity vyloučení.
+.[
+jarvis
+.]
+Rozhodnutí poslat neslyšící dítě do běžné školy tak sice může být
+motivované mj. lepší akademickou úrovní,
+ale ta je vyvážena horším psychologickým prostředím,
+které v horších případech vede k šikaně a jiným závažným potížím.
+Dokonce i pro studenty,
+jejichž hlavním komunikačním prostředkem je mluvený jazyk,
+představuje vyloučení zásadní problém (i na univerzitě)
+a hledání kolektivu lidí s podobnými zkušenostmi
+cestu k jeho řešení;
+na úrovni základní nebo střední školy mají děti podstatně menší
+možnost se k takovému kolektivu dostat svépomocí
+a exkluze \[Bq]inkluzí\[lq] se tak pro něj snadno stává bezvýchodnou.
+.(q
+It helps to know students
+who understand how frustrating it can be
+if something isn't accessible.
+If you're culturally Deaf,
+find out whether your university has a BSL society.
+If not, the students' union could help you set up your own,
+or another university nearby might have an active club
+for you to join.
+.[
+guardian
+.]
+.)q
+.pp
+Prostředí,
+kde se znakuje,
+má navíc tu výhodu,
+že na postižení \[Bq]vevnitř\[lq] skupiny nezáleží;
+je k dispozici nejen společenství lidí s podobnými zkušenostmi
+a stejným elementárním náhledem na povahu postižení,
+ale i relativně nejhladší způsob komunikace,
+který je sice radikálně odlišný od většinového
+a jako takový inherentně k vyloučení z většinové společnosti vede,
+nicméně to nastává často i u \[Bq]mluvících\[lq] neslyšících
+a v rámci konkrétního společenství Neslyšících
+je naopak inkluzivní.
+Nabízí se tedy otázka,
+jestli je zdánlivá příslušnost k většině prospěšnější
+než příslušnost k z pohledu psychologického pohodlí funkčnější,
+ale se slyšícími relativně odcizené menšině Neslyšících.
+
+.sh 3 "Metody komunikace při výuce"
+.pp
+Neznamená to,
+že by se neslyšící při výuce neměli setkat s mluveným jazykem.
+Porozumět například češtině je naprostou nezbytností
+i v případě,
+že veškerá komunikace se státními orgány
+bude přizpůsobena Neslyšícím.
+Zásadní je to,
+aby se neslyšící děti se znakovým jazykem setkaly,
+a měly tak na výběr.
+\[Bq]Mluvit\[lq] se totiž nenaučí každý
+- (Ivona) chodila do běžné školy a ani v její rodině nikdo neznakuje;
+její řeč je sice po chvíli zvykání srozumitelná,
+nicméně od prvního slova je poznat,
+že je neslyšící.
+Možná i z důvodu dětství v kolektivu slyšících patří k pouhým
+8% respondentů, kteří mají více slyšících než Neslyšících přátel
+(viz Otázka 29? z dotazníku;
+v rozhovoru také uvedla,
+že při VŠ studiu měla tlumočníka až při Státní zkoušce
+a instrumentální při překonávání handicapu byli slyšící spolužáci),
+ale odpovědi na další otázky (15, 27 a 28) ukazují silnou vazbu
+na Neslyšící a preferenci kolektivu Neslyšících.
+Výuka mluveného jazyka a výuka znakového jazyka přece nemusí
+být vzájemně exkluzivní,
+oboje přináší značné výhody (o čistě znakujících vzdělávacích
+institucích v ČR nevím).
+Pro zajištení co nejhaldšího soužití je důležitý respekt vůči
+preferovanému způsobu komunikace
+i vůči individualitě Neslyšících především v dětství,
+kdy je možnost rozhodovat sám o sobě podstatně omezenější;
+dá se tak vyhnout mnohým nepříjemným situacím a traumatům.
+Výuka v ZJ od dětství je zásadní i pro plynnost v ZJ
+- cizí jazyky se v dospělosti učí hůře a málokdy nabydou takové
+plynnosti jako u rodilých mluvčích,
+což vede k vyloučení i ze skupiny Neslyšících jako v případě Jane
+Fernandes.
+K tomu je potřeba i vzdělaných lékařů,
+kteří hluchotu diagnostikují,
+jelikož mají velký vliv na rozhodování rodičů neslyšících dětí.
+.pp
+Dva Neslyšící, s nimiž jsem dělal rozhovor,
+také studovali nebo studují VŠ.
+Vysoké školství je od obou předchozích stupňů odlišné nejen
+povahou kolektivu,
+ale také obsahově a jazykově.
+Český znakový jazyk,
+ačkoliv existoval již ve čtyřicátých letech \fIdevatenáctého\fR
+století,
+nemá z důvodu diskontinuity užívání ZJ v Česku
+i diskontinuity vzdělávání Neslyšících celkově
+dostatečný pojmový aparát pro obsáhnutí většiny akademických oborů,
+proto je pro studium na VŠ kromě tlumočení
+(které stejně není zvlášť běžné)
+zásadní i způsob zprostředkování češtiny.
+(Ivona) se se systémovou podporou vůbec nesetkala
+a byla závislá na psaných materiálech od vyučujících a především
+od spolužáků.
+Oproti tomu (Jelínek) nebyl jediný Neslyšící v ročníku
+a k dispozici měli jak tlumočníky,
+tak zapisovatele,
+nicméně jejich aktivity nebyli dostatečně koordinované
+a občas se museli obejít bez nich,
+navíc někdy nebyla jejich asistence k ničemu
+kvůli špatné koordinaci s vyučujícími
+nebo kvůli schopnosti asistentů
+smysluplně předat sdělení přednášejícího.
+V dnešní době technologií umožňujících ne sice stoprocentní,
+ale v rámci možností přijatelný převod řeči na text
+i jednoduchosti záznamu přednášky to považuji
+za systémové selhání.
+Jsou to totiž právě dnešní Neslyšící studenti VŠ,
+kteří už tvoří a v následujících letech budou tvořit
+intelektuální oporu Neslyšících
+a jejich příklad má potenciál změnit přístup Neslyšících
+ke vzdělání celkově.
+
+.sh 3 "Předmět \[Bq]znakový jazyk\[lq]"
+.pp
+Všichni tři úplně neslyšící
+(ke společenství Neslyšících se hlásí všichni čtyři,
+ale (Šimon) má kochleární implantát a z pohledu většiny situací
+\[Bq]slyší\[lq])
+mezi problémy školství zmiňovali i to,
+že se ve škole učí hodně češtinu, o něco méně angličtinu,
+ale že český znakový jazyk se neučí vůbec
+(i když v něm probíhá část výuky).
+Tento problém se ZJ ale nemá snadné řešení v podobě zavedení takové
+výuky: není totiž jasné, co by mělo být jejím obsahem.
+Český znakový jazyk doposud nemá ani oficiální podobu,
+ani oficiální referenční rámec jazykových kompetencí
+- jinými slovy stát nemá k dispozici ani prostředky,
+jak měřit úroveň mluvčích ČZJ,
+natožpak pedagogický plán výuky o ČZJ.
+Tomu chybí jak politická vůle,
+tak i teoretický fundament,
+jelikož komunistický režim ZJ potíral
+a od té doby se akademická tradice nestihla znovu vybudovat.
+Sestavit referenční rámec navíc není vůbec lehký úkol,
+protože kvůli potírání ZJ ve všech významných informačních kanálech
+se ČZJ vyvíjel takřka izolovaně ve všech větších městech;
+důsledkem je velké množství relativně odlišných dialektů
+napříč republikou.
+Ještě k tomu je značný rozdíl v projevu generací,
+které se učily znakovat před rozšířením internetu a po něm;
+kromě místních hranic tak vzniká ještě věková.
+Ani obsah literární složky potenciálního jazykového předmětu
+není snadno určitelný
+- domácí \[Bq]literatura\[lq] je teprve v zárodku
+a rozbor nejvýznamnější znakové literatury,
+americké,
+by vyžadoval třetí cizí jazyk (po češtině a angličtině ještě
+americký znakový jazyk).
+Tak jako tak,
+přizpůsobení výuky Neslyšícím zůstává výzvou jak pro slyšící,
+tak i pro první zdejší Neslyšící pedagogy (9/85 respondentů,
+~10%).
+
+.sh 3 "Komunikační kompetence Neslyšících, tlumočení"
+.pp
+Z výsledku dotazníku se jazykové kompetence Neslyšících
+zdají být velmi dobré (nějaký statistiky);
+co je však nejzajímavější je jejich rozložení a využití.
+Často se zdůrazňuje,
+že Neslyšící nerozumí vždy češtině,
+jelikož je to pro ně cizí jazyk,
+navíc strukturou i způsobem záznamu
+(jedním z důsledků jsou pravopisné chyby,
+typicky v psaní dlouhých a krátkých samohlásek
+nebo chyby relativně běžné i mezi slyšícími jako
+i/y, -ě/-je, -ě/-ně apod.) významně odlišný od ČZJ.
+Ačkoliv je to velmi reálný problém především v úřední komunikaci,
+ale i v porozumění odborným a uměleckým textům,
+na vztahu Neslyšících k češtině se to neprojevuje tolik,
+kolik by se dalo očekávat.
+Tři čtvrtiny respondentů rády čtou,
+94% z nich dokonce rádi píšou
+a většina z nich pravidelně sleduje média v češtině
+(55% pravidelně čte noviny, drtivá většina získává
+informace z internetu,
+kde je zatím obsahu v ČZJ velmi málo).
+Kromě toho více než polovina z nich navštěvovala školy
+s výukou v češtině.
+V rozhovorech také uvedli,
+že občas, když není k dispozici tlumočník
+(jichž je chronický nedostatek,
+přibližně 100 na 7600 prelingválně neslyšících),
+si se slyšícími píšou.
+V běžné komunikaci tak nemusí být čeština Neslyšících dokonalá,
+ale zdá se,
+že dostačující nebo v základních ohledech funkční \fIje\fR.
+Přesto však má snažení neziskovek jako např. Tichý Svět
+o \fIdeaf-friendly\fR webové stránky a úřední dokumenty
+smysl - jsou totiž nezřídkakdy obtížně srozumitelné i pro slyšící,
+natožpak pro Neslyšící,
+kteří se s administrativními a medicínskými pojmy setkají párkrát
+za život
+a jejichž vzdělání bylo především ve starší generaci značně zanedbáno
+nebo dokonce přímo omezováno komunistickým režimem.
+Zároveň lze jen uvítat snahu o zjednodušení komunikace ve vypjatých
+situacích,
+třeba pomocí aplikací nebo \[Bq]kartiček pro Neslyšící\[lq] zlínských
+hasičů.
+.pp
+Čím více jazyků člověk umí, tím snazší je učit se nové.
+Zdá se,
+že toto platí i v případě Neslyšících.
+Všichni, se kterými jsem dělal rozhovor,
+se v cizině domluví anglicky (pomocí psaní)
+a naučili se anglicky ve škole.
+Valná většina respondentů umí nějaký cizí jazyk alespoň
+částečně (mezi slyšícími 79% k roku 2016).
+.[
+cizijazyk
+.]
+To je podstatné při cestování (všichni čtyři z rozhovorů
+cestují rádi a poměrně často),
+kdy využití tlumočníka není možné,
+ale přesto je potřeba se domluvit.
+Z rozhovorů jsem se rovněž dozvěděl,
+jak moc je v komunikaci nejen v cizině,
+ale i v ČR důležitý smartphone:
+umožňuje psaní a v cizině i překlad (např. pomocí Google Translate).
+Mezi pomůckami usnadňujícími dorozumění
+v takřka jakýchkoliv situacích ho zmiňovali všichni čtyři.
+Přestože všichni také vypíchli nedostatek tlumočníků jako jeden
+z nejzásadnějších problémů,
+(Matěj) i (Jelínek) přiznali,
+že vyřizování tlumočníka je na dlouho (platí je stát
+a kvůli nedostatku se na jejich služby poměrně dlouho čeká)
+a že někdy jdou na úřad s mobilem místo tlumočníka,
+protože je to rychlejší.
+I tak jsou jisté situace,
+jako třeba společenské akce nebo složité,
+na kontext a jemnost citlivé situace,
+které telefonem vyřešitelné nejsou.
+Potenciálním způsobem řešení nedostatku tlumočníků
+může být zavedení kurzů ZJ pro slyšící na úřadech, v nemocnicích atd.
+Oproti tlumočníkům by nebyla nezbytná
+tak vysoká úroveň jazykových schopností
+a zároveň se užší okruh témat snáze učí;
+ani by se to nemuselo týkat příliš velkého počtu lidí.
+Věřím, že státní podpora takového projektu
+(zavedení alespoň ve státních orgánech)
+by se setkala s příznivým ohlasem samotných Neslyšících i neziskovek.
+Dalším krokem by mohlo být uznání ČZJ
+jako menšinového úředního jazyka
+po vzoru Rakouska či některých států USA
+nebo zvýšení kvóty otitulkovaných pořadů v televizi.
+.pp
+Pro Neslyšící ale není podstatný jen kontakt se slyšícími.
+Téměř čtyři pětiny dotázaných se znají s Neslyšícími z jiných
+států a třetina z celkového počtu udržuje pravidelný kontakt.
+Znakové jazyky nejsou vzájemně srozumitelné,
+takže komunikace mezi Neslyšícími z různých míst není o nic snazší
+než mezi slyšícími,
+navíc Neslyšících všude je podstatně méně
+a navazování kontaktu je tak výrazně těžší.
+Jiný znakový jazyk umí úctyhodných 88% respondentů
+(k tomu čeština nebo ČZJ,
+jedno jako mateřský a druhé jako první cizí,
+často ještě cizí mluvený jazyk) napříč všemi věkovými skupinami!
+Necelých sedmnáct procent dokonce ovládá více než dva znakové jazyky!
+Celkově to svědčí o značné provázanosti komunit Neslyšících
+hranicím i jazykovým bariérám navzdory.
+Tento jev je ale překvapivý jen na první pohled:
+je třeba si uvědomit,
+že kulturně jsou si Neslyšící napříč zeměmi blíž
+než Neslyšící a slyšící a nezřídkakdy i než slyšící nevzájem.
+Kulturní mechanismy jsou si totiž velmi podobné;
+Neslyšící se setkávají s takřka identickými problémy handicapu
+a vyloučení.
+Při dalším odkazu na definici kultury pomocí ustálené reakce
+na opakující se problém je pak do jisté míry oprávněné tvrdit,
+že základ kultury Neslyšících v podobě znakového jazyka
+a prevalence jinakostního chápání hluchoty je stejný pro Neslyšící
+na celém světě.
+Rozdíly pak budou spočívat v materiálních okolnostech,
+\[Bq]stadiu vývoje\[lq]* komunity
+a podstatně méně na rozdílech většinových kultur.
+.(f
+.IP *
+\[Bq]Nejpokročilejší\[lq] je USA díky kontinuitě výuky i umění v ZJ,
+Gallaudetově univerzitě i akademické podpoře jiných institucí,
+velmi dobře je na tom ještě Francie a Velká Británie,
+relativně nejhorší je pak situace Neslyšících v zemích třetího světa.
+.)f
+Jazyková odlišnost sice kontakt neusnadňuje,
+ale myšlenka znakového jazyka jako prostředku,
+který je zároveň chloubou společenství Neslyšících,
+jeho poznávacím znamením i nástrojem minimalizace handicapu,
+je rovněž společná všem Neslyšícím nezávisle na místních podmínkách.
+Tento jev reflektují také například Tiché Zprávy
+- významná část jejich zpráv je převzata z komunikačních kanálů
+amerických Neslyšících jako jsou podobné platformy či sociální sítě.
+
+.sh 1 "Identita a její projevy"
+.pp
+Když se řekne \[Bq]kultura\[lq],
+zdaleka ne každý si představí,
+jakým způsobem se utváří společenství,
+prostředí,
+ve kterém je naše sdělení srozumitelné díky společnému jazyku
+a společné zkušenosti
+nebo dokonce obvyklá řešení běžných problémů.
+Často máme tendenci vnímat kulturu ne skrze její podstatu,
+ale spíš pomocí jejích projevů jako je umění, svátky a rituály,
+symboly a reprezentativní znaky (vlajky, barvy, oblečení...),
+nebo v jejích politických souvislostech.
+V této části bych se rád zabýval významem těchto projevů
+v našem chápání kultury Neslyšících i v jejich uvažování o tom,
+\[Bq]kdo je tady Neslyšící\[lq].
+
+.sh 2 "Symboly"
+.pp
+Většina kulturních skupin má nějaké svoje poznávací znamení.
+Může to být jazyk, charakteristické oblečení,
+jiné módní doplňky, tetování
+nebo i velmi konkrétní symboly jako znaky, odznaky, vlajky apod.
+Na rozdíl od mnohých subkultur,
+Neslyšící nejsou poznat na první pohled.
+Ani oblečením, ani tělesnou zvláštností,
+ničím - dokud nezačnou znakovat.
+Pokud nemají placku nebo něco podobného s logem či názvem
+nějaké spřátelené organizace jako např. ČUN, ASNEP, Tichý Svět,
+Pevnost atd.,
+zůstane znakování \fIjediným\fR identifikačním znakem Neslyšících
+v běžném kontaktu.
+Neznamená to ale,
+že by společenství Neslyšících nemělo vlastní \fIznaky\fR
+a vlastní symboliku,
+jen není evidentní a dál neodlišuje už tak často exkludované jedince,
+jako spíš usnadňuje orientaci ve veřejném,
+ale podstatně anonymnějším prostoru organizací, firem, spolků
+- a na internetu.
+
+.sh 3 "Vlajka"
+.pp
+Neslyšící na celém světě mají svoji vlajku.
+Možná už jste se s ní někdy setkali,
+například na popularizačních materiálech,
+na některých \fIdeaf-friendly\fR institucích či památkách
+v zemích, které takové instituce mají
+nebo na titulní straně maturitní práce Terezy Šafkové z roku 2012/13.
+.[
+skrinka
+.]
+Vypadá takhle:
+(obrázek vlajky).
+Problém je v tom,
+že jí moc často neuvidíte na materiálech samotných Neslyšících.
+Ačkoliv jejím účelem je reprezentace sluchově postižených celkově
+v její tmavomodré variantě
+a reprezentace specificky Neslyšících v její tyrkysové podobě,
+příliš se neujala.
+Proč?
+Její užití je problemtické hned z několika důvodů.
+Sdílení jednoho jediného symbolu napříč skupinou lidí
+tak heterogenní jako sluchově postižení samo o sobě není šťastné,
+jelikož cílová skupina je definovaná celkem arbitrárně na základě
+pohledu většiny a sama o sobě nepřemýšlí jako o jednolité entitě
+(nedoslýchaví se snaží svůj handicap minimalizovat kompenzačními
+pomůckami a zařadit se do většinové společnosti,
+ohluchlí jsou odlišní v tom, že byli slyšící,
+oproti tomu Neslyšící často nevnímají hluchotu vůbec jako postižení).
+Nedostatečná informovanost o užití nebo černobílé provedení také
+vedou ne ke snazší orientaci,
+ale naopak k dezinformaci a zmatení,
+například užití k indikaci přítomnosti
+indukční smyčky pro naslouchadla.
+.pp
+Avšak kromě praktických problémů s užitím symbolu \[Bq]přeškrtnutého
+ucha\[lq] jeho rozšíření nenahrává ani jeho obsah a význam.
+Zaměřuje se totiž na handicap
+a prakticky neumožňuje jiné než negativní vnímání.
+Konzistentně upozorňuje na nedostatek,
+absenci sluchu nebo alespoň jeho nedokonalost,
+což samozřejmě nemůže být povzbudivé sdělení.
+Vyobrazení kompenzačních pomůcek (inv. vozík, naslouchadlo...)
+sice není v důsledku o moc lepší,
+ale je méně přímé
+a nezakládá tolik představu nedostatečnosti člověka,
+proti které se především Neslyšící ostře ohrazují.
+Z toho důvodu mají všechny symboly Neslyšících
+navržené Neslyšícími pozitivní zprávu:
+být Neslyšícím neznamená jen neslyšet,
+ale je to obohacující zkušenost s výhodami i nevýhodami;
+je to něco, \fIna co může být člověk hrdý\fR,
+a právě výrazem tohoto pocitu jsou ony symboly.
+Takřka bez výjimky zobrazují \fIruce\fR,
+ať už samostatně nebo v heraldické apropriaci nějakého znaku ze ZJ.
+Tyto symboly se objevují prakticky všude,
+kde je třeba indikovat vstřícnost vůči Neslyšícím
+i v logách organizací Neslyšících a pro Neslyšící.
+Symbol dvou rukou \[Bq]za sebou\[lq] byl mezinárodně uznán
+symbolem znakového jazyka,
+symbol dvou rukou v opačných orientacích zase symbolem překladu ZJ.
+Návrh na \[Bq]Mezinárodní vlajku Neslyšících komunit\[lq]
+nakonec nebyl valným shromážděním Světové federace Neslyšících
+schválen,
+nicméně i přes to jde o zajímavý projekt,
+jehož logika demonstruje přístup Neslyšících k vlastní identitě.
+.(q
+My biggest dream was to have a flag,
+as a lot of people identify themselves immediately
+with that particular strong symbol.
+Why a flag?
+Simply because when you see one, you can feel (or not) at home.
+When you see a flag,
+in a few seconds you know visually what that means, and who is there.
+Finding a Deaf flag in the crowd,
+instantly you would know that there is another person like you
+who will accept who you are!
+You instantly know that you will find sign language,
+or at least someone who knows to communicate with you.
+It's a treasure we need to focus on.
+It's time to have to a strong symbol.
+Time to say: I am, you are, and we will be together.
+So I decided to engage myself on a Deaf flag project
+for our whole sign community.
+.br
+[...]
+The fundamental aim of having a flag is saying:
+with sign language WE ARE, WE CAN, and we WILL.
+.br
+It's time for us to choose an emblem,
+and be proud of our rich Deaf communities and show it to the world.
+.br
+It's time to mark our rich history for our Deaf children.
+.br
+It's time to focus and implement and develop our excellence.
+.br
+Hands out, head on, and let's go. It's our time. Now.
+.)q
+.(c
+(Arnaud Balard, autor vlajky, pro blog The Limping Chicken, 2015)
+.)c
+
+.sh 3 "Loga a názvy"
+.pp
+Zatímco vlajka,
+byť ne mezinárodně uznaná,
+nese jednoznačně pozitivní sdělení,
+z prezentace jednotlivých organizací nebo sdružení
+lze vyvozovat i další závěry.
+S výjimkou ASNEP,
+což \fInení\fR organizace specificky pro Neslyšící,
+je Ulita takřka jedinou takovou skupinou,
+která na svém logu symbol rukou vůbec nemá.
+Dokonce i festival Jeden svět v rámci inkluzivity
+zařadil do programu nezanedbatelné množství akcí pro Neslyšící
+a tento fakt reflektují i jeho stránky:
+s rozšířením prohlížeče jsou \fIdeaf-friendly\fR
+a akce zpřístupněné Neslyšícím jsou označeny symbolem rukou.
+Ruce jsou evidentně široce srozumitelným symbolem Neslyšících
+- ani jedna organizace nemá ve svém logu např. ucho.
+.pp
+Ještě o něco zajímavější než loga jsou ale názvy.
+Asociace organizací neslyšících, nedoslýchavých a jejich přátel
+(ASNEP)
+nebo Česká unie neslyšících mají významově neutrální názvy,
+ze kterých se nic zvláštního usuzovat nedá.
+Oproti tomu Pevnost, Tichý Svět nebo Ulita
+k interpretaci přímo vybízejí.
+Svým způsobem reflektují postoj Neslyšících
+vůči většinové společnosti.
+Evokují uzavřenost,
+izolaci,
+paralelní svět,
+hranice...
+Nedá se říct,
+že by nesly jakékoliv poselství o integraci,
+dialogu nebo čemkoliv jiném,
+naopak vyjadřují striktní oddělenost světů slyšících a Neslyšících.
+Neslyšícím totiž o integraci nejde.
+Ta by se musela realizovat skrze medicínské, deficitní paradigma
+a znamenala by úpadek znakování,
+což jde proti celému smyslu kultury Neslyšících
+a existence jejich komunity,
+tudíž bude pro významnou část z nich nepřijatelná.
+O paralelní společnosti v plném významu se mluvit nedá,
+protože Neslyšících je relativně málo a kontakt se slyšícími
+je z praktického hlediska nutný a dokonce prospěšný,
+nicméně speciálně kultura Neslyšících,
+její symboly, její reprezentace atd. je vnímána jako výsadní
+záležitost Neslyšících a pokusy o \[Bq]vměšování\[lq],
+byť třeba dobře myšlené,
+se tak mohou setkat se značným odporem a nepochopením.
+Cílem Neslyšících se nezdá být ani integrace,
+ani plná paralelní společnost,
+koneckonců většina z nich pochází ze slyšících rodin
+a s rozumnou dávkou pravděpodobnosti budou i jejich děti slyšící,
+ale spíše oboustranně přijatelný \fImodus vivendi\fR v materiálních
+otázkách a co největší autonomie v otázkách kulturních.
+Jinými slovy slyšící zdaleka nejsou \[Bq]říše zla\[lq],
+ale veškeré pokusy \[Bq]o pomoc\[lq] musí respektovat
+jinakostní paradigma Neslyšících
+- akceptovat Neslyšící takové, jací jsou
+a nesnažit se je \[Bq]napravit\[lq] - má-li uspět.
+
+.sh 2 "Rituály a společenské aktivity"
+.pp
+Jakákoliv kultura,
+která s sebou nese více významů
+než jen každodenní mezilidskou interakci,
+vyžaduje nějaký způsob utvrzování těchto přesahů.
+To se typicky realizuje pomocí rituálů
+a \[Bq]společenských\[lq] či \[Bq]kulturních\[lq] akcí.
+Různé aspekty kultury nebo kolektivního zpracovávání daného problému
+mají různé projevy,
+třeba církve a náboženský rozměr se uskutečňují
+v individuálních rituálech, společných obřadech a svátcích,
+zatímco individuální rituály v souvislosti s politickým aspektem
+kultury prakticky neexistují.
+Subkultury nebo umělecké skupiny zase nemívají svátky
+a rituální periodizaci času tak často jako jiné úrovně společenského
+soužití.
+.pp
+\fIImagined communities\fR,
+čili společenství,
+jejichž existence je ukotvená spíše myšlenkou
+než přímým kontaktem nebo jinými materiáliemi,
+potřebují organizované potvrzování vlastní existence o to víc,
+že nestojí na nevyhnutelném,
+ale na představě,
+v zájmu sebezachování tak takovou představu musí cíleně živit.
+Státy nebo národní celky mají těchto prostředků požehnaně,
+od voleb přes státní svátky až po Olympijské hry.
+Oproti tomu kultura Neslyšících v Česku
+ještě před třiceti lety prakticky neexistovala
+a dodnes není příliš sjednocená ((Matěj) mezi hlavními problémy
+zmiňoval nejednostnost a dezorganizovanost mezi Neslyšícími),
+navíc nemá oporu etablovaných společenských institucí
+(stát, církev, univerzity).
+Vývoj centralizovaných rituálů u nás tak má zpoždění i vůči západní
+polovině Evropy,
+kde se pořádají pravidelnější a rozsáhlejší setkávací akce
+přímo Neslyšících,
+zatímco u nás jsou oproti západní Evropě běžnější popularizační
+akce a konference o Neslyšících pro slyšící.
+Spíše než pomocí státních svátků nebo vzdělávání
+se tak kulturní identita Neslyšících bude utvrzovat jinými způsoby.
+Status \[Bq]svátku\[lq] by mohl mít snad jen
+Mezinárodní den Neslyšících,
+který slaví nejen popularizační agentury,
+ale i sami Neslyšící.
+.pp
+Kvůli tomu,
+že Neslyšící u nás nemají zatím propracovanou jednotnou strukturu,
+je jen málo věcí fungujících napříč celou komunitou
+a ta také nepůsobí zvlášť celistvě,
+je potřeba upevňování identity hledat v individuálnějších úrovních.
+Na té nejzákladnější to bude opět potřeba sounáležitosti
+a vyloučení z většiny,
+ale jak přesně se kultura Neslyšících realizuje?
+Jako první přijdou na mysl \[Bq]tradiční\[lq] společenské události
+jako např. divadla, koncerty, výstavy apod., případně společenské
+sportovní události.
+Nicméně průzkum jim zásadní roli úplně nepřisuzuje,
+kulturní akce pro Neslyšící typu divadlo nebo koncerty v ZJ
+navštěvuje jen asi třetina dotázaných,
+což se v mezích statistické odchylky shoduje s účastí
+na stejných nespecifických akcích.
+Z pohledu Neslyšících nejinkluzivnější typ kulturní události,
+výstavy, dopadly ještě hůře s necelou pětinou respondentů.
+Neslyšící z rozhovorů se kromě (Šimon) sice vyjádřili,
+že nějakou dobu na podobné společenské události chodili,
+nicméně zásadní to pro nikoho z nich není
+a věnují se spíš jiným věcem.
+.pp
+Těžiště každodenního udržování povědomí o bytí Neslyšícím
+tak přece jen musí ležet v setkávání.
+Minimálně mezi těmi,
+jejichž hlavní komunikační prostředek je znakový jazyk,
+jsou totiž možnosti lidského kontaktu značně omezené
+a ve většině případů se tak týkají jiných Neslyšících.
+Napříč různým demografickým údajům bylo setkávání se
+s dalšími Neslyšícími nejpopulárnější z daných aktivit
+s více než 75%.
+Především respondenti s dalšími Neslyšícími v rodině
+vykazují větší tendenci účastnit se akcí pro Neslyšící,
+zatímco jediní Neslyšící v rodině a Neslyšící z běžných škol
+se více setkávají se slyšícími.
+.pp
+Síla mezilidských vazeb souvisejících s identitou Neslyšících
+je patrná i při výběru partnera.
+Nikdo z dotázaných nepochází z rodiny
+s jen jedním Neslyšícím rodičem,
+rovněž partneři či partnerky respondentů jsou téměř ze tří čtvrtin
+Neslyšící.
+Ti, jejichž partner je slyšící,
+navíc pocházejí převážně z rodin bez dalších Neslyšících.
+Při otázce,
+jestli by za partnera chtěli spíše slyšícího z Česka
+nebo Neslyšícího z ciziny,
+také z 93% preferují slyšící z Česka,
+zatímco v ostatních skupinách není trend tak silný.
+Celkové výsledky této otázky byly pro mě docela překvapivé,
+především když se srovnají s otázkou na rodiče a aktuální partnery.
+Odpověď "Slyšícího z Česka" má totiž dokonce mírnou převahu,
+což jinak \[Bq]neladí\[lq] s kulturní blízkostí Neslyšících navzájem,
+a ukazuje to tak silný vztah k Česku konkrétně.
+Na ten jsem se ptal i Neslšících v rozhovorech,
+a ačkoliv všichni rádi cestují,
+\[Bq]napořád\[lq] by se stěhovat nechtěli.
+Zmiňovali mj. to,
+že i ostatní země mají ve vztahu k Neslyšícím svá negativa,
+například omezenější trh práce pro mladé Neslyšící,
+ale jako hlavní důvod vesměs uváděli to,
+že právě tady mají kamarády a známé.
+Charakter sociálních vazeb Neslyšících by si jistě zasloužil
+hlubší průzkum, nicméně ten je mimo záběr mé práce.
+.pp
+Soudržnost komunity i představu vlastní identity
+tak neudržuje ani tolik umění,
+které v našem prostředí ještě není tak rozvinuté jako např. v USA,
+ani organizované rituály a společenské akce,
+jako spíš stálá aktuálnost potřeby společenství,
+v němž bude Neslyšícím porozuměno
+a v němž budou moci hledat oporu při řešení svých problémů.
+Neslyšící tím pádem \fInejsou\fR typickou \fIimagined community\fR,
+přestože jádro rozhodně podstatou ideové je.
+Ani role setkávání při aktualizaci identity v případě Neslyšících
+neznamená materiální podstatu společenství jako u Andersonova
+\[Bq]dynastického\[lq] či \[Bq]kmenového\[lq] modelu.
+Svědčí to spíše o tom,
+že jde o společenství relativně mladé,
+které ještě nemělo možnost ani motivaci nahradit přímý kontakt
+jako důsledek potřeby existence společenství
+abstraktnějšími rituály nebo symboly typu kenotafů.
+.[
+anderson
+.]
+Nutnost podobných \[Bq]umělejších\[lq] udržovacích metod
+je menší než u národních identit ze dvou důvodů:
+zaprvé je důvod vzniku společenství stále aktuální,
+pokud by nebylo, vznikne znova a nepotřebuje se tak stále utvrzovat
+v oprávněnosti vlastní existence,
+zadruhé v oblasti své působnosti nemá konkurenci
+- kde národnostní model nahrazoval dynastický a náboženský,
+tam komunita Neslyšících vznikala z absence společenství,
+z individualit - a dodnes neexistuje žádné v mechanismech fungování
+radikálně odlišné společenství Neslyšících.
+
+.sh 2 "Role médií a tisku při tvarování identity"
+.pp
+Benedict Anderson tvrdí,
+že myšlenka národa mohla vzniknout díky tisku,
+a to proto,
+že umožnil jak změnu společenských poměrů zpřístupněním informací
+a podílel se i na posunu ekonomiky směrem ke kapitalismu,
+ale i proto,
+že komerční tlak na dostupnost informací byl zásadním krokem
+ke sjednocování jazyků do jejich dnešní podoby,
+čímž mimo jiné pomohl lidem uvědomit si spojení s ostatními lidmi
+používajícími stejný jazyk.
+.[
+anderson
+.]
+Pokud se podíváme na Neslyšící,
+\fIimagined community\fR jsou,
+měly by se jich tedy týkat podobné procesy.
+Na první pohled by se mohlo zdát,
+že konkrétní příklad tisku bude výjimkou,
+dosud nebyla zmíněna žádná kniha Neslyšících,
+žádný národní epos
+a i periodika byla zmíněna jen okrajově
+a navíc spíše citována než jako objekt zájmu.
+I přes to však má tisk při vývoji identity Neslyšících
+zcela zásadní roli,
+i když je jeho podoba jiná, netradiční,
+a nemusí tak být úplně evidentní.
+.pp
+Prostředkem \[Bq]tisku\[lq] v případě Neslyšících totiž není
+klasický tisk ve smyslu knih a novin apod.,
+ale internet.
+Je to způsobené tím,
+že znakový jazyk nemá funkční psanou podobu;
+jakákoliv potenciální literatura tedy bude vázána na mluvený jazyk,
+který není snadno srozumitelný všem Neslyšícím
+a který se příčí logice fungování komunity.
+Až masové rozšíření videa znamenalo použitelný způsob záznamu;
+do té doby byli Neslyšící spíše předliterární kulturou,
+ačkoliv mezi jednotlivci přenášená \[Bq]literatura\[lq]
+(chtělo by se říct \fIorální\fR) existovala.
+Přesto je to až internet,
+který umožňuje pravý rozvoj znakového tisku.
+Jeho role z hlediska přístupnosti informací je takřka srovnatelná
+s knihtiskem,
+navíc možnost sledování videí a dokonce i živá videokomunikace
+je pro Neslyšící nenahraditelná,
+mj. ve starší generaci, jejíž vzdělávání bylo násilně omezováno.
+.pp
+Informační vakuum z období komunistického režimu se začíná postupně
+zaplňovat právě díky internetu
+- kde Neslyšící celkově měli velmi omezenou možnost zasáhnout
+do veřejného prostoru a znakový jazyk v něm vůbec být nesměl,
+mohou dnes působit třeba \fITiché zprávy\fR.
+Kromě zpravodajství,
+které je zásadní pro společenský život a jeho směřování,
+navíc internet umožňuje i šíření umění ve znakovém jazyce,
+jako je znaková poezie,
+znakové písně nebo příběhy.
+Rovněž internet rozšířil pole působnosti televize,
+do té doby jediného funkčního informačního kanálu Neslyšících
+a dodnes po internetu nejsledovanějším typem záznamu informací
+(internet jako zdroj informací používá okolo 85% respondentů,
+dalších 13% převážně k jiným účelům;
+TV sleduje přes 90% dotázaných, účel nebyl zjišťován).
+.pp
+Videohovory po internetu,
+pro Neslyšící analogie telefonování,
+mají na vývoj jazyka stejný účinek jako na mluvené jazyky tisk.
+Umožňují totiž kontakt lidí,
+kteří by se za normálních okolností nesetkali.
+Takový kontakt mezi různými nářečími zase vyžaduje,
+aby se obě strany domluvili.
+Zároveň tlak na co největší impakt mediálního obsahu v ČZJ,
+jako již zmiňované Tiché zprávy,
+je zároveň tlakem na sjednocování jazyka
+a překonávání místních rozdílů.
+Český znakový jazyk tak v posledních letech zažívá
+nebývale rychlý vývoj a kde dnes jedna oficiální varianta neexistuje,
+za pár let existovat může.
+Sekundárním důsledkem je ale rostoucí kulturní i jazyková bariéra
+mezi starší a mladší generací.
+Zatímco starší generace byly omezovány v téměř každém aspektu života
+už jen proto, že byli Neslyšící,
+a i znakový jazyk se u nich vyvíjel \[Bq]načerno\[lq]
+a méně organizovaně,
+nová generace snáze překonává místní rozdíly díky
+kontaktu napříč republikou
+a s omezeními se setkává podstatně méně.
+Zároveň mladší jsou na internet zvyklí a dominance internetu
+mezi mediálními kanály je u nich výraznější,
+zatímco znakování v televizi je zprostředkováváno
+starší generací Neslyšících a tlumočníků
+- pro mladší není tak snadno srozumitelná televize
+kvůli starším znakům,
+u starších jsou zase patrnější nářečí.
+.pp
+I pokud jde jen o ukazatel shlédnutí na Youtube,
+internet zároveň pomáhá Neslyšícím uvědomit si,
+kolik jich je a jaký mají potenciál.
+Mohou být roztroušeni po celé republice,
+ale pomocí internetu jsou v kontaktu mezi sebou
+a často i s Neslyšícími v cizině.
+Právě viditelný příklad identifikace se s ostatními,
+nebo jinými slovy uvědomění si \fIspolečných znaků\fR,
+umožňuje identitě plně se projevit a zformovat.
+Zároveň při definici kultury jako reakce na opakující se problémy
+či jako kondenzátu historie přispívá ke značnému rozšíření
+penza reakcí či společných znalostí ukázáním příkladu jiných.
+I Neslyšící např. v Indonésii se tak mohou odvolávat na podporu
+mezinárodních organizací
+a argumentovat stejně,
+jako při svém boji za právo na sebeurčení argumentovali
+třeba Francouzi nebo Američané.
+.pp
+Právě rychlý vývoj internetu a smartphonů je výrazným vektorem
+změny mezi Neslyšícími.
+Pomáhá překonávat nejen jazykové místní rozdíly,
+ale navíc zpřítupňuje dosud nebývalé množství informací,
+čímž vytváří prostor pro posun prakticky všech aspektů kultury.
+Kde dříve byly izolované komunity v jednotlivých městech
+jsou už dnes místní odnože širšího společenství.
+I to podstatnou měrou příspívá ke změně směrem k abstraktnější
+a více ideové podstatě identity
+jako u jiných \fIimagined communities\fR.
+Zatímco dnes mohu říct,
+že Neslyšící v ČR zatím jako politická entita příliš nefungují
+a i na poli umění a jiných oblastí seberealizace jejich kultury
+jsou spíše na začátku cesty,
+dohledná budoucnost může vypadat úplně jinak.
+
+.+c "Závěr"
+.sh 1 "Závěr"
+.pp
+.(q
+Ačkoliv se zájem o jejich [Neslyšících] problematiku zvyšuje,
+stále si myslím,
+že ještě zbývá dlouhá cesta,
+než se podaří je plně integrovat do společnosti.
+.)q
+.(c
+(Tereza Šafková, \fIVzdělávání neslyšících v České republice\fR,
+2013)
+.)c
+.ls 2
+.pp
+Poslední věta jedné z předchozích maturitních prací na téma Neslyšící
+nevyznívá úplně dobře.
+Pomáhat se dá jen tam,
+kde je o pomoc zájem;
+kromě toho identitární miskoncepce je z hlediska vnímání sebe sama
+značně škodlivá.
+.[
+misrecognition
+.]
+Je integrace do většinové společnosti v zájmu Neslyšících?
+Nezdá se.
+Naopak,
+jejich identita je založená na odlišnosti;
+jsou hrdí na to,
+že jsou Neslyšící,
+věří,
+že není potřeba je \[Bq]opravit\[lq],
+znormalizovat.
+To,
+že samotná konstrukce takové identity je zároveň
+psychologický mechanismus vyrovnávání se s vlastním postižením
+nebo jinakostí - společenským stigmatem
+- a zároveň je do jisté míry \[Bq]vynucená\[lq] vyloučením
+z většiny,
+v tomto případě nehraje roli.
+Podstatné je,
+že v životě Neslyšících má jejich kultura i kulturní identita
+nenahraditelnou a stále aktuální funkci,
+a proto má být zachovávána a respektována,
+o to více lidmi,
+kteří přicházejí s Neslyšícími pravidelně do styku.
+.pp
+Nakonec to je totiž právě většinová společnost,
+která je minimálně spoluzodpovědná za některé morálně
+ambivalentní projevy identity Neslyšících,
+jako je například odmítání kochleárního implantátu pro děti.*
+.(f
+.IP *
+69,4% respondentů by svému dítěti kochleární implantát nedalo,
+63% z nich kochleární implantát pro sebe odmítá
+z jiných než zdravotních důvodů.
+.)f
+Možná kdyby \[Bq]kondenzát historie\[lq] Neslyšících
+nebyl příběhem vyloučení, omezování a konfliktu,
+bojem za právo na vlastní existenci,
+třeba by se Neslyšící nemuseli tolik bát odcizení svých dětí.
+I slyšící děti Neslyšících rodičů součástí světa Neslyšících
+zůstávají přinejměnším částečně...
+.pp
+Tak jako tak,
+smysluplný dialog vyžaduje alespoň \fIsnahu\fR o vzájemné porozumění.
+Pokud chceme zlepšit život Neslyšících
+(a prostor tu rozhodně je),
+je třeba pochopit jejich stanovisko.
+Koneckonců i naše představy morálky jsou produktem naší kultury
+a s Neslyšícími by se mělo zacházet jako se svébytnou kulturou,
+kterou vskutku jsou.
+Pokud by tedy naše snahy měly vést k integraci,
+splynutí slyšících a Neslyšících,
+pak budou v rozporu se smyslem kultury Neslyšících.
+Cílem by měl být spíše oboustranně přijatelný způsob soužití,
+akomodace odlišnosti
+(aktuálním příkladem je tlumočení demonstrací Milionu chvilek
+pro demokracii, neboť akomodace odlišnosti by součástí
+pluralitního demokratického systému být měla),
+protože každý z nás \fIje\fR v něčem odlišný a má na to právo.
+Proč by se to nemohlo týkat i Neslyšících,
+kteří za svoji jinakost nejsou zodpovědní?
+Proč jim upírat ryze individuální právo na sebeurčení,
+právo hledat porozumění a legitimizaci tam,
+kde se jim porozumění a legitimizace dostane nesnáz,
+tak, jako to dělají všichni lidé?
+Vždyť nezanedbatelná část* z nich neslyšení vůbec nepociťuje
+jako problém!
+.(f
+.IP *
+V dotazníku 36,5%, dalších 39% jen občas
+.)f
+.pp
+Poststrukturalisté kolektivním identitám vyčítají to,
+že příliš omezují individualitu;
+regulují, normalizují, osekávají a ve výsledku stejně nevytvářejí
+\[Bq]perfect fit\[lq];
+nezapadání je součástí identity zvenčí i zevnitř.
+Někteří docházejí k závěru,
+že identita stejně nějakou funkci plní a ve výsledku je sice
+dvojznačná, ale \fIdobrá\fR,
+.[
+connolly
+.]
+jiní k závěru,
+že kolektivní identity je třeba zrušit.
+.[
+butler
+.]
+Je ale třeba rušit kolektivní identitu Neslyšících?
+Neznamená to ve výsledku přesně to,
+co je identitám vyčítáno,
+tj. přílišnou normalizaci a omezení osobních svobod?
+.pp
+I já se ovšem dopouštím \[Bq]identitního zla\[lq],
+především v podobě potlačení významových přesahů individualit
+ve prospěch zastřešujícího pojmu, kolektivní identity,
+abstrakce.
+Jde to ale jinak?
+Nerodíme se všichni stejní a naše odlišnosti
+nám prezentují každodenní výzvy a problémy,
+jimž je třeba čelit.
+Soužití s Neslyšícími takovou výzvou je.
+.R1
+bibliography .refer_dbs/refer
+.R2
