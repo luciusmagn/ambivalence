@@ -18,7 +18,7 @@ TARGET_BASE=`basename $doc .pdf`
 	[[ -n "$run" ]] \
 	&& wendy -m 264 \
 		-f $TARGET_BASE.$tmac \
-		-f neslysici.me \
+		-f $TARGET_BASE \
 		-f tmac \
 		-f fs/bin/update.sh \
 		-f refer_dbs/refer \

@@ -1,0 +1,231 @@
+.so /usr/bwk/talks/vg.mac
+.ds vn D-
+.vg
+And now for something completely different:
+
+
+.EQ
+delim $$
+gfont H
+.EN
+.	\" was .25
+.PS
+textht = 0.45; textwid = .1
+"$cdot cdot$"
+line right 0.4
+.ps 14
+textwid = 0.45
+"$CH sub 2 $"
+line right 0.4
+textwid = 0.15
+A: box invis wid textwid "$C$"
+move to A + (0,0.125)
+move left 0
+{ line up 0.25; "$A$" with .s at last line.end }
+move to A - (0,0.125)
+move left 0
+{ line down 0.25; "$B$" with .n at last line.end }
+move to A.e
+line right 0.4
+textwid = 0.45
+"$CH sub 2 $"
+line right 0.4
+textwid = 0.15
+A: box invis wid textwid "$C$"
+move to A + (0,0.125)
+move left 0
+{ line up 0.25; "$A$" with .s at last line.end }
+move to A - (0,0.125)
+move left 0
+{ line down 0.25; "$B$" with .n at last line.end }
+move to A.e
+line right 0.4
+textwid = 0.15
+A: box invis wid textwid "$C$"
+move to A + (0,0.125)
+move left 0
+{ line up 0.25; "$A$" with .s at last line.end }
+move to A - (0,0.125)
+move left 0
+{ line down 0.25; "$B$" with .n at last line.end }
+move to A.e
+line right 0.4
+textwid = 0.45
+"$CH sub 2 $"
+line right 0.4
+textwid = 0.15
+A: box invis wid textwid "$C$"
+move to A + (0,0.125)
+move left 0
+{ line up 0.25; "$A$" with .s at last line.end }
+move to A - (0,0.125)
+move left 0
+{ line down 0.25; "$B$" with .n at last line.end }
+move to A.e
+line right 0.4
+textwid = 0.45
+"$CH sub 2 $"
+line right 0.4
+textwid = .1
+"$cdot cdot$"
+.PE
+
+
+.ps 18
+.P1
+	CH2
+	A C B
+	CH2
+	A C B
+	A C B
+	CH2
+	A C B
+	CH2
+.P2
+.vg
+CHEM \(em a language for typesetting
+	organic chemistry structure diagrams
+
+.cstart
+size 16
+# Nicotine
+
+   benzene put N at 4
+   bond right
+   ring5 pointing down put N at 1
+   bond down from .N ; CH3
+.cend
+.ps +3
+
+
+.P1
+  .cstart
+  # Nicotine
+  
+     benzene put N at 4
+     bond right
+     ring5 pointing down put N at 1
+     bond down from .N ; CH3
+  .cend
+
+
+
+chem \f2file\fP | pic | troff
+.P2
+.vg
+.po .5i
+A bigger example
+.cstart
+size 16
+B:	benzene pointing right
+F:	flatring pointing left put N at 5 double 3,4 with .V1 at B.V2
+	H below F.N
+R:	ring pointing right with .V4 at B.V6
+	front bond right from R.V6 ; H
+W:	ring pointing right with .V2 at R.V6 put N at 1 double 3,4
+	bond right from W.N ; CH3
+	back bond -60 from W.V5 ; H
+	bond up from W.V5 ; C
+	doublebond up from C ; O
+	bond right from C ; N
+	bond 45 from N ; C2H5
+	bond 135 from N ; C2H5
+.cend
+.ps +3
+
+.ps -2
+.vs -2
+.P1 0
+\&.cstart
+B:  benzene pointing right
+F:  flatring pointing left put N at 5 double 3,4 \e
+    			 with .V1 at B.V2
+    H below F.N
+R:  ring pointing right with .V4 at B.V6
+    front bond right from R.V6 ; H
+W:  ring pointing right with .V2 at R.V6 put N at 1 \e
+    			 double 3,4
+    bond right from W.N ; CH3
+    back bond -60 from W.V5 ; H
+    bond up from W.V5 ; C
+    doublebond up from C ; O
+    bond right from C ; N
+    bond 45 from N ; C2H5
+    bond 135 from N ; C2H5
+\&.cend
+.P2
+
+.vg
+Understanding how the user thinks of it
+
+
+.ps 11
+.cstart
+size 14
+	bond dotted
+	bond right ; BP
+	bond up from BP ; C
+	doublebond -60 length .2 from C ; O
+	bond 60 length .1 from C ; OCH3
+	bond down from BP ; CH3
+# begin second segment of polymer
+	bond right length .5 from BP ; BP
+	bond up length .1 from BP ; H
+	bond down length .1 from BP ; H
+# begin third segment of polymer
+	bond right length .5 from BP ; BP
+	bond up from BP ; C
+	doublebond -60 length .2 from C ; O
+	bond 60 length .1 from C ; OCH3
+	bond down from BP ; CH3
+# put text in now
+	move down
+	move left .25
+	"ISOTACTIC, mm" at CH3 - (0.25,0.5)
+# begin fourth segment of polymer
+	bond right length .5 from BP ; BP
+	bond up length .1 from BP ; H
+	bond down length .1 from BP ; H
+	bond right length .5 from BP ; BP
+	bond up from BP ; C
+	doublebond -60 length .2 from C ; O
+	bond 60 length .1 from C ; OCH3
+	bond down from BP ; CH3
+	bond right from BP
+	bond dotted
+.cend
+
+.CW
+.ps 13
+.vs 12
+	bond dotted
+	bond right ; BP
+	bond up from BP ; C
+	doublebond -60 length .2 from C ; O
+	bond 60 length .1 from C ; OCH3
+	bond down from BP ; CH3
+# begin second segment of polymer
+	bond right length .5 from BP ; BP
+	bond up length .1 from BP ; H
+	bond down length .1 from BP ; H
+# begin third segment of polymer
+	bond right length .5 from BP ; BP
+	bond up from BP ; C
+	doublebond -60 length .2 from C ; O
+	bond 60 length .1 from C ; OCH3
+	bond down from BP ; CH3
+# put text in now
+	move down left .25
+	"ISOTACTIC, mm"
+# begin fourth segment of polymer
+	bond right length .5 from BP ; BP
+	bond up length .1 from BP ; H
+	bond down length .1 from BP ; H
+	bond right length .5 from BP ; BP
+	bond up from BP ; C
+	doublebond -60 length .2 from C ; O
+	bond 60 length .1 from C ; OCH3
+	bond down from BP ; CH3
+	bond right from BP
+	bond dotted
+.	\" vg.lessons next
