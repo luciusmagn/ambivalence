@@ -25,15 +25,23 @@ convert_images.sh
 
 fd . refer_dbs/ -x sh -c "cat {} | ascii_czech fuck - > .refer_dbs/{/}"
 
-cat $(basename -- "$1" .$TMAC).$TMAC \
+soelim $(basename -- "$1" .$TMAC).$TMAC 2>1 \
 	| pic \
 	| eqn \
 	| grap \
 	| ascii_czech fuck - \
-	| /usr/bin/refer -p ".refer_dbs/refer" -p ".refer_dbs/ai" -p ".refer_dbs/dark_souls_literatura" \
+	| /usr/bin/refer \
+		-p ".refer_dbs/psychologie" \
+		-p ".refer_dbs/refer" \
+		-p ".refer_dbs/ai" \
+		-p ".refer_dbs/dark_souls_literatura" \
 	| ascii_czech unfuck - \
 	| if [[ "$DEBUG" = "true" ]]; then tee /dev/stderr; else cat - ; fi \
-	| troff -mg -mpictures -dpaper=a4 "-$TMAC" - \
+	| troff \
+		-mg \
+		-mpictures \
+		-dpaper=a4 \
+		"-$TMAC" - \
 	| dpost \
 	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
 

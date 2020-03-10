@@ -23,6 +23,7 @@ TARGET_BASE=`basename $doc .pdf`
 		-f fs/bin/update.sh \
 		-f refer_dbs/refer \
 		-f refer_dbs/ai \
+		-f refer_dbs/psychologie \
 		-f refer_dbs/dark_souls_literatura \
 		-e update.sh $TARGET_BASE \
 	|| update.sh $TARGET_BASE
