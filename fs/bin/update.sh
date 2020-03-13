@@ -26,8 +26,6 @@ convert_images.sh
 fd . refer_dbs/ -x sh -c "cat {} | ascii_czech fuck - > .refer_dbs/{/}"
 
 soelim $(basename -- "$1" .$TMAC).$TMAC 2>1 \
-	| /usr/lib/plan9/bin/grap \
-	| pic \
 	| eqn \
 	| ascii_czech fuck - \
 	| /usr/bin/refer \
