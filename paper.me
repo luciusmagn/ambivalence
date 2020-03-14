@@ -12,10 +12,39 @@
 .so paper/abstrakt.me
 
 .++ C
+.de $c
+.sz 12
+.ft B
+.ce 1000
+.if \\n(_M<3 \
+.	nr ch +1
+.ie \\n(_M=1 KAPITOLA\ \ \\n(ch
+.el .if \\n(_M=2 APPENDIX\ \ \\n(ch
+.if \w"\\$1" .sp 3-\\n(.L
+.if \w"\\$1" \\$1
+.if (\\n(_M<3):(\w"\\$1") \
+.	sp 4-\\n(.L
+.ce 0
+.ft
+.sz
+.ie \\n(_M=1 \
+.	$C Chapter \\n(ch "\\$1"
+.el .if \\n(_M=2 \
+.	$C Appendix \\n(ch "\\$1"
+..
 .+c "Úvod"
+.(x
+1 Úvod
+.)x
 .so paper/uvod.me
 .so paper/dusevni_onemocneni.me
 .so paper/dotaznik.me
+.+c "Fenomény"
+.(x
+2 Fenomény
+.)x
+.nr $1 2
+.nr $2 0
 .so paper/fenomeny_uvod.me
 .so paper/fenomeny_pozitivni.me
 .so paper/fenomeny_negativni.me
@@ -24,12 +53,24 @@
 .so paper/sebediagnoza.me
 .so paper/mbti.me
 .so paper/komnata_ozven.me
+.+c "Jednotlivá duševní onemocnění"
+.(x
+3 Jednotlivá duševní onemocnění
+.)x
+.nr $1 3
+.nr $2 0
 .so paper/konkretni_poruchy.me
 .so paper/ocd.me
 .so paper/schizofrenie.me
 .so paper/bipolar.me
 .so paper/npd.me
 .so paper/psychopatie.me
+.+c "Závěr"
+.(x
+4 Závěr
+.)x
+.nr $1 3
+.nr $2 0
 .so paper/zaver.me
 
 .++ A
