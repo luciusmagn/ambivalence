@@ -117,3 +117,205 @@ dokumenty by pod něj automaticky spadaly.
 Předmět vnořený v poli působiště jiného předmětu je považován za nedefinované
 chování. Program by neměl spadnout, ale může vykazovat překvapivé chování.
 .np
+U každého z těchto předmětových souborů je vyjmuta hlavička ve formátu TOML
+(oddělená řádkem +++) a naparsována do karty předmětu.
+.np
+Podle umíštění různých předmětových souborů dojde
+k vytvoření seznamu materiálových souborů, u kterých
+je posléze provedena podobná procedura. Jsou vytvořeny
+karty předmětů.
+.np
+Následně dojde k vytvoření objektů pro materiály, předměty
+a učitele, a dojde k vzájemné asociaci mezi nimi tak,
+aby měl každý objekt po ruce
+vlastní kopii dat, která jsou pro něj důležitá.
+Kopie dat je vytvořena proto, aby mohlo docházet
+k bezkontextovému (tím se myslí, že stačí samotný objekt)
+renderování. Na závěr je vytvořena mapa tagů
+.np
+Do knihy jsou posléze přidány stránky pro kantory a tagy.
+.np
+Postupně dojde k průchodu všemi objekty a jejich
+vyrenderování. Renderováním se zde myslí vytvoření
+\fIRenderSite\fR příkazů, které obsahují kam a jak
+se má vložit Markdown/HTML.
+.np
+Na závěr dojde k průchodu všemi příkazy a jejich vykonání.
+Kniha je opět serializována a vypsána do standardního výstupu
+pro zpracování mdbookem.
+.in 0
+.sp 2
+.b "Další dokumentace"
+.bu
+\fBAPI\fR - dokumentace zdrojového kódu je dostupná podle návodu v repozitáře
+.bu
+\fBZprovoznění a používání\fR - rozepsáno v README.md,
+další info na \W`https://gjk.cat`https://gjk.cat\W
+.in 0
+.sp 2
+\fBPozn.:\fR většina dokumentace tohoto projektu je rozepsána buď
+v README souborech, nebo jako rustdoc komentáře, nebo na stránce
+\W`https://gjk.cat`https://gjk.cat\W
+
+.sh 2 "gjk.cat"
+.pp
+Toto je normální mdbooková kniha
+(i když s modifikovaným tématem a mírně nestandardní syntaxí).
+Jejím účelem je sloužit jako portál mezi cat-prep knihami
+pro jednotlivé obory.
+Je dekorována kočičkou, které pro tento projekt nakreslila
+Charlene Olsen.
+.pp
+Tato stránka obsahuje návody a odkazy, jak se vypořádat s gitem,
+markdownem a cat-prepem, jak přidat vyučujícího
+(nebo-li oficiálního autora materiálů),
+předmět i materiál. Také jsou zde doporučené instrukce
+pro přispívání k tomuto projektu a jeho potenciálním odnožím.
+.pp
+Do tohoto repozitáře jsou jako submoduly nalinkovány všechny
+ostatní repozitáře. Jednotlivé cat-prepové repozitáře mají
+nalinkovaný už jen \fIcat-prep\fR.
+
+.sh 2 "it.gjk.cat"
+.pp
+Praktická demonstrace funkcí \fIcat-prepu\fR v podobě
+informatického oboru.
+Obsahuje výpisky ze dvou plnohodnotných předmětů,
+\fIUnixových operačních systémů\fR Emila Milera
+a \fIProgramovacího jazyka Python\fR Dawida J. Kubise.
+Se svolením jsem do repozitáře přidal jejich jménem,
+abych demonstroval funkcionalitu \fIcat-prepu\fR
+vyčíst autory materiálů, časy a původce změn z gitových metadat.
+Repozitář také obsahuje třetí testovací předmět
+a řadu falešných vyučujících na zaplnění různých stránek.
+
+.sh 1 "Technologie"
+.pp
+Projekt byl napsán převážně v jazyce Rust,
+a to z důvodu flexibility, bezpečnosti, výkonu,
+plné podpory pro UTF-8, funkcionálních prvků
+a osobní preference.
+.pp
+Integrace s gitem byla zvolena z toho důvodu,
+že git je lety ověřený verzovací systém a jeho
+rozmanitost funkcí jej umožňuje využít
+k zaznamenávání uživatelské aktivity v rámci stránky.
+S žádným jiným verzovacím systémem nemám hluboké
+zkušenosti, to mělo také svůj podíl.
+.pp
+\fImdbook\fR byl zvolen proto,
+protože se jedná o nejpoužívanější statický
+generátor stránek v Rustové komunitě
+(v mdbooku je napsaný i \fIThe Rust Programming Language\fR),
+má velmi přehlednou strukturu a způsob rozšiřování,
+který je nenáročný a agnostický vůči technologiím
+a proto, protože je v aktivním vývoji a je již
+nějakou dobu oficiálním podporovaným projektem.
+.pp
+Právě tento aktivní vývoj však přinesl i nějaké nevýhody,
+EPUB podpora je ještě nevyzrálá a nepodporuje plnou škálu
+markdownu. To má za následek i to, že ebooky vygenerované
+z mdbooku sice nepostrádají žádný obsah,
+ale nemají plně funkční všechny aspekty.
+V případě \fIcat-prepu\fR je problematické to,
+že EPUB renderer nechce správně zobrazovat tabulky.
+.pp
+ZEIT.co byla zvolena jako platforma pro deployment
+hned z několika důvodů. Prvním z nich byla moje pozitivní
+zkušenost s touto společností, dále, přestože ZEIT nemá
+oficiální podporu pro mdbook ani Rust,
+bylo zprovoznit projekty triviální, potom automatický deployment
+z Githubu a Gitlabu a plná kontrola nad službami ZEIT.co přes
+příkazovou řádku.
+Automatické TLS/SSL je také vítanou vlastností.
+
+.sh 1 "Vyhodnocení zadání"
+.pp
+.in 0
+Zadání, na kterém jsem se dohodl s vedoucím práce odpovídá těmto bodům:
+.np
+vytvořit systém postavený na mdBooku pro správu studijních materiálů
+.np
+měl by generovat webové stránky, PDF a popřípadě EPUB.
+.np
+vstup má být čitelný a přehledný již v repozitáři
+.np
+ve vygenerovaných stránkách má existovat seskupování podle tagů
+a do jednotlivých předmětů
+.np
+k aktualizace a zveřejňování stránek má docházet automaticky
+.np
+systém by měl být propojený s gitem
+.np
+volitelné funkce, bude-li čas:
+.np2
+do fulltextového vyhledávače zahrnout i tagy
+.np2
+posílání informačních emailů studentům
+.np2
+komentáře k materiálům
+.np2
+integrace s online playgroundy pro jiné jazyky,
+než je Rust
+.pp
+.in 0
+Nejprve bych začal volitelnými funkcemi.
+Tagy jsou zahrnuté ve fulltextovém vyhledávači,
+ale není jim přiřazena vyšší váha než ostatnímu textu.
+Komentáře k materiálům je možné přidávat prostřednictvím
+embedované služby \fIDisqus\fR.
+Integrace s jinými playgroundy nebyla implementována,
+jelikož by to vyžadovalo tvorbu vlastního rendereru,
+což je, jak vývoj těch oficiálních naznačují,
+zdlouhavá a složitá záležitost.
+Rozesílání emailů studentům je problematické,
+pokud chceme, aby vygenerované stránky zůstaly statické.
+Jako dočasná náhraška za tuto funkcionalitu mohou sloužit automatické
+notifikace Githubu.
+.pp
+.in 0
+Co se týče povinných/klíčových funcionalit:
+.np
+systém je postavený na mdbooku a umožňuje správu studijních materiálů
+ve formátu markdown
+.np
+systém generuje plnohodnotné webové stránky.
+Tvorba PDF je umožněna prostřednitvím tisknutí do souboru,
+nebo přes LaTeXový renderer. LaTeXový renderer je poměrně
+nový software, který má problémy se vypořádávat se složitějším vstupem.
+EPUBový renderer ještě nemá plnou podporu pro Markdown a tudíž výstup
+také nedosahuje plné kvality. Tyto faktory však nejsou závislé na \fIcat-prepu\fR,
+ten je plně future-proof a s tím, jak budou probíhat vývoje těchto rendererů,
+se bude zlepšovat i \fIcat-prepový\fR výstup do těchto formátů.
+.np
+souborová struktura je jasná, hlavičky mají minimální velikost,
+kromě složky \fIteachers\fR nejsou žádné další požadavky na soubory
+mimo \fIsrc\fR
+.np
+články se seskupují podle tagů, předmětů a autorů v předvygenerovaných
+stránkách, které obsahují seznamy odkazů na rychlé skákání v rámci dokumentu.
+.np
+stránky gjk.cat a dokumentace \fIcat-prepu\fR popisuje integraci se ZEIT.co
+za účelem rychlého a jednoduchého deploymentu. Stačí na konfigurovat skript,
+zapnout integraci a nastavit projekt dle instrukcí.
+.np
+systém využívá gitu k získávání informací o historii souborů
+a aktivitě uživatelů
+
+.sh 1 "Zprovoznění projektu"
+.pp
+Návod, jakým lze projekt zprovoznit je popsán v README.md \fIcat-prepu\fR.
+Požadavky na zprovoznění projektu jsou minimální:
+.bu
+Linux s nainstalovaným nighly rustem
+.bu
+nainstalovaný mdbook
+.bu
+následující programy: \fIgit, ls, xargs, true, sh\fR
+.bu
+v případě využití cli rozhraní pro ZEIT.co je ještě zapotřebí \fInode, npm\fR
+a jejich klient \fInow.sh\fR. Viz stránky \W`https://now.sh`https://now.sh\W
+.in 0
+.sp 2
+Další instrukce jsou k nalezení na stránce gjk.cat.
+
