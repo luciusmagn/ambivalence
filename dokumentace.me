@@ -1,0 +1,119 @@
+\" nastavení heirloom
+.so tmac/cz.tmac
+.so tmac/settings.tmac
+.so tmac/refer.me
+.so tmac/subpoints.me
+
+.he `Lukáš Hozda`Pokřivený obraz duševních poruch v médiích`2019-2020`
+.fo ``- % -``
+
+\" titulní stránka
+.tp
+.(c
+Gymnázium Jana Keplera
+.)c
+.sp 11
+.(c
+.sz +7
+.b "Maturitní práce z Informatiky"
+.sz
+.)c
+.sp 7
+.sz 10
+.(c
+.sz +10
+\" název v čj
+.b "Systém pro správu studijních materiálů"
+.sz
+.)c
+.sp 1
+.(c
+.sz +6
+\" název v aj
+.b "gjk.cat"
+.sz
+.)c
+.sp 7
+.(c
+\" autor
+.sz +6
+.b
+Lukáš Hozda
+.r
+.sz
+.)c
+.sp 3
+.(c
+\" datum
+
+.)c
+.bp
+
+.sh 1 Dokumentace
+.pp
+.vs +2
+Práce se sestává z osmi gitových repozitářů, všechny jsou uloženy v Githubové organizaci \fIgjk-cat\fR
+(\W`https://github.com/gjk-cat`https://github.com/gjk-cat\W).
+Stěžejní repozitáře jsou tři:
+.bu
+.b "cat-prep"
+.bu
+.b "gjk.cat"
+.bu
+.b "it.gjk.cat"
+.pp
+.in 0
+Těm se budu za okamžik věnovat. Ostatním repozitářům stačí jenom krátké popisky:
+.bu
+.b "aj.gjk.cat, cj.gjk.cat, tr.gjk.cat"
+- \fIcat-prepové knihy\fR obsahující pouze testovací data. V budoucnu
+tam budou dodány opravdové materiály. Předměty mimo informatiku však nebyly
+součástí zadání.
+.bu
+.b "theme"
+- mírně upravené \fBmdbook\fR téma
+.bu
+.b "sablona"
+- obsahuje prázdnou šablonu \fIcat-prepové\fR knihy vytvořené podle návodu z
+README u cat-prepu.
+
+.sh 2 cat-prep
+.pp
+Toto je primární kus software mojí maturitní práce.
+\fIcat-prep\fR je preprocesor pro \fImdbook\fR, který
+vytváří systém učitelů, tagů, předmětů a materiálů
+na základě informací z gitu a metadat uložených v TOML
+hlavičkách souborů.
+.pp
+.in 0
+Nástroj funguje následujícím způsobem:
+.np
+Ze \fIstdin\fR si přečte reprezentaci mdbookové knihy jako Markdown.
+Tohleto mají všechny preprocesory a renderery společné - mdbook má poměrně
+unixový způsob rozšíření - všechny utility s ním spojené jsou prakticky
+textové filtry, které si přečtou JSON knihy ze standardního vstupu
+a vypíšou knihu po změnách zpátky standardní výstup.
+.np
+Poté se pokusí vytvořit CatContext - primární reprezentaci všech dat
+týkajících se dříve zmíněných objektů.
+.np
+V prvním kroku se ujistí, že pracuje v gitovém repozitáři,
+pokud ne, program končí.
+.np
+Dále si ověří, že existuje složka \fIteachers\fR, která by měla
+ověřovat karty učitelů. Pokud tato složka chybí, tak je to pravděpodobně
+indikátorem toho, že kniha není připravena pro zpracování \fIcat-preppem\fR.
+.np
+Pokusí se přečíst a naparsovat všechny karty učitelů.
+Karta učitelů obsahuje pouze základní data, viz API dokumentace a návod
+přítomný v README.md repozitáře.
+.np
+Poté identifikuje všechny předměty a jejich pole působení.
+Za předmět je považován každý soubor s názvem \fIsubject.md\fR.
+Jeho polem působení je složka, ve které se tyto soubory nachází,
+a její podsložky. Z tohoto důvodu se nedoporučuje, aby byl
+nějaký předmět už v kořenovém adresáři zdroje - všechny ostatní
+dokumenty by pod něj automaticky spadaly.
+Předmět vnořený v poli působiště jiného předmětu je považován za nedefinované
+chování. Program by neměl spadnout, ale může vykazovat překvapivé chování.
+.np
