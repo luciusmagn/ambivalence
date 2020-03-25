@@ -41,7 +41,7 @@ soelim $(basename -- "$1" .$TMAC).$TMAC 2>1 \
 		-dpaper=a4 \
 		"-$TMAC" - \
 	| dpost \
-	| ps2pdf - > $(basename -- "$1" .$TMAC).pdf
+	| ps2pdf -dPDFA=2 - > $(basename -- "$1" .$TMAC).pdf
 
 #	| tee /dev/fd/2 \
 #	or
