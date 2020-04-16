@@ -30,7 +30,7 @@ cat $(basename -- "$1" .$TMAC).$TMAC \
 	| eqn \
 	| grap \
 	| ascii_czech fuck - \
-	| /usr/bin/refer -p ".refer_dbs/refer" -p ".refer_dbs/ai" -p ".refer_dbs/dark_souls_literatura" \
+	| /usr/bin/refer -p ".refer_dbs/refer" -p ".refer_dbs/ai" -p ".refer_dbs/dark_souls_literatura" -p ".refer_dbs/jicha" \
 	| ascii_czech unfuck - \
 	| if [[ "$DEBUG" = "true" ]]; then tee /dev/stderr; else cat - ; fi \
 	| troff -mg -mpictures -dpaper=a4 "-$TMAC" - \
