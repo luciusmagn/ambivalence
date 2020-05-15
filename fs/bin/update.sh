@@ -13,6 +13,7 @@ mkdir .refer_dbs
 
 /usr/bin/indxbib refer_dbs/ai
 /usr/bin/indxbib refer_dbs/refer
+/usr/bin/indxbib refer_dbs/niggers
 /usr/bin/indxbib refer_dbs/dark_souls_literatura
 
 rm -rf _refer_dbs
@@ -30,6 +31,7 @@ soelim $(basename -- "$1" .$TMAC).$TMAC 2>1 \
 	| ascii_czech fuck - \
 	| /usr/bin/refer \
 		-p ".refer_dbs/psychologie" \
+		-p ".refer_dbs/niggers" \
 		-p ".refer_dbs/refer" \
 		-p ".refer_dbs/ai" \
 		-p ".refer_dbs/dark_souls_literatura" \
