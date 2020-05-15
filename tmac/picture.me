@@ -11,6 +11,117 @@
 
 \"" M A C R O ""\
 
+.rm BP
+.de BP	\" Begin a Picture
+\"".	\"
+\"".	\" $1=file(page) $2=height $3=width $4=position $5=offset $6=flags $7=label
+\"".	\"
+\"".	\" Height, width, position, and offset are for the frame, flags is for
+\"".	\" the picture. The postion flag should be l, c, r, or "". Omitting the
+\"".	\" position argument is also allowed for compatibility with the original
+\"".	\" version of the macro. In that case offset is taken relative to your
+\"".	\" left margin.
+.if \\n(FT>1 .EP
+.	\" Need these when we switch environments.
+.nr Ov \\n(.v
+.nr Oi \\n(.i
+.nr Ol \\n(.l
+.	\" Remember the arguments - sometimes as both a string and number register.
+.ie \\n(.$>=2 .nr $A \\$2i
+.el .nr $A 0
+.ie \\n(.$>=3 .nr $B \\$3i
+.el .nr $B 0
+.ie \\n(.$>=4 .nr $C \\$4i
+.el .nr $C 0
+.ds $C \\$C
+.ie \\n(.$>=5 .nr $D \\$5i
+.el .nr $D 0
+.ds $D \\$6
+.ds $E \\$7
+.	\" Accept a few unadvertised position flags.
+.if '\\*($C'L' .ds $C l
+.if '\\*($C'C' .ds $C c
+.if '\\*($C'R' .ds $C r
+.	\" A null with more than three arguments means l.
+.if \\n(.$>3 .if '\\*($C'' .ds $C l
+\"".	\" Default frame dimensions if missing, zero, or null.
+.if !\\n($A>0 .nr $A 3.0i
+.if !\\n($B>0 .nr $B \\n(.lu-\\n(.iu-\\n($Cu
+.if !\\n($B>0 .nr $B \\n($Au
+\"".	\" Figure out the offset that will be used the rest of the way.
+.if '\\*($C'l' .nr $C \\n($Du
+.if '\\*($C'c' .nr $C (\\n(.lu-\\n(.iu-\\n($Bu)/2u+\\n($Du
+.if '\\*($C'r' .nr $C \\n(.lu-\\n(.iu-\\n($Bu+\\n($Du
+.	\" If we haven't recognized the position flag assume it wasn't given and
+.	\" treat argument four as an offset from the left.
+.if !'\\*($C'l' .if !'\\*($C'c' .if !'\\*($C'r' .ds $D \\$6
+.if !'\\*($C'l' .if !'\\*($C'c' .if !'\\*($C'r' .ds $E \\$7
+.	\" Set increments for line length and indent.
+.nr Ii \\n($Bu+\\n($Cu+.1i
+.nr Il \\n(.lu-\\n(.iu-\\n($Cu+.1i
+.	\" Set the frame type to one of:
+.	\"	0 - frame is as wide as a line of text - skip over it.
+.	\"	1 - fits in left or right margins
+.	\"	2 - fill with text on the right
+.	\"	3 - on the left
+.	\"	4 - or on both sides of the frame
+.	\"	5 - only set in EP if FT was 4 and now filling on the right.
+.	\" Assume the frame is as wide as a line of text, then check dimensions
+.	\" to see what's really true. The order of these tests is important!
+.nr FT 0
+.if \\n($Cu>1.0i .nr FT 3
+.if \\n($Cu+\\n(.iu>=\\n(.lu .nr FT 1
+.if \\n($Bu+\\n($Cu+\\n(.iu+1.0i<\\n(.lu .nr FT 2
+.if \\n($Bu+\\n($Cu<=0 .nr FT 1
+.if \\n(FT=2 .if \\n($Cu>1.0i .nr FT 4
+.	\" Ask for some vertical space - labeled pictures need a little extra,
+.	\" margin pictures a little less.
+.if \\n(FT=1 .if '\\*($E'' .ne \\n($Au
+.if \\n(FT=1 .if !'\\*($E'' .ne \\n($Au+2v
+.if !\\n(FT=1 .if '\\*($E'' .ne \\n($Au+3v
+.if !\\n(FT=1 .if !'\\*($E'' .ne \\n($Au+5v
+.	\" Save our place, draw the picture, label it, and return. Need precise
+.	\" control of when \X'...' is put out - thus the new environment.
+.mk Oh
+.ev 1
+.in \\n(Oiu
+.ll \\n(Olu
+.vs \\n(Ovu
+.if \\n(FT=1 .sp -1v
+.if \\n(FT=1 .PI \\$1 \\n($Au,\\n($Bu,\\n(.vu,\\n($Cu t\\*($D
+.if !\\n(FT=1 .PI \\$1 \\n($Au,\\n($Bu,\\n(.vu,\\n($Cu \\*($D
+.in
+.ll
+.vs
+.ev
+.lt \\n($Bu
+.tl \(ts\(ts\\h'\\n($Cu+\\n(.iu'\\v'\\n($Au+1.5v'\\*($E\\v'-\\n($Au-1.5v'\\h'-\\n($Cu-\\n(.iu'\(ts\(ts
+.lt
+.sp |\\n(Ohu
+.	\" Figure out what to do with the text that follows.
+\"".if !'\\*($E'' .nr $A +2v
+.if \\n(FT=0 .sp \\n($Au+2v
+.if \\n(FT=1 .nr FT 0
+.if \\n(FT=2 'in +\\n(Iiu
+.if \\n(FT>2 .ll -\\n(Ilu
+.if \\n(FT>1 .di BB
+\"".if \\n(FT>1 .dt \\n($Au+2v+1u EP
+.	\" Clean things up.
+.rr $A
+.rr $B
+.rr $C
+.rm $C
+.rr $D
+.rm $D
+.rm $E
+.rr Oh
+.rr Oi
+.rr Ol
+.rr Ov
+\"".if \\n(FT=0 .EP
+.EP
+..
+
 \"" Arguments:
 \"" ==========
 \"" $1 - left offset
@@ -28,5 +139,4 @@
 .	sp \\*[$P3]
 .	in 0
 .	br
-.	pp
 ..
