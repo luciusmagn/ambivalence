@@ -32,6 +32,7 @@ soelim $(basename -- "$1" .$TMAC).$TMAC | chem | tee $1.chem
 
 cat $1.chem 2>1 \
 	| pic \
+	| tbl \
 	| eqn \
 	| ascii_czech fuck - \
 	| /usr/bin/refer \
