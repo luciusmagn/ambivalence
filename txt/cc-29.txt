@@ -1,0 +1,34 @@
+;paint.net Palette File
+;Downloaded from Lospec.com/palette-list
+;Palette Name: CC-29
+;Description: 
+;Colors: 29
+FFf2f0e5
+FFb8b5b9
+FF868188
+FF646365
+FF45444f
+FF3a3858
+FF212123
+FF352b42
+FF43436a
+FF4b80ca
+FF68c2d3
+FFa2dcc7
+FFede19e
+FFd3a068
+FFb45252
+FF6a536e
+FF4b4158
+FF80493a
+FFa77b5b
+FFe5ceb4
+FFc2d368
+FF8ab060
+FF567b79
+FF4e584a
+FF7b7243
+FFb2b47e
+FFedc8c4
+FFcf8acb
+FF5f556a

@@ -26,7 +26,12 @@ convert_images.sh
 
 fd . refer_dbs/ -x sh -c "cat {} | ascii_czech fuck - > .refer_dbs/{/}"
 
-soelim $(basename -- "$1" .$TMAC).$TMAC 2>1 \
+which chem
+
+soelim $(basename -- "$1" .$TMAC).$TMAC | chem | tee $1.chem
+
+cat $1.chem 2>1 \
+	| pic \
 	| eqn \
 	| ascii_czech fuck - \
 	| /usr/bin/refer \
@@ -45,6 +50,8 @@ soelim $(basename -- "$1" .$TMAC).$TMAC 2>1 \
 		"-$TMAC" - \
 	| dpost \
 	| ps2pdf -dPDFA=2 - > $(basename -- "$1" .$TMAC).pdf
+
+rm -rf $1.chem
 
 #	| tee /dev/fd/2 \
 #	or
